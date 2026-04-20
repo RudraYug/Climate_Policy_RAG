@@ -181,7 +181,7 @@ def sev_badge(s):
     return f'<span class="gap-badge {c}">{l}</span>'
 
 # ── Session state ─────────────────────────────────────────────────────────
-for k,v in [("result",None),("query_history",[]),("prefill_query","")]:
+for k,v in [("result",None),("query_history",[]),("prefill_query",""),("query_input","")]:
     if k not in st.session_state:
         st.session_state[k]=v
 if "api_key" not in st.session_state:
@@ -245,13 +245,22 @@ with tab1:
         with cols[i%3]:
             if st.button(ex, key=f"ex{i}", use_container_width=True):
                 st.session_state.prefill_query = ex
+                st.rerun()
 
     st.markdown("---")
-    pf = st.session_state.prefill_query
-    st.session_state.prefill_query = ""
-    query = st.text_area("Query", value=pf,
+
+    # If an example button was clicked, store it and rerun to populate
+    if st.session_state.prefill_query:
+        st.session_state["query_input"] = st.session_state.prefill_query
+        st.session_state.prefill_query = ""
+
+    query = st.text_area(
+        "Query",
+        key="query_input",
         placeholder="e.g. What is India's 2030 renewable energy target?\ne.g. Compare China and EU on net zero commitments",
-        height=110, label_visibility="collapsed")
+        height=110,
+        label_visibility="collapsed",
+    )
 
     bc, fc = st.columns([1,3])
     with bc:
