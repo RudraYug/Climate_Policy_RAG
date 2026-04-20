@@ -38,6 +38,7 @@ html, body, [class*="css"] { font-family: 'IBM Plex Sans', sans-serif; }
     background: white; border: 1px solid #e2e8f0;
     border-left: 4px solid #1a7a52; border-radius: 8px;
     padding: 1.2rem 1.4rem; line-height: 1.75; font-size: 0.93rem;
+    color: #1e293b !important;
 }
 .metric-row { display: flex; gap: 0.75rem; margin-bottom: 1rem; flex-wrap: wrap; }
 .metric-card {
@@ -296,11 +297,17 @@ with tab1:
         if r.get("insufficient"):
             st.markdown('<div class="insufficient-box">⚠️ <strong>Insufficient context detected.</strong> The system could not find adequate evidence in the corpus. This is preferable to generating a hallucinated response. Try broadening your query or removing filters.</div>', unsafe_allow_html=True)
         else:
-            ans = r["answer"]
-            ans = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', ans)
-            ans = ans.replace("\n\n","<br><br>")
             st.markdown("**Generated Answer**")
-            st.markdown(f'<div class="answer-box">{ans}</div>', unsafe_allow_html=True)
+            # Render inside a bordered container using st.container
+            with st.container():
+                st.markdown(
+                    """<div style="border-left:4px solid #1a7a52;
+                       padding:0.2rem 0 0.2rem 0.8rem;
+                       margin-bottom:0.5rem"></div>""",
+                    unsafe_allow_html=True
+                )
+                # Use native st.markdown for reliable rendering
+                st.markdown(r["answer"])
             if r["citations"]:
                 st.markdown("**Source Citations**")
                 pills = "".join(f'<span class="chunk-pill">[{c}]</span>' for c in r["citations"])
@@ -408,6 +415,4 @@ with tab3:
             r = item["result"]
             with st.expander(f"[{item['time']}]  {item['query'][:70]}...", expanded=(i==0)):
                 st.markdown(f"**Query:** {item['query']}\n\n**Faithfulness:** {r['faithfulness']:.0%} · **Latency:** {r['latency_ms']:,}ms · **Citations:** {len(r['citations'])}")
-                preview = r["answer"][:280]
-                preview = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', preview)
-                st.markdown(f'<div class="answer-box">{preview}...</div>', unsafe_allow_html=True)
+                st.markdown(r["answer"][:300] + "...")
