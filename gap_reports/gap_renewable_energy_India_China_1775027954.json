@@ -1,0 +1,309 @@
+{
+  "dimension": "renewable_energy",
+  "dimension_label": "Renewable Energy Targets",
+  "countries": [
+    "India",
+    "China"
+  ],
+  "ndc_cycles": [
+    2
+  ],
+  "ipcc_benchmark": {
+    "dimension": "renewable_energy",
+    "ipcc_target": "IPCC AR6 WG3 Chapter 6 recommends ~70–85% renewable electricity by 2050 for 1.5°C pathways; for 2°C, 60–70% by 2050.",
+    "ipcc_context": "Share of renewables in electricity mix or installed capacity by target year",
+    "source_chunks": [
+      "WG3_Chapter04_MitigationDevelopmentPathways_2022",
+      "WG3_Chapter04_MitigationDevelopmentPathways_2022",
+      "WG3_Chapter06_EnergySystems_2022",
+      "WG3_Chapter06_EnergySystems_2022"
+    ],
+    "citations": [
+      "[WG3_Chapter04_MitigationDevelopmentPathways_2022, p.28]",
+      "[WG3_Chapter04_MitigationDevelopmentPathways_2022, p.28]",
+      "[WG3_Chapter06_EnergySystems_2022, p.76]",
+      "[WG3_Chapter06_EnergySystems_2022, p.79]"
+    ]
+  },
+  "country_analyses": {
+    "India": {
+      "country": "India",
+      "dimension": "renewable_energy",
+      "ndc_cycles": [
+        2
+      ],
+      "commitments": [
+        {
+          "text": "To achieve about 50 percent cumulative electric power installed capacity from non-fossil fuel-based energy resources by 2030, with the help of transfer of technology and low-cost international finance including from Green Climate Fund (GCF)",
+          "target_value": "50 percent",
+          "target_year": 2030,
+          "baseline_year": null,
+          "conditional": true,
+          "time_horizon": "near_term",
+          "source_doc": "NDC2_2022_India",
+          "source_page": 3,
+          "confidence": 1.0
+        }
+      ],
+      "measurability": {
+        "level": "QUALIFIED",
+        "score": 0.65,
+        "reason": "The commitment has a specific target value and year but lacks a baseline year.",
+        "missing_elements": [
+          "baseline year"
+        ]
+      },
+      "gap_findings": [
+        {
+          "gap_type": "ipcc_contradiction",
+          "severity": "SIGNIFICANT",
+          "severity_score": 0.6,
+          "description": "India's target of 50% non-fossil fuel-based energy capacity by 2030 is below the IPCC's recommended 60-70% renewable electricity by 2050 for a 2°C pathway.",
+          "ndc_evidence": "To achieve about 50 percent cumulative electric power installed capacity from non-fossil fuel-based energy resources by 2030, with the help of transfer of technology and low-cost international finance including from Green Climate Fund (GCF)",
+          "ipcc_evidence": "IPCC AR6 WG3 Chapter 6 recommends ~70–85% renewable electricity by 2050 for 1.5°C pathways; for 2°C, 60–70% by 2050.",
+          "ndc_citation": "[NDC2_2022_India, p.3]",
+          "ipcc_citation": "[WG3_Chapter06_EnergySystems_2022, p.76]",
+          "quantified_gap": "NDC: 50%, IPCC min: 60%, gap: -10pp",
+          "confidence": 0.9
+        },
+        {
+          "gap_type": "conditional_dependency",
+          "severity": "SIGNIFICANT",
+          "severity_score": 0.6,
+          "description": "India's commitment is conditional on receiving international finance, which creates a delivery risk.",
+          "ndc_evidence": "To achieve about 50 percent cumulative electric power installed capacity from non-fossil fuel-based energy resources by 2030, with the help of transfer of technology and low-cost international finance including from Green Climate Fund (GCF)",
+          "ipcc_evidence": "No specific IPCC evidence on conditionality, but reliance on external finance can affect target achievement.",
+          "ndc_citation": "[NDC2_2022_India, p.3]",
+          "ipcc_citation": "N/A",
+          "quantified_gap": null,
+          "confidence": 0.8
+        }
+      ],
+      "overall_severity": "SIGNIFICANT",
+      "overall_score": 0.6,
+      "summary": "India's renewable energy target of 50% by 2030 is below the IPCC's recommended 60-70% by 2050 for a 2°C pathway. Additionally, the target's conditionality on international finance poses a significant risk to its achievement.",
+      "raw_llm_outputs": {
+        "pass_a": {
+          "commitments": [
+            {
+              "text": "To achieve about 50 percent cumulative electric power installed capacity from non-fossil fuel-based energy resources by 2030, with the help of transfer of technology and low-cost international finance including from Green Climate Fund (GCF)",
+              "target_value": "50 percent",
+              "target_year": 2030,
+              "baseline_year": null,
+              "conditional": true,
+              "time_horizon": "near_term",
+              "source_doc": "NDC2_2022_India",
+              "source_page": 3,
+              "confidence": 1.0
+            }
+          ],
+          "total_found": 1
+        },
+        "pass_b": {
+          "country": "India",
+          "dimension": "Renewable Energy Targets",
+          "measurability_level": "QUALIFIED",
+          "measurability_score": 0.65,
+          "reason": "The commitment has a specific target value and year but lacks a baseline year.",
+          "missing_elements": [
+            "baseline year"
+          ],
+          "strongest_commitment": "To achieve about 50 percent cumulative electric power installed capacity from non-fossil fuel-based energy resources by 2030, with the help of transfer of technology and low-cost international finance including from Green Climate Fund (GCF)",
+          "conditional_dependency": true,
+          "conditional_note": "The commitment depends on the transfer of technology and low-cost international finance including from Green Climate Fund (GCF)."
+        },
+        "pass_c": {
+          "country": "India",
+          "dimension": "Renewable Energy Targets",
+          "overall_severity": "SIGNIFICANT",
+          "overall_severity_score": 0.6,
+          "gap_findings": [
+            {
+              "gap_type": "ipcc_contradiction",
+              "severity": "SIGNIFICANT",
+              "severity_score": 0.6,
+              "description": "India's target of 50% non-fossil fuel-based energy capacity by 2030 is below the IPCC's recommended 60-70% renewable electricity by 2050 for a 2°C pathway.",
+              "ndc_evidence": "To achieve about 50 percent cumulative electric power installed capacity from non-fossil fuel-based energy resources by 2030, with the help of transfer of technology and low-cost international finance including from Green Climate Fund (GCF)",
+              "ipcc_evidence": "IPCC AR6 WG3 Chapter 6 recommends ~70–85% renewable electricity by 2050 for 1.5°C pathways; for 2°C, 60–70% by 2050.",
+              "ndc_citation": "[NDC2_2022_India, p.3]",
+              "ipcc_citation": "[WG3_Chapter06_EnergySystems_2022, p.76]",
+              "quantified_gap": "NDC: 50%, IPCC min: 60%, gap: -10pp",
+              "confidence": 0.9
+            },
+            {
+              "gap_type": "conditional_dependency",
+              "severity": "SIGNIFICANT",
+              "severity_score": 0.6,
+              "description": "India's commitment is conditional on receiving international finance, which creates a delivery risk.",
+              "ndc_evidence": "To achieve about 50 percent cumulative electric power installed capacity from non-fossil fuel-based energy resources by 2030, with the help of transfer of technology and low-cost international finance including from Green Climate Fund (GCF)",
+              "ipcc_evidence": "No specific IPCC evidence on conditionality, but reliance on external finance can affect target achievement.",
+              "ndc_citation": "[NDC2_2022_India, p.3]",
+              "ipcc_citation": "N/A",
+              "quantified_gap": null,
+              "confidence": 0.8
+            }
+          ],
+          "country_summary": "India's renewable energy target of 50% by 2030 is below the IPCC's recommended 60-70% by 2050 for a 2°C pathway. Additionally, the target's conditionality on international finance poses a significant risk to its achievement.",
+          "policy_recommendation": "India should increase its renewable energy target to at least 60% by 2030 to align with the IPCC's 2°C pathway and reduce dependency on conditional international finance to ensure target achievement."
+        }
+      }
+    },
+    "China": {
+      "country": "China",
+      "dimension": "renewable_energy",
+      "ndc_cycles": [
+        2
+      ],
+      "commitments": [
+        {
+          "text": "to increase the share of non-fossil fuels in primary energy consumption to around 20%",
+          "target_value": "20%",
+          "target_year": 2030,
+          "baseline_year": null,
+          "conditional": false,
+          "time_horizon": "long_term",
+          "source_doc": "NDC2_2021_China",
+          "source_page": 7,
+          "confidence": 0.9
+        }
+      ],
+      "measurability": {
+        "level": "QUALIFIED",
+        "score": 0.65,
+        "reason": "The commitment has a target value and year but lacks a baseline year.",
+        "missing_elements": [
+          "baseline year"
+        ]
+      },
+      "gap_findings": [
+        {
+          "gap_type": "ipcc_contradiction",
+          "severity": "CRITICAL",
+          "severity_score": 0.9,
+          "description": "China's NDC target for non-fossil fuels in primary energy consumption is 20% by 2030, which is significantly lower than the IPCC's recommendation of 70-85% renewable electricity by 2050 for 1.5°C pathways.",
+          "ndc_evidence": "to increase the share of non-fossil fuels in primary energy consumption to around 20%",
+          "ipcc_evidence": "IPCC AR6 WG3 Chapter 6 recommends ~70–85% renewable electricity by 2050 for 1.5°C pathways; for 2°C, 60–70% by 2050.",
+          "ndc_citation": "[NDC2_2021_China, p.7]",
+          "ipcc_citation": "[WG3_Chapter06_EnergySystems_2022, p.76]",
+          "quantified_gap": "NDC: 20%, IPCC min: 70%, gap: -50pp",
+          "confidence": 0.9
+        },
+        {
+          "gap_type": "vague_target",
+          "severity": "SIGNIFICANT",
+          "severity_score": 0.7,
+          "description": "The NDC lacks a baseline year for the 20% non-fossil fuel target, making it difficult to assess progress.",
+          "ndc_evidence": "to increase the share of non-fossil fuels in primary energy consumption to around 20%",
+          "ipcc_evidence": "IPCC AR6 provides specific benchmarks for renewable electricity share by 2050.",
+          "ndc_citation": "[NDC2_2021_China, p.7]",
+          "ipcc_citation": "[WG3_Chapter06_EnergySystems_2022, p.76]",
+          "quantified_gap": null,
+          "confidence": 0.8
+        }
+      ],
+      "overall_severity": "CRITICAL",
+      "overall_score": 0.9,
+      "summary": "China's NDC commitment to increase non-fossil fuels to 20% by 2030 is critically below the IPCC's recommended levels for renewable electricity by 2050. Additionally, the lack of a baseline year for this target introduces significant ambiguity.",
+      "raw_llm_outputs": {
+        "pass_a": {
+          "commitments": [
+            {
+              "text": "to increase the share of non-fossil fuels in primary energy consumption to around 20%",
+              "target_value": "20%",
+              "target_year": 2030,
+              "baseline_year": null,
+              "conditional": false,
+              "time_horizon": "long_term",
+              "source_doc": "NDC2_2021_China",
+              "source_page": 7,
+              "confidence": 0.9
+            }
+          ],
+          "total_found": 1
+        },
+        "pass_b": {
+          "country": "China",
+          "dimension": "Renewable Energy Targets",
+          "measurability_level": "QUALIFIED",
+          "measurability_score": 0.65,
+          "reason": "The commitment has a target value and year but lacks a baseline year.",
+          "missing_elements": [
+            "baseline year"
+          ],
+          "strongest_commitment": "to increase the share of non-fossil fuels in primary energy consumption to around 20%",
+          "conditional_dependency": false,
+          "conditional_note": null
+        },
+        "pass_c": {
+          "country": "China",
+          "dimension": "Renewable Energy Targets",
+          "overall_severity": "CRITICAL",
+          "overall_severity_score": 0.9,
+          "gap_findings": [
+            {
+              "gap_type": "ipcc_contradiction",
+              "severity": "CRITICAL",
+              "severity_score": 0.9,
+              "description": "China's NDC target for non-fossil fuels in primary energy consumption is 20% by 2030, which is significantly lower than the IPCC's recommendation of 70-85% renewable electricity by 2050 for 1.5°C pathways.",
+              "ndc_evidence": "to increase the share of non-fossil fuels in primary energy consumption to around 20%",
+              "ipcc_evidence": "IPCC AR6 WG3 Chapter 6 recommends ~70–85% renewable electricity by 2050 for 1.5°C pathways; for 2°C, 60–70% by 2050.",
+              "ndc_citation": "[NDC2_2021_China, p.7]",
+              "ipcc_citation": "[WG3_Chapter06_EnergySystems_2022, p.76]",
+              "quantified_gap": "NDC: 20%, IPCC min: 70%, gap: -50pp",
+              "confidence": 0.9
+            },
+            {
+              "gap_type": "vague_target",
+              "severity": "SIGNIFICANT",
+              "severity_score": 0.7,
+              "description": "The NDC lacks a baseline year for the 20% non-fossil fuel target, making it difficult to assess progress.",
+              "ndc_evidence": "to increase the share of non-fossil fuels in primary energy consumption to around 20%",
+              "ipcc_evidence": "IPCC AR6 provides specific benchmarks for renewable electricity share by 2050.",
+              "ndc_citation": "[NDC2_2021_China, p.7]",
+              "ipcc_citation": "[WG3_Chapter06_EnergySystems_2022, p.76]",
+              "quantified_gap": null,
+              "confidence": 0.8
+            }
+          ],
+          "country_summary": "China's NDC commitment to increase non-fossil fuels to 20% by 2030 is critically below the IPCC's recommended levels for renewable electricity by 2050. Additionally, the lack of a baseline year for this target introduces significant ambiguity.",
+          "policy_recommendation": "China should set a more ambitious renewable energy target aligned with IPCC recommendations, including a clear baseline year and interim targets to ensure accountability and progress tracking."
+        }
+      }
+    }
+  },
+  "pairwise_gaps": [
+    {
+      "country_a": "India",
+      "country_b": "China",
+      "dimension": "renewable_energy",
+      "relative_gap": "India's target, while below the IPCC's 2050 recommendation, is significantly closer than China's. China's target is critically below the IPCC's recommended levels, and the lack of a baseline year adds further uncertainty.",
+      "ambition_leader": "India",
+      "leadership_reason": "India is more ambitious because its target of 50% by 2030 is closer to the IPCC's 2050 benchmark than China's 20% by 2030.",
+      "convergence_areas": [
+        "Measurability"
+      ],
+      "divergence_areas": [
+        "Overall severity",
+        "Key gaps"
+      ]
+    }
+  ],
+  "g20_summary": null,
+  "rankings": {
+    "India": 0.6,
+    "China": 0.9
+  },
+  "policy_implications": [
+    "Critical gaps detected in: China on Renewable Energy Targets — immediate NDC strengthening needed.",
+    "Finance-conditional commitments in: India — delivery at risk without international support."
+  ],
+  "metadata": {
+    "generated_at": "2026-04-01T07:19:14.995087+00:00",
+    "backend": "gpt4o",
+    "elapsed_sec": 27.7,
+    "top_k_ndc": 5,
+    "top_k_ipcc": 4,
+    "ipcc_chunks_used": 4,
+    "pipeline_version": "1.0"
+  }
+}

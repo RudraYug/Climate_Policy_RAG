@@ -1,0 +1,55 @@
+======================================================================
+  MANUAL DOWNLOAD TABLE  —  NDC Fix Downloader v2
+  Generated: 2026-03-17 10:57 UTC
+======================================================================
+
+INSTRUCTIONS:
+  1. Open each URL below in your browser
+  2. The page shows the document card — click the PDF icon / 'Download'
+  3. Save the file to the path shown in the 'Save as' column
+  4. Run this script again — it will skip already-downloaded files
+
+Country/Cycle                       Portal URL                                         Save as
+------------------------------------------------------------------------------------------------------------------------
+South_Korea | NDC2 (2021)           https://unfccc.int/documents/508710                data\raw\NDC\South_Korea\NDC2_2021_South_Korea.pdf
+  (South Korea Updated NDC 2021)
+
+Canada | NDC1 (2015)                https://unfccc.int/documents/184928                data\raw\NDC\Canada\NDC1_2015_Canada.pdf
+  (Canada First NDC (INDC) 2015)
+
+Canada | NDC2 (2021)                https://unfccc.int/documents/497542                data\raw\NDC\Canada\NDC2_2021_Canada.pdf
+  (Canada Enhanced NDC 2021)
+
+Mexico | NDC2 (2022)                https://unfccc.int/documents/508918                data\raw\NDC\Mexico\NDC2_2022_Mexico.pdf
+  (Mexico Updated NDC 2022)
+
+Russia | NDC1 (2015)                https://unfccc.int/documents/184955                data\raw\NDC\Russia\NDC1_2015_Russia.pdf
+  (Russia INDC 2015 (English))
+
+Russia | NDC2 (2022)                https://unfccc.int/documents/508905                data\raw\NDC\Russia\NDC2_2022_Russia.pdf
+  (Russia Updated NDC 2022)
+
+Turkey | NDC1 (2021)                https://unfccc.int/documents/497875                data\raw\NDC\Turkey\NDC1_2021_Turkey.pdf
+  (Turkey NDC 2021 (registered))
+
+Turkey | NDC2 (2023)                https://unfccc.int/documents/627836                data\raw\NDC\Turkey\NDC2_2023_Turkey.pdf
+  (Turkiye Updated NDC 2023)
+
+Brazil | NDC2 (2022)                https://unfccc.int/documents/627833                data\raw\NDC\Brazil\NDC2_2022_Brazil.pdf
+  (Brazil NDC 2022 adjustment)
+
+
+ALTERNATIVE: Use Climate Watch (World Resources Institute)
+  https://www.climatewatchdata.org/ndcs
+  Search by country name -> click 'Full NDC Text' -> Download PDF
+
+FALLBACK for Russia NDC1 (2015):
+  The English translation may be at:
+  https://www4.unfccc.int/sites/ndcstaging/PublishedDocuments/
+  Russian%20Federation%20First/Russian_INDC_ENGLISH.pdf
+
+FALLBACK for Turkey NDC1 (2021):
+  https://www4.unfccc.int/sites/ndcstaging/PublishedDocuments/
+  Turkiye%20First/T%C3%BCrkiye_NDC.pdf
+
+======================================================================
