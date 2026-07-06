@@ -1,0 +1,142 @@
+﻿qid,category,difficulty,faithfulness,answer_relevancy,context_precision,context_recall,rouge1_f,rouge2_f,rougeL_f,bertscore_f,hallucination_rate,grounding_score,citation_accuracy,n_citations,latency_ms,insufficient,failure_modes,question,answer_preview
+F001,factual,easy,,,,,0.4065,0.281,0.3089,0.8074,,,,0,3541.1,False,NO_FAILURE,What is India's target for cumulative electric power installed capacity from non,India's target for cumulative electric power installed capacity from non-fossil fuel-based energy resources by 2030 is a
+F002,factual,easy,,,,,0.3967,0.3361,0.3802,0.8009,,,,0,2961.5,False,NO_FAILURE,By how much does India commit to reducing the emissions intensity of its GDP by ,"PART 1 — COUNTRY COMMITMENT:
+India commits to reducing the emissions intensity of its GDP by 45 percent by 2030, compare"
+F003,factual,medium,,,,,0.6479,0.5217,0.4225,0.828,,,,0,1871.4,False,NO_FAILURE,What is India's target for additional carbon sink creation through forest and tr,India's target for additional carbon sink creation through forest and tree cover by 2030 is to create an additional carb
+F004,factual,easy,,,,,0.3036,0.2,0.2679,0.8109,,,,0,6880.8,False,NO_FAILURE,When does China commit to achieving peak CO2 emissions under its NDC2?,China commits to achieving peak CO2 emissions before 2030 under its updated Nationally Determined Contributions (NDCs) [
+F005,factual,easy,,,,,0.449,0.2553,0.3265,0.8032,,,,0,2017.1,False,NO_FAILURE,What is China's 2030 target for installed capacity of wind and solar power?,China's 2030 target for installed capacity of wind and solar power is to bring the total installed capacity to over 1.2 
+F006,factual,medium,,,,,0.6207,0.5,0.5862,0.8383,,,,0,1515.4,False,NO_FAILURE,What share of non-fossil fuels in primary energy consumption does China target b,China targets to increase the share of non-fossil fuels in primary energy consumption to around 25% by 2030 [NDC2_2021_C
+F007,factual,easy,,,,,0.3167,0.2034,0.2667,0.7719,,,,0,6057.2,False,NO_FAILURE,What is the United States' 2030 economy-wide greenhouse gas emissions reduction ,The United States' 2030 economy-wide greenhouse gas emissions reduction target under its Nationally Determined Contribut
+F008,factual,easy,,,,,0.386,0.2321,0.3333,0.7508,,,,0,3074.9,False,NO_FAILURE,What is the United Kingdom's 2030 greenhouse gas reduction target and the baseli,The United Kingdom's 2030 greenhouse gas reduction target is to reduce economy-wide greenhouse gas emissions by at least
+F009,factual,medium,,,,,0.3247,0.1711,0.2338,0.7794,,,,0,3194.8,False,NO_FAILURE,What net zero target has the UK set and what legislation underpins it?,The UK has set a target to achieve net zero greenhouse gas emissions by 2050. This target is underpinned by the UK's Cli
+F010,factual,easy,,,,,0.2874,0.1455,0.1916,0.7451,,,,0,3632.7,False,NO_FAILURE,What is the European Union's binding 2030 greenhouse gas reduction target under ,The European Union's binding 2030 greenhouse gas reduction target under its updated Nationally Determined Contribution (
+F011,factual,easy,,,,,0.2857,0.1579,0.1818,0.7593,,,,0,3750.1,False,NO_FAILURE,What is Japan's 2030 greenhouse gas reduction target and what baseline year does,Japan's 2030 greenhouse gas reduction target is to reduce its emissions by 46 percent from its fiscal year 2013 levels. 
+F012,factual,easy,,,,,0.3789,0.1935,0.3789,0.8036,,,,0,2786.5,False,NO_FAILURE,What is Australia's 2030 emissions reduction target and net zero commitment year,Australia's 2030 emissions reduction target is to reduce greenhouse gas emissions by 43% below 2005 levels. This target 
+F013,factual,medium,,,,,0.2435,0.0354,0.1565,0.7616,,,,0,2514.4,False,NO_FAILURE,What is Brazil's 2030 absolute emissions reduction target and baseline year?,"Brazil's 2030 absolute emissions reduction target is to achieve a net greenhouse gas emission level of 1.20 GtCO2e, whic"
+F014,factual,medium,,,,,0.3057,0.1161,0.2038,0.7692,,,,0,10295.1,False,NO_FAILURE,What are Indonesia's unconditional and conditional GHG reduction targets by 2030,Indonesia has set an unconditional greenhouse gas (GHG) reduction target of 29% against the business as usual (BAU) scen
+F015,factual,hard,,,,,0.1512,0.0415,0.1031,0.7684,,,,0,12183.4,False,LOW_LEXICAL_OVERLAP,What are Indonesia's primary climate adaptation priorities identified in its NDC,"Indonesia's primary climate adaptation priorities, as identified in its updated Nationally Determined Contribution (NDC2"
+F016,factual,easy,,,,,0.2667,0.1379,0.2,0.7971,,,,0,2641.3,True,RETRIEVAL_MISS,What is South Korea's 2030 NDC target expressed as a percentage reduction from B,"INSUFFICIENT_CONTEXT
+
+The retrieved context does not provide South Korea's 2030 NDC target expressed as a percentage red"
+F017,factual,easy,,,,,0.3167,0.0847,0.2333,0.7727,,,,0,3644.1,False,NO_FAILURE,What is Canada's 2030 emissions reduction commitment range and its baseline?,Canada's 2030 emissions reduction commitment is to reduce greenhouse gas (GHG) emissions by 40-45% below 2005 levels [ND
+F018,factual,medium,,,,,0.25,0.0286,0.1944,0.7682,,,,0,17781.9,True,RETRIEVAL_MISS,What are Mexico's unconditional and conditional GHG reduction targets under its ,"INSUFFICIENT_CONTEXT
+
+The retrieved context does not provide specific details about Mexico's unconditional and condition"
+F019,factual,hard,,,,,0.2136,0.0784,0.1553,0.7664,,,,0,6744.4,False,NO_FAILURE,What is South Africa's NDC2 emissions range target for the period 2025-2030?,South Africa's updated Nationally Determined Contribution (NDC) sets emissions targets for the years 2025 and 2030. For 
+F020,factual,medium,,,,,0.3269,0.1176,0.2308,0.7721,,,,0,8293.2,False,NO_FAILURE,What is Saudi Arabia's NDC2 absolute emissions reduction target by 2030?,Saudi Arabia's updated Nationally Determined Contribution (NDC2) sets an absolute emissions reduction target of reducing
+F021,factual,medium,,,,,0.3294,0.0723,0.1882,0.7959,,,,0,7733.0,False,NO_FAILURE,What is Argentina's 2030 absolute emissions cap under its NDC2?,Argentina's 2030 absolute emissions cap under its Second Nationally Determined Contribution (NDC2) is set at 349 million
+F022,factual,easy,,,,,0.2881,0.1207,0.2203,0.743,,,,0,10794.0,False,NO_FAILURE,What is Turkey's 2030 GHG reduction target relative to BAU?,Turkey's 2030 greenhouse gas (GHG) reduction target is a 41% reduction compared to the Business as Usual (BAU) scenario 
+F023,factual,medium,,,,,0.3506,0.1447,0.2208,0.7981,,,,0,4801.9,False,NO_FAILURE,What is Russia's 2030 GHG reduction target and the baseline used in its NDC2?,"Russia's 2030 greenhouse gas (GHG) reduction target, as outlined in its second Nationally Determined Contribution (NDC),"
+F024,factual,medium,,,,,0.2599,0.1029,0.1921,0.7764,,,,0,12175.7,False,NO_FAILURE,What global GHG emission reduction does IPCC AR6 WG3 recommend by 2030 to limit ,PART 1 — COUNTRY COMMITMENT: INSUFFICIENT_CONTEXT. The retrieved context does not provide specific information on any co
+F025,factual,medium,,,,,0.2778,0.0845,0.1667,0.7621,,,,0,13620.0,False,NO_FAILURE,"According to IPCC AR6 WG3, what renewable electricity share is required by 2050 ",PART 1 — COUNTRY COMMITMENT: INSUFFICIENT_CONTEXT. The retrieved context does not provide specific commitments from any 
+F026,factual,hard,,,,,0.2754,0.1333,0.1557,0.7789,,,,0,6776.0,False,NO_FAILURE,What does IPCC AR6 WG3 state about the required trajectory for methane emissions,PART 1 — COUNTRY COMMITMENT: INSUFFICIENT_CONTEXT. The retrieved context does not provide specific information about any
+F027,factual,hard,,,,,0.2222,0.0875,0.1852,0.7596,,,,0,10892.2,False,NO_FAILURE,"According to IPCC AR6 WG3, what share of global electricity supply did renewable","By 2019, low- and zero-carbon electricity generation technologies, which include renewables, produced 37% of global elec"
+F028,factual,hard,,,,,0.2925,0.1905,0.2075,0.8029,,,,0,8277.0,False,NO_FAILURE,How did India's NDC2 (2022) update its renewable energy target compared to NDC1 ,"PART 1 — COUNTRY COMMITMENT:
+India's NDC2 (2022) updates its renewable energy target by committing to achieve about 50 p"
+F029,factual,hard,,,,,0.321,0.1266,0.1975,0.8129,,,,0,8950.4,True,RETRIEVAL_MISS,Does Indonesia's NDC2 explicitly address loss and damage from climate change?,"INSUFFICIENT_CONTEXT
+
+The retrieved context does not provide specific information on whether Indonesia's NDC2 explicitly"
+F030,factual,hard,,,,,0.4118,0.1045,0.2353,0.8048,,,,0,7018.8,False,NO_FAILURE,What international climate finance condition does India attach to its NDC2 commi,"India's NDC2 commitments are contingent upon the mobilization of international climate finance, particularly from develo"
+C001,comparative,hard,,,,,0.2095,0.0,0.0952,0.7799,,,,0,5980.0,True,RETRIEVAL_MISS,Compare the 2030 GHG reduction targets of the United States and the European Uni,"INSUFFICIENT_CONTEXT
+
+The retrieved context does not provide information on the United States' 2030 GHG reduction target"
+C002,comparative,hard,,,,,0.2387,0.1104,0.2065,0.7586,,,,0,10252.8,False,NO_FAILURE,"Compare the net zero target years and legislative bases of the UK, EU, Canada, a","PART 1 — COUNTRY COMMITMENT:
+The United Kingdom has committed to achieving net zero greenhouse gas (GHG) emissions by 20"
+C003,comparative,hard,,,,,0.357,0.2216,0.2572,0.7967,,,,0,13100.1,False,NO_FAILURE,Compare India's and China's renewable energy commitments in their NDC2 submissio,"PART 1 — COUNTRY COMMITMENT:
+India's NDC commits to achieving about 50 percent cumulative electric power installed capac"
+C004,comparative,hard,,,,,0.1667,0.0339,0.1167,0.7615,,,,0,1765.1,True,RETRIEVAL_MISS|LOW_LEXICAL_OVERLAP,Why is it difficult to directly compare Japan's 2030 target with the USA's 2030 ,"INSUFFICIENT_CONTEXT
+
+The retrieved context does not provide information on the USA's 2030 target or any specific challe"
+C005,comparative,hard,,,,,0.1849,0.0169,0.1008,0.7426,,,,0,23873.9,False,LOW_LEXICAL_OVERLAP,"Compare the use of conditional targets in Indonesia's, Mexico's, and India's NDC","PART 1 — COUNTRY COMMITMENT:
+
+Indonesia's NDC commits to reducing emissions by 29% unconditionally and up to 41% conditi"
+C006,comparative,hard,,,,,0.2105,0.0882,0.1579,0.7622,,,,0,5440.9,False,NO_FAILURE,Compare the 2030 ambition level of Australia's NDC2 against the UK's NDC2 using ,"PART 1 — COUNTRY COMMITMENT:
+Australia's updated Nationally Determined Contribution (NDC) commits to reducing greenhouse"
+C007,comparative,hard,,,,,0.1869,0.0508,0.1263,0.7717,,,,0,8317.9,False,LOW_LEXICAL_OVERLAP,How do Brazil's and Indonesia's NDC2 submissions differ in their approach to for,"PART 1 — COUNTRY COMMITMENT:
+
+Brazil's NDC2 submission, updated in 2023, does not explicitly mention forest-related comm"
+C008,comparative,hard,,,,,0.1616,0.0206,0.101,0.7495,,,,0,2033.8,True,RETRIEVAL_MISS|LOW_LEXICAL_OVERLAP,Which G20 countries in the corpus explicitly mention carbon pricing mechanisms i,"INSUFFICIENT_CONTEXT
+
+The retrieved context does not provide specific information about which G20 countries explicitly m"
+C009,comparative,hard,,,,,0.4369,0.1863,0.3204,0.8289,,,,0,11873.0,False,NO_FAILURE,How did China's renewable energy target evolve between NDC1 (2016) and NDC2 (202,China's renewable energy targets have evolved significantly between its first Nationally Determined Contribution (NDC1) 
+C010,comparative,hard,,,,,0.3607,0.2376,0.2885,0.7981,,,,0,9493.2,False,NO_FAILURE,How does the UK's NDC2 assess its per-capita emissions relative to global 1.5 de,PART 1 — COUNTRY COMMITMENT: The UK's Nationally Determined Contribution (NDC) commits to reducing economy-wide greenhou
+C011,comparative,hard,,,,,0.1927,0.0681,0.151,0.7871,,,,0,9167.1,False,LOW_LEXICAL_OVERLAP,Compare the greenhouse gas scope coverage between Saudi Arabia's NDC2 and South ,"PART 1 — COUNTRY COMMITMENT:
+
+Saudi Arabia's updated Nationally Determined Contribution (NDC) aims to reduce, avoid, and"
+C012,comparative,hard,,,,,0.2698,0.0645,0.1429,0.7727,,,,0,3183.2,True,RETRIEVAL_MISS,How do India's and China's NDC submissions reference the principle of common but,"INSUFFICIENT_CONTEXT
+
+The retrieved context does not provide information on India's or China's NDC submissions or their "
+C013,comparative,hard,,,,,0.2716,0.0625,0.1975,0.7893,,,,0,10975.7,False,NO_FAILURE,Which countries in the G20 corpus include explicit electric vehicle targets in t,Australia includes explicit electric vehicle targets in its NDC2 submission. The country has committed to reducing emiss
+C014,comparative,hard,,,,,0.1633,0.0547,0.1134,0.7719,,,,0,17340.5,False,LOW_LEXICAL_OVERLAP,Compare the structural quality of Indonesia's NDC2 versus Turkey's NDC2 in terms,"PART 1 — COUNTRY COMMITMENT:
+
+Indonesia's NDC2 outlines a commitment to reduce emissions by 29% unconditionally and up t"
+C015,comparative,hard,,,,,0.2339,0.0488,0.121,0.7729,,,,0,7023.7,False,NO_FAILURE,Which G20 NDC2 submissions in the corpus explicitly address just transition prin,The UK's Nationally Determined Contribution (NDC) explicitly addresses just transition principles for workers in fossil 
+C016,comparative,hard,,,,,0.3067,0.0946,0.1467,0.8007,,,,0,6260.4,True,RETRIEVAL_MISS,Which has a more ambitious 2030 target relative to the IPCC 1.5°C benchmark — In,"INSUFFICIENT_CONTEXT
+
+The retrieved context provides detailed information on Australia's 2030 target but does not includ"
+C017,comparative,hard,,,,,0.3039,0.0854,0.1625,0.7893,,,,0,4982.7,False,NO_FAILURE,How do the USA's and EU's NDC2 submissions address methane reduction compared to,"PART 1 — COUNTRY COMMITMENT:
+The United States' NDC commits to an economy-wide target of reducing greenhouse gas emissio"
+C018,comparative,hard,,,,,0.1512,0.0526,0.1047,0.7695,,,,0,18518.3,False,LOW_LEXICAL_OVERLAP,Compare how Russia and Brazil account for LULUCF in their NDC2 submissions.,"PART 1 — COUNTRY COMMITMENT:
+
+Brazil's NDC outlines its approach to accounting for emissions and removals from the Land "
+C019,comparative,hard,,,,,0.1917,0.0365,0.1036,0.7634,,,,0,7491.3,False,LOW_LEXICAL_OVERLAP,Compare the overall ambition of G20 collective NDC2 targets against the IPCC-rec,"PART 1 — COUNTRY COMMITMENT: The G20 countries, as major emitters, have submitted Nationally Determined Contributions (N"
+C020,comparative,hard,,,,,0.2347,0.0758,0.1127,0.7854,,,,0,7258.6,False,NO_FAILURE,Which developing G20 countries in the corpus make the strongest explicit calls f,The retrieved context provides information on China's position regarding adaptation finance. China's 2016 NDC emphasizes
+C021,comparative,medium,,,,,0.3529,0.1045,0.1912,0.8176,,,,0,9368.0,True,RETRIEVAL_MISS,Compare the sector coverage of Canada's and Mexico's NDC2 submissions.,"INSUFFICIENT_CONTEXT
+
+The retrieved context provides detailed information about Canada's NDC, including the sectors cove"
+C022,comparative,hard,,,,,0.2524,0.099,0.1553,0.7962,,,,0,6164.1,True,RETRIEVAL_MISS,How do China's and South Korea's NDC2 submissions differ in their approach to hy,"INSUFFICIENT_CONTEXT
+
+The retrieved context does not provide information on China's or South Korea's NDC2 submissions or"
+C023,comparative,hard,,,,,0.2113,0.0143,0.1127,0.7638,,,,0,11002.4,True,RETRIEVAL_MISS,Why do Russia's and Turkey's NDC2 targets appear modest compared to other G20 na,"INSUFFICIENT_CONTEXT
+
+The retrieved context does not provide specific information about Turkey's NDC2 targets or a direc"
+C024,comparative,hard,,,,,0.2274,0.0471,0.1605,0.7621,,,,0,12264.5,False,NO_FAILURE,Compare the transparency and reporting commitments in Japan's and South Korea's ,"PART 1 — COUNTRY COMMITMENT:
+
+Japan's NDC emphasizes transparency and fairness by detailing concrete policies and measur"
+C025,comparative,hard,,,,,0.3676,0.0597,0.1912,0.821,,,,0,6117.6,True,RETRIEVAL_MISS,Which G20 NDC2 submissions explicitly address gender equity and social inclusion,"INSUFFICIENT_CONTEXT
+
+The retrieved context does not provide specific information on which G20 countries' NDC2 submissio"
+G001,gap_detection,hard,,,,,0.2837,0.1045,0.2007,0.7977,,,,0,4825.2,False,NO_FAILURE,What is the gap between China's 2030 non-fossil energy target and IPCC AR6 recom,"PART 1 — COUNTRY COMMITMENT:
+China's Nationally Determined Contributions (NDCs) commit to increasing the share of non-fo"
+G002,gap_detection,hard,,,,,0.2134,0.0429,0.1098,0.7753,,,,0,4780.2,False,NO_FAILURE,Identify the gap between India's NDC2 long-term targets and IPCC AR6 net zero re,"PART 1 — COUNTRY COMMITMENT:
+India's updated Nationally Determined Contribution (NDC) for 2022 outlines several long-ter"
+G003,gap_detection,hard,,,,,0.2244,0.0323,0.1154,0.7523,,,,0,4815.5,False,NO_FAILURE,Assess the gap between G20 NDC2 methane commitments and IPCC AR6 methane reducti,"PART 1 — COUNTRY COMMITMENT:
+The retrieved context does not provide specific details on the methane commitments of G20 c"
+G004,gap_detection,hard,,,,,0.2462,0.067,0.1282,0.7716,,,,0,27836.0,False,NO_FAILURE,What is the gap between developing G20 nations' identified adaptation needs and ,"PART 1 — COUNTRY COMMITMENT:
+Developing G20 nations, as part of their NDC submissions, have identified significant adapt"
+G005,gap_detection,hard,,,,,0.3098,0.082,0.1522,0.7797,,,,0,8163.1,False,NO_FAILURE,"Which G20 NDC2 submissions in the corpus include coal phase-out commitments, and","PART 1 — COUNTRY COMMITMENT:
+The United States, as part of its Nationally Determined Contribution (NDC), has set a goal "
+G006,gap_detection,hard,,,,,0.1631,0.0243,0.0665,0.7309,,,,0,11428.6,False,LOW_LEXICAL_OVERLAP,Identify three G20 NDC2 commitments that are vague and lack measurability compar,"PART 1 — COUNTRY COMMITMENT:
+The retrieved context does not provide specific details on individual G20 countries' NDC co"
+G007,gap_detection,hard,,,,,0.2952,0.0818,0.1624,0.7869,,,,0,11346.1,False,NO_FAILURE,What is the gap between G20 NDC2 transport sector commitments and IPCC AR6 WG3 t,PART 1 — COUNTRY COMMITMENT: The retrieved context does not provide specific details on the transport sector commitments
+G008,gap_detection,hard,,,,,0.1905,0.0552,0.1224,0.7524,,,,0,3174.8,True,RETRIEVAL_MISS|LOW_LEXICAL_OVERLAP,Which sectors required by IPCC AR6 for deep decarbonisation are absent or underr,"INSUFFICIENT_CONTEXT
+
+The retrieved context does not provide specific information on the sectors required by IPCC AR6 fo"
+G009,gap_detection,medium,,,,,0.3312,0.129,0.2548,0.8094,,,,0,10469.7,False,NO_FAILURE,Is there a contradiction between China's 2060 carbon neutrality commitment and I,The retrieved context does not provide specific information about the IPCC AR6's recommendation for achieving net zero C
+G010,gap_detection,hard,,,,,0.3109,0.1102,0.1681,0.7876,,,,0,10661.1,False,NO_FAILURE,What is the gap in G20 NDC2 submissions regarding loss and damage compared to IP,PART 1 — COUNTRY COMMITMENT: INSUFFICIENT_CONTEXT. The retrieved context does not provide specific details on G20 countr
+G011,gap_detection,hard,,,,,0.3434,0.122,0.1616,0.8004,,,,0,10624.6,False,NO_FAILURE,Does Australia's 43% reduction by 2030 align with IPCC's recommended pathway for,"PART 1 — COUNTRY COMMITMENT:  
+Australia's updated Nationally Determined Contribution (NDC) commits to reducing greenhou"
+G012,gap_detection,hard,,,,,0.2857,0.0778,0.1622,0.7801,,,,0,6287.4,False,NO_FAILURE,Identify the gap between India's agriculture sector NDC commitments and IPCC AR6,"PART 1 — COUNTRY COMMITMENT:
+India's NDC commitments related to the agriculture sector focus on enhancing adaptive capac"
+G013,gap_detection,hard,,,,,0.1944,0.0442,0.1066,0.7696,,,,0,10176.2,False,LOW_LEXICAL_OVERLAP,What implementation gaps exist between Mexico's NDC2 stated targets and its dome,"PART 1 — COUNTRY COMMITMENT:
+Mexico's updated Nationally Determined Contribution (NDC) for 2022 outlines several commitm"
+G014,gap_detection,hard,,,,,0.292,0.0741,0.1168,0.7686,,,,0,6566.3,True,RETRIEVAL_MISS,Which sectors required for deep decarbonisation by IPCC AR6 are missing from Rus,"INSUFFICIENT_CONTEXT
+
+The retrieved context does not provide specific information on the sectors identified by the IPCC "
+G015,gap_detection,hard,,,,,0.2531,0.0497,0.1605,0.7761,,,,0,11050.7,False,NO_FAILURE,Does South Korea's 2030 target of 40% below 2018 BAU align with IPCC requirement,"PART 1 — COUNTRY COMMITMENT:
+South Korea's updated Nationally Determined Contribution (NDC) commits to reducing total na"
+G016,gap_detection,hard,,,,,0.242,0.0287,0.1281,0.7727,,,,0,7219.6,False,NO_FAILURE,Assess the gap between G20 NDC2 carbon capture and storage (CCS) commitments and,PART 1 — COUNTRY COMMITMENT: INSUFFICIENT_CONTEXT. The retrieved context does not provide specific information on G20 co
+G017,gap_detection,hard,,,,,0.1891,0.0586,0.1164,0.7602,,,,0,10487.6,False,LOW_LEXICAL_OVERLAP,What is the gap in G20 NDC2 submissions regarding nature-based solutions and bio,"PART 1 — COUNTRY COMMITMENT:
+China's NDC commits to promoting nature-based solutions as a means to reduce greenhouse gas"
+G018,gap_detection,hard,,,,,0.2116,0.0417,0.1079,0.7629,,,,0,6180.2,False,NO_FAILURE,What is the collective conditional versus unconditional gap across G20 NDC2 deve,"PART 1 — COUNTRY COMMITMENT:
+The collective commitments of G20 developing nations in their Nationally Determined Contrib"
+G019,gap_detection,hard,,,,,0.1875,0.035,0.1111,0.7841,,,,0,15478.9,False,LOW_LEXICAL_OVERLAP,Assess the gap between G20 NDC2 industrial decarbonisation commitments and IPCC ,PART 1 — COUNTRY COMMITMENT: The retrieved context does not provide specific details about the industrial decarbonisatio
+G020,gap_detection,hard,,,,,0.2079,0.0547,0.1139,0.7407,,,,0,4680.0,False,NO_FAILURE,How does the distribution of G20 NDC2 ambition levels relate to historical cumul,The distribution of G20 countries' NDC ambition levels is intricately linked to historical cumulative emissions and the 
+G021,gap_detection,hard,,,,,0.2564,0.0812,0.1465,0.7747,,,,0,15853.6,False,NO_FAILURE,"Which G20 NDC2 submissions address fossil fuel subsidies, and how does this comp",PART 1 — COUNTRY COMMITMENT: INSUFFICIENT_CONTEXT. The retrieved context does not provide specific information on which 
+G022,gap_detection,medium,,,,,0.2534,0.0705,0.1563,0.7609,,,,0,17316.7,False,NO_FAILURE,Which G20 countries in the corpus have net zero targets in their NDC2 and which ,"PART 1 — COUNTRY COMMITMENT:
+Several G20 countries have articulated net zero targets in their NDCs or related announceme"
+G023,gap_detection,hard,,,,,0.2105,0.0303,0.0977,0.7749,,,,0,9406.3,False,NO_FAILURE,What is the gap between G20 NDC2 food system commitments and IPCC AR6 recommenda,PART 1 — COUNTRY COMMITMENT: The retrieved context does not provide specific details on the G20 countries' NDC commitmen
+G024,gap_detection,hard,,,,,0.2778,0.0726,0.1278,0.7627,,,,0,10341.7,False,NO_FAILURE,What is the gap between G20 developed nations' climate finance commitments in th,"PART 1 — COUNTRY COMMITMENT:
+The retrieved context does not provide specific details on the climate finance commitments "
+G025,gap_detection,hard,,,,,0.2698,0.0602,0.1413,0.7834,,,,0,6266.1,False,NO_FAILURE,Summarise the three most critical gaps between the collective G20 NDC2 ambition ,"PART 1 — COUNTRY COMMITMENT:
+The retrieved context does not provide specific details on the collective G20 NDC2 ambition"

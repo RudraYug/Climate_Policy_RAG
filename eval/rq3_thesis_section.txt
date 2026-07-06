@@ -1,0 +1,49 @@
+=================================================================
+  THESIS SECTION 5.4 -- RQ3 MODEL COMPARISON
+  (paste-ready -- verify numbers before submission)
+=================================================================
+
+Section 5.4  RQ3: LLM Backend Comparison
+
+We evaluated three LLM backends on the same 80-question golden
+evaluation dataset using the same hybrid retriever (top-k=5),
+ensuring that only the generation component varied across runs.
+Hallucination was judged by a single GPT-4o-mini evaluator
+for all three models to ensure a fair, consistent comparison.
+
+Models evaluated:
+  (1) GPT-4o (OpenAI) -- closed-source, 0.02354 USD/query
+  (2) Mistral-7B (Mistral La Plateforme) -- open-weights, 0.01135 USD/query
+  (3) LLaMA-3.1-8B (Groq Cloud) -- open-source, FREE
+
+Table Z -- RQ3 Model Comparison Results
+
+  Metric                           GPT-4o   Mistral-7B   LLaMA-3.1-8B
+  ------------------------------------------------------------------
+  ROUGE-1 F1                       0.2821       0.2428         0.2663
+  ROUGE-L F1                       0.1875       0.1623         0.1849
+  Hallucination Rate               0.2833       0.3721         0.2169
+  Grounding Score                  0.5913       0.5125         0.6076
+  Avg Latency (ms)                   8580         5231          87471
+  Cost/query (USD)                0.02354      0.01135           FREE
+  Insufficient Rate                0.1500       0.2500         0.1125
+
+GPT-4o achieved the highest ROUGE-1 F1 (0.2821), indicating the greatest lexical
+overlap with gold reference answers.
+
+LLaMA-3.1-8B achieved the lowest hallucination rate (0.2169),
+meaning its claims were most consistently grounded in retrieved context.
+
+Mistral-7B was the fastest backend (5231 ms avg latency),
+making it the most suitable for interactive deployment.
+
+LLaMA-3.1-8B was the cheapest backend (FREE),
+demonstrating that competitive performance is achievable at zero cost
+using open-source models, which has significant implications for
+low-resource climate policy analysis in developing nations.
+
+The hallucination analysis uses the same GPT-4o-mini judge for all
+three models (Maynez et al., 2020; Dahl et al., 2024), eliminating
+judge-model confounding effects. This is a methodological contribution
+beyond prior work that typically evaluates models using their own
+self-assessment or different evaluators per model.

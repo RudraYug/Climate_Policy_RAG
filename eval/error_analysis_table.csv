@@ -1,0 +1,103 @@
+﻿FAILURE ATTRIBUTION
+Layer,N,Pct,Modes
+No failure (correct),40,50.0%,—
+Retrieval failure (FM1-3),4,5.0%,"FM1,FM2,FM3"
+Generation failure (FM4-5),7,8.8%,"FM4,FM5"
+Metric artefact (FM6),15,18.8%,FM6
+Corpus gap (FM7),14,17.5%,FM7
+
+FAILURE MODE BREAKDOWN
+Mode ID,Label,Count,Pct,AvgROUGE1,Layer,Severity,Root Cause,Fix
+FM6_METRIC_MISMATCH,Metric Mismatch,15,18.8%,0.2254,evaluation,LOW,ROUGE/BERTScore penalise lexical variation; not a system failure,"Use semantic evaluation (BERTScore, RAGAS) as primary; treat ROUGE as lower bound"
+FM7_CORPUS_GAP,Corpus Gap,14,17.5%,0.2585,corpus,LOW,Genuine gap in NDC coverage; question asks about NDC3 or non-English docs,Expand corpus; add NDC3 submissions; multilingual documents
+FM5_LLM_VAGUENESS,LLM Vagueness,7,8.8%,0.1749,generation,MEDIUM,Long context dilution; model hedges on specific figures,Structured output prompts; force extraction of numeric targets; chain-of-thought
+FM1_RETRIEVAL_MISS,Retrieval Miss,4,5.0%,0.1829,retrieval,HIGH,Query semantics diverge from document wording; metadata filter too narrow,"Query expansion, looser filters, increase top-k for hard questions"
+
+IMPROVEMENT RECOMMENDATIONS
+Priority,Title,Target FM,Expected Impact,Cost,Citation
+HIGH,Implement query expansion with HyDE,FM1_RETRIEVAL_MISS,Estimated +8-12% HR@5 improvement on hard factual queries,~2× generation cost per query; negligible for thesis scale,Gao et al. (2022) Precise Zero-Shot Dense Retrieval without Relevance Labels
+MEDIUM,Structured extraction prompts for numeric targets,FM5_LLM_VAGUENESS,+0.05-0.08 ROUGE-1 on factual queries,Zero additional cost,"HyPA-RAG (Kalra et al., 2024) — adaptive-k and structured output"
+MEDIUM,Expand corpus with NDC3 and national implementation reports,FM7_CORPUS_GAP,Eliminates FM7 failures; improves context recall on new questions,One-time re-indexing ~$0.50 for embedding new documents,Climate Policy Radar (2024) — UNFCCC corpus maintenance
+
+PER-QUESTION ANALYSIS
+QID,Category,Difficulty,ROUGE1,Faith,Hall%,Primary Failure,All Failures,Diagnosis
+F001,factual,easy,0.4065,0.0000,0%,NONE,NONE,"No failure: ROUGE-1=0.406, hall_rate=0.000, grounding=0.000."
+F002,factual,easy,0.3967,0.0000,0%,NONE,NONE,"No failure: ROUGE-1=0.397, hall_rate=0.000, grounding=0.000."
+F003,factual,medium,0.6479,0.0000,0%,NONE,NONE,"No failure: ROUGE-1=0.648, hall_rate=0.000, grounding=0.000."
+F004,factual,easy,0.3036,0.0000,0%,NONE,NONE,"No failure: ROUGE-1=0.304, hall_rate=0.000, grounding=0.000."
+F005,factual,easy,0.4490,0.0000,0%,NONE,NONE,"No failure: ROUGE-1=0.449, hall_rate=0.000, grounding=0.000."
+F006,factual,medium,0.6207,0.0000,0%,NONE,NONE,"No failure: ROUGE-1=0.621, hall_rate=0.000, grounding=0.000."
+F007,factual,easy,0.3167,0.0000,0%,NONE,NONE,"No failure: ROUGE-1=0.317, hall_rate=0.000, grounding=0.000."
+F008,factual,easy,0.3860,0.0000,0%,NONE,NONE,"No failure: ROUGE-1=0.386, hall_rate=0.000, grounding=0.000."
+F009,factual,medium,0.3247,0.0000,0%,NONE,NONE,"No failure: ROUGE-1=0.325, hall_rate=0.000, grounding=0.000."
+F010,factual,easy,0.2874,0.0000,0%,NONE,NONE,"No failure: ROUGE-1=0.287, hall_rate=0.000, grounding=0.000."
+F011,factual,easy,0.2857,0.0000,0%,NONE,NONE,"No failure: ROUGE-1=0.286, hall_rate=0.000, grounding=0.000."
+F012,factual,easy,0.3789,0.0000,0%,NONE,NONE,"No failure: ROUGE-1=0.379, hall_rate=0.000, grounding=0.000."
+F013,factual,medium,0.2435,0.0000,0%,FM6_METRIC_MISMATCH,FM6_METRIC_MISMATCH,"Inferred FM6: ROUGE-1=0.243 moderate, hall_rate=0.000 low — likely paraphrasing mismatch."
+F014,factual,medium,0.3057,0.0000,0%,NONE,NONE,"No failure: ROUGE-1=0.306, hall_rate=0.000, grounding=0.000."
+F015,factual,hard,0.1512,0.0000,0%,FM5_LLM_VAGUENESS,FM5_LLM_VAGUENESS,"Inferred FM5: ROUGE-1=0.151, hall_rate=0.000 low — answer grounded but too general."
+F016,factual,easy,0.2667,0.0000,0%,FM7_CORPUS_GAP,FM7_CORPUS_GAP,System correctly flagged insufficient context. Topic 'ghg_reduction' not in corpus for South Korea.
+F017,factual,easy,0.3167,0.0000,0%,NONE,NONE,"No failure: ROUGE-1=0.317, hall_rate=0.000, grounding=0.000."
+F018,factual,medium,0.2500,0.0000,0%,FM7_CORPUS_GAP,FM7_CORPUS_GAP,System correctly flagged insufficient context. Topic 'conditional_targets' not in corpus for Mexico.
+F019,factual,hard,0.2136,0.0000,0%,FM6_METRIC_MISMATCH,FM6_METRIC_MISMATCH,"Inferred FM6: ROUGE-1=0.214 moderate, hall_rate=0.000 low — likely paraphrasing mismatch."
+F020,factual,medium,0.3269,0.0000,0%,NONE,NONE,"No failure: ROUGE-1=0.327, hall_rate=0.000, grounding=0.000."
+F021,factual,medium,0.3294,0.0000,0%,NONE,NONE,"No failure: ROUGE-1=0.329, hall_rate=0.000, grounding=0.000."
+F022,factual,easy,0.2881,0.0000,0%,NONE,NONE,"No failure: ROUGE-1=0.288, hall_rate=0.000, grounding=0.000."
+F023,factual,medium,0.3506,0.0000,0%,NONE,NONE,"No failure: ROUGE-1=0.351, hall_rate=0.000, grounding=0.000."
+F024,factual,medium,0.2599,0.0000,0%,NONE,NONE,"No failure: ROUGE-1=0.260, hall_rate=0.000, grounding=0.000."
+F025,factual,medium,0.2778,0.0000,0%,NONE,NONE,"No failure: ROUGE-1=0.278, hall_rate=0.000, grounding=0.000."
+F026,factual,hard,0.2754,0.0000,0%,NONE,NONE,"No failure: ROUGE-1=0.275, hall_rate=0.000, grounding=0.000."
+F027,factual,hard,0.2222,0.0000,0%,FM6_METRIC_MISMATCH,FM6_METRIC_MISMATCH,"Inferred FM6: ROUGE-1=0.222 moderate, hall_rate=0.000 low — likely paraphrasing mismatch."
+F028,factual,hard,0.2925,0.0000,0%,NONE,NONE,"No failure: ROUGE-1=0.292, hall_rate=0.000, grounding=0.000."
+F029,factual,hard,0.3210,0.0000,0%,FM7_CORPUS_GAP,FM7_CORPUS_GAP,System correctly flagged insufficient context. Topic 'loss_and_damage' not in corpus for Indonesia.
+F030,factual,hard,0.4118,0.0000,0%,NONE,NONE,"No failure: ROUGE-1=0.412, hall_rate=0.000, grounding=0.000."
+C001,comparative,hard,0.2095,0.0000,0%,FM7_CORPUS_GAP,FM7_CORPUS_GAP,"System correctly flagged insufficient context. Topic 'ghg_ambition' not in corpus for USA, EU."
+C002,comparative,hard,0.2387,0.0000,0%,FM6_METRIC_MISMATCH,FM6_METRIC_MISMATCH,"Inferred FM6: ROUGE-1=0.239 moderate, hall_rate=0.000 low — likely paraphrasing mismatch."
+C003,comparative,hard,0.3570,0.0000,0%,NONE,NONE,"No failure: ROUGE-1=0.357, hall_rate=0.000, grounding=0.000."
+C004,comparative,hard,0.1667,0.0000,0%,FM7_CORPUS_GAP,FM7_CORPUS_GAP,"System correctly flagged insufficient context. Topic 'baseline_year' not in corpus for Japan, USA."
+C005,comparative,hard,0.1849,0.0000,0%,FM5_LLM_VAGUENESS,FM5_LLM_VAGUENESS,"Inferred FM5: ROUGE-1=0.185, hall_rate=0.000 low — answer grounded but too general."
+C006,comparative,hard,0.2105,0.0000,0%,FM6_METRIC_MISMATCH,FM6_METRIC_MISMATCH,"Inferred FM6: ROUGE-1=0.210 moderate, hall_rate=0.000 low — likely paraphrasing mismatch."
+C007,comparative,hard,0.1869,0.0000,0%,FM5_LLM_VAGUENESS,FM5_LLM_VAGUENESS,"Inferred FM5: ROUGE-1=0.187, hall_rate=0.000 low — answer grounded but too general."
+C008,comparative,hard,0.1616,0.0000,0%,FM7_CORPUS_GAP,FM7_CORPUS_GAP,"System correctly flagged insufficient context. Topic 'carbon_pricing' not in corpus for South Korea, EU, Canada, Japan, "
+C009,comparative,hard,0.4369,0.0000,0%,NONE,NONE,"No failure: ROUGE-1=0.437, hall_rate=0.000, grounding=0.000."
+C010,comparative,hard,0.3607,0.0000,0%,NONE,NONE,"No failure: ROUGE-1=0.361, hall_rate=0.000, grounding=0.000."
+C011,comparative,hard,0.1927,0.0000,0%,FM5_LLM_VAGUENESS,FM5_LLM_VAGUENESS,"Inferred FM5: ROUGE-1=0.193, hall_rate=0.000 low — answer grounded but too general."
+C012,comparative,hard,0.2698,0.0000,0%,FM7_CORPUS_GAP,FM7_CORPUS_GAP,"System correctly flagged insufficient context. Topic 'historical_responsibility' not in corpus for India, China."
+C013,comparative,hard,0.2716,0.0000,0%,NONE,NONE,"No failure: ROUGE-1=0.272, hall_rate=0.000, grounding=0.000."
+C014,comparative,hard,0.1633,0.0000,0%,FM5_LLM_VAGUENESS,FM5_LLM_VAGUENESS,"Inferred FM5: ROUGE-1=0.163, hall_rate=0.000 low — answer grounded but too general."
+C015,comparative,hard,0.2339,0.0000,0%,FM6_METRIC_MISMATCH,FM6_METRIC_MISMATCH,"Inferred FM6: ROUGE-1=0.234 moderate, hall_rate=0.000 low — likely paraphrasing mismatch."
+C016,comparative,hard,0.3067,0.0000,0%,FM7_CORPUS_GAP,FM7_CORPUS_GAP,"System correctly flagged insufficient context. Topic 'ghg_ambition' not in corpus for India, Australia."
+C017,comparative,hard,0.3039,0.0000,0%,NONE,NONE,"No failure: ROUGE-1=0.304, hall_rate=0.000, grounding=0.000."
+C018,comparative,hard,0.1512,0.0000,0%,FM5_LLM_VAGUENESS,FM5_LLM_VAGUENESS,"Inferred FM5: ROUGE-1=0.151, hall_rate=0.000 low — answer grounded but too general."
+C019,comparative,hard,0.1917,0.0000,0%,FM1_RETRIEVAL_MISS,FM1_RETRIEVAL_MISS,Retrieval miss: correct document not found in top-k. ROUGE-1=0.192. Query vocabulary may not match NDC phrasing for 'ghg
+C020,comparative,hard,0.2347,0.0000,0%,FM6_METRIC_MISMATCH,FM6_METRIC_MISMATCH,"Inferred FM6: ROUGE-1=0.235 moderate, hall_rate=0.000 low — likely paraphrasing mismatch."
+C021,comparative,medium,0.3529,0.0000,0%,FM7_CORPUS_GAP,FM7_CORPUS_GAP,"System correctly flagged insufficient context. Topic 'sector_coverage' not in corpus for Canada, Mexico."
+C022,comparative,hard,0.2524,0.0000,0%,FM7_CORPUS_GAP,FM7_CORPUS_GAP,"System correctly flagged insufficient context. Topic 'technology' not in corpus for South Korea, China."
+C023,comparative,hard,0.2113,0.0000,0%,FM7_CORPUS_GAP,FM7_CORPUS_GAP,"System correctly flagged insufficient context. Topic 'baseline' not in corpus for Russia, Turkey."
+C024,comparative,hard,0.2274,0.0000,0%,FM6_METRIC_MISMATCH,FM6_METRIC_MISMATCH,"Inferred FM6: ROUGE-1=0.227 moderate, hall_rate=0.000 low — likely paraphrasing mismatch."
+C025,comparative,hard,0.3676,0.0000,0%,FM7_CORPUS_GAP,FM7_CORPUS_GAP,"System correctly flagged insufficient context. Topic 'gender_equity' not in corpus for Argentina, South Africa, Indonesi"
+G001,gap_detection,hard,0.2837,0.0000,0%,NONE,NONE,"No failure: ROUGE-1=0.284, hall_rate=0.000, grounding=0.000."
+G002,gap_detection,hard,0.2134,0.0000,0%,FM6_METRIC_MISMATCH,FM6_METRIC_MISMATCH,"Inferred FM6: ROUGE-1=0.213 moderate, hall_rate=0.000 low — likely paraphrasing mismatch."
+G003,gap_detection,hard,0.2244,0.0000,0%,FM6_METRIC_MISMATCH,FM6_METRIC_MISMATCH,"Inferred FM6: ROUGE-1=0.224 moderate, hall_rate=0.000 low — likely paraphrasing mismatch."
+G004,gap_detection,hard,0.2462,0.0000,0%,FM6_METRIC_MISMATCH,FM6_METRIC_MISMATCH,"Inferred FM6: ROUGE-1=0.246 moderate, hall_rate=0.000 low — likely paraphrasing mismatch."
+G005,gap_detection,hard,0.3098,0.0000,0%,NONE,NONE,"No failure: ROUGE-1=0.310, hall_rate=0.000, grounding=0.000."
+G006,gap_detection,hard,0.1631,0.0000,0%,FM1_RETRIEVAL_MISS,FM1_RETRIEVAL_MISS,Retrieval miss: correct document not found in top-k. ROUGE-1=0.163. Query vocabulary may not match NDC phrasing for 'vag
+G007,gap_detection,hard,0.2952,0.0000,0%,NONE,NONE,"No failure: ROUGE-1=0.295, hall_rate=0.000, grounding=0.000."
+G008,gap_detection,hard,0.1905,0.0000,0%,FM7_CORPUS_GAP,FM7_CORPUS_GAP,System correctly flagged insufficient context. Topic 'missing_commitment' not in corpus for Saudi Arabia.
+G009,gap_detection,medium,0.3312,0.0000,0%,NONE,NONE,"No failure: ROUGE-1=0.331, hall_rate=0.000, grounding=0.000."
+G010,gap_detection,hard,0.3109,0.0000,0%,NONE,NONE,"No failure: ROUGE-1=0.311, hall_rate=0.000, grounding=0.000."
+G011,gap_detection,hard,0.3434,0.0000,0%,NONE,NONE,"No failure: ROUGE-1=0.343, hall_rate=0.000, grounding=0.000."
+G012,gap_detection,hard,0.2857,0.0000,0%,NONE,NONE,"No failure: ROUGE-1=0.286, hall_rate=0.000, grounding=0.000."
+G013,gap_detection,hard,0.1944,0.0000,0%,FM5_LLM_VAGUENESS,FM5_LLM_VAGUENESS,"Inferred FM5: ROUGE-1=0.194, hall_rate=0.000 low — answer grounded but too general."
+G014,gap_detection,hard,0.2920,0.0000,0%,FM7_CORPUS_GAP,FM7_CORPUS_GAP,System correctly flagged insufficient context. Topic 'missing_sector' not in corpus for Russia.
+G015,gap_detection,hard,0.2531,0.0000,0%,NONE,NONE,"No failure: ROUGE-1=0.253, hall_rate=0.000, grounding=0.000."
+G016,gap_detection,hard,0.2420,0.0000,0%,FM6_METRIC_MISMATCH,FM6_METRIC_MISMATCH,"Inferred FM6: ROUGE-1=0.242 moderate, hall_rate=0.000 low — likely paraphrasing mismatch."
+G017,gap_detection,hard,0.1891,0.0000,0%,FM1_RETRIEVAL_MISS,FM1_RETRIEVAL_MISS,Retrieval miss: correct document not found in top-k. ROUGE-1=0.189. Query vocabulary may not match NDC phrasing for 'bio
+G018,gap_detection,hard,0.2116,0.0000,0%,FM6_METRIC_MISMATCH,FM6_METRIC_MISMATCH,"Inferred FM6: ROUGE-1=0.212 moderate, hall_rate=0.000 low — likely paraphrasing mismatch."
+G019,gap_detection,hard,0.1875,0.0000,0%,FM1_RETRIEVAL_MISS,FM1_RETRIEVAL_MISS,Retrieval miss: correct document not found in top-k. ROUGE-1=0.188. Query vocabulary may not match NDC phrasing for 'ind
+G020,gap_detection,hard,0.2079,0.0000,0%,FM6_METRIC_MISMATCH,FM6_METRIC_MISMATCH,"Inferred FM6: ROUGE-1=0.208 moderate, hall_rate=0.000 low — likely paraphrasing mismatch."
+G021,gap_detection,hard,0.2564,0.0000,0%,NONE,NONE,"No failure: ROUGE-1=0.256, hall_rate=0.000, grounding=0.000."
+G022,gap_detection,medium,0.2534,0.0000,0%,NONE,NONE,"No failure: ROUGE-1=0.253, hall_rate=0.000, grounding=0.000."
+G023,gap_detection,hard,0.2105,0.0000,0%,FM6_METRIC_MISMATCH,FM6_METRIC_MISMATCH,"Inferred FM6: ROUGE-1=0.210 moderate, hall_rate=0.000 low — likely paraphrasing mismatch."
+G024,gap_detection,hard,0.2778,0.0000,0%,NONE,NONE,"No failure: ROUGE-1=0.278, hall_rate=0.000, grounding=0.000."
+G025,gap_detection,hard,0.2698,0.0000,0%,NONE,NONE,"No failure: ROUGE-1=0.270, hall_rate=0.000, grounding=0.000."

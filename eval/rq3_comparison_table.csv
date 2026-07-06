@@ -1,0 +1,23 @@
+﻿Metric,GPT-4o,Mistral-7B,LLaMA-3.1-8B
+-- ROUGE vs Gold --,,,
+ROUGE-1 F1,0.2821,0.2428,0.2663
+ROUGE-2 F1,0.1090,0.0947,0.1037
+ROUGE-L F1,0.1875,0.1623,0.1849
+-- Faithfulness (same GPT-4o-mini judge) --,,,
+Hallucination Rate,0.2833,0.3721,0.2169
+Grounding Score,0.5913,0.5125,0.6076
+% Supported,51.4%,53.1%,40.8%
+% Unsupported,15.3%,16.2%,22.1%
+% Fabricated,0.0%,0.0%,0.0%
+-- Answer Quality --,,,
+Insufficient Rate,0.1500,0.2500,0.1125
+Avg Answer Length,154w,179w,168w
+Avg Citations,3.7,4.5,4.6
+-- Speed & Cost --,,,
+Avg Latency (ms),8580,5231,87471
+Cost/Query (USD),$0.02354,$0.01135,$0.00000
+Total Cost (USD),$1.8830,$0.9082,$0.0000
+-- Model Info --,,,
+Type,closed,open-weights,open-source
+Provider,OpenAI,Mistral AI (La Plateforme),Meta / Groq Cloud
+N Questions,80,80,80

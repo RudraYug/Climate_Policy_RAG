@@ -1,0 +1,2020 @@
+{
+  "failure_mode_stats": {
+    "FM6_METRIC_MISMATCH": {
+      "mode_id": "FM6_METRIC_MISMATCH",
+      "label": "Metric Mismatch",
+      "count": 15,
+      "pct": 18.8,
+      "by_category": {
+        "factual": 3,
+        "comparative": 5,
+        "gap_detection": 7
+      },
+      "by_difficulty": {
+        "medium": 1,
+        "hard": 14
+      },
+      "avg_rouge1": 0.2254,
+      "exemplar_ids": [
+        "G020",
+        "C006",
+        "G023"
+      ]
+    },
+    "FM5_LLM_VAGUENESS": {
+      "mode_id": "FM5_LLM_VAGUENESS",
+      "label": "LLM Vagueness",
+      "count": 7,
+      "pct": 8.8,
+      "by_category": {
+        "factual": 1,
+        "comparative": 5,
+        "gap_detection": 1
+      },
+      "by_difficulty": {
+        "hard": 7
+      },
+      "avg_rouge1": 0.1749,
+      "exemplar_ids": [
+        "F015",
+        "C018",
+        "C014"
+      ]
+    },
+    "FM7_CORPUS_GAP": {
+      "mode_id": "FM7_CORPUS_GAP",
+      "label": "Corpus Gap",
+      "count": 14,
+      "pct": 17.5,
+      "by_category": {
+        "factual": 3,
+        "comparative": 9,
+        "gap_detection": 2
+      },
+      "by_difficulty": {
+        "easy": 1,
+        "medium": 2,
+        "hard": 11
+      },
+      "avg_rouge1": 0.2585,
+      "exemplar_ids": [
+        "C008",
+        "C004",
+        "G008"
+      ]
+    },
+    "FM1_RETRIEVAL_MISS": {
+      "mode_id": "FM1_RETRIEVAL_MISS",
+      "label": "Retrieval Miss",
+      "count": 4,
+      "pct": 5.0,
+      "by_category": {
+        "comparative": 1,
+        "gap_detection": 3
+      },
+      "by_difficulty": {
+        "hard": 4
+      },
+      "avg_rouge1": 0.1829,
+      "exemplar_ids": [
+        "G006",
+        "G019",
+        "G017"
+      ]
+    }
+  },
+  "attribution": {
+    "total_questions": 80,
+    "no_failure": {
+      "n": 40,
+      "pct": 50.0
+    },
+    "retrieval_failure": {
+      "n": 4,
+      "pct": 5.0,
+      "modes": [
+        "FM2_CONTEXT_NOISE",
+        "FM1_RETRIEVAL_MISS",
+        "FM3_CONTEXT_INCOMPLETE"
+      ]
+    },
+    "generation_failure": {
+      "n": 7,
+      "pct": 8.8,
+      "modes": [
+        "FM4_LLM_HALLUCINATION",
+        "FM5_LLM_VAGUENESS"
+      ]
+    },
+    "evaluation_artifact": {
+      "n": 15,
+      "pct": 18.8,
+      "modes": [
+        "FM6_METRIC_MISMATCH"
+      ]
+    },
+    "corpus_gap": {
+      "n": 14,
+      "pct": 17.5,
+      "modes": [
+        "FM7_CORPUS_GAP"
+      ]
+    },
+    "other": {
+      "n": 0,
+      "pct": 0.0
+    },
+    "interpretation": "Of 80 questions: 40 fully correct (50%), 4 retrieval failures (5%), 7 generation failures (9%), 14 corpus gaps (18%), 15 metric artefacts (19%)."
+  },
+  "correlations": {
+    "baseline_failure_rate": 0.138,
+    "is_easy": {
+      "n": 12,
+      "failure_rate": 0.0,
+      "delta_vs_baseline": -0.138,
+      "note": "lower failure rate"
+    },
+    "is_hard": {
+      "n": 54,
+      "failure_rate": 0.204,
+      "delta_vs_baseline": 0.066,
+      "note": "higher failure rate"
+    },
+    "is_factual": {
+      "n": 30,
+      "failure_rate": 0.033,
+      "delta_vs_baseline": -0.105,
+      "note": "lower failure rate"
+    },
+    "is_comparative": {
+      "n": 25,
+      "failure_rate": 0.24,
+      "delta_vs_baseline": 0.102,
+      "note": "higher failure rate"
+    },
+    "is_gap_detection": {
+      "n": 25,
+      "failure_rate": 0.16,
+      "delta_vs_baseline": 0.022,
+      "note": "similar to baseline"
+    },
+    "is_multi_country": {
+      "n": 39,
+      "failure_rate": 0.231,
+      "delta_vs_baseline": 0.093,
+      "note": "higher failure rate"
+    },
+    "is_ipcc_relevant": {
+      "n": 31,
+      "failure_rate": 0.129,
+      "delta_vs_baseline": -0.009,
+      "note": "similar to baseline"
+    },
+    "is_insufficient": {
+      "n": 14,
+      "failure_rate": 0.0,
+      "delta_vs_baseline": -0.138,
+      "note": "lower failure rate"
+    },
+    "long_question": {
+      "n": 1,
+      "failure_rate": 0.0,
+      "delta_vs_baseline": -0.138,
+      "note": "lower failure rate"
+    },
+    "has_numbers_in_gt": {
+      "n": 80,
+      "failure_rate": 0.138,
+      "delta_vs_baseline": 0.0,
+      "note": "similar to baseline"
+    }
+  },
+  "model_comparison": {
+    "gpt4o_advantage": {
+      "n": 6,
+      "pct": 7.5,
+      "top_categories": {
+        "gap_detection": 3,
+        "factual": 2,
+        "comparative": 1
+      },
+      "interpretation": "GPT-4o significantly outperforms open models on these questions"
+    },
+    "open_model_competitive": {
+      "n": 50,
+      "pct": 62.5,
+      "top_categories": {
+        "comparative": 20,
+        "factual": 18,
+        "gap_detection": 12
+      },
+      "interpretation": "Open models match GPT-4o quality at zero cost"
+    },
+    "all_models_fail": {
+      "n": 0,
+      "pct": 0.0,
+      "top_categories": {},
+      "top_subcategories": {},
+      "interpretation": "These represent corpus gaps or fundamentally hard questions",
+      "exemplar_ids": []
+    }
+  },
+  "recommendations": [
+    {
+      "priority": "HIGH",
+      "target_fm": "FM1_RETRIEVAL_MISS",
+      "title": "Implement query expansion with HyDE",
+      "description": "FM1 (retrieval miss) affects 4 questions. Hypothetical Document Embeddings (HyDE — Gao et al., 2022) generates a hypothetical answer first, then embeds it, improving retrieval for questions whose wording diverges from NDC document phrasing (e.g. 'What is Turkey's 41% target?' vs NDC text 'reduce emissions compared to BAU').",
+      "expected_impact": "Estimated +8-12% HR@5 improvement on hard factual queries",
+      "implementation": "pip install langchain; use HypotheticalDocumentEmbedder",
+      "cost": "~2× generation cost per query; negligible for thesis scale",
+      "citation": "Gao et al. (2022) Precise Zero-Shot Dense Retrieval without Relevance Labels"
+    },
+    {
+      "priority": "MEDIUM",
+      "target_fm": "FM5_LLM_VAGUENESS",
+      "title": "Structured extraction prompts for numeric targets",
+      "description": "FM5 (vagueness) occurs when the LLM produces a general answer despite specific numbers being present in context. A structured prompt that explicitly asks 'Extract the exact percentage, year, and baseline' forces the model to report specific commitments rather than paraphrasing them vaguely. Pydantic output schemas can enforce this structure.",
+      "expected_impact": "+0.05-0.08 ROUGE-1 on factual queries",
+      "implementation": "Add extraction schema to generation.py prompt template",
+      "cost": "Zero additional cost",
+      "citation": "HyPA-RAG (Kalra et al., 2024) — adaptive-k and structured output"
+    },
+    {
+      "priority": "MEDIUM",
+      "target_fm": "FM7_CORPUS_GAP",
+      "title": "Expand corpus with NDC3 and national implementation reports",
+      "description": "FM7 (corpus gap) accounts for 18% of failures — questions the system correctly declines to answer because the relevant document is absent. Adding NDC3 submissions (2025 cycle, currently being submitted), national climate action plans, and IPCC AR7 (expected 2027) would cover these gaps.",
+      "expected_impact": "Eliminates FM7 failures; improves context recall on new questions",
+      "implementation": "Run data_collection.py with updated UNFCCC registry URLs",
+      "cost": "One-time re-indexing ~$0.50 for embedding new documents",
+      "citation": "Climate Policy Radar (2024) — UNFCCC corpus maintenance"
+    }
+  ],
+  "per_question": [
+    {
+      "qid": "F001",
+      "category": "factual",
+      "difficulty": "easy",
+      "subcategory": "renewable_energy",
+      "primary_failure": "NONE",
+      "failure_modes": [
+        "NONE"
+      ],
+      "diagnosis": "No failure: ROUGE-1=0.406, hall_rate=0.000, grounding=0.000.",
+      "rouge1_f": 0.4065,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": false,
+      "ipcc_relevant": false,
+      "countries": [
+        "India"
+      ]
+    },
+    {
+      "qid": "F002",
+      "category": "factual",
+      "difficulty": "easy",
+      "subcategory": "emissions_intensity",
+      "primary_failure": "NONE",
+      "failure_modes": [
+        "NONE"
+      ],
+      "diagnosis": "No failure: ROUGE-1=0.397, hall_rate=0.000, grounding=0.000.",
+      "rouge1_f": 0.3967,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": false,
+      "ipcc_relevant": false,
+      "countries": [
+        "India"
+      ]
+    },
+    {
+      "qid": "F003",
+      "category": "factual",
+      "difficulty": "medium",
+      "subcategory": "carbon_sink",
+      "primary_failure": "NONE",
+      "failure_modes": [
+        "NONE"
+      ],
+      "diagnosis": "No failure: ROUGE-1=0.648, hall_rate=0.000, grounding=0.000.",
+      "rouge1_f": 0.6479,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": false,
+      "ipcc_relevant": false,
+      "countries": [
+        "India"
+      ]
+    },
+    {
+      "qid": "F004",
+      "category": "factual",
+      "difficulty": "easy",
+      "subcategory": "carbon_peak",
+      "primary_failure": "NONE",
+      "failure_modes": [
+        "NONE"
+      ],
+      "diagnosis": "No failure: ROUGE-1=0.304, hall_rate=0.000, grounding=0.000.",
+      "rouge1_f": 0.3036,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": false,
+      "ipcc_relevant": false,
+      "countries": [
+        "China"
+      ]
+    },
+    {
+      "qid": "F005",
+      "category": "factual",
+      "difficulty": "easy",
+      "subcategory": "renewable_energy",
+      "primary_failure": "NONE",
+      "failure_modes": [
+        "NONE"
+      ],
+      "diagnosis": "No failure: ROUGE-1=0.449, hall_rate=0.000, grounding=0.000.",
+      "rouge1_f": 0.449,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": false,
+      "ipcc_relevant": false,
+      "countries": [
+        "China"
+      ]
+    },
+    {
+      "qid": "F006",
+      "category": "factual",
+      "difficulty": "medium",
+      "subcategory": "non_fossil_energy",
+      "primary_failure": "NONE",
+      "failure_modes": [
+        "NONE"
+      ],
+      "diagnosis": "No failure: ROUGE-1=0.621, hall_rate=0.000, grounding=0.000.",
+      "rouge1_f": 0.6207,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": false,
+      "ipcc_relevant": false,
+      "countries": [
+        "China"
+      ]
+    },
+    {
+      "qid": "F007",
+      "category": "factual",
+      "difficulty": "easy",
+      "subcategory": "ghg_reduction",
+      "primary_failure": "NONE",
+      "failure_modes": [
+        "NONE"
+      ],
+      "diagnosis": "No failure: ROUGE-1=0.317, hall_rate=0.000, grounding=0.000.",
+      "rouge1_f": 0.3167,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": false,
+      "ipcc_relevant": false,
+      "countries": [
+        "USA"
+      ]
+    },
+    {
+      "qid": "F008",
+      "category": "factual",
+      "difficulty": "easy",
+      "subcategory": "ghg_reduction",
+      "primary_failure": "NONE",
+      "failure_modes": [
+        "NONE"
+      ],
+      "diagnosis": "No failure: ROUGE-1=0.386, hall_rate=0.000, grounding=0.000.",
+      "rouge1_f": 0.386,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": false,
+      "ipcc_relevant": false,
+      "countries": [
+        "UK"
+      ]
+    },
+    {
+      "qid": "F009",
+      "category": "factual",
+      "difficulty": "medium",
+      "subcategory": "net_zero",
+      "primary_failure": "NONE",
+      "failure_modes": [
+        "NONE"
+      ],
+      "diagnosis": "No failure: ROUGE-1=0.325, hall_rate=0.000, grounding=0.000.",
+      "rouge1_f": 0.3247,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": false,
+      "ipcc_relevant": false,
+      "countries": [
+        "UK"
+      ]
+    },
+    {
+      "qid": "F010",
+      "category": "factual",
+      "difficulty": "easy",
+      "subcategory": "ghg_reduction",
+      "primary_failure": "NONE",
+      "failure_modes": [
+        "NONE"
+      ],
+      "diagnosis": "No failure: ROUGE-1=0.287, hall_rate=0.000, grounding=0.000.",
+      "rouge1_f": 0.2874,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": false,
+      "ipcc_relevant": false,
+      "countries": [
+        "EU"
+      ]
+    },
+    {
+      "qid": "F011",
+      "category": "factual",
+      "difficulty": "easy",
+      "subcategory": "ghg_reduction",
+      "primary_failure": "NONE",
+      "failure_modes": [
+        "NONE"
+      ],
+      "diagnosis": "No failure: ROUGE-1=0.286, hall_rate=0.000, grounding=0.000.",
+      "rouge1_f": 0.2857,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": false,
+      "ipcc_relevant": false,
+      "countries": [
+        "Japan"
+      ]
+    },
+    {
+      "qid": "F012",
+      "category": "factual",
+      "difficulty": "easy",
+      "subcategory": "ghg_reduction",
+      "primary_failure": "NONE",
+      "failure_modes": [
+        "NONE"
+      ],
+      "diagnosis": "No failure: ROUGE-1=0.379, hall_rate=0.000, grounding=0.000.",
+      "rouge1_f": 0.3789,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": false,
+      "ipcc_relevant": false,
+      "countries": [
+        "Australia"
+      ]
+    },
+    {
+      "qid": "F013",
+      "category": "factual",
+      "difficulty": "medium",
+      "subcategory": "ghg_reduction",
+      "primary_failure": "FM6_METRIC_MISMATCH",
+      "failure_modes": [
+        "FM6_METRIC_MISMATCH"
+      ],
+      "diagnosis": "Inferred FM6: ROUGE-1=0.243 moderate, hall_rate=0.000 low — likely paraphrasing mismatch.",
+      "rouge1_f": 0.2435,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": false,
+      "ipcc_relevant": false,
+      "countries": [
+        "Brazil"
+      ]
+    },
+    {
+      "qid": "F014",
+      "category": "factual",
+      "difficulty": "medium",
+      "subcategory": "conditional_targets",
+      "primary_failure": "NONE",
+      "failure_modes": [
+        "NONE"
+      ],
+      "diagnosis": "No failure: ROUGE-1=0.306, hall_rate=0.000, grounding=0.000.",
+      "rouge1_f": 0.3057,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": false,
+      "ipcc_relevant": false,
+      "countries": [
+        "Indonesia"
+      ]
+    },
+    {
+      "qid": "F015",
+      "category": "factual",
+      "difficulty": "hard",
+      "subcategory": "adaptation",
+      "primary_failure": "FM5_LLM_VAGUENESS",
+      "failure_modes": [
+        "FM5_LLM_VAGUENESS"
+      ],
+      "diagnosis": "Inferred FM5: ROUGE-1=0.151, hall_rate=0.000 low — answer grounded but too general.",
+      "rouge1_f": 0.1512,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": false,
+      "ipcc_relevant": false,
+      "countries": [
+        "Indonesia"
+      ]
+    },
+    {
+      "qid": "F016",
+      "category": "factual",
+      "difficulty": "easy",
+      "subcategory": "ghg_reduction",
+      "primary_failure": "FM7_CORPUS_GAP",
+      "failure_modes": [
+        "FM7_CORPUS_GAP"
+      ],
+      "diagnosis": "System correctly flagged insufficient context. Topic 'ghg_reduction' not in corpus for South Korea.",
+      "rouge1_f": 0.2667,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": false,
+      "ipcc_relevant": false,
+      "countries": [
+        "South Korea"
+      ]
+    },
+    {
+      "qid": "F017",
+      "category": "factual",
+      "difficulty": "easy",
+      "subcategory": "ghg_reduction",
+      "primary_failure": "NONE",
+      "failure_modes": [
+        "NONE"
+      ],
+      "diagnosis": "No failure: ROUGE-1=0.317, hall_rate=0.000, grounding=0.000.",
+      "rouge1_f": 0.3167,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": false,
+      "ipcc_relevant": false,
+      "countries": [
+        "Canada"
+      ]
+    },
+    {
+      "qid": "F018",
+      "category": "factual",
+      "difficulty": "medium",
+      "subcategory": "conditional_targets",
+      "primary_failure": "FM7_CORPUS_GAP",
+      "failure_modes": [
+        "FM7_CORPUS_GAP"
+      ],
+      "diagnosis": "System correctly flagged insufficient context. Topic 'conditional_targets' not in corpus for Mexico.",
+      "rouge1_f": 0.25,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": false,
+      "ipcc_relevant": false,
+      "countries": [
+        "Mexico"
+      ]
+    },
+    {
+      "qid": "F019",
+      "category": "factual",
+      "difficulty": "hard",
+      "subcategory": "ghg_reduction",
+      "primary_failure": "FM6_METRIC_MISMATCH",
+      "failure_modes": [
+        "FM6_METRIC_MISMATCH"
+      ],
+      "diagnosis": "Inferred FM6: ROUGE-1=0.214 moderate, hall_rate=0.000 low — likely paraphrasing mismatch.",
+      "rouge1_f": 0.2136,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": false,
+      "ipcc_relevant": false,
+      "countries": [
+        "South Africa"
+      ]
+    },
+    {
+      "qid": "F020",
+      "category": "factual",
+      "difficulty": "medium",
+      "subcategory": "ghg_reduction",
+      "primary_failure": "NONE",
+      "failure_modes": [
+        "NONE"
+      ],
+      "diagnosis": "No failure: ROUGE-1=0.327, hall_rate=0.000, grounding=0.000.",
+      "rouge1_f": 0.3269,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": false,
+      "ipcc_relevant": false,
+      "countries": [
+        "Saudi Arabia"
+      ]
+    },
+    {
+      "qid": "F021",
+      "category": "factual",
+      "difficulty": "medium",
+      "subcategory": "ghg_reduction",
+      "primary_failure": "NONE",
+      "failure_modes": [
+        "NONE"
+      ],
+      "diagnosis": "No failure: ROUGE-1=0.329, hall_rate=0.000, grounding=0.000.",
+      "rouge1_f": 0.3294,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": false,
+      "ipcc_relevant": false,
+      "countries": [
+        "Argentina"
+      ]
+    },
+    {
+      "qid": "F022",
+      "category": "factual",
+      "difficulty": "easy",
+      "subcategory": "ghg_reduction",
+      "primary_failure": "NONE",
+      "failure_modes": [
+        "NONE"
+      ],
+      "diagnosis": "No failure: ROUGE-1=0.288, hall_rate=0.000, grounding=0.000.",
+      "rouge1_f": 0.2881,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": false,
+      "ipcc_relevant": false,
+      "countries": [
+        "Turkey"
+      ]
+    },
+    {
+      "qid": "F023",
+      "category": "factual",
+      "difficulty": "medium",
+      "subcategory": "ghg_reduction",
+      "primary_failure": "NONE",
+      "failure_modes": [
+        "NONE"
+      ],
+      "diagnosis": "No failure: ROUGE-1=0.351, hall_rate=0.000, grounding=0.000.",
+      "rouge1_f": 0.3506,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": false,
+      "ipcc_relevant": false,
+      "countries": [
+        "Russia"
+      ]
+    },
+    {
+      "qid": "F024",
+      "category": "factual",
+      "difficulty": "medium",
+      "subcategory": "ipcc_benchmark",
+      "primary_failure": "NONE",
+      "failure_modes": [
+        "NONE"
+      ],
+      "diagnosis": "No failure: ROUGE-1=0.260, hall_rate=0.000, grounding=0.000.",
+      "rouge1_f": 0.2599,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": false,
+      "ipcc_relevant": true,
+      "countries": []
+    },
+    {
+      "qid": "F025",
+      "category": "factual",
+      "difficulty": "medium",
+      "subcategory": "ipcc_benchmark",
+      "primary_failure": "NONE",
+      "failure_modes": [
+        "NONE"
+      ],
+      "diagnosis": "No failure: ROUGE-1=0.278, hall_rate=0.000, grounding=0.000.",
+      "rouge1_f": 0.2778,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": false,
+      "ipcc_relevant": true,
+      "countries": []
+    },
+    {
+      "qid": "F026",
+      "category": "factual",
+      "difficulty": "hard",
+      "subcategory": "ipcc_benchmark",
+      "primary_failure": "NONE",
+      "failure_modes": [
+        "NONE"
+      ],
+      "diagnosis": "No failure: ROUGE-1=0.275, hall_rate=0.000, grounding=0.000.",
+      "rouge1_f": 0.2754,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": false,
+      "ipcc_relevant": true,
+      "countries": []
+    },
+    {
+      "qid": "F027",
+      "category": "factual",
+      "difficulty": "hard",
+      "subcategory": "ipcc_benchmark",
+      "primary_failure": "FM6_METRIC_MISMATCH",
+      "failure_modes": [
+        "FM6_METRIC_MISMATCH"
+      ],
+      "diagnosis": "Inferred FM6: ROUGE-1=0.222 moderate, hall_rate=0.000 low — likely paraphrasing mismatch.",
+      "rouge1_f": 0.2222,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": false,
+      "ipcc_relevant": true,
+      "countries": []
+    },
+    {
+      "qid": "F028",
+      "category": "factual",
+      "difficulty": "hard",
+      "subcategory": "ndc_cycle_comparison",
+      "primary_failure": "NONE",
+      "failure_modes": [
+        "NONE"
+      ],
+      "diagnosis": "No failure: ROUGE-1=0.292, hall_rate=0.000, grounding=0.000.",
+      "rouge1_f": 0.2925,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": false,
+      "ipcc_relevant": false,
+      "countries": [
+        "India"
+      ]
+    },
+    {
+      "qid": "F029",
+      "category": "factual",
+      "difficulty": "hard",
+      "subcategory": "loss_and_damage",
+      "primary_failure": "FM7_CORPUS_GAP",
+      "failure_modes": [
+        "FM7_CORPUS_GAP"
+      ],
+      "diagnosis": "System correctly flagged insufficient context. Topic 'loss_and_damage' not in corpus for Indonesia.",
+      "rouge1_f": 0.321,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": false,
+      "ipcc_relevant": false,
+      "countries": [
+        "Indonesia"
+      ]
+    },
+    {
+      "qid": "F030",
+      "category": "factual",
+      "difficulty": "hard",
+      "subcategory": "finance",
+      "primary_failure": "NONE",
+      "failure_modes": [
+        "NONE"
+      ],
+      "diagnosis": "No failure: ROUGE-1=0.412, hall_rate=0.000, grounding=0.000.",
+      "rouge1_f": 0.4118,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": false,
+      "ipcc_relevant": false,
+      "countries": [
+        "India"
+      ]
+    },
+    {
+      "qid": "C001",
+      "category": "comparative",
+      "difficulty": "hard",
+      "subcategory": "ghg_ambition",
+      "primary_failure": "FM7_CORPUS_GAP",
+      "failure_modes": [
+        "FM7_CORPUS_GAP"
+      ],
+      "diagnosis": "System correctly flagged insufficient context. Topic 'ghg_ambition' not in corpus for USA, EU.",
+      "rouge1_f": 0.2095,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": true,
+      "ipcc_relevant": false,
+      "countries": [
+        "USA",
+        "EU"
+      ]
+    },
+    {
+      "qid": "C002",
+      "category": "comparative",
+      "difficulty": "hard",
+      "subcategory": "net_zero",
+      "primary_failure": "FM6_METRIC_MISMATCH",
+      "failure_modes": [
+        "FM6_METRIC_MISMATCH"
+      ],
+      "diagnosis": "Inferred FM6: ROUGE-1=0.239 moderate, hall_rate=0.000 low — likely paraphrasing mismatch.",
+      "rouge1_f": 0.2387,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": true,
+      "ipcc_relevant": false,
+      "countries": [
+        "UK",
+        "EU",
+        "Canada",
+        "Japan"
+      ]
+    },
+    {
+      "qid": "C003",
+      "category": "comparative",
+      "difficulty": "hard",
+      "subcategory": "renewable_energy",
+      "primary_failure": "NONE",
+      "failure_modes": [
+        "NONE"
+      ],
+      "diagnosis": "No failure: ROUGE-1=0.357, hall_rate=0.000, grounding=0.000.",
+      "rouge1_f": 0.357,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": true,
+      "ipcc_relevant": false,
+      "countries": [
+        "India",
+        "China"
+      ]
+    },
+    {
+      "qid": "C004",
+      "category": "comparative",
+      "difficulty": "hard",
+      "subcategory": "baseline_year",
+      "primary_failure": "FM7_CORPUS_GAP",
+      "failure_modes": [
+        "FM7_CORPUS_GAP"
+      ],
+      "diagnosis": "System correctly flagged insufficient context. Topic 'baseline_year' not in corpus for Japan, USA.",
+      "rouge1_f": 0.1667,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": true,
+      "ipcc_relevant": false,
+      "countries": [
+        "Japan",
+        "USA"
+      ]
+    },
+    {
+      "qid": "C005",
+      "category": "comparative",
+      "difficulty": "hard",
+      "subcategory": "conditionality",
+      "primary_failure": "FM5_LLM_VAGUENESS",
+      "failure_modes": [
+        "FM5_LLM_VAGUENESS"
+      ],
+      "diagnosis": "Inferred FM5: ROUGE-1=0.185, hall_rate=0.000 low — answer grounded but too general.",
+      "rouge1_f": 0.1849,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": true,
+      "ipcc_relevant": false,
+      "countries": [
+        "Indonesia",
+        "Mexico",
+        "India"
+      ]
+    },
+    {
+      "qid": "C006",
+      "category": "comparative",
+      "difficulty": "hard",
+      "subcategory": "ghg_ambition",
+      "primary_failure": "FM6_METRIC_MISMATCH",
+      "failure_modes": [
+        "FM6_METRIC_MISMATCH"
+      ],
+      "diagnosis": "Inferred FM6: ROUGE-1=0.210 moderate, hall_rate=0.000 low — likely paraphrasing mismatch.",
+      "rouge1_f": 0.2105,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": true,
+      "ipcc_relevant": false,
+      "countries": [
+        "Australia",
+        "UK"
+      ]
+    },
+    {
+      "qid": "C007",
+      "category": "comparative",
+      "difficulty": "hard",
+      "subcategory": "adaptation",
+      "primary_failure": "FM5_LLM_VAGUENESS",
+      "failure_modes": [
+        "FM5_LLM_VAGUENESS"
+      ],
+      "diagnosis": "Inferred FM5: ROUGE-1=0.187, hall_rate=0.000 low — answer grounded but too general.",
+      "rouge1_f": 0.1869,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": true,
+      "ipcc_relevant": false,
+      "countries": [
+        "Brazil",
+        "Indonesia"
+      ]
+    },
+    {
+      "qid": "C008",
+      "category": "comparative",
+      "difficulty": "hard",
+      "subcategory": "carbon_pricing",
+      "primary_failure": "FM7_CORPUS_GAP",
+      "failure_modes": [
+        "FM7_CORPUS_GAP"
+      ],
+      "diagnosis": "System correctly flagged insufficient context. Topic 'carbon_pricing' not in corpus for South Korea, EU, Canada, Japan, China.",
+      "rouge1_f": 0.1616,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": true,
+      "ipcc_relevant": false,
+      "countries": [
+        "South Korea",
+        "EU",
+        "Canada",
+        "Japan",
+        "China"
+      ]
+    },
+    {
+      "qid": "C009",
+      "category": "comparative",
+      "difficulty": "hard",
+      "subcategory": "ndc_evolution",
+      "primary_failure": "NONE",
+      "failure_modes": [
+        "NONE"
+      ],
+      "diagnosis": "No failure: ROUGE-1=0.437, hall_rate=0.000, grounding=0.000.",
+      "rouge1_f": 0.4369,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": false,
+      "ipcc_relevant": false,
+      "countries": [
+        "China"
+      ]
+    },
+    {
+      "qid": "C010",
+      "category": "comparative",
+      "difficulty": "hard",
+      "subcategory": "ghg_per_capita",
+      "primary_failure": "NONE",
+      "failure_modes": [
+        "NONE"
+      ],
+      "diagnosis": "No failure: ROUGE-1=0.361, hall_rate=0.000, grounding=0.000.",
+      "rouge1_f": 0.3607,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": false,
+      "ipcc_relevant": true,
+      "countries": [
+        "UK"
+      ]
+    },
+    {
+      "qid": "C011",
+      "category": "comparative",
+      "difficulty": "hard",
+      "subcategory": "scope_coverage",
+      "primary_failure": "FM5_LLM_VAGUENESS",
+      "failure_modes": [
+        "FM5_LLM_VAGUENESS"
+      ],
+      "diagnosis": "Inferred FM5: ROUGE-1=0.193, hall_rate=0.000 low — answer grounded but too general.",
+      "rouge1_f": 0.1927,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": true,
+      "ipcc_relevant": false,
+      "countries": [
+        "Saudi Arabia",
+        "South Africa"
+      ]
+    },
+    {
+      "qid": "C012",
+      "category": "comparative",
+      "difficulty": "hard",
+      "subcategory": "historical_responsibility",
+      "primary_failure": "FM7_CORPUS_GAP",
+      "failure_modes": [
+        "FM7_CORPUS_GAP"
+      ],
+      "diagnosis": "System correctly flagged insufficient context. Topic 'historical_responsibility' not in corpus for India, China.",
+      "rouge1_f": 0.2698,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": true,
+      "ipcc_relevant": false,
+      "countries": [
+        "India",
+        "China"
+      ]
+    },
+    {
+      "qid": "C013",
+      "category": "comparative",
+      "difficulty": "hard",
+      "subcategory": "transport",
+      "primary_failure": "NONE",
+      "failure_modes": [
+        "NONE"
+      ],
+      "diagnosis": "No failure: ROUGE-1=0.272, hall_rate=0.000, grounding=0.000.",
+      "rouge1_f": 0.2716,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": true,
+      "ipcc_relevant": false,
+      "countries": [
+        "South Korea",
+        "UK",
+        "EU",
+        "China"
+      ]
+    },
+    {
+      "qid": "C014",
+      "category": "comparative",
+      "difficulty": "hard",
+      "subcategory": "ndc_structure",
+      "primary_failure": "FM5_LLM_VAGUENESS",
+      "failure_modes": [
+        "FM5_LLM_VAGUENESS"
+      ],
+      "diagnosis": "Inferred FM5: ROUGE-1=0.163, hall_rate=0.000 low — answer grounded but too general.",
+      "rouge1_f": 0.1633,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": true,
+      "ipcc_relevant": false,
+      "countries": [
+        "Indonesia",
+        "Turkey"
+      ]
+    },
+    {
+      "qid": "C015",
+      "category": "comparative",
+      "difficulty": "hard",
+      "subcategory": "just_transition",
+      "primary_failure": "FM6_METRIC_MISMATCH",
+      "failure_modes": [
+        "FM6_METRIC_MISMATCH"
+      ],
+      "diagnosis": "Inferred FM6: ROUGE-1=0.234 moderate, hall_rate=0.000 low — likely paraphrasing mismatch.",
+      "rouge1_f": 0.2339,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": true,
+      "ipcc_relevant": false,
+      "countries": [
+        "South Africa",
+        "UK",
+        "Canada"
+      ]
+    },
+    {
+      "qid": "C016",
+      "category": "comparative",
+      "difficulty": "hard",
+      "subcategory": "ghg_ambition",
+      "primary_failure": "FM7_CORPUS_GAP",
+      "failure_modes": [
+        "FM7_CORPUS_GAP"
+      ],
+      "diagnosis": "System correctly flagged insufficient context. Topic 'ghg_ambition' not in corpus for India, Australia.",
+      "rouge1_f": 0.3067,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": true,
+      "ipcc_relevant": true,
+      "countries": [
+        "India",
+        "Australia"
+      ]
+    },
+    {
+      "qid": "C017",
+      "category": "comparative",
+      "difficulty": "hard",
+      "subcategory": "methane",
+      "primary_failure": "NONE",
+      "failure_modes": [
+        "NONE"
+      ],
+      "diagnosis": "No failure: ROUGE-1=0.304, hall_rate=0.000, grounding=0.000.",
+      "rouge1_f": 0.3039,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": true,
+      "ipcc_relevant": true,
+      "countries": [
+        "USA",
+        "EU"
+      ]
+    },
+    {
+      "qid": "C018",
+      "category": "comparative",
+      "difficulty": "hard",
+      "subcategory": "lulucf",
+      "primary_failure": "FM5_LLM_VAGUENESS",
+      "failure_modes": [
+        "FM5_LLM_VAGUENESS"
+      ],
+      "diagnosis": "Inferred FM5: ROUGE-1=0.151, hall_rate=0.000 low — answer grounded but too general.",
+      "rouge1_f": 0.1512,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": true,
+      "ipcc_relevant": false,
+      "countries": [
+        "Russia",
+        "Brazil"
+      ]
+    },
+    {
+      "qid": "C019",
+      "category": "comparative",
+      "difficulty": "hard",
+      "subcategory": "ghg_ambition",
+      "primary_failure": "FM1_RETRIEVAL_MISS",
+      "failure_modes": [
+        "FM1_RETRIEVAL_MISS"
+      ],
+      "diagnosis": "Retrieval miss: correct document not found in top-k. ROUGE-1=0.192. Query vocabulary may not match NDC phrasing for 'ghg_ambition'.",
+      "rouge1_f": 0.1917,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": true,
+      "ipcc_relevant": true,
+      "countries": [
+        "India",
+        "China",
+        "USA",
+        "EU",
+        "UK",
+        "Japan"
+      ]
+    },
+    {
+      "qid": "C020",
+      "category": "comparative",
+      "difficulty": "hard",
+      "subcategory": "adaptation_finance",
+      "primary_failure": "FM6_METRIC_MISMATCH",
+      "failure_modes": [
+        "FM6_METRIC_MISMATCH"
+      ],
+      "diagnosis": "Inferred FM6: ROUGE-1=0.235 moderate, hall_rate=0.000 low — likely paraphrasing mismatch.",
+      "rouge1_f": 0.2347,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": true,
+      "ipcc_relevant": false,
+      "countries": [
+        "India",
+        "South Africa",
+        "Indonesia",
+        "Brazil"
+      ]
+    },
+    {
+      "qid": "C021",
+      "category": "comparative",
+      "difficulty": "medium",
+      "subcategory": "sector_coverage",
+      "primary_failure": "FM7_CORPUS_GAP",
+      "failure_modes": [
+        "FM7_CORPUS_GAP"
+      ],
+      "diagnosis": "System correctly flagged insufficient context. Topic 'sector_coverage' not in corpus for Canada, Mexico.",
+      "rouge1_f": 0.3529,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": true,
+      "ipcc_relevant": false,
+      "countries": [
+        "Canada",
+        "Mexico"
+      ]
+    },
+    {
+      "qid": "C022",
+      "category": "comparative",
+      "difficulty": "hard",
+      "subcategory": "technology",
+      "primary_failure": "FM7_CORPUS_GAP",
+      "failure_modes": [
+        "FM7_CORPUS_GAP"
+      ],
+      "diagnosis": "System correctly flagged insufficient context. Topic 'technology' not in corpus for South Korea, China.",
+      "rouge1_f": 0.2524,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": true,
+      "ipcc_relevant": false,
+      "countries": [
+        "South Korea",
+        "China"
+      ]
+    },
+    {
+      "qid": "C023",
+      "category": "comparative",
+      "difficulty": "hard",
+      "subcategory": "baseline",
+      "primary_failure": "FM7_CORPUS_GAP",
+      "failure_modes": [
+        "FM7_CORPUS_GAP"
+      ],
+      "diagnosis": "System correctly flagged insufficient context. Topic 'baseline' not in corpus for Russia, Turkey.",
+      "rouge1_f": 0.2113,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": true,
+      "ipcc_relevant": false,
+      "countries": [
+        "Russia",
+        "Turkey"
+      ]
+    },
+    {
+      "qid": "C024",
+      "category": "comparative",
+      "difficulty": "hard",
+      "subcategory": "reporting",
+      "primary_failure": "FM6_METRIC_MISMATCH",
+      "failure_modes": [
+        "FM6_METRIC_MISMATCH"
+      ],
+      "diagnosis": "Inferred FM6: ROUGE-1=0.227 moderate, hall_rate=0.000 low — likely paraphrasing mismatch.",
+      "rouge1_f": 0.2274,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": true,
+      "ipcc_relevant": false,
+      "countries": [
+        "Japan",
+        "South Korea"
+      ]
+    },
+    {
+      "qid": "C025",
+      "category": "comparative",
+      "difficulty": "hard",
+      "subcategory": "gender_equity",
+      "primary_failure": "FM7_CORPUS_GAP",
+      "failure_modes": [
+        "FM7_CORPUS_GAP"
+      ],
+      "diagnosis": "System correctly flagged insufficient context. Topic 'gender_equity' not in corpus for Argentina, South Africa, Indonesia.",
+      "rouge1_f": 0.3676,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": true,
+      "ipcc_relevant": false,
+      "countries": [
+        "Argentina",
+        "South Africa",
+        "Indonesia"
+      ]
+    },
+    {
+      "qid": "G001",
+      "category": "gap_detection",
+      "difficulty": "hard",
+      "subcategory": "renewable_energy",
+      "primary_failure": "NONE",
+      "failure_modes": [
+        "NONE"
+      ],
+      "diagnosis": "No failure: ROUGE-1=0.284, hall_rate=0.000, grounding=0.000.",
+      "rouge1_f": 0.2837,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": false,
+      "ipcc_relevant": true,
+      "countries": [
+        "China"
+      ]
+    },
+    {
+      "qid": "G002",
+      "category": "gap_detection",
+      "difficulty": "hard",
+      "subcategory": "net_zero",
+      "primary_failure": "FM6_METRIC_MISMATCH",
+      "failure_modes": [
+        "FM6_METRIC_MISMATCH"
+      ],
+      "diagnosis": "Inferred FM6: ROUGE-1=0.213 moderate, hall_rate=0.000 low — likely paraphrasing mismatch.",
+      "rouge1_f": 0.2134,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": false,
+      "ipcc_relevant": true,
+      "countries": [
+        "India"
+      ]
+    },
+    {
+      "qid": "G003",
+      "category": "gap_detection",
+      "difficulty": "hard",
+      "subcategory": "methane",
+      "primary_failure": "FM6_METRIC_MISMATCH",
+      "failure_modes": [
+        "FM6_METRIC_MISMATCH"
+      ],
+      "diagnosis": "Inferred FM6: ROUGE-1=0.224 moderate, hall_rate=0.000 low — likely paraphrasing mismatch.",
+      "rouge1_f": 0.2244,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": true,
+      "ipcc_relevant": true,
+      "countries": [
+        "USA",
+        "EU",
+        "China",
+        "India",
+        "Russia"
+      ]
+    },
+    {
+      "qid": "G004",
+      "category": "gap_detection",
+      "difficulty": "hard",
+      "subcategory": "adaptation_finance",
+      "primary_failure": "FM6_METRIC_MISMATCH",
+      "failure_modes": [
+        "FM6_METRIC_MISMATCH"
+      ],
+      "diagnosis": "Inferred FM6: ROUGE-1=0.246 moderate, hall_rate=0.000 low — likely paraphrasing mismatch.",
+      "rouge1_f": 0.2462,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": true,
+      "ipcc_relevant": true,
+      "countries": [
+        "India",
+        "Indonesia",
+        "South Africa"
+      ]
+    },
+    {
+      "qid": "G005",
+      "category": "gap_detection",
+      "difficulty": "hard",
+      "subcategory": "coal_phase_out",
+      "primary_failure": "NONE",
+      "failure_modes": [
+        "NONE"
+      ],
+      "diagnosis": "No failure: ROUGE-1=0.310, hall_rate=0.000, grounding=0.000.",
+      "rouge1_f": 0.3098,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": true,
+      "ipcc_relevant": true,
+      "countries": [
+        "UK",
+        "EU",
+        "Canada",
+        "Australia",
+        "Japan",
+        "China",
+        "India",
+        "Indonesia"
+      ]
+    },
+    {
+      "qid": "G006",
+      "category": "gap_detection",
+      "difficulty": "hard",
+      "subcategory": "vague_targets",
+      "primary_failure": "FM1_RETRIEVAL_MISS",
+      "failure_modes": [
+        "FM1_RETRIEVAL_MISS"
+      ],
+      "diagnosis": "Retrieval miss: correct document not found in top-k. ROUGE-1=0.163. Query vocabulary may not match NDC phrasing for 'vague_targets'.",
+      "rouge1_f": 0.1631,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": true,
+      "ipcc_relevant": true,
+      "countries": [
+        "Russia",
+        "Saudi Arabia",
+        "Argentina"
+      ]
+    },
+    {
+      "qid": "G007",
+      "category": "gap_detection",
+      "difficulty": "hard",
+      "subcategory": "transport",
+      "primary_failure": "NONE",
+      "failure_modes": [
+        "NONE"
+      ],
+      "diagnosis": "No failure: ROUGE-1=0.295, hall_rate=0.000, grounding=0.000.",
+      "rouge1_f": 0.2952,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": true,
+      "ipcc_relevant": true,
+      "countries": [
+        "South Korea",
+        "UK",
+        "India",
+        "China"
+      ]
+    },
+    {
+      "qid": "G008",
+      "category": "gap_detection",
+      "difficulty": "hard",
+      "subcategory": "missing_commitment",
+      "primary_failure": "FM7_CORPUS_GAP",
+      "failure_modes": [
+        "FM7_CORPUS_GAP"
+      ],
+      "diagnosis": "System correctly flagged insufficient context. Topic 'missing_commitment' not in corpus for Saudi Arabia.",
+      "rouge1_f": 0.1905,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": false,
+      "ipcc_relevant": true,
+      "countries": [
+        "Saudi Arabia"
+      ]
+    },
+    {
+      "qid": "G009",
+      "category": "gap_detection",
+      "difficulty": "medium",
+      "subcategory": "ipcc_contradiction",
+      "primary_failure": "NONE",
+      "failure_modes": [
+        "NONE"
+      ],
+      "diagnosis": "No failure: ROUGE-1=0.331, hall_rate=0.000, grounding=0.000.",
+      "rouge1_f": 0.3312,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": false,
+      "ipcc_relevant": true,
+      "countries": [
+        "China"
+      ]
+    },
+    {
+      "qid": "G010",
+      "category": "gap_detection",
+      "difficulty": "hard",
+      "subcategory": "loss_and_damage",
+      "primary_failure": "NONE",
+      "failure_modes": [
+        "NONE"
+      ],
+      "diagnosis": "No failure: ROUGE-1=0.311, hall_rate=0.000, grounding=0.000.",
+      "rouge1_f": 0.3109,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": true,
+      "ipcc_relevant": true,
+      "countries": [
+        "India",
+        "USA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "qid": "G011",
+      "category": "gap_detection",
+      "difficulty": "hard",
+      "subcategory": "ipcc_benchmark",
+      "primary_failure": "NONE",
+      "failure_modes": [
+        "NONE"
+      ],
+      "diagnosis": "No failure: ROUGE-1=0.343, hall_rate=0.000, grounding=0.000.",
+      "rouge1_f": 0.3434,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": false,
+      "ipcc_relevant": true,
+      "countries": [
+        "Australia"
+      ]
+    },
+    {
+      "qid": "G012",
+      "category": "gap_detection",
+      "difficulty": "hard",
+      "subcategory": "sector_gap",
+      "primary_failure": "NONE",
+      "failure_modes": [
+        "NONE"
+      ],
+      "diagnosis": "No failure: ROUGE-1=0.286, hall_rate=0.000, grounding=0.000.",
+      "rouge1_f": 0.2857,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": false,
+      "ipcc_relevant": true,
+      "countries": [
+        "India"
+      ]
+    },
+    {
+      "qid": "G013",
+      "category": "gap_detection",
+      "difficulty": "hard",
+      "subcategory": "implementation",
+      "primary_failure": "FM5_LLM_VAGUENESS",
+      "failure_modes": [
+        "FM5_LLM_VAGUENESS"
+      ],
+      "diagnosis": "Inferred FM5: ROUGE-1=0.194, hall_rate=0.000 low — answer grounded but too general.",
+      "rouge1_f": 0.1944,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": false,
+      "ipcc_relevant": false,
+      "countries": [
+        "Mexico"
+      ]
+    },
+    {
+      "qid": "G014",
+      "category": "gap_detection",
+      "difficulty": "hard",
+      "subcategory": "missing_sector",
+      "primary_failure": "FM7_CORPUS_GAP",
+      "failure_modes": [
+        "FM7_CORPUS_GAP"
+      ],
+      "diagnosis": "System correctly flagged insufficient context. Topic 'missing_sector' not in corpus for Russia.",
+      "rouge1_f": 0.292,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": false,
+      "ipcc_relevant": true,
+      "countries": [
+        "Russia"
+      ]
+    },
+    {
+      "qid": "G015",
+      "category": "gap_detection",
+      "difficulty": "hard",
+      "subcategory": "ipcc_contradiction",
+      "primary_failure": "NONE",
+      "failure_modes": [
+        "NONE"
+      ],
+      "diagnosis": "No failure: ROUGE-1=0.253, hall_rate=0.000, grounding=0.000.",
+      "rouge1_f": 0.2531,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": false,
+      "ipcc_relevant": true,
+      "countries": [
+        "South Korea"
+      ]
+    },
+    {
+      "qid": "G016",
+      "category": "gap_detection",
+      "difficulty": "hard",
+      "subcategory": "technology",
+      "primary_failure": "FM6_METRIC_MISMATCH",
+      "failure_modes": [
+        "FM6_METRIC_MISMATCH"
+      ],
+      "diagnosis": "Inferred FM6: ROUGE-1=0.242 moderate, hall_rate=0.000 low — likely paraphrasing mismatch.",
+      "rouge1_f": 0.242,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": true,
+      "ipcc_relevant": true,
+      "countries": [
+        "Saudi Arabia",
+        "USA",
+        "Japan"
+      ]
+    },
+    {
+      "qid": "G017",
+      "category": "gap_detection",
+      "difficulty": "hard",
+      "subcategory": "biodiversity",
+      "primary_failure": "FM1_RETRIEVAL_MISS",
+      "failure_modes": [
+        "FM1_RETRIEVAL_MISS"
+      ],
+      "diagnosis": "Retrieval miss: correct document not found in top-k. ROUGE-1=0.189. Query vocabulary may not match NDC phrasing for 'biodiversity'.",
+      "rouge1_f": 0.1891,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": true,
+      "ipcc_relevant": true,
+      "countries": [
+        "Brazil",
+        "Indonesia",
+        "Argentina"
+      ]
+    },
+    {
+      "qid": "G018",
+      "category": "gap_detection",
+      "difficulty": "hard",
+      "subcategory": "conditional_gap",
+      "primary_failure": "FM6_METRIC_MISMATCH",
+      "failure_modes": [
+        "FM6_METRIC_MISMATCH"
+      ],
+      "diagnosis": "Inferred FM6: ROUGE-1=0.212 moderate, hall_rate=0.000 low — likely paraphrasing mismatch.",
+      "rouge1_f": 0.2116,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": true,
+      "ipcc_relevant": false,
+      "countries": [
+        "Indonesia",
+        "Mexico",
+        "India"
+      ]
+    },
+    {
+      "qid": "G019",
+      "category": "gap_detection",
+      "difficulty": "hard",
+      "subcategory": "industry",
+      "primary_failure": "FM1_RETRIEVAL_MISS",
+      "failure_modes": [
+        "FM1_RETRIEVAL_MISS"
+      ],
+      "diagnosis": "Retrieval miss: correct document not found in top-k. ROUGE-1=0.188. Query vocabulary may not match NDC phrasing for 'industry'.",
+      "rouge1_f": 0.1875,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": true,
+      "ipcc_relevant": true,
+      "countries": [
+        "Japan",
+        "South Korea",
+        "EU",
+        "China"
+      ]
+    },
+    {
+      "qid": "G020",
+      "category": "gap_detection",
+      "difficulty": "hard",
+      "subcategory": "equity",
+      "primary_failure": "FM6_METRIC_MISMATCH",
+      "failure_modes": [
+        "FM6_METRIC_MISMATCH"
+      ],
+      "diagnosis": "Inferred FM6: ROUGE-1=0.208 moderate, hall_rate=0.000 low — likely paraphrasing mismatch.",
+      "rouge1_f": 0.2079,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": true,
+      "ipcc_relevant": true,
+      "countries": [
+        "USA",
+        "EU",
+        "UK",
+        "Russia",
+        "Australia"
+      ]
+    },
+    {
+      "qid": "G021",
+      "category": "gap_detection",
+      "difficulty": "hard",
+      "subcategory": "fossil_subsidies",
+      "primary_failure": "NONE",
+      "failure_modes": [
+        "NONE"
+      ],
+      "diagnosis": "No failure: ROUGE-1=0.256, hall_rate=0.000, grounding=0.000.",
+      "rouge1_f": 0.2564,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": true,
+      "ipcc_relevant": true,
+      "countries": [
+        "Canada",
+        "Saudi Arabia",
+        "Russia"
+      ]
+    },
+    {
+      "qid": "G022",
+      "category": "gap_detection",
+      "difficulty": "medium",
+      "subcategory": "net_zero",
+      "primary_failure": "NONE",
+      "failure_modes": [
+        "NONE"
+      ],
+      "diagnosis": "No failure: ROUGE-1=0.253, hall_rate=0.000, grounding=0.000.",
+      "rouge1_f": 0.2534,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": true,
+      "ipcc_relevant": true,
+      "countries": [
+        "UK",
+        "EU",
+        "Canada",
+        "Japan",
+        "South Korea",
+        "Australia",
+        "India",
+        "China",
+        "Russia"
+      ]
+    },
+    {
+      "qid": "G023",
+      "category": "gap_detection",
+      "difficulty": "hard",
+      "subcategory": "food_systems",
+      "primary_failure": "FM6_METRIC_MISMATCH",
+      "failure_modes": [
+        "FM6_METRIC_MISMATCH"
+      ],
+      "diagnosis": "Inferred FM6: ROUGE-1=0.210 moderate, hall_rate=0.000 low — likely paraphrasing mismatch.",
+      "rouge1_f": 0.2105,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": true,
+      "ipcc_relevant": true,
+      "countries": [
+        "Brazil",
+        "India"
+      ]
+    },
+    {
+      "qid": "G024",
+      "category": "gap_detection",
+      "difficulty": "hard",
+      "subcategory": "climate_finance",
+      "primary_failure": "NONE",
+      "failure_modes": [
+        "NONE"
+      ],
+      "diagnosis": "No failure: ROUGE-1=0.278, hall_rate=0.000, grounding=0.000.",
+      "rouge1_f": 0.2778,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": true,
+      "ipcc_relevant": true,
+      "countries": [
+        "USA",
+        "EU",
+        "UK",
+        "Japan",
+        "Canada"
+      ]
+    },
+    {
+      "qid": "G025",
+      "category": "gap_detection",
+      "difficulty": "hard",
+      "subcategory": "overall_ambition",
+      "primary_failure": "NONE",
+      "failure_modes": [
+        "NONE"
+      ],
+      "diagnosis": "No failure: ROUGE-1=0.270, hall_rate=0.000, grounding=0.000.",
+      "rouge1_f": 0.2698,
+      "faithfulness": 0.0,
+      "hallucination_rate": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "is_multi_country": true,
+      "ipcc_relevant": true,
+      "countries": [
+        "India",
+        "China",
+        "USA",
+        "EU",
+        "UK"
+      ]
+    }
+  ]
+}

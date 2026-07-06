@@ -1,0 +1,314 @@
+{
+  "FM6_METRIC_MISMATCH": {
+    "failure_mode": "FM6_METRIC_MISMATCH",
+    "label": "Metric Mismatch",
+    "root_cause": "ROUGE/BERTScore penalise lexical variation; not a system failure",
+    "fix": "Use semantic evaluation (BERTScore, RAGAS) as primary; treat ROUGE as lower bound",
+    "severity": "LOW",
+    "layer": "evaluation",
+    "n_cases": 15,
+    "pct_of_total": 18.8,
+    "avg_rouge1": 0.2254,
+    "exemplar_cases": [
+      {
+        "qid": "G020",
+        "question": "How does the distribution of G20 NDC2 ambition levels relate to historical cumulative emissions and the equity principle in IPCC AR6?",
+        "category": "gap_detection",
+        "difficulty": "hard",
+        "ground_truth": "IPCC AR6 WG3 Chapter 4 states that equity requires countries with higher historical cumulative emissions and greater financial capacity to reduce faster. The USA, EU, UK, and Russia have the highest historical cumulative emissions. Yet Russia's and Australia's targets are rated insufficient by Clima",
+        "system_answer": "The distribution of G20 countries' NDC ambition levels is intricately linked to historical cumulative emissions and the ",
+        "rouge1_f": 0.2079,
+        "faithfulness": 0.0,
+        "hallucination_rate": 0.0,
+        "context_precision": 0.0,
+        "context_recall": 0.0,
+        "diagnosis": "Inferred FM6: ROUGE-1=0.208 moderate, hall_rate=0.000 low — likely paraphrasing mismatch.",
+        "countries": [
+          "USA",
+          "EU",
+          "UK",
+          "Russia",
+          "Australia"
+        ],
+        "is_multi_country": true,
+        "source_doc": "WG3_Chapter04_MitigationDevelopmentPathways_2022",
+        "n_contexts_retrieved": 10
+      },
+      {
+        "qid": "C006",
+        "question": "Compare the 2030 ambition level of Australia's NDC2 against the UK's NDC2 using the same baseline year.",
+        "category": "comparative",
+        "difficulty": "hard",
+        "ground_truth": "Australia targets 43% below 2005 levels by 2030. The UK targets at least 68% below 1990 levels by 2030. When UK's target is rebaselined to 2005, it is approximately 50-53% below 2005 levels, slightly above Australia's 43%. The UK is generally rated more ambitious by Climate Action Tracker. Both coun",
+        "system_answer": "PART 1 — COUNTRY COMMITMENT:\nAustralia's updated Nationally Determined Contribution (NDC) commits to reducing greenhouse",
+        "rouge1_f": 0.2105,
+        "faithfulness": 0.0,
+        "hallucination_rate": 0.0,
+        "context_precision": 0.0,
+        "context_recall": 0.0,
+        "diagnosis": "Inferred FM6: ROUGE-1=0.210 moderate, hall_rate=0.000 low — likely paraphrasing mismatch.",
+        "countries": [
+          "Australia",
+          "UK"
+        ],
+        "is_multi_country": true,
+        "source_doc": "NDC2_2022_Australia",
+        "n_contexts_retrieved": 10
+      },
+      {
+        "qid": "G023",
+        "question": "What is the gap between G20 NDC2 food system commitments and IPCC AR6 recommendations for sustainable food systems?",
+        "category": "gap_detection",
+        "difficulty": "hard",
+        "ground_truth": "IPCC AR6 WG3 identifies food systems as contributing 23-42% of global GHG emissions and requiring systemic transformation including dietary shifts. G20 NDC2 submissions largely treat agriculture as mitigation and adaptation but do not address food system transformation. Brazil references sustainable",
+        "system_answer": "PART 1 — COUNTRY COMMITMENT: The retrieved context does not provide specific details on the G20 countries' NDC commitmen",
+        "rouge1_f": 0.2105,
+        "faithfulness": 0.0,
+        "hallucination_rate": 0.0,
+        "context_precision": 0.0,
+        "context_recall": 0.0,
+        "diagnosis": "Inferred FM6: ROUGE-1=0.210 moderate, hall_rate=0.000 low — likely paraphrasing mismatch.",
+        "countries": [
+          "Brazil",
+          "India"
+        ],
+        "is_multi_country": true,
+        "source_doc": "WG3_Chapter06_EnergySystems_2022",
+        "n_contexts_retrieved": 10
+      }
+    ]
+  },
+  "FM5_LLM_VAGUENESS": {
+    "failure_mode": "FM5_LLM_VAGUENESS",
+    "label": "LLM Vagueness",
+    "root_cause": "Long context dilution; model hedges on specific figures",
+    "fix": "Structured output prompts; force extraction of numeric targets; chain-of-thought",
+    "severity": "MEDIUM",
+    "layer": "generation",
+    "n_cases": 7,
+    "pct_of_total": 8.8,
+    "avg_rouge1": 0.1749,
+    "exemplar_cases": [
+      {
+        "qid": "F015",
+        "question": "What are Indonesia's primary climate adaptation priorities identified in its NDC2?",
+        "category": "factual",
+        "difficulty": "hard",
+        "ground_truth": "Indonesia's NDC2 identifies the following primary adaptation priorities: food security and agriculture, water resources and watershed management, marine and coastal ecosystems, health, and cross-cutting issues including infrastructure resilience and climate resilient development pathways.",
+        "system_answer": "Indonesia's primary climate adaptation priorities, as identified in its updated Nationally Determined Contribution (NDC2",
+        "rouge1_f": 0.1512,
+        "faithfulness": 0.0,
+        "hallucination_rate": 0.0,
+        "context_precision": 0.0,
+        "context_recall": 0.0,
+        "diagnosis": "Inferred FM5: ROUGE-1=0.151, hall_rate=0.000 low — answer grounded but too general.",
+        "countries": [
+          "Indonesia"
+        ],
+        "is_multi_country": false,
+        "source_doc": "NDC2_2022_Indonesia",
+        "n_contexts_retrieved": 10
+      },
+      {
+        "qid": "C018",
+        "question": "Compare how Russia and Brazil account for LULUCF in their NDC2 submissions.",
+        "category": "comparative",
+        "difficulty": "hard",
+        "ground_truth": "Russia's NDC2 explicitly conditions its 30% reduction target on maximum possible accounting of the absorptive capacity of forests, potentially allowing significant LULUCF credits that could weaken effective mitigation. Brazil's NDC2 focuses on halting illegal deforestation by 2030 and restoring fore",
+        "system_answer": "PART 1 — COUNTRY COMMITMENT:\n\nBrazil's NDC outlines its approach to accounting for emissions and removals from the Land ",
+        "rouge1_f": 0.1512,
+        "faithfulness": 0.0,
+        "hallucination_rate": 0.0,
+        "context_precision": 0.0,
+        "context_recall": 0.0,
+        "diagnosis": "Inferred FM5: ROUGE-1=0.151, hall_rate=0.000 low — answer grounded but too general.",
+        "countries": [
+          "Russia",
+          "Brazil"
+        ],
+        "is_multi_country": true,
+        "source_doc": "NDC2_2022_Russia",
+        "n_contexts_retrieved": 10
+      },
+      {
+        "qid": "C014",
+        "question": "Compare the structural quality of Indonesia's NDC2 versus Turkey's NDC2 in terms of specificity, measurability, and time-bound targets.",
+        "category": "comparative",
+        "difficulty": "hard",
+        "ground_truth": "Indonesia's NDC2 is considerably more structured and detailed, providing sector-specific targets (energy, transport, forestry, agriculture, waste), both conditional and unconditional targets with specific percentages (31.89% and 43.20%), and a separate adaptation annex. Turkey's NDC2 provides a sing",
+        "system_answer": "PART 1 — COUNTRY COMMITMENT:\n\nIndonesia's NDC2 outlines a commitment to reduce emissions by 29% unconditionally and up t",
+        "rouge1_f": 0.1633,
+        "faithfulness": 0.0,
+        "hallucination_rate": 0.0,
+        "context_precision": 0.0,
+        "context_recall": 0.0,
+        "diagnosis": "Inferred FM5: ROUGE-1=0.163, hall_rate=0.000 low — answer grounded but too general.",
+        "countries": [
+          "Indonesia",
+          "Turkey"
+        ],
+        "is_multi_country": true,
+        "source_doc": "NDC2_2022_Indonesia",
+        "n_contexts_retrieved": 10
+      }
+    ]
+  },
+  "FM7_CORPUS_GAP": {
+    "failure_mode": "FM7_CORPUS_GAP",
+    "label": "Corpus Gap",
+    "root_cause": "Genuine gap in NDC coverage; question asks about NDC3 or non-English docs",
+    "fix": "Expand corpus; add NDC3 submissions; multilingual documents",
+    "severity": "LOW",
+    "layer": "corpus",
+    "n_cases": 14,
+    "pct_of_total": 17.5,
+    "avg_rouge1": 0.2585,
+    "exemplar_cases": [
+      {
+        "qid": "C008",
+        "question": "Which G20 countries in the corpus explicitly mention carbon pricing mechanisms in their NDC2 submissions?",
+        "category": "comparative",
+        "difficulty": "hard",
+        "ground_truth": "South Korea explicitly mentions its Emissions Trading Scheme (K-ETS) as a central mechanism for achieving its 40% reduction target. The EU references the EU ETS as a core policy instrument. Canada references its carbon pricing system. Japan mentions its Green Innovation Fund and transition finance m",
+        "system_answer": "INSUFFICIENT_CONTEXT\n\nThe retrieved context does not provide specific information about which G20 countries explicitly m",
+        "rouge1_f": 0.1616,
+        "faithfulness": 0.0,
+        "hallucination_rate": 0.0,
+        "context_precision": 0.0,
+        "context_recall": 0.0,
+        "diagnosis": "System correctly flagged insufficient context. Topic 'carbon_pricing' not in corpus for South Korea, EU, Canada, Japan, China.",
+        "countries": [
+          "South Korea",
+          "EU",
+          "Canada",
+          "Japan",
+          "China"
+        ],
+        "is_multi_country": true,
+        "source_doc": "NDC2_2021_South_Korea",
+        "n_contexts_retrieved": 10
+      },
+      {
+        "qid": "C004",
+        "question": "Why is it difficult to directly compare Japan's 2030 target with the USA's 2030 target, and how should researchers adjust for this?",
+        "category": "comparative",
+        "difficulty": "hard",
+        "ground_truth": "Japan uses fiscal year 2013 as its baseline, while the USA uses calendar year 2005. These are different years with different emission levels, making a direct percentage comparison misleading. Japan's 46% below 2013 translates to approximately a 50% reduction below 2005 levels when adjusted using emi",
+        "system_answer": "INSUFFICIENT_CONTEXT\n\nThe retrieved context does not provide information on the USA's 2030 target or any specific challe",
+        "rouge1_f": 0.1667,
+        "faithfulness": 0.0,
+        "hallucination_rate": 0.0,
+        "context_precision": 0.0,
+        "context_recall": 0.0,
+        "diagnosis": "System correctly flagged insufficient context. Topic 'baseline_year' not in corpus for Japan, USA.",
+        "countries": [
+          "Japan",
+          "USA"
+        ],
+        "is_multi_country": true,
+        "source_doc": "NDC2_2021_Japan",
+        "n_contexts_retrieved": 10
+      },
+      {
+        "qid": "G008",
+        "question": "Which sectors required by IPCC AR6 for deep decarbonisation are absent or underrepresented in Saudi Arabia's NDC2?",
+        "category": "gap_detection",
+        "difficulty": "hard",
+        "ground_truth": "Saudi Arabia's NDC2 focuses primarily on energy efficiency and renewables within the country's economic diversification agenda, with a 278 MtCO2e reduction target. Missing or underrepresented elements include: (1) No aviation or shipping decarbonisation targets despite being a major oil exporter wit",
+        "system_answer": "INSUFFICIENT_CONTEXT\n\nThe retrieved context does not provide specific information on the sectors required by IPCC AR6 fo",
+        "rouge1_f": 0.1905,
+        "faithfulness": 0.0,
+        "hallucination_rate": 0.0,
+        "context_precision": 0.0,
+        "context_recall": 0.0,
+        "diagnosis": "System correctly flagged insufficient context. Topic 'missing_commitment' not in corpus for Saudi Arabia.",
+        "countries": [
+          "Saudi Arabia"
+        ],
+        "is_multi_country": false,
+        "source_doc": "NDC2_2021_Saudi_Arabia",
+        "n_contexts_retrieved": 10
+      }
+    ]
+  },
+  "FM1_RETRIEVAL_MISS": {
+    "failure_mode": "FM1_RETRIEVAL_MISS",
+    "label": "Retrieval Miss",
+    "root_cause": "Query semantics diverge from document wording; metadata filter too narrow",
+    "fix": "Query expansion, looser filters, increase top-k for hard questions",
+    "severity": "HIGH",
+    "layer": "retrieval",
+    "n_cases": 4,
+    "pct_of_total": 5.0,
+    "avg_rouge1": 0.1829,
+    "exemplar_cases": [
+      {
+        "qid": "G006",
+        "question": "Identify three G20 NDC2 commitments that are vague and lack measurability compared to IPCC quantified recommendations.",
+        "category": "gap_detection",
+        "difficulty": "hard",
+        "ground_truth": "Three examples of vague NDC2 commitments: (1) Russia's target is conditional on 'maximum possible accounting' of forest absorption without defining this clearly. (2) Saudi Arabia's circular carbon economy approach references carbon capture and utilisation without specific technology targets or timel",
+        "system_answer": "PART 1 — COUNTRY COMMITMENT:\nThe retrieved context does not provide specific details on individual G20 countries' NDC co",
+        "rouge1_f": 0.1631,
+        "faithfulness": 0.0,
+        "hallucination_rate": 0.0,
+        "context_precision": 0.0,
+        "context_recall": 0.0,
+        "diagnosis": "Retrieval miss: correct document not found in top-k. ROUGE-1=0.163. Query vocabulary may not match NDC phrasing for 'vague_targets'.",
+        "countries": [
+          "Russia",
+          "Saudi Arabia",
+          "Argentina"
+        ],
+        "is_multi_country": true,
+        "source_doc": "NDC2_2022_Russia",
+        "n_contexts_retrieved": 10
+      },
+      {
+        "qid": "G019",
+        "question": "Assess the gap between G20 NDC2 industrial decarbonisation commitments and IPCC AR6 guidance for heavy industry.",
+        "category": "gap_detection",
+        "difficulty": "hard",
+        "ground_truth": "IPCC AR6 WG3 identifies steel, cement, and chemicals as requiring deep decarbonisation through electrification, hydrogen, and CCS. Few G20 NDC2 submissions provide sector-specific industrial decarbonisation targets. Japan's NDC2 references the Green Innovation Fund for industrial transformation. Sou",
+        "system_answer": "PART 1 — COUNTRY COMMITMENT: The retrieved context does not provide specific details about the industrial decarbonisatio",
+        "rouge1_f": 0.1875,
+        "faithfulness": 0.0,
+        "hallucination_rate": 0.0,
+        "context_precision": 0.0,
+        "context_recall": 0.0,
+        "diagnosis": "Retrieval miss: correct document not found in top-k. ROUGE-1=0.188. Query vocabulary may not match NDC phrasing for 'industry'.",
+        "countries": [
+          "Japan",
+          "South Korea",
+          "EU",
+          "China"
+        ],
+        "is_multi_country": true,
+        "source_doc": "WG3_Chapter06_EnergySystems_2022",
+        "n_contexts_retrieved": 10
+      },
+      {
+        "qid": "G017",
+        "question": "What is the gap in G20 NDC2 submissions regarding nature-based solutions and biodiversity protection compared to IPCC recommendations?",
+        "category": "gap_detection",
+        "difficulty": "hard",
+        "ground_truth": "IPCC AR6 WG3 Chapter 7 identifies nature-based solutions as providing 10-12 GtCO2e/year of mitigation potential by 2030. Most G20 NDC2 submissions mention forests and land use but few provide quantified nature-based solution targets. Brazil is most explicit with its deforestation targets. Indonesia ",
+        "system_answer": "PART 1 — COUNTRY COMMITMENT:\nChina's NDC commits to promoting nature-based solutions as a means to reduce greenhouse gas",
+        "rouge1_f": 0.1891,
+        "faithfulness": 0.0,
+        "hallucination_rate": 0.0,
+        "context_precision": 0.0,
+        "context_recall": 0.0,
+        "diagnosis": "Retrieval miss: correct document not found in top-k. ROUGE-1=0.189. Query vocabulary may not match NDC phrasing for 'biodiversity'.",
+        "countries": [
+          "Brazil",
+          "Indonesia",
+          "Argentina"
+        ],
+        "is_multi_country": true,
+        "source_doc": "WG3_Chapter06_EnergySystems_2022",
+        "n_contexts_retrieved": 10
+      }
+    ]
+  }
+}
