@@ -1,0 +1,101 @@
+{
+  "country": "Argentina",
+  "dimension": "adaptation_finance",
+  "score": 1.0,
+  "severity": "CRITICAL",
+  "label": "CRITICAL",
+  "details": {
+    "country": "Argentina",
+    "dimension": "adaptation_finance",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [],
+    "measurability": {
+      "level": "ABSENT",
+      "score": 0.0,
+      "reason": "No commitments were extracted.",
+      "missing_elements": []
+    },
+    "gap_findings": [
+      {
+        "gap_type": "MISSING_COMMITMENT",
+        "severity": "CRITICAL",
+        "severity_score": 1.0,
+        "description": "Argentina makes no commitment on adaptation finance.",
+        "ndc_evidence": "No commitment found.",
+        "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: adaptation finance gaps persist; developing countries need significantly more than current flows.",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "[SOURCE 1: WG2_Chapter17_DecisionMakingRisk_2022, p.48]",
+        "quantified_gap": {},
+        "confidence": 1.0
+      },
+      {
+        "gap_type": "CONDITIONAL_DEPENDENCY",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.7,
+        "description": "Argentina's NDC is conditional on receiving international finance.",
+        "ndc_evidence": "INSUFFICIENT_EVIDENCE",
+        "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: adaptation finance gaps persist; developing countries need significantly more than current flows.",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "[SOURCE 2: WG2_Chapter17_DecisionMakingRisk_2022, p.48]",
+        "quantified_gap": {},
+        "confidence": 0.7
+      }
+    ],
+    "overall_severity": "CRITICAL",
+    "overall_score": 0.8,
+    "summary": "Argentina's NDC lacks any commitment on adaptation finance, and its conditional dependency on international finance creates delivery risk.",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [],
+        "total_found": 0
+      },
+      "pass_b": {
+        "country": "Argentina",
+        "dimension": "Adaptation Finance Commitments",
+        "measurability_level": "ABSENT",
+        "measurability_score": 0.0,
+        "reason": "No commitments were extracted.",
+        "missing_elements": [],
+        "strongest_commitment": {},
+        "conditional_dependency": false,
+        "conditional_note": {}
+      },
+      "pass_c": {
+        "country": "Argentina",
+        "dimension": "Adaptation Finance Commitments",
+        "overall_severity": "CRITICAL",
+        "overall_severity_score": 0.8,
+        "gap_findings": [
+          {
+            "gap_type": "MISSING_COMMITMENT",
+            "severity": "CRITICAL",
+            "severity_score": 1.0,
+            "description": "Argentina makes no commitment on adaptation finance.",
+            "ndc_evidence": "No commitment found.",
+            "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: adaptation finance gaps persist; developing countries need significantly more than current flows.",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "[SOURCE 1: WG2_Chapter17_DecisionMakingRisk_2022, p.48]",
+            "quantified_gap": {},
+            "confidence": 1.0
+          },
+          {
+            "gap_type": "CONDITIONAL_DEPENDENCY",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.7,
+            "description": "Argentina's NDC is conditional on receiving international finance.",
+            "ndc_evidence": "INSUFFICIENT_EVIDENCE",
+            "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: adaptation finance gaps persist; developing countries need significantly more than current flows.",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "[SOURCE 2: WG2_Chapter17_DecisionMakingRisk_2022, p.48]",
+            "quantified_gap": {},
+            "confidence": 0.7
+          }
+        ],
+        "country_summary": "Argentina's NDC lacks any commitment on adaptation finance, and its conditional dependency on international finance creates delivery risk.",
+        "policy_recommendation": "Argentina should commit to a specific adaptation finance target and ensure its NDC is unconditional to receive international finance."
+      }
+    }
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "country": "China",
+  "dimension": "loss_and_damage",
+  "score": 0.7,
+  "severity": "SIGNIFICANT",
+  "label": "SIGNIFICANT",
+  "details": {
+    "country": "China",
+    "dimension": "loss_and_damage",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [
+      {
+        "text": "China will develop the National Strategy for Climate Change Adaptation 2035 (hereinafter referred to as Adaptation Strategy 2035) based on experiences in post-2015 policy practice.",
+        "target_value": null,
+        "target_year": 2035,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "long_term",
+        "source_doc": "NDC2_2021_China",
+        "source_page": 46,
+        "confidence": 0.8
+      },
+      {
+        "text": "China will further propose and deepen actions on climate change adaptation in terms of improving the climate resilience of natural ecosystems and economic and social systems.",
+        "target_value": null,
+        "target_year": null,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2021_China",
+        "source_page": 46,
+        "confidence": 0.7
+      },
+      {
+        "text": "China will develop the Adaptation Strategy 2035, which strengthens the integration of adaptation actions with the goals of economic and social development and beautiful China, and makes work plan.",
+        "target_value": null,
+        "target_year": 2035,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "long_term",
+        "source_doc": "NDC2_2021_China",
+        "source_page": 46,
+        "confidence": 0.9
+      }
+    ],
+    "measurability": {
+      "level": "VAGUE",
+      "score": 0.25,
+      "reason": "Most commitments lack specific targets, units, or baselines.",
+      "missing_elements": [
+        "target_value",
+        "target_year",
+        "baseline_year"
+      ]
+    },
+    "gap_findings": [
+      {
+        "gap_type": "MISSING_COMMITMENT",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.7,
+        "description": "China's NDC does not explicitly address the need for finance mechanisms to address loss and damage.",
+        "ndc_evidence": "No commitment found",
+        "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: loss and damage is unavoidable even with adaptation; finance mechanisms urgently needed.",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.110]",
+        "quantified_gap": null,
+        "confidence": 0.9
+      },
+      {
+        "gap_type": "VAGUE_TARGET",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.7,
+        "description": "China's NDC commitments on loss and damage are vague and lack quantification.",
+        "ndc_evidence": "China will develop the National Strategy for Climate Change Adaptation 2035 (hereinafter referred to as Adaptation Strategy 2035) based on experiences in post-2015 policy practice.",
+        "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: loss and damage is unavoidable even with adaptation; finance mechanisms urgently needed.",
+        "ndc_citation": "[NDC2_2021_China, p.46]",
+        "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.110]",
+        "quantified_gap": null,
+        "confidence": 0.8
+      },
+      {
+        "gap_type": "IPCC_CONTRADICTION",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.7,
+        "description": "China's NDC commitments on loss and damage are inconsistent with IPCC recommendations, which emphasize the need for finance mechanisms to address loss and damage.",
+        "ndc_evidence": "China will develop the Adaptation Strategy 2035, which strengthens the integration of adaptation actions with the goals of economic and social development and beautiful China, and makes work plan.",
+        "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: loss and damage is unavoidable even with adaptation; finance mechanisms urgently needed.",
+        "ndc_citation": "[NDC2_2021_China, p.46]",
+        "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.110]",
+        "quantified_gap": null,
+        "confidence": 0.9
+      }
+    ],
+    "overall_severity": "SIGNIFICANT",
+    "overall_score": 0.7,
+    "summary": "China's NDC commitments on loss and damage are vague and lack quantification, and are inconsistent with IPCC recommendations, which emphasize the need for finance mechanisms to address loss and damage.",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [
+          {
+            "text": "China will develop the National Strategy for Climate Change Adaptation 2035 (hereinafter referred to as Adaptation Strategy 2035) based on experiences in post-2015 policy practice.",
+            "target_value": null,
+            "target_year": 2035,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "long_term",
+            "source_doc": "NDC2_2021_China",
+            "source_page": 46,
+            "confidence": 0.8
+          },
+          {
+            "text": "China will further propose and deepen actions on climate change adaptation in terms of improving the climate resilience of natural ecosystems and economic and social systems.",
+            "target_value": null,
+            "target_year": null,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2021_China",
+            "source_page": 46,
+            "confidence": 0.7
+          },
+          {
+            "text": "China will develop the Adaptation Strategy 2035, which strengthens the integration of adaptation actions with the goals of economic and social development and beautiful China, and makes work plan.",
+            "target_value": null,
+            "target_year": 2035,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "long_term",
+            "source_doc": "NDC2_2021_China",
+            "source_page": 46,
+            "confidence": 0.9
+          }
+        ],
+        "total_found": 3
+      },
+      "pass_b": {
+        "country": "China",
+        "dimension": "Loss and Damage",
+        "measurability_level": "VAGUE",
+        "measurability_score": 0.25,
+        "reason": "Most commitments lack specific targets, units, or baselines.",
+        "missing_elements": [
+          "target_value",
+          "target_year",
+          "baseline_year"
+        ],
+        "strongest_commitment": null,
+        "conditional_dependency": false,
+        "conditional_note": null
+      },
+      "pass_c": {
+        "country": "China",
+        "dimension": "Loss and Damage",
+        "overall_severity": "SIGNIFICANT",
+        "overall_severity_score": 0.7,
+        "gap_findings": [
+          {
+            "gap_type": "MISSING_COMMITMENT",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.7,
+            "description": "China's NDC does not explicitly address the need for finance mechanisms to address loss and damage.",
+            "ndc_evidence": "No commitment found",
+            "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: loss and damage is unavoidable even with adaptation; finance mechanisms urgently needed.",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.110]",
+            "quantified_gap": null,
+            "confidence": 0.9
+          },
+          {
+            "gap_type": "VAGUE_TARGET",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.7,
+            "description": "China's NDC commitments on loss and damage are vague and lack quantification.",
+            "ndc_evidence": "China will develop the National Strategy for Climate Change Adaptation 2035 (hereinafter referred to as Adaptation Strategy 2035) based on experiences in post-2015 policy practice.",
+            "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: loss and damage is unavoidable even with adaptation; finance mechanisms urgently needed.",
+            "ndc_citation": "[NDC2_2021_China, p.46]",
+            "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.110]",
+            "quantified_gap": null,
+            "confidence": 0.8
+          },
+          {
+            "gap_type": "IPCC_CONTRADICTION",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.7,
+            "description": "China's NDC commitments on loss and damage are inconsistent with IPCC recommendations, which emphasize the need for finance mechanisms to address loss and damage.",
+            "ndc_evidence": "China will develop the Adaptation Strategy 2035, which strengthens the integration of adaptation actions with the goals of economic and social development and beautiful China, and makes work plan.",
+            "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: loss and damage is unavoidable even with adaptation; finance mechanisms urgently needed.",
+            "ndc_citation": "[NDC2_2021_China, p.46]",
+            "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.110]",
+            "quantified_gap": null,
+            "confidence": 0.9
+          }
+        ],
+        "country_summary": "China's NDC commitments on loss and damage are vague and lack quantification, and are inconsistent with IPCC recommendations, which emphasize the need for finance mechanisms to address loss and damage.",
+        "policy_recommendation": "China should strengthen its NDC commitments on loss and damage by explicitly addressing the need for finance mechanisms to address loss and damage and providing clear and quantifiable targets."
+      }
+    }
+  }
+}

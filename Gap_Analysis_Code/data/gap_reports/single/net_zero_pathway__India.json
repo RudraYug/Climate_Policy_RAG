@@ -1,0 +1,111 @@
+{
+  "country": "India",
+  "dimension": "net_zero_pathway",
+  "score": null,
+  "severity": "ALIGNED",
+  "label": "ABSENT",
+  "details": {
+    "country": "India",
+    "dimension": "net_zero_pathway",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [
+      {
+        "text": "To create an additional carbon sink of 2.5 to 3 billion tonnes of CO2 equivalent through additional forest and tree cover by 2030.",
+        "target_value": "2.5-3 billion tonnes CO2e",
+        "target_year": 2030,
+        "baseline_year": {},
+        "conditional": false,
+        "time_horizon": "long_term",
+        "source_doc": "NDC2_2022_India",
+        "source_page": 3,
+        "confidence": 1.0
+      },
+      {
+        "text": "To reduce Emissions Intensity of its GDP by 45 percent by 2030, from 2005 level",
+        "target_value": "45% reduction",
+        "target_year": 2030,
+        "baseline_year": 2005,
+        "conditional": false,
+        "time_horizon": "long_term",
+        "source_doc": "NDC2_2022_India",
+        "source_page": 3,
+        "confidence": 1.0
+      },
+      {
+        "text": "To achieve about 50 percent cumulative electric power installed capacity from non-fossil fuel-based energy resources by 2030, with the help of transfer of technology and low-cost international finance including from Green Climate Fund (GCF)",
+        "target_value": "50% cumulative capacity",
+        "target_year": 2030,
+        "baseline_year": {},
+        "conditional": true,
+        "time_horizon": "long_term",
+        "source_doc": "NDC2_2022_India",
+        "source_page": 3,
+        "confidence": 1.0
+      }
+    ],
+    "measurability": {
+      "level": "QUANTIFIED",
+      "score": 1.0,
+      "reason": "All commitments have specific numbers, units, target years, and baselines.",
+      "missing_elements": []
+    },
+    "gap_findings": [],
+    "overall_severity": "ALIGNED",
+    "overall_score": 0.0,
+    "summary": "",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [
+          {
+            "text": "To create an additional carbon sink of 2.5 to 3 billion tonnes of CO2 equivalent through additional forest and tree cover by 2030.",
+            "target_value": "2.5-3 billion tonnes CO2e",
+            "target_year": 2030,
+            "baseline_year": {},
+            "conditional": false,
+            "time_horizon": "long_term",
+            "source_doc": "NDC2_2022_India",
+            "source_page": 3,
+            "confidence": 1.0
+          },
+          {
+            "text": "To reduce Emissions Intensity of its GDP by 45 percent by 2030, from 2005 level",
+            "target_value": "45% reduction",
+            "target_year": 2030,
+            "baseline_year": 2005,
+            "conditional": false,
+            "time_horizon": "long_term",
+            "source_doc": "NDC2_2022_India",
+            "source_page": 3,
+            "confidence": 1.0
+          },
+          {
+            "text": "To achieve about 50 percent cumulative electric power installed capacity from non-fossil fuel-based energy resources by 2030, with the help of transfer of technology and low-cost international finance including from Green Climate Fund (GCF)",
+            "target_value": "50% cumulative capacity",
+            "target_year": 2030,
+            "baseline_year": {},
+            "conditional": true,
+            "time_horizon": "long_term",
+            "source_doc": "NDC2_2022_India",
+            "source_page": 3,
+            "confidence": 1.0
+          }
+        ],
+        "total_found": 3
+      },
+      "pass_b": {
+        "country": "India",
+        "dimension": "Net Zero / Carbon Neutrality Pathway",
+        "measurability_level": "QUANTIFIED",
+        "measurability_score": 1.0,
+        "reason": "All commitments have specific numbers, units, target years, and baselines.",
+        "missing_elements": [],
+        "strongest_commitment": "To reduce Emissions Intensity of its GDP by 45 percent by 2030, from 2005 level",
+        "conditional_dependency": true,
+        "conditional_note": "Achieving 50% cumulative electric power installed capacity from non-fossil fuel-based energy resources by 2030 depends on the transfer of technology and low-cost international finance including from Green Climate Fund (GCF)"
+      },
+      "pass_c": {}
+    }
+  }
+}

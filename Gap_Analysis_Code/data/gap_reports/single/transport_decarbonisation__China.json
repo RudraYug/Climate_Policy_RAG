@@ -1,0 +1,149 @@
+{
+  "country": "China",
+  "dimension": "transport_decarbonisation",
+  "score": 1.0,
+  "severity": "CRITICAL",
+  "label": "CRITICAL",
+  "details": {
+    "country": "China",
+    "dimension": "transport_decarbonisation",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [],
+    "measurability": {
+      "level": "ABSENT",
+      "score": 0.0,
+      "reason": "No commitments were extracted for Transport Sector Decarbonisation in China.",
+      "missing_elements": []
+    },
+    "gap_findings": [
+      {
+        "gap_type": "MISSING_COMMITMENT",
+        "severity": "CRITICAL",
+        "severity_score": 1.0,
+        "description": "China's NDC does not mention transport sector decarbonisation or EV targets.",
+        "ndc_evidence": "No commitment found",
+        "ipcc_evidence": "IPCC AR6 WG3 Ch10: transport emissions must fall 59\u201384% by 2050 vs 2020 in 1.5\u00b0C scenarios.",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "[SOURCE 1: WG3_TechnicalSummary_2022, p.51]",
+        "quantified_gap": null,
+        "confidence": 1.0
+      },
+      {
+        "gap_type": "VAGUE_TARGET",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.7,
+        "description": "China's NDC does not provide specific EV targets or timelines.",
+        "ndc_evidence": "No commitment found",
+        "ipcc_evidence": "IPCC AR6 WG3 Ch10: EV share 75\u201395% of new sales by 2050.",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "[SOURCE 1: WG3_TechnicalSummary_2022, p.51]",
+        "quantified_gap": null,
+        "confidence": 0.8
+      },
+      {
+        "gap_type": "IPCC_CONTRADICTION",
+        "severity": "CRITICAL",
+        "severity_score": 0.9,
+        "description": "China's NDC does not provide a clear plan to reduce transport emissions, which is inconsistent with IPCC recommendations.",
+        "ndc_evidence": "No commitment found",
+        "ipcc_evidence": "IPCC AR6 WG3 Ch10: transport emissions must fall 59\u201384% by 2050 vs 2020 in 1.5\u00b0C scenarios.",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "[SOURCE 1: WG3_TechnicalSummary_2022, p.51]",
+        "quantified_gap": null,
+        "confidence": 0.9
+      },
+      {
+        "gap_type": "CONDITIONAL_DEPENDENCY",
+        "severity": "MINOR",
+        "severity_score": 0.2,
+        "description": "China's NDC does not provide a clear plan to reduce transport emissions, but mentions the need for international cooperation.",
+        "ndc_evidence": "No commitment found",
+        "ipcc_evidence": "IPCC AR6 WG3 Ch10: transport emissions must fall 59\u201384% by 2050 vs 2020 in 1.5\u00b0C scenarios.",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "[SOURCE 1: WG3_TechnicalSummary_2022, p.51]",
+        "quantified_gap": null,
+        "confidence": 0.6
+      }
+    ],
+    "overall_severity": "CRITICAL",
+    "overall_score": 0.8,
+    "summary": "China's NDC does not provide specific commitments or targets for transport sector decarbonisation, which is inconsistent with IPCC recommendations.",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [],
+        "total_found": 0
+      },
+      "pass_b": {
+        "country": "China",
+        "dimension": "Transport Sector Decarbonisation",
+        "measurability_level": "ABSENT",
+        "measurability_score": 0.0,
+        "reason": "No commitments were extracted for Transport Sector Decarbonisation in China.",
+        "missing_elements": [],
+        "strongest_commitment": null,
+        "conditional_dependency": false,
+        "conditional_note": null
+      },
+      "pass_c": {
+        "country": "China",
+        "dimension": "Transport Sector Decarbonisation",
+        "overall_severity": "CRITICAL",
+        "overall_severity_score": 0.8,
+        "gap_findings": [
+          {
+            "gap_type": "MISSING_COMMITMENT",
+            "severity": "CRITICAL",
+            "severity_score": 1.0,
+            "description": "China's NDC does not mention transport sector decarbonisation or EV targets.",
+            "ndc_evidence": "No commitment found",
+            "ipcc_evidence": "IPCC AR6 WG3 Ch10: transport emissions must fall 59\u201384% by 2050 vs 2020 in 1.5\u00b0C scenarios.",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "[SOURCE 1: WG3_TechnicalSummary_2022, p.51]",
+            "quantified_gap": null,
+            "confidence": 1.0
+          },
+          {
+            "gap_type": "VAGUE_TARGET",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.7,
+            "description": "China's NDC does not provide specific EV targets or timelines.",
+            "ndc_evidence": "No commitment found",
+            "ipcc_evidence": "IPCC AR6 WG3 Ch10: EV share 75\u201395% of new sales by 2050.",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "[SOURCE 1: WG3_TechnicalSummary_2022, p.51]",
+            "quantified_gap": null,
+            "confidence": 0.8
+          },
+          {
+            "gap_type": "IPCC_CONTRADICTION",
+            "severity": "CRITICAL",
+            "severity_score": 0.9,
+            "description": "China's NDC does not provide a clear plan to reduce transport emissions, which is inconsistent with IPCC recommendations.",
+            "ndc_evidence": "No commitment found",
+            "ipcc_evidence": "IPCC AR6 WG3 Ch10: transport emissions must fall 59\u201384% by 2050 vs 2020 in 1.5\u00b0C scenarios.",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "[SOURCE 1: WG3_TechnicalSummary_2022, p.51]",
+            "quantified_gap": null,
+            "confidence": 0.9
+          },
+          {
+            "gap_type": "CONDITIONAL_DEPENDENCY",
+            "severity": "MINOR",
+            "severity_score": 0.2,
+            "description": "China's NDC does not provide a clear plan to reduce transport emissions, but mentions the need for international cooperation.",
+            "ndc_evidence": "No commitment found",
+            "ipcc_evidence": "IPCC AR6 WG3 Ch10: transport emissions must fall 59\u201384% by 2050 vs 2020 in 1.5\u00b0C scenarios.",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "[SOURCE 1: WG3_TechnicalSummary_2022, p.51]",
+            "quantified_gap": null,
+            "confidence": 0.6
+          }
+        ],
+        "country_summary": "China's NDC does not provide specific commitments or targets for transport sector decarbonisation, which is inconsistent with IPCC recommendations.",
+        "policy_recommendation": "China should develop a clear plan to reduce transport emissions, including specific EV targets and timelines, and provide a clear commitment to international cooperation."
+      }
+    }
+  }
+}

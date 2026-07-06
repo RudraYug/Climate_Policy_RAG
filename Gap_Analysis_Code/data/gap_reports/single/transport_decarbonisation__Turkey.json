@@ -1,0 +1,133 @@
+{
+  "country": "Turkey",
+  "dimension": "transport_decarbonisation",
+  "score": null,
+  "severity": "ALIGNED",
+  "label": "ABSENT",
+  "details": {
+    "country": "Turkey",
+    "dimension": "transport_decarbonisation",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [
+      {
+        "text": "Railway Passenger transportation share will increase from 0.96% to 4.15%",
+        "target_value": "4.15%",
+        "target_year": 2030,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "near_term",
+        "source_doc": "NDC2_2023_Turkey",
+        "source_page": 3,
+        "confidence": 0.9
+      },
+      {
+        "text": "Railway freight transportation share will increase from 5.08% to 11.24%",
+        "target_value": "11.24%",
+        "target_year": 2030,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "near_term",
+        "source_doc": "NDC2_2023_Turkey",
+        "source_page": 3,
+        "confidence": 0.9
+      },
+      {
+        "text": "Annual railway passenger transport will increase from 19.5 million to 98 million",
+        "target_value": "98 million",
+        "target_year": 2030,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "near_term",
+        "source_doc": "NDC2_2023_Turkey",
+        "source_page": 3,
+        "confidence": 0.9
+      },
+      {
+        "text": "Annual railway freight transportation will reach 146 million tonnes from 55 million tonnes",
+        "target_value": "146 million tonnes",
+        "target_year": 2030,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "near_term",
+        "source_doc": "NDC2_2023_Turkey",
+        "source_page": 3,
+        "confidence": 0.9
+      }
+    ],
+    "measurability": {
+      "level": "QUANTIFIED",
+      "score": 1.0,
+      "reason": "All commitments have specific numbers, units, target years, and baselines.",
+      "missing_elements": []
+    },
+    "gap_findings": [],
+    "overall_severity": "ALIGNED",
+    "overall_score": 0.0,
+    "summary": "",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [
+          {
+            "text": "Railway Passenger transportation share will increase from 0.96% to 4.15%",
+            "target_value": "4.15%",
+            "target_year": 2030,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "near_term",
+            "source_doc": "NDC2_2023_Turkey",
+            "source_page": 3,
+            "confidence": 0.9
+          },
+          {
+            "text": "Railway freight transportation share will increase from 5.08% to 11.24%",
+            "target_value": "11.24%",
+            "target_year": 2030,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "near_term",
+            "source_doc": "NDC2_2023_Turkey",
+            "source_page": 3,
+            "confidence": 0.9
+          },
+          {
+            "text": "Annual railway passenger transport will increase from 19.5 million to 98 million",
+            "target_value": "98 million",
+            "target_year": 2030,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "near_term",
+            "source_doc": "NDC2_2023_Turkey",
+            "source_page": 3,
+            "confidence": 0.9
+          },
+          {
+            "text": "Annual railway freight transportation will reach 146 million tonnes from 55 million tonnes",
+            "target_value": "146 million tonnes",
+            "target_year": 2030,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "near_term",
+            "source_doc": "NDC2_2023_Turkey",
+            "source_page": 3,
+            "confidence": 0.9
+          }
+        ],
+        "total_found": 4
+      },
+      "pass_b": {
+        "country": "Turkey",
+        "dimension": "Transport Sector Decarbonisation",
+        "measurability_level": "QUANTIFIED",
+        "measurability_score": 1.0,
+        "reason": "All commitments have specific numbers, units, target years, and baselines.",
+        "missing_elements": [],
+        "strongest_commitment": "Annual railway freight transportation will reach 146 million tonnes from 55 million tonnes",
+        "conditional_dependency": false,
+        "conditional_note": null
+      },
+      "pass_c": null
+    }
+  }
+}

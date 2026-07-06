@@ -1,0 +1,147 @@
+{
+  "country": "Argentina",
+  "dimension": "net_zero_pathway",
+  "score": 0.7,
+  "severity": "SIGNIFICANT",
+  "label": "SIGNIFICANT",
+  "details": {
+    "country": "Argentina",
+    "dimension": "net_zero_pathway",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [
+      {
+        "text": "absolute and unconditional goal, applicable to all sectors of the economy, to not exceed the net emission of 349 MtCO2e in 2030",
+        "target_value": "349 MtCO2e",
+        "target_year": 2030,
+        "baseline_year": {},
+        "conditional": false,
+        "time_horizon": "near_term",
+        "source_doc": "NDC2_2021_Argentina",
+        "source_page": 1,
+        "confidence": 1.0
+      },
+      {
+        "text": "By 2030, the Argentine Republic shall not exceed the net emission of 349 million tons of carbon dioxide equivalent (MtCO2e)",
+        "target_value": "349 MtCO2e",
+        "target_year": 2030,
+        "baseline_year": {},
+        "conditional": false,
+        "time_horizon": "near_term",
+        "source_doc": "NDC2_2021_Argentina",
+        "source_page": 5,
+        "confidence": 1.0
+      }
+    ],
+    "measurability": {
+      "level": "QUANTIFIED",
+      "score": 1.0,
+      "reason": "Both commitments have specific numbers, units, target years, and are unconditional.",
+      "missing_elements": []
+    },
+    "gap_findings": [
+      {
+        "gap_type": "ipcc_contradiction",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.7,
+        "description": "Argentina's NDC commitment to net zero emissions by 2030 is inconsistent with the IPCC's recommendation of net zero CO2 by 2050 for a 1.5°C pathway.",
+        "ndc_evidence": "absolute and unconditional goal, applicable to all sectors of the economy, to not exceed the net emission of 349 MtCO2e in 2030",
+        "ipcc_evidence": "IPCC AR6 WG3 SPM: global net zero CO2 by 2050 required for 1.5°C",
+        "ndc_citation": "[NDC2_2021_Argentina, p.1]",
+        "ipcc_citation": "[WG3_SPM_2022, p.31]",
+        "quantified_gap": "NDC: 2030, IPCC min: 2050, gap: -20 years",
+        "confidence": 0.9
+      },
+      {
+        "gap_type": "vague_target",
+        "severity": "MINOR",
+        "severity_score": 0.3,
+        "description": "Argentina's NDC commitment lacks a clear timeline for achieving net zero emissions.",
+        "ndc_evidence": "absolute and unconditional goal, applicable to all sectors of the economy, to not exceed the net emission of 349 MtCO2e in 2030",
+        "ipcc_evidence": "IPCC AR6 WG3 SPM: global net zero CO2 by 2050 required for 1.5°C",
+        "ndc_citation": "[NDC2_2021_Argentina, p.1]",
+        "ipcc_citation": "[WG3_SPM_2022, p.31]",
+        "quantified_gap": "N/A",
+        "confidence": 0.6
+      }
+    ],
+    "overall_severity": "SIGNIFICANT",
+    "overall_score": 0.7,
+    "summary": "Argentina's NDC commitment to net zero emissions by 2030 is inconsistent with the IPCC's recommendation of net zero CO2 by 2050 for a 1.5°C pathway, and lacks a clear timeline for achieving net zero emissions.",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [
+          {
+            "text": "absolute and unconditional goal, applicable to all sectors of the economy, to not exceed the net emission of 349 MtCO2e in 2030",
+            "target_value": "349 MtCO2e",
+            "target_year": 2030,
+            "baseline_year": {},
+            "conditional": false,
+            "time_horizon": "near_term",
+            "source_doc": "NDC2_2021_Argentina",
+            "source_page": 1,
+            "confidence": 1.0
+          },
+          {
+            "text": "By 2030, the Argentine Republic shall not exceed the net emission of 349 million tons of carbon dioxide equivalent (MtCO2e)",
+            "target_value": "349 MtCO2e",
+            "target_year": 2030,
+            "baseline_year": {},
+            "conditional": false,
+            "time_horizon": "near_term",
+            "source_doc": "NDC2_2021_Argentina",
+            "source_page": 5,
+            "confidence": 1.0
+          }
+        ],
+        "total_found": 2
+      },
+      "pass_b": {
+        "country": "Argentina",
+        "dimension": "Net Zero / Carbon Neutrality Pathway",
+        "measurability_level": "QUANTIFIED",
+        "measurability_score": 1.0,
+        "reason": "Both commitments have specific numbers, units, target years, and are unconditional.",
+        "missing_elements": [],
+        "strongest_commitment": "absolute and unconditional goal, applicable to all sectors of the economy, to not exceed the net emission of 349 MtCO2e in 2030",
+        "conditional_dependency": false,
+        "conditional_note": {}
+      },
+      "pass_c": {
+        "country": "Argentina",
+        "dimension": "Net Zero / Carbon Neutrality Pathway",
+        "overall_severity": "SIGNIFICANT",
+        "overall_severity_score": 0.7,
+        "gap_findings": [
+          {
+            "gap_type": "ipcc_contradiction",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.7,
+            "description": "Argentina's NDC commitment to net zero emissions by 2030 is inconsistent with the IPCC's recommendation of net zero CO2 by 2050 for a 1.5°C pathway.",
+            "ndc_evidence": "absolute and unconditional goal, applicable to all sectors of the economy, to not exceed the net emission of 349 MtCO2e in 2030",
+            "ipcc_evidence": "IPCC AR6 WG3 SPM: global net zero CO2 by 2050 required for 1.5°C",
+            "ndc_citation": "[NDC2_2021_Argentina, p.1]",
+            "ipcc_citation": "[WG3_SPM_2022, p.31]",
+            "quantified_gap": "NDC: 2030, IPCC min: 2050, gap: -20 years",
+            "confidence": 0.9
+          },
+          {
+            "gap_type": "vague_target",
+            "severity": "MINOR",
+            "severity_score": 0.3,
+            "description": "Argentina's NDC commitment lacks a clear timeline for achieving net zero emissions.",
+            "ndc_evidence": "absolute and unconditional goal, applicable to all sectors of the economy, to not exceed the net emission of 349 MtCO2e in 2030",
+            "ipcc_evidence": "IPCC AR6 WG3 SPM: global net zero CO2 by 2050 required for 1.5°C",
+            "ndc_citation": "[NDC2_2021_Argentina, p.1]",
+            "ipcc_citation": "[WG3_SPM_2022, p.31]",
+            "quantified_gap": "N/A",
+            "confidence": 0.6
+          }
+        ],
+        "country_summary": "Argentina's NDC commitment to net zero emissions by 2030 is inconsistent with the IPCC's recommendation of net zero CO2 by 2050 for a 1.5°C pathway, and lacks a clear timeline for achieving net zero emissions.",
+        "policy_recommendation": "Argentina should revise its NDC commitment to align with the IPCC's recommendation of net zero CO2 by 2050 for a 1.5°C pathway and provide a clear timeline for achieving net zero emissions."
+      }
+    }
+  }
+}

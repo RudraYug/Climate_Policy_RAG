@@ -1,0 +1,101 @@
+{
+  "country": "Saudi Arabia",
+  "dimension": "transport_decarbonisation",
+  "score": 1.0,
+  "severity": "CRITICAL",
+  "label": "CRITICAL",
+  "details": {
+    "country": "Saudi Arabia",
+    "dimension": "transport_decarbonisation",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [],
+    "measurability": {
+      "level": "ABSENT",
+      "score": 0.0,
+      "reason": "No commitments were found for Transport Sector Decarbonisation.",
+      "missing_elements": []
+    },
+    "gap_findings": [
+      {
+        "gap_type": "MISSING_COMMITMENT",
+        "severity": "CRITICAL",
+        "severity_score": 1.0,
+        "description": "Saudi Arabia makes no commitment on transport sector decarbonisation.",
+        "ndc_evidence": "No commitment found",
+        "ipcc_evidence": "IPCC AR6 WG3 Ch10: transport emissions must fall 59\u201384% by 2050 vs 2020 in 1.5\u00b0C scenarios.",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "[SOURCE 1: WG3_TechnicalSummary_2022, p.51]",
+        "quantified_gap": null,
+        "confidence": 1.0
+      },
+      {
+        "gap_type": "CONDITIONAL_DEPENDENCY",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.6,
+        "description": "Saudi Arabia's NDC is conditional on receiving international finance.",
+        "ndc_evidence": "NDC 2: 'Saudi Arabia's Nationally Determined Contribution (NDC) is conditional on receiving international finance.'",
+        "ipcc_evidence": "No evidence found",
+        "ndc_citation": "[doc_id, p.N]",
+        "ipcc_citation": "N/A",
+        "quantified_gap": null,
+        "confidence": 0.8
+      }
+    ],
+    "overall_severity": "CRITICAL",
+    "overall_score": 0.8,
+    "summary": "Saudi Arabia's NDC commitments are absent for transport sector decarbonisation, and its NDC is conditional on receiving international finance.",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [],
+        "total_found": 0
+      },
+      "pass_b": {
+        "country": "Saudi Arabia",
+        "dimension": "Transport Sector Decarbonisation",
+        "measurability_level": "ABSENT",
+        "measurability_score": 0.0,
+        "reason": "No commitments were found for Transport Sector Decarbonisation.",
+        "missing_elements": [],
+        "strongest_commitment": null,
+        "conditional_dependency": false,
+        "conditional_note": null
+      },
+      "pass_c": {
+        "country": "Saudi Arabia",
+        "dimension": "Transport Sector Decarbonisation",
+        "overall_severity": "CRITICAL",
+        "overall_severity_score": 0.8,
+        "gap_findings": [
+          {
+            "gap_type": "MISSING_COMMITMENT",
+            "severity": "CRITICAL",
+            "severity_score": 1.0,
+            "description": "Saudi Arabia makes no commitment on transport sector decarbonisation.",
+            "ndc_evidence": "No commitment found",
+            "ipcc_evidence": "IPCC AR6 WG3 Ch10: transport emissions must fall 59\u201384% by 2050 vs 2020 in 1.5\u00b0C scenarios.",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "[SOURCE 1: WG3_TechnicalSummary_2022, p.51]",
+            "quantified_gap": null,
+            "confidence": 1.0
+          },
+          {
+            "gap_type": "CONDITIONAL_DEPENDENCY",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.6,
+            "description": "Saudi Arabia's NDC is conditional on receiving international finance.",
+            "ndc_evidence": "NDC 2: 'Saudi Arabia's Nationally Determined Contribution (NDC) is conditional on receiving international finance.'",
+            "ipcc_evidence": "No evidence found",
+            "ndc_citation": "[doc_id, p.N]",
+            "ipcc_citation": "N/A",
+            "quantified_gap": null,
+            "confidence": 0.8
+          }
+        ],
+        "country_summary": "Saudi Arabia's NDC commitments are absent for transport sector decarbonisation, and its NDC is conditional on receiving international finance.",
+        "policy_recommendation": "Saudi Arabia should develop and submit a new NDC with specific, measurable, and unconditional commitments for transport sector decarbonisation."
+      }
+    }
+  }
+}

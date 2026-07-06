@@ -1,0 +1,179 @@
+{
+  "country": "South Africa",
+  "dimension": "net_zero_pathway",
+  "score": 0.6,
+  "severity": "SIGNIFICANT",
+  "label": "SIGNIFICANT",
+  "details": {
+    "country": "South Africa",
+    "dimension": "net_zero_pathway",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [
+      {
+        "text": "South Africa's whole updated target range for GHG emissions lies within the 2 °C fair share range based on the post-2030 (adjusted to include land use).",
+        "target_value": {},
+        "target_year": {},
+        "baseline_year": {},
+        "conditional": false,
+        "time_horizon": "long_term",
+        "source_doc": "NDC2_2021_South_Africa",
+        "source_page": 26,
+        "confidence": 0.8
+      },
+      {
+        "text": "South Africa's updated target range for GHG emissions lies within CERC's 1.5 degree assessment.",
+        "target_value": {},
+        "target_year": {},
+        "baseline_year": {},
+        "conditional": false,
+        "time_horizon": "long_term",
+        "source_doc": "NDC2_2021_South_Africa",
+        "source_page": 26,
+        "confidence": 0.8
+      }
+    ],
+    "measurability": {
+      "level": "VAGUE",
+      "score": 0.25,
+      "reason": "The commitments mention a target range within a certain temperature range, but do not specify a measurable target or year.",
+      "missing_elements": [
+        "target_value",
+        "target_year",
+        "baseline_year"
+      ]
+    },
+    "gap_findings": [
+      {
+        "gap_type": "MISSING_COMMITMENT",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.6,
+        "description": "South Africa's NDC does not specify a year for achieving net zero GHG emissions.",
+        "ndc_evidence": "No commitment found",
+        "ipcc_evidence": "IPCC AR6 WG3 SPM: global net zero CO2 by 2050 required for 1.5°C; net zero GHG by around 2070 for 2°C.",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "[WG3_SPM_2022, p.31]",
+        "quantified_gap": {},
+        "confidence": 0.8
+      },
+      {
+        "gap_type": "VAGUE_TARGET",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.6,
+        "description": "South Africa's NDC does not provide a specific target for net zero GHG emissions.",
+        "ndc_evidence": "South Africa's whole updated target range for GHG emissions lies within the 2°C fair share range based on the post-2030 (adjusted to include land use).",
+        "ipcc_evidence": "IPCC AR6 WG3 SPM: global net zero CO2 by 2050 required for 1.5°C; net zero GHG by around 2070 for 2°C.",
+        "ndc_citation": "[NDC2_2021_South_Africa, p.26]",
+        "ipcc_citation": "[WG3_SPM_2022, p.31]",
+        "quantified_gap": {},
+        "confidence": 0.8
+      },
+      {
+        "gap_type": "IPCC_CONTRADICTION",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.6,
+        "description": "South Africa's NDC does not align with the IPCC's recommendation for achieving net zero GHG emissions by 2050 for 1.5°C or 2070 for 2°C.",
+        "ndc_evidence": "South Africa's updated target range for GHG emissions lies within CERC's 1.5 degree assessment.",
+        "ipcc_evidence": "IPCC AR6 WG3 SPM: global net zero CO2 by 2050 required for 1.5°C; net zero GHG by around 2070 for 2°C.",
+        "ndc_citation": "[NDC2_2021_South_Africa, p.26]",
+        "ipcc_citation": "[WG3_SPM_2022, p.31]",
+        "quantified_gap": {},
+        "confidence": 0.8
+      }
+    ],
+    "overall_severity": "SIGNIFICANT",
+    "overall_score": 0.6,
+    "summary": "South Africa's NDC commitments for net zero GHG emissions are vague and do not align with the IPCC's recommendations.",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [
+          {
+            "text": "South Africa's whole updated target range for GHG emissions lies within the 2 °C fair share range based on the post-2030 (adjusted to include land use).",
+            "target_value": {},
+            "target_year": {},
+            "baseline_year": {},
+            "conditional": false,
+            "time_horizon": "long_term",
+            "source_doc": "NDC2_2021_South_Africa",
+            "source_page": 26,
+            "confidence": 0.8
+          },
+          {
+            "text": "South Africa's updated target range for GHG emissions lies within CERC's 1.5 degree assessment.",
+            "target_value": {},
+            "target_year": {},
+            "baseline_year": {},
+            "conditional": false,
+            "time_horizon": "long_term",
+            "source_doc": "NDC2_2021_South_Africa",
+            "source_page": 26,
+            "confidence": 0.8
+          }
+        ],
+        "total_found": 2
+      },
+      "pass_b": {
+        "country": "South Africa",
+        "dimension": "Net Zero / Carbon Neutrality Pathway",
+        "measurability_level": "VAGUE",
+        "measurability_score": 0.25,
+        "reason": "The commitments mention a target range within a certain temperature range, but do not specify a measurable target or year.",
+        "missing_elements": [
+          "target_value",
+          "target_year",
+          "baseline_year"
+        ],
+        "strongest_commitment": {},
+        "conditional_dependency": false,
+        "conditional_note": {}
+      },
+      "pass_c": {
+        "country": "South Africa",
+        "dimension": "Net Zero / Carbon Neutrality Pathway",
+        "overall_severity": "SIGNIFICANT",
+        "overall_severity_score": 0.6,
+        "gap_findings": [
+          {
+            "gap_type": "MISSING_COMMITMENT",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.6,
+            "description": "South Africa's NDC does not specify a year for achieving net zero GHG emissions.",
+            "ndc_evidence": "No commitment found",
+            "ipcc_evidence": "IPCC AR6 WG3 SPM: global net zero CO2 by 2050 required for 1.5°C; net zero GHG by around 2070 for 2°C.",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "[WG3_SPM_2022, p.31]",
+            "quantified_gap": {},
+            "confidence": 0.8
+          },
+          {
+            "gap_type": "VAGUE_TARGET",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.6,
+            "description": "South Africa's NDC does not provide a specific target for net zero GHG emissions.",
+            "ndc_evidence": "South Africa's whole updated target range for GHG emissions lies within the 2°C fair share range based on the post-2030 (adjusted to include land use).",
+            "ipcc_evidence": "IPCC AR6 WG3 SPM: global net zero CO2 by 2050 required for 1.5°C; net zero GHG by around 2070 for 2°C.",
+            "ndc_citation": "[NDC2_2021_South_Africa, p.26]",
+            "ipcc_citation": "[WG3_SPM_2022, p.31]",
+            "quantified_gap": {},
+            "confidence": 0.8
+          },
+          {
+            "gap_type": "IPCC_CONTRADICTION",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.6,
+            "description": "South Africa's NDC does not align with the IPCC's recommendation for achieving net zero GHG emissions by 2050 for 1.5°C or 2070 for 2°C.",
+            "ndc_evidence": "South Africa's updated target range for GHG emissions lies within CERC's 1.5 degree assessment.",
+            "ipcc_evidence": "IPCC AR6 WG3 SPM: global net zero CO2 by 2050 required for 1.5°C; net zero GHG by around 2070 for 2°C.",
+            "ndc_citation": "[NDC2_2021_South_Africa, p.26]",
+            "ipcc_citation": "[WG3_SPM_2022, p.31]",
+            "quantified_gap": {},
+            "confidence": 0.8
+          }
+        ],
+        "country_summary": "South Africa's NDC commitments for net zero GHG emissions are vague and do not align with the IPCC's recommendations.",
+        "policy_recommendation": "South Africa should specify a year and target for achieving net zero GHG emissions in line with the IPCC's recommendations."
+      }
+    }
+  }
+}

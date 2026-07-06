@@ -1,0 +1,143 @@
+{
+  "country": "Indonesia",
+  "dimension": "loss_and_damage",
+  "score": null,
+  "severity": "ALIGNED",
+  "label": "ABSENT",
+  "details": {
+    "country": "Indonesia",
+    "dimension": "loss_and_damage",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [
+      {
+        "text": "The GOI considers climate adaptation and mitigation efforts as an integrated concept that is essential for building resilience in safeguarding food, water and energy resources.",
+        "target_value": null,
+        "target_year": null,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2022_Indonesia",
+        "source_page": 18,
+        "confidence": 0.8
+      },
+      {
+        "text": "The GOI has made significant efforts towards developing and implementing a National Action Plan on Climate Change Adaptation which provides a framework for adaptation initiatives that has been mainstreamed into the National Development Plan.",
+        "target_value": null,
+        "target_year": null,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2022_Indonesia",
+        "source_page": 18,
+        "confidence": 0.8
+      },
+      {
+        "text": "The GOI will continue to implement enhanced actions to study and map regional vulnerabilities as the basis data for adaptation information system, and to strengthen institutional capacity and",
+        "target_value": null,
+        "target_year": null,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2022_Indonesia",
+        "source_page": 18,
+        "confidence": 0.8
+      },
+      {
+        "text": "Indonesia welcome bilateral, regional and international cooperation in the NDC implementation as recognized under Article 6 of the Paris Agreement, that facilitate and expedite technology development and transfer, payment for performance, technical cooperation, and access to financial resources to support Indonesia's climate mitigation and adaptation efforts towards a climate resilient future.",
+        "target_value": null,
+        "target_year": null,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2022_Indonesia",
+        "source_page": 28,
+        "confidence": 0.8
+      }
+    ],
+    "measurability": {
+      "level": "VAGUE",
+      "score": 0.25,
+      "reason": "None of the commitments provide specific numbers, units, or target years for Loss and Damage reduction.",
+      "missing_elements": [
+        "specific number",
+        "unit",
+        "target year",
+        "baseline"
+      ]
+    },
+    "gap_findings": [],
+    "overall_severity": "ALIGNED",
+    "overall_score": 0.0,
+    "summary": "",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [
+          {
+            "text": "The GOI considers climate adaptation and mitigation efforts as an integrated concept that is essential for building resilience in safeguarding food, water and energy resources.",
+            "target_value": null,
+            "target_year": null,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2022_Indonesia",
+            "source_page": 18,
+            "confidence": 0.8
+          },
+          {
+            "text": "The GOI has made significant efforts towards developing and implementing a National Action Plan on Climate Change Adaptation which provides a framework for adaptation initiatives that has been mainstreamed into the National Development Plan.",
+            "target_value": null,
+            "target_year": null,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2022_Indonesia",
+            "source_page": 18,
+            "confidence": 0.8
+          },
+          {
+            "text": "The GOI will continue to implement enhanced actions to study and map regional vulnerabilities as the basis data for adaptation information system, and to strengthen institutional capacity and",
+            "target_value": null,
+            "target_year": null,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2022_Indonesia",
+            "source_page": 18,
+            "confidence": 0.8
+          },
+          {
+            "text": "Indonesia welcome bilateral, regional and international cooperation in the NDC implementation as recognized under Article 6 of the Paris Agreement, that facilitate and expedite technology development and transfer, payment for performance, technical cooperation, and access to financial resources to support Indonesia's climate mitigation and adaptation efforts towards a climate resilient future.",
+            "target_value": null,
+            "target_year": null,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2022_Indonesia",
+            "source_page": 28,
+            "confidence": 0.8
+          }
+        ],
+        "total_found": 4
+      },
+      "pass_b": {
+        "country": "Indonesia",
+        "dimension": "Loss and Damage",
+        "measurability_level": "VAGUE",
+        "measurability_score": 0.25,
+        "reason": "None of the commitments provide specific numbers, units, or target years for Loss and Damage reduction.",
+        "missing_elements": [
+          "specific number",
+          "unit",
+          "target year",
+          "baseline"
+        ],
+        "strongest_commitment": null,
+        "conditional_dependency": false,
+        "conditional_note": null
+      },
+      "pass_c": null
+    }
+  }
+}

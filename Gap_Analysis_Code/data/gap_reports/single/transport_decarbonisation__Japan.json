@@ -1,0 +1,133 @@
+{
+  "country": "Japan",
+  "dimension": "transport_decarbonisation",
+  "score": null,
+  "severity": "ALIGNED",
+  "label": "ABSENT",
+  "details": {
+    "country": "Japan",
+    "dimension": "transport_decarbonisation",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [
+      {
+        "text": "reduce emissions from transport by 50 percent",
+        "target_value": null,
+        "target_year": 2030,
+        "baseline_year": 2013,
+        "conditional": false,
+        "time_horizon": "near_term",
+        "source_doc": "NDC2_2021_Japan",
+        "source_page": 4,
+        "confidence": 0.8
+      },
+      {
+        "text": "reduce emissions from transport by 46 percent",
+        "target_value": null,
+        "target_year": 2030,
+        "baseline_year": 2013,
+        "conditional": false,
+        "time_horizon": "near_term",
+        "source_doc": "NDC2_2021_Japan",
+        "source_page": 3,
+        "confidence": 0.9
+      },
+      {
+        "text": "reduce emissions from transport by 224 million t-CO in 2030",
+        "target_value": 224,
+        "target_year": 2030,
+        "baseline_year": 2013,
+        "conditional": false,
+        "time_horizon": "near_term",
+        "source_doc": "NDC2_2021_Japan",
+        "source_page": 1,
+        "confidence": 0.7
+      },
+      {
+        "text": "reduce emissions from transport by 208 million t-CO in 2030",
+        "target_value": 208,
+        "target_year": 2030,
+        "baseline_year": 2013,
+        "conditional": false,
+        "time_horizon": "near_term",
+        "source_doc": "NDC2_2021_Japan",
+        "source_page": 1,
+        "confidence": 0.7
+      }
+    ],
+    "measurability": {
+      "level": "QUANTIFIED",
+      "score": 1.0,
+      "reason": "All commitments have specific numbers, units, target years, and baselines.",
+      "missing_elements": []
+    },
+    "gap_findings": [],
+    "overall_severity": "ALIGNED",
+    "overall_score": 0.0,
+    "summary": "",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [
+          {
+            "text": "reduce emissions from transport by 50 percent",
+            "target_value": null,
+            "target_year": 2030,
+            "baseline_year": 2013,
+            "conditional": false,
+            "time_horizon": "near_term",
+            "source_doc": "NDC2_2021_Japan",
+            "source_page": 4,
+            "confidence": 0.8
+          },
+          {
+            "text": "reduce emissions from transport by 46 percent",
+            "target_value": null,
+            "target_year": 2030,
+            "baseline_year": 2013,
+            "conditional": false,
+            "time_horizon": "near_term",
+            "source_doc": "NDC2_2021_Japan",
+            "source_page": 3,
+            "confidence": 0.9
+          },
+          {
+            "text": "reduce emissions from transport by 224 million t-CO in 2030",
+            "target_value": 224,
+            "target_year": 2030,
+            "baseline_year": 2013,
+            "conditional": false,
+            "time_horizon": "near_term",
+            "source_doc": "NDC2_2021_Japan",
+            "source_page": 1,
+            "confidence": 0.7
+          },
+          {
+            "text": "reduce emissions from transport by 208 million t-CO in 2030",
+            "target_value": 208,
+            "target_year": 2030,
+            "baseline_year": 2013,
+            "conditional": false,
+            "time_horizon": "near_term",
+            "source_doc": "NDC2_2021_Japan",
+            "source_page": 1,
+            "confidence": 0.7
+          }
+        ],
+        "total_found": 4
+      },
+      "pass_b": {
+        "country": "Japan",
+        "dimension": "Transport Sector Decarbonisation",
+        "measurability_level": "QUANTIFIED",
+        "measurability_score": 1.0,
+        "reason": "All commitments have specific numbers, units, target years, and baselines.",
+        "missing_elements": [],
+        "strongest_commitment": "reduce emissions from transport by 224 million t-CO in 2030",
+        "conditional_dependency": false,
+        "conditional_note": null
+      },
+      "pass_c": null
+    }
+  }
+}

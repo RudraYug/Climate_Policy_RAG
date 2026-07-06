@@ -1,0 +1,245 @@
+{
+  "country": "Russia",
+  "dimension": "transport_decarbonisation",
+  "score": 0.7,
+  "severity": "SIGNIFICANT",
+  "label": "SIGNIFICANT",
+  "details": {
+    "country": "Russia",
+    "dimension": "transport_decarbonisation",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [
+      {
+        "text": "The city of Moscow has developed an integrated system of measures to improve the energy efficiency of buildings, which has resulted in a reduction in greenhouse gas emissions, amidst the city's active economic development, and the commissioning of over 60 million square meters of residential space since 2011.",
+        "target_value": null,
+        "target_year": null,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2022_Russia",
+        "source_page": 13,
+        "confidence": 0.5
+      },
+      {
+        "text": "Mosgortrans, Organizer of Transportation, Sitronics use innovative types of electric land and water passenger transport, in particular electric buses and electric vessels of the \"Ecobus\" and \"Ecocruiser\" class, and implement the necessary infrastructure solutions, including charging station infrastructure.",
+        "target_value": null,
+        "target_year": null,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2022_Russia",
+        "source_page": 13,
+        "confidence": 0.8
+      },
+      {
+        "text": "NORILSK NICKEL also produces low-carbon metals, primarily nickel, copper and platinum group metals, which are widely used for electric vehicle batteries manufacturing, automotive catalysts, solar panels, wind turbines and other technologies that contribute to energy transition.",
+        "target_value": null,
+        "target_year": null,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2022_Russia",
+        "source_page": 13,
+        "confidence": 0.7
+      },
+      {
+        "text": "The Transport Strategy of the Russian Federation up to 2030, with a foreseen increase in the share of electric vehicles in the transport sector, is being implemented.",
+        "target_value": null,
+        "target_year": 2030,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "near_term",
+        "source_doc": "NDC2_2022_Russia",
+        "source_page": 13,
+        "confidence": 0.9
+      }
+    ],
+    "measurability": {
+      "level": "QUALIFIED",
+      "score": 0.65,
+      "reason": "The commitments have a target year but are missing specific numbers, units, and baselines.",
+      "missing_elements": [
+        "target_value",
+        "baseline_year"
+      ]
+    },
+    "gap_findings": [
+      {
+        "gap_type": "missing_commitment",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.7,
+        "description": "Russia's NDC lacks a specific target for reducing transport sector emissions.",
+        "ndc_evidence": "No commitment found",
+        "ipcc_evidence": "IPCC AR6 WG3 Ch10: transport emissions must fall 59\u201384% by 2050 vs 2020 in 1.5\u00b0C scenarios.",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "[WG3_TechnicalSummary_2022, p.51]",
+        "quantified_gap": null,
+        "confidence": 1.0
+      },
+      {
+        "gap_type": "vague_target",
+        "severity": "MINOR",
+        "severity_score": 0.2,
+        "description": "Russia's NDC mentions a 'Transport Strategy of the Russian Federation up to 2030' but lacks a specific target for electric vehicle adoption.",
+        "ndc_evidence": "The Transport Strategy of the Russian Federation up to 2030, with a foreseen increase in the share of electric vehicles in the transport sector, is being implemented.",
+        "ipcc_evidence": "IPCC AR6 WG3 Ch10: EV share 75\u201395% of new sales by 2050.",
+        "ndc_citation": "[NDC2_2022_Russia, p.13]",
+        "ipcc_citation": "[WG3_TechnicalSummary_2022, p.51]",
+        "quantified_gap": null,
+        "confidence": 0.9
+      },
+      {
+        "gap_type": "ipcc_contradiction",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.7,
+        "description": "Russia's NDC does not mention a phase-out of fossil fuels in the transport sector, which is inconsistent with IPCC AR6 recommendations.",
+        "ndc_evidence": "No commitment found",
+        "ipcc_evidence": "IPCC AR6 WG3 Ch10: phase-out of fossil fuels in the transport sector.",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "[WG3_TechnicalSummary_2022, p.51]",
+        "quantified_gap": null,
+        "confidence": 1.0
+      },
+      {
+        "gap_type": "conditional_dependency",
+        "severity": "MINOR",
+        "severity_score": 0.2,
+        "description": "Russia's NDC does not mention any conditional dependencies for its transport sector commitments.",
+        "ndc_evidence": "No commitment found",
+        "ipcc_evidence": "IPCC AR6 WG3 Ch10: conditional dependencies for transport sector commitments.",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "[WG3_TechnicalSummary_2022, p.51]",
+        "quantified_gap": null,
+        "confidence": 0.5
+      }
+    ],
+    "overall_severity": "SIGNIFICANT",
+    "overall_score": 0.7,
+    "summary": "Russia's NDC lacks specific targets for reducing transport sector emissions and promoting electric vehicle adoption, which is inconsistent with IPCC AR6 recommendations.",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [
+          {
+            "text": "The city of Moscow has developed an integrated system of measures to improve the energy efficiency of buildings, which has resulted in a reduction in greenhouse gas emissions, amidst the city's active economic development, and the commissioning of over 60 million square meters of residential space since 2011.",
+            "target_value": null,
+            "target_year": null,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2022_Russia",
+            "source_page": 13,
+            "confidence": 0.5
+          },
+          {
+            "text": "Mosgortrans, Organizer of Transportation, Sitronics use innovative types of electric land and water passenger transport, in particular electric buses and electric vessels of the \"Ecobus\" and \"Ecocruiser\" class, and implement the necessary infrastructure solutions, including charging station infrastructure.",
+            "target_value": null,
+            "target_year": null,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2022_Russia",
+            "source_page": 13,
+            "confidence": 0.8
+          },
+          {
+            "text": "NORILSK NICKEL also produces low-carbon metals, primarily nickel, copper and platinum group metals, which are widely used for electric vehicle batteries manufacturing, automotive catalysts, solar panels, wind turbines and other technologies that contribute to energy transition.",
+            "target_value": null,
+            "target_year": null,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2022_Russia",
+            "source_page": 13,
+            "confidence": 0.7
+          },
+          {
+            "text": "The Transport Strategy of the Russian Federation up to 2030, with a foreseen increase in the share of electric vehicles in the transport sector, is being implemented.",
+            "target_value": null,
+            "target_year": 2030,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "near_term",
+            "source_doc": "NDC2_2022_Russia",
+            "source_page": 13,
+            "confidence": 0.9
+          }
+        ],
+        "total_found": 4
+      },
+      "pass_b": {
+        "country": "Russia",
+        "dimension": "Transport Sector Decarbonisation",
+        "measurability_level": "QUALIFIED",
+        "measurability_score": 0.65,
+        "reason": "The commitments have a target year but are missing specific numbers, units, and baselines.",
+        "missing_elements": [
+          "target_value",
+          "baseline_year"
+        ],
+        "strongest_commitment": "The Transport Strategy of the Russian Federation up to 2030, with a foreseen increase in the share of electric vehicles in the transport sector, is being implemented.",
+        "conditional_dependency": false,
+        "conditional_note": null
+      },
+      "pass_c": {
+        "country": "Russia",
+        "dimension": "Transport Sector Decarbonisation",
+        "overall_severity": "SIGNIFICANT",
+        "overall_severity_score": 0.7,
+        "gap_findings": [
+          {
+            "gap_type": "missing_commitment",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.7,
+            "description": "Russia's NDC lacks a specific target for reducing transport sector emissions.",
+            "ndc_evidence": "No commitment found",
+            "ipcc_evidence": "IPCC AR6 WG3 Ch10: transport emissions must fall 59\u201384% by 2050 vs 2020 in 1.5\u00b0C scenarios.",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "[WG3_TechnicalSummary_2022, p.51]",
+            "quantified_gap": null,
+            "confidence": 1.0
+          },
+          {
+            "gap_type": "vague_target",
+            "severity": "MINOR",
+            "severity_score": 0.2,
+            "description": "Russia's NDC mentions a 'Transport Strategy of the Russian Federation up to 2030' but lacks a specific target for electric vehicle adoption.",
+            "ndc_evidence": "The Transport Strategy of the Russian Federation up to 2030, with a foreseen increase in the share of electric vehicles in the transport sector, is being implemented.",
+            "ipcc_evidence": "IPCC AR6 WG3 Ch10: EV share 75\u201395% of new sales by 2050.",
+            "ndc_citation": "[NDC2_2022_Russia, p.13]",
+            "ipcc_citation": "[WG3_TechnicalSummary_2022, p.51]",
+            "quantified_gap": null,
+            "confidence": 0.9
+          },
+          {
+            "gap_type": "ipcc_contradiction",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.7,
+            "description": "Russia's NDC does not mention a phase-out of fossil fuels in the transport sector, which is inconsistent with IPCC AR6 recommendations.",
+            "ndc_evidence": "No commitment found",
+            "ipcc_evidence": "IPCC AR6 WG3 Ch10: phase-out of fossil fuels in the transport sector.",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "[WG3_TechnicalSummary_2022, p.51]",
+            "quantified_gap": null,
+            "confidence": 1.0
+          },
+          {
+            "gap_type": "conditional_dependency",
+            "severity": "MINOR",
+            "severity_score": 0.2,
+            "description": "Russia's NDC does not mention any conditional dependencies for its transport sector commitments.",
+            "ndc_evidence": "No commitment found",
+            "ipcc_evidence": "IPCC AR6 WG3 Ch10: conditional dependencies for transport sector commitments.",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "[WG3_TechnicalSummary_2022, p.51]",
+            "quantified_gap": null,
+            "confidence": 0.5
+          }
+        ],
+        "country_summary": "Russia's NDC lacks specific targets for reducing transport sector emissions and promoting electric vehicle adoption, which is inconsistent with IPCC AR6 recommendations.",
+        "policy_recommendation": "Russia should establish specific targets for reducing transport sector emissions and promoting electric vehicle adoption, and phase out fossil fuels in the transport sector, in line with IPCC AR6 recommendations."
+      }
+    }
+  }
+}

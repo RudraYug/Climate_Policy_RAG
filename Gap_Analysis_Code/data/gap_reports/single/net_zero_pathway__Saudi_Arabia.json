@@ -1,0 +1,67 @@
+{
+  "country": "Saudi Arabia",
+  "dimension": "net_zero_pathway",
+  "score": null,
+  "severity": "ALIGNED",
+  "label": "ABSENT",
+  "details": {
+    "country": "Saudi Arabia",
+    "dimension": "net_zero_pathway",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [
+      {
+        "text": "reducing, avoiding, and removing GHG emissions by 278 million tons of CO eq annually by 2030",
+        "target_value": "278 million tons of CO eq",
+        "target_year": 2030,
+        "baseline_year": 2019,
+        "conditional": false,
+        "time_horizon": "near_term",
+        "source_doc": "NDC2_2021_Saudi_Arabia",
+        "source_page": 3,
+        "confidence": 1.0
+      }
+    ],
+    "measurability": {
+      "level": "QUANTIFIED",
+      "score": 1.0,
+      "reason": "The commitment has a specific number, unit, target year, and baseline.",
+      "missing_elements": []
+    },
+    "gap_findings": [],
+    "overall_severity": "ALIGNED",
+    "overall_score": 0.0,
+    "summary": "",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [
+          {
+            "text": "reducing, avoiding, and removing GHG emissions by 278 million tons of CO eq annually by 2030",
+            "target_value": "278 million tons of CO eq",
+            "target_year": 2030,
+            "baseline_year": 2019,
+            "conditional": false,
+            "time_horizon": "near_term",
+            "source_doc": "NDC2_2021_Saudi_Arabia",
+            "source_page": 3,
+            "confidence": 1.0
+          }
+        ],
+        "total_found": 1
+      },
+      "pass_b": {
+        "country": "Saudi Arabia",
+        "dimension": "Net Zero / Carbon Neutrality Pathway",
+        "measurability_level": "QUANTIFIED",
+        "measurability_score": 1.0,
+        "reason": "The commitment has a specific number, unit, target year, and baseline.",
+        "missing_elements": [],
+        "strongest_commitment": "reducing, avoiding, and removing GHG emissions by 278 million tons of CO eq annually by 2030",
+        "conditional_dependency": false,
+        "conditional_note": {}
+      },
+      "pass_c": {}
+    }
+  }
+}

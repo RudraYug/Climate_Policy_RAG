@@ -1,0 +1,157 @@
+{
+  "country": "Turkey",
+  "dimension": "net_zero_pathway",
+  "score": 1.0,
+  "severity": "CRITICAL",
+  "label": "CRITICAL",
+  "details": {
+    "country": "Turkey",
+    "dimension": "net_zero_pathway",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [
+      {
+        "text": "Türkiye's new 2030 target is based on the modeled impact of these policies and strategies and is aligned with its net zero target.",
+        "target_value": {},
+        "target_year": 2030,
+        "baseline_year": {},
+        "conditional": false,
+        "time_horizon": "near_term",
+        "source_doc": "NDC2_2023_Turkey",
+        "source_page": 3,
+        "confidence": 0.8
+      }
+    ],
+    "measurability": {
+      "level": "VAGUE",
+      "score": 0.25,
+      "reason": "The commitment lacks specific number, unit, and baseline to quantify the target.",
+      "missing_elements": [
+        "specific number",
+        "unit",
+        "baseline"
+      ]
+    },
+    "gap_findings": [
+      {
+        "gap_type": "missing_commitment",
+        "severity": "CRITICAL",
+        "severity_score": 1.0,
+        "description": "Turkey's NDC does not specify a year for achieving net zero GHG emissions.",
+        "ndc_evidence": "Türkiye's new 2030 target is based on the modeled impact of these policies and strategies and is aligned with its net zero target.",
+        "ipcc_evidence": "IPCC AR6 WG3 SPM: global net zero CO2 by 2050 required for 1.5°C; net zero GHG by around 2070 for 2°C.",
+        "ndc_citation": "[NDC2_2023_Turkey, p.3]",
+        "ipcc_citation": "[WG3_SPM_2022, p.31]",
+        "quantified_gap": {},
+        "confidence": 0.8
+      },
+      {
+        "gap_type": "vague_target",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.8,
+        "description": "Turkey's NDC does not specify a target year for achieving net zero GHG emissions, and its commitment is vague.",
+        "ndc_evidence": "Türkiye's new 2030 target is based on the modeled impact of these policies and strategies and is aligned with its net zero target.",
+        "ipcc_evidence": "IPCC AR6 WG3 SPM: global net zero CO2 by 2050 required for 1.5°C; net zero GHG by around 2070 for 2°C.",
+        "ndc_citation": "[NDC2_2023_Turkey, p.3]",
+        "ipcc_citation": "[WG3_SPM_2022, p.31]",
+        "quantified_gap": {},
+        "confidence": 0.8
+      },
+      {
+        "gap_type": "ipcc_contradiction",
+        "severity": "MINOR",
+        "severity_score": 0.2,
+        "description": "Turkey's NDC does not specify a target year for achieving net zero GHG emissions, which is inconsistent with the IPCC recommendation of achieving net zero CO2 by 2050 for 1.5°C.",
+        "ndc_evidence": "Türkiye's new 2030 target is based on the modeled impact of these policies and strategies and is aligned with its net zero target.",
+        "ipcc_evidence": "IPCC AR6 WG3 SPM: global net zero CO2 by 2050 required for 1.5°C; net zero GHG by around 2070 for 2°C.",
+        "ndc_citation": "[NDC2_2023_Turkey, p.3]",
+        "ipcc_citation": "[WG3_SPM_2022, p.31]",
+        "quantified_gap": {},
+        "confidence": 0.8
+      }
+    ],
+    "overall_severity": "SIGNIFICANT",
+    "overall_score": 0.6,
+    "summary": "Turkey's NDC commitments for net zero GHG emissions are vague and do not specify a target year, which is inconsistent with the IPCC recommendation of achieving net zero CO2 by 2050 for 1.5°C.",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [
+          {
+            "text": "Türkiye's new 2030 target is based on the modeled impact of these policies and strategies and is aligned with its net zero target.",
+            "target_value": {},
+            "target_year": 2030,
+            "baseline_year": {},
+            "conditional": false,
+            "time_horizon": "near_term",
+            "source_doc": "NDC2_2023_Turkey",
+            "source_page": 3,
+            "confidence": 0.8
+          }
+        ],
+        "total_found": 1
+      },
+      "pass_b": {
+        "country": "Turkey",
+        "dimension": "Net Zero / Carbon Neutrality Pathway",
+        "measurability_level": "VAGUE",
+        "measurability_score": 0.25,
+        "reason": "The commitment lacks specific number, unit, and baseline to quantify the target.",
+        "missing_elements": [
+          "specific number",
+          "unit",
+          "baseline"
+        ],
+        "strongest_commitment": {},
+        "conditional_dependency": false,
+        "conditional_note": {}
+      },
+      "pass_c": {
+        "country": "Turkey",
+        "dimension": "Net Zero / Carbon Neutrality Pathway",
+        "overall_severity": "SIGNIFICANT",
+        "overall_severity_score": 0.6,
+        "gap_findings": [
+          {
+            "gap_type": "missing_commitment",
+            "severity": "CRITICAL",
+            "severity_score": 1.0,
+            "description": "Turkey's NDC does not specify a year for achieving net zero GHG emissions.",
+            "ndc_evidence": "Türkiye's new 2030 target is based on the modeled impact of these policies and strategies and is aligned with its net zero target.",
+            "ipcc_evidence": "IPCC AR6 WG3 SPM: global net zero CO2 by 2050 required for 1.5°C; net zero GHG by around 2070 for 2°C.",
+            "ndc_citation": "[NDC2_2023_Turkey, p.3]",
+            "ipcc_citation": "[WG3_SPM_2022, p.31]",
+            "quantified_gap": {},
+            "confidence": 0.8
+          },
+          {
+            "gap_type": "vague_target",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.8,
+            "description": "Turkey's NDC does not specify a target year for achieving net zero GHG emissions, and its commitment is vague.",
+            "ndc_evidence": "Türkiye's new 2030 target is based on the modeled impact of these policies and strategies and is aligned with its net zero target.",
+            "ipcc_evidence": "IPCC AR6 WG3 SPM: global net zero CO2 by 2050 required for 1.5°C; net zero GHG by around 2070 for 2°C.",
+            "ndc_citation": "[NDC2_2023_Turkey, p.3]",
+            "ipcc_citation": "[WG3_SPM_2022, p.31]",
+            "quantified_gap": {},
+            "confidence": 0.8
+          },
+          {
+            "gap_type": "ipcc_contradiction",
+            "severity": "MINOR",
+            "severity_score": 0.2,
+            "description": "Turkey's NDC does not specify a target year for achieving net zero GHG emissions, which is inconsistent with the IPCC recommendation of achieving net zero CO2 by 2050 for 1.5°C.",
+            "ndc_evidence": "Türkiye's new 2030 target is based on the modeled impact of these policies and strategies and is aligned with its net zero target.",
+            "ipcc_evidence": "IPCC AR6 WG3 SPM: global net zero CO2 by 2050 required for 1.5°C; net zero GHG by around 2070 for 2°C.",
+            "ndc_citation": "[NDC2_2023_Turkey, p.3]",
+            "ipcc_citation": "[WG3_SPM_2022, p.31]",
+            "quantified_gap": {},
+            "confidence": 0.8
+          }
+        ],
+        "country_summary": "Turkey's NDC commitments for net zero GHG emissions are vague and do not specify a target year, which is inconsistent with the IPCC recommendation of achieving net zero CO2 by 2050 for 1.5°C.",
+        "policy_recommendation": "Turkey should specify a target year for achieving net zero GHG emissions and align its commitment with the IPCC recommendation of achieving net zero CO2 by 2050 for 1.5°C."
+      }
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "country": "Australia",
+  "dimension": "adaptation_finance",
+  "score": 0.75,
+  "severity": "SIGNIFICANT",
+  "label": "SIGNIFICANT",
+  "details": {
+    "country": "Australia",
+    "dimension": "adaptation_finance",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [
+      {
+        "text": "Investing in the health and resilience of our ocean ecosystems, including by strengthening the management of our national network of Marine Parks and spending an additional $194.5 million on top of existing investments to protect the Great Barrier Reef.",
+        "target_value": {},
+        "target_year": {},
+        "baseline_year": {},
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2022_Australia",
+        "source_page": 8,
+        "confidence": 0.8
+      }
+    ],
+    "measurability": {
+      "level": "VAGUE",
+      "score": 0.25,
+      "reason": "The commitment lacks specific numbers, target year, and baseline.",
+      "missing_elements": [
+        "specific number",
+        "target year",
+        "baseline"
+      ]
+    },
+    "gap_findings": [
+      {
+        "gap_type": "MISSING_COMMITMENT",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.75,
+        "description": "Australia's NDC lacks a specific commitment on adaptation finance.",
+        "ndc_evidence": "No commitment found.",
+        "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: adaptation finance gaps persist; developing countries need significantly more than current flows.",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.48]",
+        "quantified_gap": {},
+        "confidence": 1.0
+      },
+      {
+        "gap_type": "VAGUE_TARGET",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.75,
+        "description": "Australia's NDC commitment on ocean ecosystems lacks quantification and baseline.",
+        "ndc_evidence": "Investing in the health and resilience of our ocean ecosystems, including by strengthening the management of our national network of Marine Parks and spending an additional $194.5 million on top of existing investments to protect the Great Barrier Reef.",
+        "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: adaptation finance gaps persist; developing countries need significantly more than current flows.",
+        "ndc_citation": "[NDC2_2022_Australia, p.8]",
+        "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.48]",
+        "quantified_gap": "NDC: $194.5 million, IPCC min: $15-411 billion, gap: -99.9%",
+        "confidence": 0.8
+      },
+      {
+        "gap_type": "IPCC_CONTRADICTION",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.75,
+        "description": "Australia's NDC commitment on ocean ecosystems is inconsistent with IPCC recommendations on adaptation finance.",
+        "ndc_evidence": "Investing in the health and resilience of our ocean ecosystems, including by strengthening the management of our national network of Marine Parks and spending an additional $194.5 million on top of existing investments to protect the Great Barrier Reef.",
+        "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: adaptation finance gaps persist; developing countries need significantly more than current flows.",
+        "ndc_citation": "[NDC2_2022_Australia, p.8]",
+        "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.48]",
+        "quantified_gap": "NDC: $194.5 million, IPCC min: $15-411 billion, gap: -99.9%",
+        "confidence": 0.8
+      }
+    ],
+    "overall_severity": "SIGNIFICANT",
+    "overall_score": 0.75,
+    "summary": "Australia's NDC lacks a specific commitment on adaptation finance, and its commitment on ocean ecosystems lacks quantification and baseline, contradicting IPCC recommendations.",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [
+          {
+            "text": "Investing in the health and resilience of our ocean ecosystems, including by strengthening the management of our national network of Marine Parks and spending an additional $194.5 million on top of existing investments to protect the Great Barrier Reef.",
+            "target_value": {},
+            "target_year": {},
+            "baseline_year": {},
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2022_Australia",
+            "source_page": 8,
+            "confidence": 0.8
+          }
+        ],
+        "total_found": 1
+      },
+      "pass_b": {
+        "country": "Australia",
+        "dimension": "Adaptation Finance Commitments",
+        "measurability_level": "VAGUE",
+        "measurability_score": 0.25,
+        "reason": "The commitment lacks specific numbers, target year, and baseline.",
+        "missing_elements": [
+          "specific number",
+          "target year",
+          "baseline"
+        ],
+        "strongest_commitment": {},
+        "conditional_dependency": false,
+        "conditional_note": {}
+      },
+      "pass_c": {
+        "country": "Australia",
+        "dimension": "Adaptation Finance Commitments",
+        "overall_severity": "SIGNIFICANT",
+        "overall_severity_score": 0.75,
+        "gap_findings": [
+          {
+            "gap_type": "MISSING_COMMITMENT",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.75,
+            "description": "Australia's NDC lacks a specific commitment on adaptation finance.",
+            "ndc_evidence": "No commitment found.",
+            "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: adaptation finance gaps persist; developing countries need significantly more than current flows.",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.48]",
+            "quantified_gap": {},
+            "confidence": 1.0
+          },
+          {
+            "gap_type": "VAGUE_TARGET",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.75,
+            "description": "Australia's NDC commitment on ocean ecosystems lacks quantification and baseline.",
+            "ndc_evidence": "Investing in the health and resilience of our ocean ecosystems, including by strengthening the management of our national network of Marine Parks and spending an additional $194.5 million on top of existing investments to protect the Great Barrier Reef.",
+            "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: adaptation finance gaps persist; developing countries need significantly more than current flows.",
+            "ndc_citation": "[NDC2_2022_Australia, p.8]",
+            "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.48]",
+            "quantified_gap": "NDC: $194.5 million, IPCC min: $15-411 billion, gap: -99.9%",
+            "confidence": 0.8
+          },
+          {
+            "gap_type": "IPCC_CONTRADICTION",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.75,
+            "description": "Australia's NDC commitment on ocean ecosystems is inconsistent with IPCC recommendations on adaptation finance.",
+            "ndc_evidence": "Investing in the health and resilience of our ocean ecosystems, including by strengthening the management of our national network of Marine Parks and spending an additional $194.5 million on top of existing investments to protect the Great Barrier Reef.",
+            "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: adaptation finance gaps persist; developing countries need significantly more than current flows.",
+            "ndc_citation": "[NDC2_2022_Australia, p.8]",
+            "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.48]",
+            "quantified_gap": "NDC: $194.5 million, IPCC min: $15-411 billion, gap: -99.9%",
+            "confidence": 0.8
+          }
+        ],
+        "country_summary": "Australia's NDC lacks a specific commitment on adaptation finance, and its commitment on ocean ecosystems lacks quantification and baseline, contradicting IPCC recommendations.",
+        "policy_recommendation": "Australia should commit to a specific adaptation finance target and provide more detailed information on its adaptation finance plans, including quantification and baseline."
+      }
+    }
+  }
+}

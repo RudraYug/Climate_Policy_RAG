@@ -1,0 +1,201 @@
+{
+  "country": "Canada",
+  "dimension": "loss_and_damage",
+  "score": 0.7,
+  "severity": "SIGNIFICANT",
+  "label": "SIGNIFICANT",
+  "details": {
+    "country": "Canada",
+    "dimension": "loss_and_damage",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [
+      {
+        "text": "Canada considers the irreversible impacts to the land and waters, and the imbalanced relationship between humans and the environment.",
+        "target_value": null,
+        "target_year": null,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2021_Canada",
+        "source_page": 39,
+        "confidence": 0.8
+      },
+      {
+        "text": "First Nations have been raising their voices for decades, expressing concerns about the changes in species migration and population declines, inconsistent weather, irreversible impacts to the land and waters, and the imbalanced relationship between humans and the environment.",
+        "target_value": null,
+        "target_year": null,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2021_Canada",
+        "source_page": 39,
+        "confidence": 0.8
+      },
+      {
+        "text": "Canada's climate has warmed by 2.3\u00b0C since 1948 and will warm further, on average, at about double the magnitude of warming globally.",
+        "target_value": null,
+        "target_year": null,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2021_Canada",
+        "source_page": 39,
+        "confidence": 0.8
+      }
+    ],
+    "measurability": {
+      "level": "VAGUE",
+      "score": 0.25,
+      "reason": "The commitments lack specific targets, years, and units, and only express concerns and observations.",
+      "missing_elements": [
+        "target_value",
+        "target_year",
+        "baseline_year"
+      ]
+    },
+    "gap_findings": [
+      {
+        "gap_type": "MISSING_COMMITMENT",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.7,
+        "description": "Canada's NDC lacks a specific commitment to addressing loss and damage.",
+        "ndc_evidence": "No commitment found",
+        "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: loss and damage is unavoidable even with adaptation; finance mechanisms urgently needed.",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.110]",
+        "quantified_gap": null,
+        "confidence": 1.0
+      },
+      {
+        "gap_type": "VAGUE_TARGET",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.7,
+        "description": "Canada's NDC commitment is vague and lacks quantification.",
+        "ndc_evidence": "Canada considers the irreversible impacts to the land and waters, and the imbalanced relationship between humans and the environment.",
+        "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: loss and damage is unavoidable even with adaptation; finance mechanisms urgently needed.",
+        "ndc_citation": "[NDC2_2021_Canada, p.39]",
+        "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.110]",
+        "quantified_gap": null,
+        "confidence": 0.8
+      },
+      {
+        "gap_type": "CONDITIONAL_DEPENDENCY",
+        "severity": "MINOR",
+        "severity_score": 0.3,
+        "description": "Canada's NDC commitment is not conditional on receiving international finance, but it is implied that finance mechanisms are urgently needed.",
+        "ndc_evidence": "No commitment found",
+        "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: loss and damage is unavoidable even with adaptation; finance mechanisms urgently needed.",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.110]",
+        "quantified_gap": null,
+        "confidence": 0.6
+      }
+    ],
+    "overall_severity": "SIGNIFICANT",
+    "overall_score": 0.7,
+    "summary": "Canada's NDC lacks a specific commitment to addressing loss and damage, and its commitment is vague and lacks quantification.",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [
+          {
+            "text": "Canada considers the irreversible impacts to the land and waters, and the imbalanced relationship between humans and the environment.",
+            "target_value": null,
+            "target_year": null,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2021_Canada",
+            "source_page": 39,
+            "confidence": 0.8
+          },
+          {
+            "text": "First Nations have been raising their voices for decades, expressing concerns about the changes in species migration and population declines, inconsistent weather, irreversible impacts to the land and waters, and the imbalanced relationship between humans and the environment.",
+            "target_value": null,
+            "target_year": null,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2021_Canada",
+            "source_page": 39,
+            "confidence": 0.8
+          },
+          {
+            "text": "Canada's climate has warmed by 2.3\u00b0C since 1948 and will warm further, on average, at about double the magnitude of warming globally.",
+            "target_value": null,
+            "target_year": null,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2021_Canada",
+            "source_page": 39,
+            "confidence": 0.8
+          }
+        ],
+        "total_found": 3
+      },
+      "pass_b": {
+        "country": "Canada",
+        "dimension": "Loss and Damage",
+        "measurability_level": "VAGUE",
+        "measurability_score": 0.25,
+        "reason": "The commitments lack specific targets, years, and units, and only express concerns and observations.",
+        "missing_elements": [
+          "target_value",
+          "target_year",
+          "baseline_year"
+        ],
+        "strongest_commitment": null,
+        "conditional_dependency": false,
+        "conditional_note": null
+      },
+      "pass_c": {
+        "country": "Canada",
+        "dimension": "Loss and Damage",
+        "overall_severity": "SIGNIFICANT",
+        "overall_severity_score": 0.7,
+        "gap_findings": [
+          {
+            "gap_type": "MISSING_COMMITMENT",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.7,
+            "description": "Canada's NDC lacks a specific commitment to addressing loss and damage.",
+            "ndc_evidence": "No commitment found",
+            "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: loss and damage is unavoidable even with adaptation; finance mechanisms urgently needed.",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.110]",
+            "quantified_gap": null,
+            "confidence": 1.0
+          },
+          {
+            "gap_type": "VAGUE_TARGET",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.7,
+            "description": "Canada's NDC commitment is vague and lacks quantification.",
+            "ndc_evidence": "Canada considers the irreversible impacts to the land and waters, and the imbalanced relationship between humans and the environment.",
+            "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: loss and damage is unavoidable even with adaptation; finance mechanisms urgently needed.",
+            "ndc_citation": "[NDC2_2021_Canada, p.39]",
+            "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.110]",
+            "quantified_gap": null,
+            "confidence": 0.8
+          },
+          {
+            "gap_type": "CONDITIONAL_DEPENDENCY",
+            "severity": "MINOR",
+            "severity_score": 0.3,
+            "description": "Canada's NDC commitment is not conditional on receiving international finance, but it is implied that finance mechanisms are urgently needed.",
+            "ndc_evidence": "No commitment found",
+            "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: loss and damage is unavoidable even with adaptation; finance mechanisms urgently needed.",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.110]",
+            "quantified_gap": null,
+            "confidence": 0.6
+          }
+        ],
+        "country_summary": "Canada's NDC lacks a specific commitment to addressing loss and damage, and its commitment is vague and lacks quantification.",
+        "policy_recommendation": "Canada should strengthen its NDC commitment to addressing loss and damage by providing specific and quantifiable targets, and ensuring that its commitment is not conditional on receiving international finance."
+      }
+    }
+  }
+}

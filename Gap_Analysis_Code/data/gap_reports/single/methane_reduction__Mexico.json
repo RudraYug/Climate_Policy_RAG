@@ -1,0 +1,95 @@
+{
+  "country": "Mexico",
+  "dimension": "methane_reduction",
+  "score": null,
+  "severity": "ALIGNED",
+  "label": "ABSENT",
+  "details": {
+    "country": "Mexico",
+    "dimension": "methane_reduction",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [
+      {
+        "text": "reduce methane emissions from all sectors",
+        "target_value": {},
+        "target_year": 2030,
+        "baseline_year": 2030,
+        "conditional": false,
+        "time_horizon": "near_term",
+        "source_doc": "NDC2_2022_Mexico",
+        "source_page": 7,
+        "confidence": 0.8
+      },
+      {
+        "text": "reduce methane emissions from all sectors, with a conditional target of 70% reduction if international finance, innovation, and technology are scaled up",
+        "target_value": "70%",
+        "target_year": 2030,
+        "baseline_year": 2030,
+        "conditional": true,
+        "time_horizon": "near_term",
+        "source_doc": "NDC2_2022_Mexico",
+        "source_page": 1,
+        "confidence": 0.9
+      }
+    ],
+    "measurability": {
+      "level": "QUALIFIED",
+      "score": 0.65,
+      "reason": "The commitments have a target year but are missing a baseline for the unconditional commitment and a precise unit for the conditional commitment.",
+      "missing_elements": [
+        "baseline for unconditional commitment",
+        "precise unit for conditional commitment"
+      ]
+    },
+    "gap_findings": [],
+    "overall_severity": "ALIGNED",
+    "overall_score": 0.0,
+    "summary": "",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [
+          {
+            "text": "reduce methane emissions from all sectors",
+            "target_value": {},
+            "target_year": 2030,
+            "baseline_year": 2030,
+            "conditional": false,
+            "time_horizon": "near_term",
+            "source_doc": "NDC2_2022_Mexico",
+            "source_page": 7,
+            "confidence": 0.8
+          },
+          {
+            "text": "reduce methane emissions from all sectors, with a conditional target of 70% reduction if international finance, innovation, and technology are scaled up",
+            "target_value": "70%",
+            "target_year": 2030,
+            "baseline_year": 2030,
+            "conditional": true,
+            "time_horizon": "near_term",
+            "source_doc": "NDC2_2022_Mexico",
+            "source_page": 1,
+            "confidence": 0.9
+          }
+        ],
+        "total_found": 2
+      },
+      "pass_b": {
+        "country": "Mexico",
+        "dimension": "Methane Reduction Targets",
+        "measurability_level": "QUALIFIED",
+        "measurability_score": 0.65,
+        "reason": "The commitments have a target year but are missing a baseline for the unconditional commitment and a precise unit for the conditional commitment.",
+        "missing_elements": [
+          "baseline for unconditional commitment",
+          "precise unit for conditional commitment"
+        ],
+        "strongest_commitment": "reduce methane emissions from all sectors, with a conditional target of 70% reduction if international finance, innovation, and technology are scaled up",
+        "conditional_dependency": true,
+        "conditional_note": "international finance, innovation, and technology are scaled up"
+      },
+      "pass_c": {}
+    }
+  }
+}

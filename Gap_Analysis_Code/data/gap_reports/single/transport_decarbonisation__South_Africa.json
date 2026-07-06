@@ -1,0 +1,97 @@
+{
+  "country": "South Africa",
+  "dimension": "transport_decarbonisation",
+  "score": null,
+  "severity": "ALIGNED",
+  "label": "ABSENT",
+  "details": {
+    "country": "South Africa",
+    "dimension": "transport_decarbonisation",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [
+      {
+        "text": "vehicles, mode shifting and the enhanced provision of safe and affordable public transport",
+        "target_value": null,
+        "target_year": null,
+        "baseline_year": null,
+        "conditional": true,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2021_South_Africa",
+        "source_page": 30,
+        "confidence": 0.8
+      },
+      {
+        "text": "transition in the transport sector towards low emission vehicles",
+        "target_value": null,
+        "target_year": null,
+        "baseline_year": null,
+        "conditional": true,
+        "time_horizon": "long_term",
+        "source_doc": "NDC2_2021_South_Africa",
+        "source_page": 6,
+        "confidence": 0.9
+      }
+    ],
+    "measurability": {
+      "level": "VAGUE",
+      "score": 0.25,
+      "reason": "Both commitments lack specific targets, years, and baselines, and only mention general directions.",
+      "missing_elements": [
+        "target_value",
+        "target_year",
+        "baseline_year"
+      ]
+    },
+    "gap_findings": [],
+    "overall_severity": "ALIGNED",
+    "overall_score": 0.0,
+    "summary": "",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [
+          {
+            "text": "vehicles, mode shifting and the enhanced provision of safe and affordable public transport",
+            "target_value": null,
+            "target_year": null,
+            "baseline_year": null,
+            "conditional": true,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2021_South_Africa",
+            "source_page": 30,
+            "confidence": 0.8
+          },
+          {
+            "text": "transition in the transport sector towards low emission vehicles",
+            "target_value": null,
+            "target_year": null,
+            "baseline_year": null,
+            "conditional": true,
+            "time_horizon": "long_term",
+            "source_doc": "NDC2_2021_South_Africa",
+            "source_page": 6,
+            "confidence": 0.9
+          }
+        ],
+        "total_found": 2
+      },
+      "pass_b": {
+        "country": "South Africa",
+        "dimension": "Transport Sector Decarbonisation",
+        "measurability_level": "VAGUE",
+        "measurability_score": 0.25,
+        "reason": "Both commitments lack specific targets, years, and baselines, and only mention general directions.",
+        "missing_elements": [
+          "target_value",
+          "target_year",
+          "baseline_year"
+        ],
+        "strongest_commitment": null,
+        "conditional_dependency": true,
+        "conditional_note": "Both commitments depend on conditions."
+      },
+      "pass_c": null
+    }
+  }
+}

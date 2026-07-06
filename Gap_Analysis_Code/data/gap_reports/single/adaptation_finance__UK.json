@@ -1,0 +1,89 @@
+{
+  "country": "UK",
+  "dimension": "adaptation_finance",
+  "score": null,
+  "severity": "ALIGNED",
+  "label": "ABSENT",
+  "details": {
+    "country": "UK",
+    "dimension": "adaptation_finance",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [
+      {
+        "text": "at least £3bn of ICF between 2021-22 and 2025-26 will be invested in climate change and poverty reduction solutions that protect, restore, and sustainably manage nature",
+        "target_value": "£3bn",
+        "target_year": 2025,
+        "baseline_year": 2021,
+        "conditional": false,
+        "time_horizon": "near_term",
+        "source_doc": "NDC2_2022_UK",
+        "source_page": 45,
+        "confidence": 1.0
+      },
+      {
+        "text": "£750m Nature for Climate Fund, which is helping to protect, restore, expand and support the resilience of habitats such as peat bogs and woodlands",
+        "target_value": "£750m",
+        "target_year": {},
+        "baseline_year": {},
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2022_UK",
+        "source_page": 18,
+        "confidence": 1.0
+      }
+    ],
+    "measurability": {
+      "level": "QUANTIFIED",
+      "score": 1.0,
+      "reason": "Both commitments have specific numbers, units, and target years.",
+      "missing_elements": []
+    },
+    "gap_findings": [],
+    "overall_severity": "ALIGNED",
+    "overall_score": 0.0,
+    "summary": "",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [
+          {
+            "text": "at least £3bn of ICF between 2021-22 and 2025-26 will be invested in climate change and poverty reduction solutions that protect, restore, and sustainably manage nature",
+            "target_value": "£3bn",
+            "target_year": 2025,
+            "baseline_year": 2021,
+            "conditional": false,
+            "time_horizon": "near_term",
+            "source_doc": "NDC2_2022_UK",
+            "source_page": 45,
+            "confidence": 1.0
+          },
+          {
+            "text": "£750m Nature for Climate Fund, which is helping to protect, restore, expand and support the resilience of habitats such as peat bogs and woodlands",
+            "target_value": "£750m",
+            "target_year": {},
+            "baseline_year": {},
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2022_UK",
+            "source_page": 18,
+            "confidence": 1.0
+          }
+        ],
+        "total_found": 2
+      },
+      "pass_b": {
+        "country": "UK",
+        "dimension": "Adaptation Finance Commitments",
+        "measurability_level": "QUANTIFIED",
+        "measurability_score": 1.0,
+        "reason": "Both commitments have specific numbers, units, and target years.",
+        "missing_elements": [],
+        "strongest_commitment": "at least £3bn of ICF between 2021-22 and 2025-26 will be invested in climate change and poverty reduction solutions that protect, restore, and sustainably manage nature",
+        "conditional_dependency": false,
+        "conditional_note": {}
+      },
+      "pass_c": {}
+    }
+  }
+}

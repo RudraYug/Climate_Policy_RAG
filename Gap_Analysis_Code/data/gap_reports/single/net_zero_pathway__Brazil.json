@@ -1,0 +1,171 @@
+{
+  "country": "Brazil",
+  "dimension": "net_zero_pathway",
+  "score": 0.7,
+  "severity": "SIGNIFICANT",
+  "label": "SIGNIFICANT",
+  "details": {
+    "country": "Brazil",
+    "dimension": "net_zero_pathway",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [
+      {
+        "text": "absolute net greenhouse gas emission target in 2025 of 1.32 GtCO e, consistent with a reduction of 48.4% in comparison with 2005",
+        "target_value": "1.32",
+        "target_year": 2025,
+        "baseline_year": 2005,
+        "conditional": false,
+        "time_horizon": "near_term",
+        "source_doc": "NDC2_2022_Brazil",
+        "source_page": 1,
+        "confidence": 1.0
+      },
+      {
+        "text": "absolute net greenhouse gas emission target in 2030 of 1.20 GtCO e, consistent with a reduction",
+        "target_value": "1.20",
+        "target_year": 2030,
+        "baseline_year": {},
+        "conditional": false,
+        "time_horizon": "long_term",
+        "source_doc": "NDC2_2022_Brazil",
+        "source_page": 1,
+        "confidence": 1.0
+      }
+    ],
+    "measurability": {
+      "level": "QUANTIFIED",
+      "score": 1.0,
+      "reason": "Both commitments have specific numbers, units, target years, and baselines.",
+      "missing_elements": []
+    },
+    "gap_findings": [
+      {
+        "gap_type": "MISSING_COMMITMENT",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.7,
+        "description": "Brazil's NDC does not commit to a specific year for net zero GHG emissions.",
+        "ndc_evidence": "No commitment found",
+        "ipcc_evidence": "IPCC AR6 WG3 SPM: global net zero CO2 by 2050 required for 1.5°C; net zero GHG by around 2070 for 2°C.",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "[WG3_SPM_2022, p.31]",
+        "quantified_gap": {},
+        "confidence": 1.0
+      },
+      {
+        "gap_type": "VAGUE_TARGET",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.7,
+        "description": "Brazil's NDC does not specify a year for net zero GHG emissions, whereas IPCC recommends 2050 for 1.5°C and 2070 for 2°C.",
+        "ndc_evidence": "absolute net greenhouse gas emission target in 2025 of 1.32 GtCO e, consistent with a reduction of 48.4% in comparison with 2005",
+        "ipcc_evidence": "IPCC AR6 WG3 SPM: global net zero CO2 by 2050 required for 1.5°C; net zero GHG by around 2070 for 2°C.",
+        "ndc_citation": "[NDC2_2022_Brazil, p.1]",
+        "ipcc_citation": "[WG3_SPM_2022, p.31]",
+        "quantified_gap": "NDC: 2025, IPCC min: 2050, gap: -25 years",
+        "confidence": 0.8
+      },
+      {
+        "gap_type": "CONDITIONAL_DEPENDENCY",
+        "severity": "MINOR",
+        "severity_score": 0.3,
+        "description": "Brazil's NDC does not explicitly state that its commitment is unconditional.",
+        "ndc_evidence": "absolute net greenhouse gas emission target in 2025 of 1.32 GtCO e, consistent with a reduction of 48.4% in comparison with 2005",
+        "ipcc_evidence": "IPCC AR6 WG3 SPM: global net zero CO2 by 2050 required for 1.5°C; net zero GHG by around 2070 for 2°C.",
+        "ndc_citation": "[NDC2_2022_Brazil, p.1]",
+        "ipcc_citation": "[WG3_SPM_2022, p.31]",
+        "quantified_gap": {},
+        "confidence": 0.6
+      }
+    ],
+    "overall_severity": "SIGNIFICANT",
+    "overall_score": 0.7,
+    "summary": "Brazil's NDC commitments for net zero GHG emissions are vague and do not align with IPCC recommendations. The country's commitment is unconditional, but it does not specify a year for net zero GHG emissions.",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [
+          {
+            "text": "absolute net greenhouse gas emission target in 2025 of 1.32 GtCO e, consistent with a reduction of 48.4% in comparison with 2005",
+            "target_value": "1.32",
+            "target_year": 2025,
+            "baseline_year": 2005,
+            "conditional": false,
+            "time_horizon": "near_term",
+            "source_doc": "NDC2_2022_Brazil",
+            "source_page": 1,
+            "confidence": 1.0
+          },
+          {
+            "text": "absolute net greenhouse gas emission target in 2030 of 1.20 GtCO e, consistent with a reduction",
+            "target_value": "1.20",
+            "target_year": 2030,
+            "baseline_year": {},
+            "conditional": false,
+            "time_horizon": "long_term",
+            "source_doc": "NDC2_2022_Brazil",
+            "source_page": 1,
+            "confidence": 1.0
+          }
+        ],
+        "total_found": 2
+      },
+      "pass_b": {
+        "country": "Brazil",
+        "dimension": "Net Zero / Carbon Neutrality Pathway",
+        "measurability_level": "QUANTIFIED",
+        "measurability_score": 1.0,
+        "reason": "Both commitments have specific numbers, units, target years, and baselines.",
+        "missing_elements": [],
+        "strongest_commitment": "absolute net greenhouse gas emission target in 2025 of 1.32 GtCO e, consistent with a reduction of 48.4% in comparison with 2005",
+        "conditional_dependency": false,
+        "conditional_note": {}
+      },
+      "pass_c": {
+        "country": "Brazil",
+        "dimension": "Net Zero / Carbon Neutrality Pathway",
+        "overall_severity": "SIGNIFICANT",
+        "overall_severity_score": 0.7,
+        "gap_findings": [
+          {
+            "gap_type": "MISSING_COMMITMENT",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.7,
+            "description": "Brazil's NDC does not commit to a specific year for net zero GHG emissions.",
+            "ndc_evidence": "No commitment found",
+            "ipcc_evidence": "IPCC AR6 WG3 SPM: global net zero CO2 by 2050 required for 1.5°C; net zero GHG by around 2070 for 2°C.",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "[WG3_SPM_2022, p.31]",
+            "quantified_gap": {},
+            "confidence": 1.0
+          },
+          {
+            "gap_type": "VAGUE_TARGET",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.7,
+            "description": "Brazil's NDC does not specify a year for net zero GHG emissions, whereas IPCC recommends 2050 for 1.5°C and 2070 for 2°C.",
+            "ndc_evidence": "absolute net greenhouse gas emission target in 2025 of 1.32 GtCO e, consistent with a reduction of 48.4% in comparison with 2005",
+            "ipcc_evidence": "IPCC AR6 WG3 SPM: global net zero CO2 by 2050 required for 1.5°C; net zero GHG by around 2070 for 2°C.",
+            "ndc_citation": "[NDC2_2022_Brazil, p.1]",
+            "ipcc_citation": "[WG3_SPM_2022, p.31]",
+            "quantified_gap": "NDC: 2025, IPCC min: 2050, gap: -25 years",
+            "confidence": 0.8
+          },
+          {
+            "gap_type": "CONDITIONAL_DEPENDENCY",
+            "severity": "MINOR",
+            "severity_score": 0.3,
+            "description": "Brazil's NDC does not explicitly state that its commitment is unconditional.",
+            "ndc_evidence": "absolute net greenhouse gas emission target in 2025 of 1.32 GtCO e, consistent with a reduction of 48.4% in comparison with 2005",
+            "ipcc_evidence": "IPCC AR6 WG3 SPM: global net zero CO2 by 2050 required for 1.5°C; net zero GHG by around 2070 for 2°C.",
+            "ndc_citation": "[NDC2_2022_Brazil, p.1]",
+            "ipcc_citation": "[WG3_SPM_2022, p.31]",
+            "quantified_gap": {},
+            "confidence": 0.6
+          }
+        ],
+        "country_summary": "Brazil's NDC commitments for net zero GHG emissions are vague and do not align with IPCC recommendations. The country's commitment is unconditional, but it does not specify a year for net zero GHG emissions.",
+        "policy_recommendation": "Brazil should commit to a specific year for net zero GHG emissions, ideally 2050, to align with IPCC recommendations and enhance its climate ambition."
+      }
+    }
+  }
+}

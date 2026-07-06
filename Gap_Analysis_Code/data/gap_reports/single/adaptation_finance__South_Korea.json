@@ -1,0 +1,225 @@
+{
+  "country": "South Korea",
+  "dimension": "adaptation_finance",
+  "score": 0.6,
+  "severity": "SIGNIFICANT",
+  "label": "SIGNIFICANT",
+  "details": {
+    "country": "South Korea",
+    "dimension": "adaptation_finance",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [
+      {
+        "text": "These institutional arrangements and funding such as the Korea Climate Action Fund will prevent the vulnerable populations from being disproportionately affected in the process of the transition.",
+        "target_value": {},
+        "target_year": {},
+        "baseline_year": {},
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2021_South_Korea",
+        "source_page": 3,
+        "confidence": 0.8
+      },
+      {
+        "text": "Efforts to develop and distribute climate change adaptation manuals are also underway to ensure that the public entities in possession and management of climate-vulnerable facilities are equipped with the necessary knowledge and skills to establish and implement their own adaptation plans.",
+        "target_value": {},
+        "target_year": {},
+        "baseline_year": {},
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2021_South_Korea",
+        "source_page": 5,
+        "confidence": 0.7
+      },
+      {
+        "text": "Public entities in possession and management of climate-vulnerable facilities are required to establish and implement their own adaptation plans.",
+        "target_value": {},
+        "target_year": {},
+        "baseline_year": {},
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2021_South_Korea",
+        "source_page": 5,
+        "confidence": 0.8
+      }
+    ],
+    "measurability": {
+      "level": "VAGUE",
+      "score": 0.25,
+      "reason": "No specific numbers, units, target years, or baselines are mentioned in the commitments.",
+      "missing_elements": [
+        "target_value",
+        "target_year",
+        "baseline_year"
+      ]
+    },
+    "gap_findings": [
+      {
+        "gap_type": "missing_commitment",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.6,
+        "description": "South Korea's NDC lacks a specific commitment on adaptation finance.",
+        "ndc_evidence": "No commitment found",
+        "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: adaptation finance gaps persist; developing countries need significantly more than current flows.",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.48]",
+        "quantified_gap": {},
+        "confidence": 0.8
+      },
+      {
+        "gap_type": "vague_target",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.6,
+        "description": "South Korea's NDC commitments on adaptation finance are vague and lack quantification.",
+        "ndc_evidence": "These institutional arrangements and funding such as the Korea Climate Action Fund will prevent the vulnerable populations from being disproportionately affected in the process of the transition.",
+        "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: adaptation finance gaps persist; developing countries need significantly more than current flows.",
+        "ndc_citation": "[NDC2_2021_South_Korea, p.3]",
+        "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.48]",
+        "quantified_gap": {},
+        "confidence": 0.8
+      },
+      {
+        "gap_type": "ipcc_contradiction",
+        "severity": "MINOR",
+        "severity_score": 0.2,
+        "description": "South Korea's NDC does not specify a target for adaptation finance, which is inconsistent with the IPCC's recommendation for significantly more finance for developing countries.",
+        "ndc_evidence": "No commitment found",
+        "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: adaptation finance gaps persist; developing countries need significantly more than current flows.",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.48]",
+        "quantified_gap": {},
+        "confidence": 0.8
+      },
+      {
+        "gap_type": "conditional_dependency",
+        "severity": "MINOR",
+        "severity_score": 0.2,
+        "description": "South Korea's NDC does not specify any conditional dependencies for its adaptation finance commitments.",
+        "ndc_evidence": "No commitment found",
+        "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: adaptation finance gaps persist; developing countries need significantly more than current flows.",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.48]",
+        "quantified_gap": {},
+        "confidence": 0.8
+      }
+    ],
+    "overall_severity": "SIGNIFICANT",
+    "overall_score": 0.6,
+    "summary": "South Korea's NDC lacks specific commitments on adaptation finance, and its existing commitments are vague and lack quantification.",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [
+          {
+            "text": "These institutional arrangements and funding such as the Korea Climate Action Fund will prevent the vulnerable populations from being disproportionately affected in the process of the transition.",
+            "target_value": {},
+            "target_year": {},
+            "baseline_year": {},
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2021_South_Korea",
+            "source_page": 3,
+            "confidence": 0.8
+          },
+          {
+            "text": "Efforts to develop and distribute climate change adaptation manuals are also underway to ensure that the public entities in possession and management of climate-vulnerable facilities are equipped with the necessary knowledge and skills to establish and implement their own adaptation plans.",
+            "target_value": {},
+            "target_year": {},
+            "baseline_year": {},
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2021_South_Korea",
+            "source_page": 5,
+            "confidence": 0.7
+          },
+          {
+            "text": "Public entities in possession and management of climate-vulnerable facilities are required to establish and implement their own adaptation plans.",
+            "target_value": {},
+            "target_year": {},
+            "baseline_year": {},
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2021_South_Korea",
+            "source_page": 5,
+            "confidence": 0.8
+          }
+        ],
+        "total_found": 3
+      },
+      "pass_b": {
+        "country": "South Korea",
+        "dimension": "Adaptation Finance Commitments",
+        "measurability_level": "VAGUE",
+        "measurability_score": 0.25,
+        "reason": "No specific numbers, units, target years, or baselines are mentioned in the commitments.",
+        "missing_elements": [
+          "target_value",
+          "target_year",
+          "baseline_year"
+        ],
+        "strongest_commitment": {},
+        "conditional_dependency": false,
+        "conditional_note": {}
+      },
+      "pass_c": {
+        "country": "South Korea",
+        "dimension": "Adaptation Finance Commitments",
+        "overall_severity": "SIGNIFICANT",
+        "overall_severity_score": 0.6,
+        "gap_findings": [
+          {
+            "gap_type": "missing_commitment",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.6,
+            "description": "South Korea's NDC lacks a specific commitment on adaptation finance.",
+            "ndc_evidence": "No commitment found",
+            "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: adaptation finance gaps persist; developing countries need significantly more than current flows.",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.48]",
+            "quantified_gap": {},
+            "confidence": 0.8
+          },
+          {
+            "gap_type": "vague_target",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.6,
+            "description": "South Korea's NDC commitments on adaptation finance are vague and lack quantification.",
+            "ndc_evidence": "These institutional arrangements and funding such as the Korea Climate Action Fund will prevent the vulnerable populations from being disproportionately affected in the process of the transition.",
+            "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: adaptation finance gaps persist; developing countries need significantly more than current flows.",
+            "ndc_citation": "[NDC2_2021_South_Korea, p.3]",
+            "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.48]",
+            "quantified_gap": {},
+            "confidence": 0.8
+          },
+          {
+            "gap_type": "ipcc_contradiction",
+            "severity": "MINOR",
+            "severity_score": 0.2,
+            "description": "South Korea's NDC does not specify a target for adaptation finance, which is inconsistent with the IPCC's recommendation for significantly more finance for developing countries.",
+            "ndc_evidence": "No commitment found",
+            "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: adaptation finance gaps persist; developing countries need significantly more than current flows.",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.48]",
+            "quantified_gap": {},
+            "confidence": 0.8
+          },
+          {
+            "gap_type": "conditional_dependency",
+            "severity": "MINOR",
+            "severity_score": 0.2,
+            "description": "South Korea's NDC does not specify any conditional dependencies for its adaptation finance commitments.",
+            "ndc_evidence": "No commitment found",
+            "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: adaptation finance gaps persist; developing countries need significantly more than current flows.",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.48]",
+            "quantified_gap": {},
+            "confidence": 0.8
+          }
+        ],
+        "country_summary": "South Korea's NDC lacks specific commitments on adaptation finance, and its existing commitments are vague and lack quantification.",
+        "policy_recommendation": "South Korea should establish specific, measurable, and ambitious commitments on adaptation finance, aligned with the IPCC's recommendations, and consider conditional dependencies to ensure delivery."
+      }
+    }
+  }
+}

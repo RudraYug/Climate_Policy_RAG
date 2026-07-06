@@ -1,0 +1,199 @@
+{
+  "country": "Canada",
+  "dimension": "transport_decarbonisation",
+  "score": null,
+  "severity": "ALIGNED",
+  "label": "ABSENT",
+  "details": {
+    "country": "Canada",
+    "dimension": "transport_decarbonisation",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [
+      {
+        "text": "20,000 EVs on the road in New Brunswick by 2030",
+        "target_value": 20000,
+        "target_year": 2030,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "near_term",
+        "source_doc": "NDC2_2021_Canada",
+        "source_page": 28,
+        "confidence": 1.0
+      },
+      {
+        "text": "10% reduction in GHG intensities by industrial emitters in New Brunswick by 2030",
+        "target_value": 10,
+        "target_year": 2030,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "near_term",
+        "source_doc": "NDC2_2021_Canada",
+        "source_page": 28,
+        "confidence": 1.0
+      },
+      {
+        "text": "Net-zero emissions by 2040",
+        "target_value": null,
+        "target_year": 2040,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "long_term",
+        "source_doc": "NDC2_2021_Canada",
+        "source_page": 28,
+        "confidence": 1.0
+      },
+      {
+        "text": "27-32% reduction in GHG emissions from transportation sector in British Columbia by 2030",
+        "target_value": "27-32%",
+        "target_year": 2030,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "near_term",
+        "source_doc": "NDC2_2021_Canada",
+        "source_page": 25,
+        "confidence": 1.0
+      },
+      {
+        "text": "38-43% reduction in GHG emissions from industry sector in British Columbia by 2030",
+        "target_value": "38-43%",
+        "target_year": 2030,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "near_term",
+        "source_doc": "NDC2_2021_Canada",
+        "source_page": 25,
+        "confidence": 1.0
+      },
+      {
+        "text": "33-38% reduction in GHG emissions from oil and gas sector in British Columbia by 2030",
+        "target_value": "33-38%",
+        "target_year": 2030,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "near_term",
+        "source_doc": "NDC2_2021_Canada",
+        "source_page": 25,
+        "confidence": 1.0
+      },
+      {
+        "text": "59-64% reduction in GHG emissions from buildings and communities sector in British Columbia by 2030",
+        "target_value": "59-64%",
+        "target_year": 2030,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "near_term",
+        "source_doc": "NDC2_2021_Canada",
+        "source_page": 25,
+        "confidence": 1.0
+      }
+    ],
+    "measurability": {
+      "level": "QUANTIFIED",
+      "score": 1.0,
+      "reason": "All commitments have specific numbers, units, target years, and baselines.",
+      "missing_elements": []
+    },
+    "gap_findings": [],
+    "overall_severity": "ALIGNED",
+    "overall_score": 0.0,
+    "summary": "",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [
+          {
+            "text": "20,000 EVs on the road in New Brunswick by 2030",
+            "target_value": 20000,
+            "target_year": 2030,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "near_term",
+            "source_doc": "NDC2_2021_Canada",
+            "source_page": 28,
+            "confidence": 1.0
+          },
+          {
+            "text": "10% reduction in GHG intensities by industrial emitters in New Brunswick by 2030",
+            "target_value": 10,
+            "target_year": 2030,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "near_term",
+            "source_doc": "NDC2_2021_Canada",
+            "source_page": 28,
+            "confidence": 1.0
+          },
+          {
+            "text": "Net-zero emissions by 2040",
+            "target_value": null,
+            "target_year": 2040,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "long_term",
+            "source_doc": "NDC2_2021_Canada",
+            "source_page": 28,
+            "confidence": 1.0
+          },
+          {
+            "text": "27-32% reduction in GHG emissions from transportation sector in British Columbia by 2030",
+            "target_value": "27-32%",
+            "target_year": 2030,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "near_term",
+            "source_doc": "NDC2_2021_Canada",
+            "source_page": 25,
+            "confidence": 1.0
+          },
+          {
+            "text": "38-43% reduction in GHG emissions from industry sector in British Columbia by 2030",
+            "target_value": "38-43%",
+            "target_year": 2030,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "near_term",
+            "source_doc": "NDC2_2021_Canada",
+            "source_page": 25,
+            "confidence": 1.0
+          },
+          {
+            "text": "33-38% reduction in GHG emissions from oil and gas sector in British Columbia by 2030",
+            "target_value": "33-38%",
+            "target_year": 2030,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "near_term",
+            "source_doc": "NDC2_2021_Canada",
+            "source_page": 25,
+            "confidence": 1.0
+          },
+          {
+            "text": "59-64% reduction in GHG emissions from buildings and communities sector in British Columbia by 2030",
+            "target_value": "59-64%",
+            "target_year": 2030,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "near_term",
+            "source_doc": "NDC2_2021_Canada",
+            "source_page": 25,
+            "confidence": 1.0
+          }
+        ],
+        "total_found": 7
+      },
+      "pass_b": {
+        "country": "Canada",
+        "dimension": "Transport Sector Decarbonisation",
+        "measurability_level": "QUANTIFIED",
+        "measurability_score": 1.0,
+        "reason": "All commitments have specific numbers, units, target years, and baselines.",
+        "missing_elements": [],
+        "strongest_commitment": "20,000 EVs on the road in New Brunswick by 2030",
+        "conditional_dependency": false,
+        "conditional_note": null
+      },
+      "pass_c": null
+    }
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "country": "Canada",
+  "dimension": "adaptation_finance",
+  "score": 1.0,
+  "severity": "CRITICAL",
+  "label": "CRITICAL",
+  "details": {
+    "country": "Canada",
+    "dimension": "adaptation_finance",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [],
+    "measurability": {
+      "level": "ABSENT",
+      "score": 0.0,
+      "reason": "No commitments were extracted.",
+      "missing_elements": []
+    },
+    "gap_findings": [
+      {
+        "gap_type": "MISSING_COMMITMENT",
+        "severity": "CRITICAL",
+        "severity_score": 1.0,
+        "description": "Canada makes no commitment on adaptation finance.",
+        "ndc_evidence": "No commitment found.",
+        "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: adaptation finance gaps persist; developing countries need significantly more than current flows.",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "[SOURCE 1: WG2_Chapter17_DecisionMakingRisk_2022, p.48]",
+        "quantified_gap": {},
+        "confidence": 1.0
+      },
+      {
+        "gap_type": "CONDITIONAL_DEPENDENCY",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.7,
+        "description": "Canada's commitment is conditional on receiving international finance.",
+        "ndc_evidence": "INSUFFICIENT_EVIDENCE",
+        "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: adaptation finance gaps persist; developing countries need significantly more than current flows.",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "[SOURCE 2: WG2_Chapter17_DecisionMakingRisk_2022, p.48]",
+        "quantified_gap": {},
+        "confidence": 0.7
+      },
+      {
+        "gap_type": "VAGUE_TARGET",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.6,
+        "description": "Canada's commitment lacks quantification, baseline, or timeline.",
+        "ndc_evidence": "INSUFFICIENT_EVIDENCE",
+        "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: adaptation finance gaps persist; developing countries need significantly more than current flows.",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "[SOURCE 3: WG2_Chapter17_DecisionMakingRisk_2022, p.54]",
+        "quantified_gap": {},
+        "confidence": 0.6
+      },
+      {
+        "gap_type": "IPCC_CONTRADICTION",
+        "severity": "CRITICAL",
+        "severity_score": 0.9,
+        "description": "Canada's commitment is directionally or quantitatively inconsistent with IPCC AR6 recommendations.",
+        "ndc_evidence": "INSUFFICIENT_EVIDENCE",
+        "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: adaptation finance gaps persist; developing countries need significantly more than current flows.",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "[SOURCE 4: WG2_Chapter17_DecisionMakingRisk_2022, p.52]",
+        "quantified_gap": {},
+        "confidence": 0.9
+      }
+    ],
+    "overall_severity": "CRITICAL",
+    "overall_score": 0.8,
+    "summary": "Canada lacks a clear commitment on adaptation finance, and its existing commitments are conditional on international finance, vague, and inconsistent with IPCC recommendations.",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [],
+        "total_found": 0
+      },
+      "pass_b": {
+        "country": "Canada",
+        "dimension": "Adaptation Finance Commitments",
+        "measurability_level": "ABSENT",
+        "measurability_score": 0.0,
+        "reason": "No commitments were extracted.",
+        "missing_elements": [],
+        "strongest_commitment": {},
+        "conditional_dependency": false,
+        "conditional_note": {}
+      },
+      "pass_c": {
+        "country": "Canada",
+        "dimension": "Adaptation Finance Commitments",
+        "overall_severity": "CRITICAL",
+        "overall_severity_score": 0.8,
+        "gap_findings": [
+          {
+            "gap_type": "MISSING_COMMITMENT",
+            "severity": "CRITICAL",
+            "severity_score": 1.0,
+            "description": "Canada makes no commitment on adaptation finance.",
+            "ndc_evidence": "No commitment found.",
+            "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: adaptation finance gaps persist; developing countries need significantly more than current flows.",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "[SOURCE 1: WG2_Chapter17_DecisionMakingRisk_2022, p.48]",
+            "quantified_gap": {},
+            "confidence": 1.0
+          },
+          {
+            "gap_type": "CONDITIONAL_DEPENDENCY",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.7,
+            "description": "Canada's commitment is conditional on receiving international finance.",
+            "ndc_evidence": "INSUFFICIENT_EVIDENCE",
+            "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: adaptation finance gaps persist; developing countries need significantly more than current flows.",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "[SOURCE 2: WG2_Chapter17_DecisionMakingRisk_2022, p.48]",
+            "quantified_gap": {},
+            "confidence": 0.7
+          },
+          {
+            "gap_type": "VAGUE_TARGET",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.6,
+            "description": "Canada's commitment lacks quantification, baseline, or timeline.",
+            "ndc_evidence": "INSUFFICIENT_EVIDENCE",
+            "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: adaptation finance gaps persist; developing countries need significantly more than current flows.",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "[SOURCE 3: WG2_Chapter17_DecisionMakingRisk_2022, p.54]",
+            "quantified_gap": {},
+            "confidence": 0.6
+          },
+          {
+            "gap_type": "IPCC_CONTRADICTION",
+            "severity": "CRITICAL",
+            "severity_score": 0.9,
+            "description": "Canada's commitment is directionally or quantitatively inconsistent with IPCC AR6 recommendations.",
+            "ndc_evidence": "INSUFFICIENT_EVIDENCE",
+            "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: adaptation finance gaps persist; developing countries need significantly more than current flows.",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "[SOURCE 4: WG2_Chapter17_DecisionMakingRisk_2022, p.52]",
+            "quantified_gap": {},
+            "confidence": 0.9
+          }
+        ],
+        "country_summary": "Canada lacks a clear commitment on adaptation finance, and its existing commitments are conditional on international finance, vague, and inconsistent with IPCC recommendations.",
+        "policy_recommendation": "Canada should establish a clear and quantifiable commitment on adaptation finance, aligned with IPCC recommendations, and provide a timeline for implementation."
+      }
+    }
+  }
+}

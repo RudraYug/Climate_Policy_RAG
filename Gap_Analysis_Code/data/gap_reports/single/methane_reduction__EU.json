@@ -1,0 +1,125 @@
+{
+  "country": "EU",
+  "dimension": "methane_reduction",
+  "score": 0.7,
+  "severity": "SIGNIFICANT",
+  "label": "SIGNIFICANT",
+  "details": {
+    "country": "EU",
+    "dimension": "methane_reduction",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [
+      {
+        "text": "reduce emissions from F-gas emissions by 66% by 2030 compared with 2014 levels",
+        "target_value": "66%",
+        "target_year": 2030,
+        "baseline_year": 2014,
+        "conditional": false,
+        "time_horizon": "near_term",
+        "source_doc": "NDC2_2020_EU",
+        "source_page": 5,
+        "confidence": 1.0
+      }
+    ],
+    "measurability": {
+      "level": "QUANTIFIED",
+      "score": 1.0,
+      "reason": "The commitment has a specific number, unit, target year, and baseline.",
+      "missing_elements": []
+    },
+    "gap_findings": [
+      {
+        "gap_type": "ipcc_contradiction",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.7,
+        "description": "EU's NDC commitment of 66% methane reduction by 2030 is lower than the IPCC's recommended 34% reduction by 2030.",
+        "ndc_evidence": "reduce emissions from F-gas emissions by 66% by 2030 compared with 2014 levels [NDC2_2020_EU, p.5]",
+        "ipcc_evidence": "reducing methane ~34% by 2030 vs 2020 buys near-term warming relief and is cost-effective [WG3_SPM_2022, p.42]",
+        "ndc_citation": "[NDC2_2020_EU, p.5]",
+        "ipcc_citation": "[WG3_SPM_2022, p.42]",
+        "quantified_gap": "NDC: 66%, IPCC min: 34%, gap: 32pp",
+        "confidence": 0.9
+      },
+      {
+        "gap_type": "vague_target",
+        "severity": "MINOR",
+        "severity_score": 0.3,
+        "description": "EU's NDC commitment does not specify the sectors that will be targeted for methane reduction.",
+        "ndc_evidence": "reduce emissions from F-gas emissions by 66% by 2030 compared with 2014 levels [NDC2_2020_EU, p.5]",
+        "ipcc_evidence": "Specific commitments to reduce methane emissions from all sectors [WG3_Chapter04_MitigationDevelopmentPathways_2022, p.32]",
+        "ndc_citation": "[NDC2_2020_EU, p.5]",
+        "ipcc_citation": "[WG3_Chapter04_MitigationDevelopmentPathways_2022, p.32]",
+        "quantified_gap": "null",
+        "confidence": 0.8
+      }
+    ],
+    "overall_severity": "SIGNIFICANT",
+    "overall_score": 0.7,
+    "summary": "The EU's NDC commitment for methane reduction is lower than the IPCC's recommended target, and lacks specificity on targeted sectors.",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [
+          {
+            "text": "reduce emissions from F-gas emissions by 66% by 2030 compared with 2014 levels",
+            "target_value": "66%",
+            "target_year": 2030,
+            "baseline_year": 2014,
+            "conditional": false,
+            "time_horizon": "near_term",
+            "source_doc": "NDC2_2020_EU",
+            "source_page": 5,
+            "confidence": 1.0
+          }
+        ],
+        "total_found": 1
+      },
+      "pass_b": {
+        "country": "EU",
+        "dimension": "Methane Reduction Targets",
+        "measurability_level": "QUANTIFIED",
+        "measurability_score": 1.0,
+        "reason": "The commitment has a specific number, unit, target year, and baseline.",
+        "missing_elements": [],
+        "strongest_commitment": "reduce emissions from F-gas emissions by 66% by 2030 compared with 2014 levels",
+        "conditional_dependency": false,
+        "conditional_note": {}
+      },
+      "pass_c": {
+        "country": "EU",
+        "dimension": "Methane Reduction Targets",
+        "overall_severity": "SIGNIFICANT",
+        "overall_severity_score": 0.7,
+        "gap_findings": [
+          {
+            "gap_type": "ipcc_contradiction",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.7,
+            "description": "EU's NDC commitment of 66% methane reduction by 2030 is lower than the IPCC's recommended 34% reduction by 2030.",
+            "ndc_evidence": "reduce emissions from F-gas emissions by 66% by 2030 compared with 2014 levels [NDC2_2020_EU, p.5]",
+            "ipcc_evidence": "reducing methane ~34% by 2030 vs 2020 buys near-term warming relief and is cost-effective [WG3_SPM_2022, p.42]",
+            "ndc_citation": "[NDC2_2020_EU, p.5]",
+            "ipcc_citation": "[WG3_SPM_2022, p.42]",
+            "quantified_gap": "NDC: 66%, IPCC min: 34%, gap: 32pp",
+            "confidence": 0.9
+          },
+          {
+            "gap_type": "vague_target",
+            "severity": "MINOR",
+            "severity_score": 0.3,
+            "description": "EU's NDC commitment does not specify the sectors that will be targeted for methane reduction.",
+            "ndc_evidence": "reduce emissions from F-gas emissions by 66% by 2030 compared with 2014 levels [NDC2_2020_EU, p.5]",
+            "ipcc_evidence": "Specific commitments to reduce methane emissions from all sectors [WG3_Chapter04_MitigationDevelopmentPathways_2022, p.32]",
+            "ndc_citation": "[NDC2_2020_EU, p.5]",
+            "ipcc_citation": "[WG3_Chapter04_MitigationDevelopmentPathways_2022, p.32]",
+            "quantified_gap": "null",
+            "confidence": 0.8
+          }
+        ],
+        "country_summary": "The EU's NDC commitment for methane reduction is lower than the IPCC's recommended target, and lacks specificity on targeted sectors.",
+        "policy_recommendation": "The EU should revisit its NDC commitment and aim for a 34% methane reduction by 2030, targeting all sectors for reduction."
+      }
+    }
+  }
+}

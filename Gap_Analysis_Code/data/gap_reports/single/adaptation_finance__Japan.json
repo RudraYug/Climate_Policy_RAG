@@ -1,0 +1,181 @@
+{
+  "country": "Japan",
+  "dimension": "adaptation_finance",
+  "score": 0.7,
+  "severity": "SIGNIFICANT",
+  "label": "SIGNIFICANT",
+  "details": {
+    "country": "Japan",
+    "dimension": "adaptation_finance",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [
+      {
+        "text": "Japan will make proactive efforts in the area of international cooperation to promote decarbonization and to improve resilience in developing countries and others, including from developing policies and institutional platforms to promoting sector- and city-level efforts as well as facilitating techno",
+        "target_value": {},
+        "target_year": {},
+        "baseline_year": {},
+        "conditional": true,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2021_Japan",
+        "source_page": 1,
+        "confidence": 0.8
+      },
+      {
+        "text": "Japan will also make proactive efforts in the area of international cooperation to promote decarbonization and to improve resilience in developing countries and others",
+        "target_value": {},
+        "target_year": {},
+        "baseline_year": {},
+        "conditional": true,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2021_Japan",
+        "source_page": 1,
+        "confidence": 0.8
+      }
+    ],
+    "measurability": {
+      "level": "VAGUE",
+      "score": 0.25,
+      "reason": "The commitments lack specific numbers, units, target years, and baselines, and only mention proactive efforts without measurable targets.",
+      "missing_elements": [
+        "specific number",
+        "unit",
+        "target year",
+        "baseline"
+      ]
+    },
+    "gap_findings": [
+      {
+        "gap_type": "MISSING_COMMITMENT",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.7,
+        "description": "Japan's NDC commitments lack specific targets for adaptation finance.",
+        "ndc_evidence": "No commitment found.",
+        "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: adaptation finance gaps persist; developing countries need significantly more than current flows.",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.48]",
+        "quantified_gap": {},
+        "confidence": 1.0
+      },
+      {
+        "gap_type": "VAGUE_TARGET",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.7,
+        "description": "Japan's NDC commitments lack quantification and specificity for adaptation finance.",
+        "ndc_evidence": "Japan will make proactive efforts in the area of international cooperation to promote decarbonization and to improve resilience in developing countries and others.",
+        "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: adaptation finance gaps persist; developing countries need significantly more than current flows.",
+        "ndc_citation": "[NDC2_2021_Japan, p.1]",
+        "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.48]",
+        "quantified_gap": {},
+        "confidence": 0.8
+      },
+      {
+        "gap_type": "CONDITIONAL_DEPENDENCY",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.7,
+        "description": "Japan's NDC commitments are conditional on receiving international finance.",
+        "ndc_evidence": "Japan will make proactive efforts in the area of international cooperation to promote decarbonization and to improve resilience in developing countries and others.",
+        "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: adaptation finance gaps persist; developing countries need significantly more than current flows.",
+        "ndc_citation": "[NDC2_2021_Japan, p.1]",
+        "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.48]",
+        "quantified_gap": {},
+        "confidence": 0.8
+      }
+    ],
+    "overall_severity": "SIGNIFICANT",
+    "overall_score": 0.7,
+    "summary": "Japan's NDC commitments lack specific targets and quantification for adaptation finance, and are conditional on receiving international finance.",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [
+          {
+            "text": "Japan will make proactive efforts in the area of international cooperation to promote decarbonization and to improve resilience in developing countries and others, including from developing policies and institutional platforms to promoting sector- and city-level efforts as well as facilitating techno",
+            "target_value": {},
+            "target_year": {},
+            "baseline_year": {},
+            "conditional": true,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2021_Japan",
+            "source_page": 1,
+            "confidence": 0.8
+          },
+          {
+            "text": "Japan will also make proactive efforts in the area of international cooperation to promote decarbonization and to improve resilience in developing countries and others",
+            "target_value": {},
+            "target_year": {},
+            "baseline_year": {},
+            "conditional": true,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2021_Japan",
+            "source_page": 1,
+            "confidence": 0.8
+          }
+        ],
+        "total_found": 2
+      },
+      "pass_b": {
+        "country": "Japan",
+        "dimension": "Adaptation Finance Commitments",
+        "measurability_level": "VAGUE",
+        "measurability_score": 0.25,
+        "reason": "The commitments lack specific numbers, units, target years, and baselines, and only mention proactive efforts without measurable targets.",
+        "missing_elements": [
+          "specific number",
+          "unit",
+          "target year",
+          "baseline"
+        ],
+        "strongest_commitment": {},
+        "conditional_dependency": true,
+        "conditional_note": "The commitments depend on developing policies and institutional platforms, as well as facilitating techno"
+      },
+      "pass_c": {
+        "country": "Japan",
+        "dimension": "Adaptation Finance Commitments",
+        "overall_severity": "SIGNIFICANT",
+        "overall_severity_score": 0.7,
+        "gap_findings": [
+          {
+            "gap_type": "MISSING_COMMITMENT",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.7,
+            "description": "Japan's NDC commitments lack specific targets for adaptation finance.",
+            "ndc_evidence": "No commitment found.",
+            "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: adaptation finance gaps persist; developing countries need significantly more than current flows.",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.48]",
+            "quantified_gap": {},
+            "confidence": 1.0
+          },
+          {
+            "gap_type": "VAGUE_TARGET",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.7,
+            "description": "Japan's NDC commitments lack quantification and specificity for adaptation finance.",
+            "ndc_evidence": "Japan will make proactive efforts in the area of international cooperation to promote decarbonization and to improve resilience in developing countries and others.",
+            "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: adaptation finance gaps persist; developing countries need significantly more than current flows.",
+            "ndc_citation": "[NDC2_2021_Japan, p.1]",
+            "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.48]",
+            "quantified_gap": {},
+            "confidence": 0.8
+          },
+          {
+            "gap_type": "CONDITIONAL_DEPENDENCY",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.7,
+            "description": "Japan's NDC commitments are conditional on receiving international finance.",
+            "ndc_evidence": "Japan will make proactive efforts in the area of international cooperation to promote decarbonization and to improve resilience in developing countries and others.",
+            "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: adaptation finance gaps persist; developing countries need significantly more than current flows.",
+            "ndc_citation": "[NDC2_2021_Japan, p.1]",
+            "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.48]",
+            "quantified_gap": {},
+            "confidence": 0.8
+          }
+        ],
+        "country_summary": "Japan's NDC commitments lack specific targets and quantification for adaptation finance, and are conditional on receiving international finance.",
+        "policy_recommendation": "Japan should establish specific, measurable, and unconditional targets for adaptation finance, and increase its commitment to address the adaptation finance gaps in developing countries."
+      }
+    }
+  }
+}

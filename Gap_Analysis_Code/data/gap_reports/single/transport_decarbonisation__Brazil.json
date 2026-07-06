@@ -1,0 +1,95 @@
+{
+  "country": "Brazil",
+  "dimension": "transport_decarbonisation",
+  "score": null,
+  "severity": "ALIGNED",
+  "label": "ABSENT",
+  "details": {
+    "country": "Brazil",
+    "dimension": "transport_decarbonisation",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [
+      {
+        "text": "The production of biofuels for the transport sector has substantially increased due to RenovaBio, which uses market incentives to promote the decarbonisation of the sector and to incentivize these kinds of fuels.",
+        "target_value": null,
+        "target_year": null,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2022_Brazil",
+        "source_page": 4,
+        "confidence": 0.8
+      },
+      {
+        "text": "In the transport mix, it represents 25% of the sources.",
+        "target_value": 25,
+        "target_year": null,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2022_Brazil",
+        "source_page": 4,
+        "confidence": 0.7
+      }
+    ],
+    "measurability": {
+      "level": "QUALIFIED",
+      "score": 0.65,
+      "reason": "One commitment has a specific number and unit, but the other lacks a target year and baseline.",
+      "missing_elements": [
+        "target year",
+        "baseline"
+      ]
+    },
+    "gap_findings": [],
+    "overall_severity": "ALIGNED",
+    "overall_score": 0.0,
+    "summary": "",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [
+          {
+            "text": "The production of biofuels for the transport sector has substantially increased due to RenovaBio, which uses market incentives to promote the decarbonisation of the sector and to incentivize these kinds of fuels.",
+            "target_value": null,
+            "target_year": null,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2022_Brazil",
+            "source_page": 4,
+            "confidence": 0.8
+          },
+          {
+            "text": "In the transport mix, it represents 25% of the sources.",
+            "target_value": 25,
+            "target_year": null,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2022_Brazil",
+            "source_page": 4,
+            "confidence": 0.7
+          }
+        ],
+        "total_found": 2
+      },
+      "pass_b": {
+        "country": "Brazil",
+        "dimension": "Transport Sector Decarbonisation",
+        "measurability_level": "QUALIFIED",
+        "measurability_score": 0.65,
+        "reason": "One commitment has a specific number and unit, but the other lacks a target year and baseline.",
+        "missing_elements": [
+          "target year",
+          "baseline"
+        ],
+        "strongest_commitment": "In the transport mix, it represents 25% of the sources.",
+        "conditional_dependency": false,
+        "conditional_note": null
+      },
+      "pass_c": null
+    }
+  }
+}

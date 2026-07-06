@@ -1,0 +1,97 @@
+{
+  "country": "UK",
+  "dimension": "methane_reduction",
+  "score": null,
+  "severity": "ALIGNED",
+  "label": "ABSENT",
+  "details": {
+    "country": "UK",
+    "dimension": "methane_reduction",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [
+      {
+        "text": "reduce methane emissions from all sectors",
+        "target_value": {},
+        "target_year": {},
+        "baseline_year": {},
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2022_UK",
+        "source_page": 16,
+        "confidence": 0.8
+      },
+      {
+        "text": "sectoral pledges announced at COP26 in November 2021, including the Global Methane Pledge",
+        "target_value": {},
+        "target_year": {},
+        "baseline_year": {},
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2022_UK",
+        "source_page": 16,
+        "confidence": 0.8
+      }
+    ],
+    "measurability": {
+      "level": "VAGUE",
+      "score": 0.25,
+      "reason": "The commitments lack specific targets, years, and baselines, making them vague.",
+      "missing_elements": [
+        "target_value",
+        "target_year",
+        "baseline_year"
+      ]
+    },
+    "gap_findings": [],
+    "overall_severity": "ALIGNED",
+    "overall_score": 0.0,
+    "summary": "",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [
+          {
+            "text": "reduce methane emissions from all sectors",
+            "target_value": {},
+            "target_year": {},
+            "baseline_year": {},
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2022_UK",
+            "source_page": 16,
+            "confidence": 0.8
+          },
+          {
+            "text": "sectoral pledges announced at COP26 in November 2021, including the Global Methane Pledge",
+            "target_value": {},
+            "target_year": {},
+            "baseline_year": {},
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2022_UK",
+            "source_page": 16,
+            "confidence": 0.8
+          }
+        ],
+        "total_found": 2
+      },
+      "pass_b": {
+        "country": "UK",
+        "dimension": "Methane Reduction Targets",
+        "measurability_level": "VAGUE",
+        "measurability_score": 0.25,
+        "reason": "The commitments lack specific targets, years, and baselines, making them vague.",
+        "missing_elements": [
+          "target_value",
+          "target_year",
+          "baseline_year"
+        ],
+        "strongest_commitment": {},
+        "conditional_dependency": false,
+        "conditional_note": {}
+      },
+      "pass_c": {}
+    }
+  }
+}

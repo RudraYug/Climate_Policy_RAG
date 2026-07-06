@@ -1,0 +1,1446 @@
+[
+  {
+    "id": "F001",
+    "category": "factual",
+    "subcategory": "renewable_energy",
+    "question": "What is India's target for cumulative electric power installed capacity from non-fossil fuel-based energy resources by 2030?",
+    "ground_truth": "India targets achieving about 50 percent cumulative electric power installed capacity from non-fossil fuel-based energy resources by 2030. This commitment is conditional on international finance and technology transfer.",
+    "countries": [
+      "India"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2022_India",
+    "source_page": 3,
+    "difficulty": "easy",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "Direct numeric commitment \u2014 unambiguous ground truth"
+  },
+  {
+    "id": "F002",
+    "category": "factual",
+    "subcategory": "emissions_intensity",
+    "question": "By how much does India commit to reducing the emissions intensity of its GDP by 2030, compared to 2005 levels?",
+    "ground_truth": "India commits to reducing the emissions intensity of its GDP by 45 percent by 2030, compared to 2005 levels. This is an updated target from the original 33-35 percent in India's NDC1.",
+    "countries": [
+      "India"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2022_India",
+    "source_page": 3,
+    "difficulty": "easy",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "Updated NDC2 figure \u2014 annotator should confirm the 45% number"
+  },
+  {
+    "id": "F003",
+    "category": "factual",
+    "subcategory": "carbon_sink",
+    "question": "What is India's target for additional carbon sink creation through forest and tree cover by 2030?",
+    "ground_truth": "India targets creating an additional carbon sink of 2.5 to 3 billion tonnes of CO2 equivalent through additional forest and tree cover by 2030.",
+    "countries": [
+      "India"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2022_India",
+    "source_page": 3,
+    "difficulty": "medium",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "Range target \u2014 both bounds must be present for full credit"
+  },
+  {
+    "id": "F004",
+    "category": "factual",
+    "subcategory": "carbon_peak",
+    "question": "When does China commit to achieving peak CO2 emissions under its NDC2?",
+    "ground_truth": "China commits to peaking CO2 emissions before 2030, as stated in its 2021 NDC update. China also commits to achieving carbon neutrality before 2060.",
+    "countries": [
+      "China"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2021_China",
+    "source_page": 4,
+    "difficulty": "easy",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "Both peak year AND neutrality year must be present"
+  },
+  {
+    "id": "F005",
+    "category": "factual",
+    "subcategory": "renewable_energy",
+    "question": "What is China's 2030 target for installed capacity of wind and solar power?",
+    "ground_truth": "China targets reaching over 1,200 gigawatts of wind and solar power installed capacity by 2030.",
+    "countries": [
+      "China"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2021_China",
+    "source_page": 7,
+    "difficulty": "easy",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "1200 GW is the key figure \u2014 over 1200 GW is acceptable"
+  },
+  {
+    "id": "F006",
+    "category": "factual",
+    "subcategory": "non_fossil_energy",
+    "question": "What share of non-fossil fuels in primary energy consumption does China target by 2030?",
+    "ground_truth": "China targets increasing the share of non-fossil fuels in primary energy consumption to around 25 percent by 2030, an increase from the earlier 20 percent target in the previous NDC.",
+    "countries": [
+      "China"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2021_China",
+    "source_page": 7,
+    "difficulty": "medium",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "NDC2 updated the target to 25% \u2014 earlier target was 20%"
+  },
+  {
+    "id": "F007",
+    "category": "factual",
+    "subcategory": "ghg_reduction",
+    "question": "What is the United States' 2030 economy-wide greenhouse gas emissions reduction target under its NDC2?",
+    "ground_truth": "The United States targets reducing its economy-wide net greenhouse gas emissions by 50 to 52 percent below 2005 levels by 2030.",
+    "countries": [
+      "USA"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2021_USA",
+    "source_page": 2,
+    "difficulty": "easy",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "Both bounds of the range (50-52%) required"
+  },
+  {
+    "id": "F008",
+    "category": "factual",
+    "subcategory": "ghg_reduction",
+    "question": "What is the United Kingdom's 2030 greenhouse gas reduction target and the baseline year used?",
+    "ground_truth": "The United Kingdom commits to reducing economy-wide greenhouse gas emissions by at least 68 percent by 2030, compared to 1990 levels. This is the UK's first NDC submitted after leaving the European Union.",
+    "countries": [
+      "UK"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2022_UK",
+    "source_page": 1,
+    "difficulty": "easy",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "68% AND the 1990 baseline AND post-EU context"
+  },
+  {
+    "id": "F009",
+    "category": "factual",
+    "subcategory": "net_zero",
+    "question": "What net zero target has the UK set and what legislation underpins it?",
+    "ground_truth": "The UK targets net zero greenhouse gas emissions by 2050, enshrined in the Climate Change Act 2008 as amended in 2019. This makes the UK the first major economy to set a net zero target in law.",
+    "countries": [
+      "UK"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2022_UK",
+    "source_page": 2,
+    "difficulty": "medium",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "Year (2050) plus legislative basis required"
+  },
+  {
+    "id": "F010",
+    "category": "factual",
+    "subcategory": "ghg_reduction",
+    "question": "What is the European Union's binding 2030 greenhouse gas reduction target under its NDC2?",
+    "ground_truth": "The European Union commits to a binding target of at least 55 percent net domestic reduction of greenhouse gas emissions by 2030 compared to 1990, enshrined in the European Climate Law.",
+    "countries": [
+      "EU"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2020_EU",
+    "source_page": 3,
+    "difficulty": "easy",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "55% net domestic \u2014 not gross. European Climate Law reference valued"
+  },
+  {
+    "id": "F011",
+    "category": "factual",
+    "subcategory": "ghg_reduction",
+    "question": "What is Japan's 2030 greenhouse gas reduction target and what baseline year does it use?",
+    "ground_truth": "Japan commits to reducing greenhouse gas emissions by 46 percent by fiscal year 2030 compared to fiscal year 2013 levels, and aims for a further 50 percent reduction through continuous efforts.",
+    "countries": [
+      "Japan"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2021_Japan",
+    "source_page": 1,
+    "difficulty": "easy",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "46% with 2013 baseline \u2014 the 50% aspiration is bonus"
+  },
+  {
+    "id": "F012",
+    "category": "factual",
+    "subcategory": "ghg_reduction",
+    "question": "What is Australia's 2030 emissions reduction target and net zero commitment year?",
+    "ground_truth": "Australia commits to reducing greenhouse gas emissions by 43 percent below 2005 levels by 2030. Australia also commits to net zero emissions by 2050.",
+    "countries": [
+      "Australia"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2022_Australia",
+    "source_page": 2,
+    "difficulty": "easy",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "Both 43% by 2030 AND net zero by 2050 required"
+  },
+  {
+    "id": "F013",
+    "category": "factual",
+    "subcategory": "ghg_reduction",
+    "question": "What is Brazil's 2030 absolute emissions reduction target and baseline year?",
+    "ground_truth": "Brazil commits to reducing greenhouse gas emissions by 50 percent by 2030 compared to 2005 levels, as stated in its updated 2023 NDC adjustment. Brazil also commits to achieving climate neutrality by 2050.",
+    "countries": [
+      "Brazil"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2022_Brazil",
+    "source_page": 3,
+    "difficulty": "medium",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "50% vs 2005 is the updated figure from the Nov 2023 adjustment"
+  },
+  {
+    "id": "F014",
+    "category": "factual",
+    "subcategory": "conditional_targets",
+    "question": "What are Indonesia's unconditional and conditional GHG reduction targets by 2030?",
+    "ground_truth": "Indonesia commits to an unconditional reduction of 31.89 percent and a conditional reduction of 43.20 percent below the business-as-usual scenario by 2030. The conditional target depends on international support.",
+    "countries": [
+      "Indonesia"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2022_Indonesia",
+    "source_page": 5,
+    "difficulty": "medium",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "Both percentages required \u2014 conditional vs unconditional distinction critical"
+  },
+  {
+    "id": "F015",
+    "category": "factual",
+    "subcategory": "adaptation",
+    "question": "What are Indonesia's primary climate adaptation priorities identified in its NDC2?",
+    "ground_truth": "Indonesia's NDC2 identifies the following primary adaptation priorities: food security and agriculture, water resources and watershed management, marine and coastal ecosystems, health, and cross-cutting issues including infrastructure resilience and climate resilient development pathways.",
+    "countries": [
+      "Indonesia"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2022_Indonesia",
+    "source_page": 15,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "Multiple sectors \u2014 partial credit if 3+ sectors correctly identified"
+  },
+  {
+    "id": "F016",
+    "category": "factual",
+    "subcategory": "ghg_reduction",
+    "question": "What is South Korea's 2030 NDC target expressed as a percentage reduction from BAU?",
+    "ground_truth": "South Korea commits to reducing national greenhouse gas emissions by 40 percent compared to the 2018 business-as-usual levels by 2030.",
+    "countries": [
+      "South Korea"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2021_South_Korea",
+    "source_page": 2,
+    "difficulty": "easy",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "40% vs 2018 BAU \u2014 note BAU baseline not absolute year"
+  },
+  {
+    "id": "F017",
+    "category": "factual",
+    "subcategory": "ghg_reduction",
+    "question": "What is Canada's 2030 emissions reduction commitment range and its baseline?",
+    "ground_truth": "Canada commits to reducing national greenhouse gas emissions by 40 to 45 percent below 2005 levels by 2030, with a 2050 net zero target enshrined in the Canadian Net-Zero Emissions Accountability Act.",
+    "countries": [
+      "Canada"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2021_Canada",
+    "source_page": 4,
+    "difficulty": "easy",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "Range (40-45%) AND 2005 baseline both required"
+  },
+  {
+    "id": "F018",
+    "category": "factual",
+    "subcategory": "conditional_targets",
+    "question": "What are Mexico's unconditional and conditional GHG reduction targets under its NDC2?",
+    "ground_truth": "Mexico's NDC2 commits to an unconditional reduction of 35 percent and a conditional reduction of 40 percent in national greenhouse gas emissions by 2030, compared to a business-as-usual scenario. Mexico also targets 35 percent renewable energy by 2024.",
+    "countries": [
+      "Mexico"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2022_Mexico",
+    "source_page": 6,
+    "difficulty": "medium",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "Both unconditional (35%) and conditional (40%) required"
+  },
+  {
+    "id": "F019",
+    "category": "factual",
+    "subcategory": "ghg_reduction",
+    "question": "What is South Africa's NDC2 emissions range target for the period 2025-2030?",
+    "ground_truth": "South Africa commits to a greenhouse gas emission range of 350 to 420 MtCO2e per year for the period 2025 to 2030. This represents a peak-plateau-decline trajectory.",
+    "countries": [
+      "South Africa"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2021_South_Africa",
+    "source_page": 4,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "Range format (350-420 MtCO2e) and year range (2025-2030) both required"
+  },
+  {
+    "id": "F020",
+    "category": "factual",
+    "subcategory": "ghg_reduction",
+    "question": "What is Saudi Arabia's NDC2 absolute emissions reduction target by 2030?",
+    "ground_truth": "Saudi Arabia commits to achieving a reduction and avoidance of greenhouse gas emissions of 278 million tonnes of CO2 equivalent per year by 2030. This includes both mitigation and circular carbon economy measures.",
+    "countries": [
+      "Saudi Arabia"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2021_Saudi_Arabia",
+    "source_page": 3,
+    "difficulty": "medium",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "278 MtCO2e/yr is the key figure"
+  },
+  {
+    "id": "F021",
+    "category": "factual",
+    "subcategory": "ghg_reduction",
+    "question": "What is Argentina's 2030 absolute emissions cap under its NDC2?",
+    "ground_truth": "Argentina commits to not exceeding the net emission of 349 million tonnes of CO2 equivalent in 2030. This represents an unconditional absolute cap.",
+    "countries": [
+      "Argentina"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2021_Argentina",
+    "source_page": 8,
+    "difficulty": "medium",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "349 MtCO2e absolute cap \u2014 not a percentage reduction"
+  },
+  {
+    "id": "F022",
+    "category": "factual",
+    "subcategory": "ghg_reduction",
+    "question": "What is Turkey's 2030 GHG reduction target relative to BAU?",
+    "ground_truth": "Turkey commits to reducing greenhouse gas emissions by up to 41 percent compared to the business-as-usual scenario by 2030.",
+    "countries": [
+      "Turkey"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2023_Turkey",
+    "source_page": 5,
+    "difficulty": "easy",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "41% vs BAU \u2014 note Turkey ratified Paris Agreement in 2021"
+  },
+  {
+    "id": "F023",
+    "category": "factual",
+    "subcategory": "ghg_reduction",
+    "question": "What is Russia's 2030 GHG reduction target and the baseline used in its NDC2?",
+    "ground_truth": "Russia commits to limiting greenhouse gas emissions to 70 percent of 1990 levels by 2030, which is equivalent to a 30 percent reduction below 1990 levels, subject to maximum possible accounting of the absorptive capacity of forests.",
+    "countries": [
+      "Russia"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2022_Russia",
+    "source_page": 2,
+    "difficulty": "medium",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "70% of 1990 = 30% below 1990 \u2014 both formulations acceptable. LULUCF caveat important"
+  },
+  {
+    "id": "F024",
+    "category": "factual",
+    "subcategory": "ipcc_benchmark",
+    "question": "What global GHG emission reduction does IPCC AR6 WG3 recommend by 2030 to limit warming to 1.5 degrees Celsius?",
+    "ground_truth": "IPCC AR6 WG3 states that limiting warming to 1.5\u00b0C requires global net anthropogenic CO2 emissions to decline by about 43 percent from 2019 levels by 2030 and reach net zero by around 2050. For all GHGs, a reduction of 43 percent is needed by 2030.",
+    "countries": [],
+    "ndc_cycle": null,
+    "source_doc": "WG3_SPM_2022",
+    "source_page": 29,
+    "difficulty": "medium",
+    "requires_retrieval": true,
+    "ipcc_relevant": true,
+    "annotation_notes": "43% by 2030 vs 2019 AND net zero by 2050 both required"
+  },
+  {
+    "id": "F025",
+    "category": "factual",
+    "subcategory": "ipcc_benchmark",
+    "question": "According to IPCC AR6 WG3, what renewable electricity share is required by 2050 for 1.5 degree pathways?",
+    "ground_truth": "IPCC AR6 WG3 Chapter 6 states that renewable electricity reaches 70 to 85 percent of global electricity supply by 2050 in pathways that limit warming to 1.5\u00b0C with no or limited overshoot.",
+    "countries": [],
+    "ndc_cycle": null,
+    "source_doc": "WG3_Chapter06_EnergySystems_2022",
+    "source_page": 76,
+    "difficulty": "medium",
+    "requires_retrieval": true,
+    "ipcc_relevant": true,
+    "annotation_notes": "Range 70-85% required \u2014 both bounds"
+  },
+  {
+    "id": "F026",
+    "category": "factual",
+    "subcategory": "ipcc_benchmark",
+    "question": "What does IPCC AR6 WG3 state about the required trajectory for methane emissions to limit warming to 1.5 degrees?",
+    "ground_truth": "IPCC AR6 WG3 states that methane emissions need to be reduced by approximately 34 percent by 2030 relative to 2019 levels in pathways that limit warming to 1.5\u00b0C. Methane reductions provide near-term climate benefits by reducing warming rates.",
+    "countries": [],
+    "ndc_cycle": null,
+    "source_doc": "WG3_SPM_2022",
+    "source_page": 31,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": true,
+    "annotation_notes": "34% methane reduction by 2030 \u2014 near-term benefit context valued"
+  },
+  {
+    "id": "F027",
+    "category": "factual",
+    "subcategory": "ipcc_benchmark",
+    "question": "According to IPCC AR6 WG3, what share of global electricity supply did renewables reach by 2019 and what was the cost trend?",
+    "ground_truth": "IPCC AR6 WG3 reports that renewables accounted for about 29 percent of global electricity supply in 2019. The cost of solar PV fell by approximately 85 percent and wind energy by approximately 55 percent between 2010 and 2019.",
+    "countries": [],
+    "ndc_cycle": null,
+    "source_doc": "WG3_Chapter06_EnergySystems_2022",
+    "source_page": 12,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": true,
+    "annotation_notes": "Cost figures are bonus \u2014 29% share is minimum requirement"
+  },
+  {
+    "id": "F028",
+    "category": "factual",
+    "subcategory": "ndc_cycle_comparison",
+    "question": "How did India's NDC2 (2022) update its renewable energy target compared to NDC1 (2015)?",
+    "ground_truth": "India's NDC1 (2015) targeted 40 percent cumulative electric power installed capacity from non-fossil fuel-based energy resources by 2030. India's NDC2 (2022) increased this to 50 percent by 2030. The emissions intensity target was also updated from 33-35 percent to 45 percent below 2005 levels.",
+    "countries": [
+      "India"
+    ],
+    "ndc_cycle": null,
+    "source_doc": "NDC2_2022_India",
+    "source_page": 3,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "Must compare both cycles: 40% (NDC1) vs 50% (NDC2)"
+  },
+  {
+    "id": "F029",
+    "category": "factual",
+    "subcategory": "loss_and_damage",
+    "question": "Does Indonesia's NDC2 explicitly address loss and damage from climate change?",
+    "ground_truth": "Indonesia's NDC2 does not use the specific term 'loss and damage' but acknowledges irreversible climate impacts through its climate resilience framework. The NDC discusses economic and non-economic losses from extreme weather events and sea level rise, particularly affecting coastal communities, without providing specific finance commitments.",
+    "countries": [
+      "Indonesia"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2022_Indonesia",
+    "source_page": 18,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "Absence of explicit mention is itself a finding \u2014 partial credit for explaining why"
+  },
+  {
+    "id": "F030",
+    "category": "factual",
+    "subcategory": "finance",
+    "question": "What international climate finance condition does India attach to its NDC2 commitments?",
+    "ground_truth": "India conditions its NDC2 targets on receiving adequate technology transfer, capacity building, and climate finance from developed countries. Specifically, the 50 percent non-fossil electricity capacity target and the 45 percent emissions intensity reduction are described as conditional on international support as per the provisions of the UNFCCC and Paris Agreement.",
+    "countries": [
+      "India"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2022_India",
+    "source_page": 5,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "Conditionality framing \u2014 technology + capacity + finance all three"
+  },
+  {
+    "id": "C001",
+    "category": "comparative",
+    "subcategory": "ghg_ambition",
+    "question": "Compare the 2030 GHG reduction targets of the United States and the European Union. Which is more ambitious and why?",
+    "ground_truth": "The USA targets 50-52% reduction below 2005 levels by 2030. The EU targets at least 55% net reduction below 1990 levels by 2030. Comparing ambition requires adjusting for different baseline years. The EU's 1990 baseline includes post-Soviet economic decline in Eastern Europe, making direct comparison difficult. Climate Action Tracker rates both as 'insufficient' relative to a 1.5\u00b0C pathway, though the EU target is generally considered marginally more ambitious on a per-capita basis.",
+    "countries": [
+      "USA",
+      "EU"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2021_USA",
+    "source_page": 2,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "Both targets must be cited. Baseline year comparability issue must be flagged."
+  },
+  {
+    "id": "C002",
+    "category": "comparative",
+    "subcategory": "net_zero",
+    "question": "Compare the net zero target years and legislative bases of the UK, EU, Canada, and Japan.",
+    "ground_truth": "UK: net zero by 2050, enshrined in Climate Change Act (amended 2019). EU: climate neutrality by 2050, enshrined in European Climate Law (2021). Canada: net zero by 2050, enshrined in Canadian Net-Zero Emissions Accountability Act (2021). Japan: carbon neutral by 2050, announced in 2020 and reflected in NDC2.",
+    "countries": [
+      "UK",
+      "EU",
+      "Canada",
+      "Japan"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2022_UK",
+    "source_page": 2,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "All four countries required. Legislative basis bonus but valued."
+  },
+  {
+    "id": "C003",
+    "category": "comparative",
+    "subcategory": "renewable_energy",
+    "question": "Compare India's and China's renewable energy commitments in their NDC2 submissions. Which country has a more specific and measurable target?",
+    "ground_truth": "India commits to 50 percent cumulative electric power installed capacity from non-fossil fuel-based energy resources by 2030. China commits to over 1,200 GW of wind and solar capacity by 2030 and 25 percent non-fossil fuels in primary energy. China's capacity target (1,200 GW) is more specific and measurable than India's percentage share target, which lacks a clear baseline. However, India's target is directly tied to electricity capacity share, while China's mixes capacity with primary energy metrics.",
+    "countries": [
+      "India",
+      "China"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2022_India",
+    "source_page": 3,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "Measurability comparison is the key insight \u2014 not just the numbers"
+  },
+  {
+    "id": "C004",
+    "category": "comparative",
+    "subcategory": "baseline_year",
+    "question": "Why is it difficult to directly compare Japan's 2030 target with the USA's 2030 target, and how should researchers adjust for this?",
+    "ground_truth": "Japan uses fiscal year 2013 as its baseline, while the USA uses calendar year 2005. These are different years with different emission levels, making a direct percentage comparison misleading. Japan's 46% below 2013 translates to approximately a 50% reduction below 2005 levels when adjusted using emission trajectories, making the targets roughly comparable. Researchers should convert all targets to a common reference year (e.g., 2019 or absolute MtCO2e) for valid cross-country comparisons.",
+    "countries": [
+      "Japan",
+      "USA"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2021_Japan",
+    "source_page": 1,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "Methodology question \u2014 baseline year incompatibility is the core insight"
+  },
+  {
+    "id": "C005",
+    "category": "comparative",
+    "subcategory": "conditionality",
+    "question": "Compare the use of conditional targets in Indonesia's, Mexico's, and India's NDC2 submissions.",
+    "ground_truth": "All three countries use conditional and unconditional target structures. Indonesia: 31.89% unconditional, 43.20% conditional. Mexico: 35% unconditional, 40% conditional. India: all major targets are conditional on international support, including the 50% non-fossil capacity target. Indonesia has the largest gap between conditional and unconditional targets (11.3 percentage points), indicating greatest dependence on international finance.",
+    "countries": [
+      "Indonesia",
+      "Mexico",
+      "India"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2022_Indonesia",
+    "source_page": 5,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "All three countries and both target levels required"
+  },
+  {
+    "id": "C006",
+    "category": "comparative",
+    "subcategory": "ghg_ambition",
+    "question": "Compare the 2030 ambition level of Australia's NDC2 against the UK's NDC2 using the same baseline year.",
+    "ground_truth": "Australia targets 43% below 2005 levels by 2030. The UK targets at least 68% below 1990 levels by 2030. When UK's target is rebaselined to 2005, it is approximately 50-53% below 2005 levels, slightly above Australia's 43%. The UK is generally rated more ambitious by Climate Action Tracker. Both countries target net zero by 2050.",
+    "countries": [
+      "Australia",
+      "UK"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2022_Australia",
+    "source_page": 2,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "Both NDC targets AND the rebasing attempt required"
+  },
+  {
+    "id": "C007",
+    "category": "comparative",
+    "subcategory": "adaptation",
+    "question": "How do Brazil's and Indonesia's NDC2 submissions differ in their approach to forest-related climate commitments?",
+    "ground_truth": "Brazil's NDC2 commits to ending illegal deforestation by 2030 and restoring 12 million hectares of forests, treating forests primarily as a mitigation tool via LULUCF accounting. Indonesia's NDC2 includes a forestry and peatland sector with specific emission reduction targets and emphasises sustainable forest management as both mitigation and adaptation. Indonesia is more explicit about adaptation co-benefits, while Brazil focuses more on absolute deforestation cessation.",
+    "countries": [
+      "Brazil",
+      "Indonesia"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2022_Brazil",
+    "source_page": 8,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "LULUCF framing difference is the key insight"
+  },
+  {
+    "id": "C008",
+    "category": "comparative",
+    "subcategory": "carbon_pricing",
+    "question": "Which G20 countries in the corpus explicitly mention carbon pricing mechanisms in their NDC2 submissions?",
+    "ground_truth": "South Korea explicitly mentions its Emissions Trading Scheme (K-ETS) as a central mechanism for achieving its 40% reduction target. The EU references the EU ETS as a core policy instrument. Canada references its carbon pricing system. Japan mentions its Green Innovation Fund and transition finance mechanisms but is less explicit about carbon pricing. China references its national ETS launched in 2021.",
+    "countries": [
+      "South Korea",
+      "EU",
+      "Canada",
+      "Japan",
+      "China"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2021_South_Korea",
+    "source_page": 6,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "Partial credit if 3+ countries correctly identified with their mechanism"
+  },
+  {
+    "id": "C009",
+    "category": "comparative",
+    "subcategory": "ndc_evolution",
+    "question": "How did China's renewable energy target evolve between NDC1 (2016) and NDC2 (2021)?",
+    "ground_truth": "China's NDC1 (2016) targeted 20% non-fossil fuels in primary energy by 2030 and 200 GW solar capacity. China's NDC2 (2021) increased the non-fossil fuel target to 25% by 2030 and added a new target of over 1,200 GW combined wind and solar capacity. This represents a significant strengthening of the capacity target but a modest increase in the energy mix target.",
+    "countries": [
+      "China"
+    ],
+    "ndc_cycle": null,
+    "source_doc": "NDC2_2021_China",
+    "source_page": 7,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "Both cycles must be compared \u2014 NDC1 vs NDC2 figures"
+  },
+  {
+    "id": "C010",
+    "category": "comparative",
+    "subcategory": "ghg_per_capita",
+    "question": "How does the UK's NDC2 assess its per-capita emissions relative to global 1.5 degree pathway benchmarks?",
+    "ground_truth": "The UK's NDC2 states that based on latest estimates, the UK's NDC suggests that emissions per person in 2030 would be below 4 tCO2e, which is comparable to the range of 3.5 to 4 tCO2e estimated as the global per-capita level consistent with limiting warming to 1.5\u00b0C. This self-assessment positions the UK as broadly aligned with the 1.5\u00b0C per-capita benchmark.",
+    "countries": [
+      "UK"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2022_UK",
+    "source_page": 8,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": true,
+    "annotation_notes": "The per-capita comparison framing is unusual and thesis-relevant"
+  },
+  {
+    "id": "C011",
+    "category": "comparative",
+    "subcategory": "scope_coverage",
+    "question": "Compare the greenhouse gas scope coverage between Saudi Arabia's NDC2 and South Africa's NDC2.",
+    "ground_truth": "Saudi Arabia's NDC2 covers CO2, CH4, and N2O but emphasises circular carbon economy principles including carbon capture and utilisation. South Africa's NDC2 covers all six Kyoto Protocol gases (CO2, CH4, N2O, HFCs, PFCs, SF6) and uses a peak-plateau-decline trajectory rather than a single year target. South Africa's coverage is more comprehensive in gas scope, while Saudi Arabia places greater emphasis on carbon management technologies.",
+    "countries": [
+      "Saudi Arabia",
+      "South Africa"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2021_Saudi_Arabia",
+    "source_page": 4,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "Gas coverage scope comparison is the specific angle"
+  },
+  {
+    "id": "C012",
+    "category": "comparative",
+    "subcategory": "historical_responsibility",
+    "question": "How do India's and China's NDC submissions reference the principle of common but differentiated responsibilities (CBDR)?",
+    "ground_truth": "India's NDC2 prominently invokes CBDR and respective capabilities, arguing that as a developing nation with 24% of the world's population still lacking energy access, it should not be held to the same emission reduction standard as developed nations. India explicitly states its INDC is based on the 1992 Convention. China's NDC also references CBDR but places greater emphasis on domestic development goals and technological leadership in clean energy. India is more assertive in using CBDR as a framing device.",
+    "countries": [
+      "India",
+      "China"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC1_2015_India",
+    "source_page": 9,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "Conceptual comparison \u2014 partial credit for identifying CBDR in both"
+  },
+  {
+    "id": "C013",
+    "category": "comparative",
+    "subcategory": "transport",
+    "question": "Which countries in the G20 corpus include explicit electric vehicle targets in their NDC2 submissions?",
+    "ground_truth": "South Korea includes explicit EV targets in its NDC2, targeting 3.62 million electric vehicles and 290,000 hydrogen vehicles by 2030. The UK targets ending the sale of new petrol and diesel cars by 2030. The EU references the Green Deal's ambition for 30 million zero-emission vehicles by 2030. China mentions targets for new energy vehicles as part of its sectoral roadmap but the NDC2 text is less specific.",
+    "countries": [
+      "South Korea",
+      "UK",
+      "EU",
+      "China"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2021_South_Korea",
+    "source_page": 7,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "Partial credit for identifying 2+ countries with specific EV commitments"
+  },
+  {
+    "id": "C014",
+    "category": "comparative",
+    "subcategory": "ndc_structure",
+    "question": "Compare the structural quality of Indonesia's NDC2 versus Turkey's NDC2 in terms of specificity, measurability, and time-bound targets.",
+    "ground_truth": "Indonesia's NDC2 is considerably more structured and detailed, providing sector-specific targets (energy, transport, forestry, agriculture, waste), both conditional and unconditional targets with specific percentages (31.89% and 43.20%), and a separate adaptation annex. Turkey's NDC2 provides a single 41% BAU reduction target without sector-level breakdown and limited adaptation specifics, though it includes a Just Transition section. Indonesia's NDC2 scores higher on measurability and specificity.",
+    "countries": [
+      "Indonesia",
+      "Turkey"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2022_Indonesia",
+    "source_page": 5,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "Structural quality assessment \u2014 sector breakdown vs single-number approach"
+  },
+  {
+    "id": "C015",
+    "category": "comparative",
+    "subcategory": "just_transition",
+    "question": "Which G20 NDC2 submissions in the corpus explicitly address just transition principles for workers in fossil fuel industries?",
+    "ground_truth": "South Africa's NDC2 is the most explicit about just transition, dedicating a section to the Presidential Climate Commission and the need to manage coal sector decline affecting 120,000 direct workers. The UK mentions its Just Transition Commission for Scotland. Canada references just transition for oil and gas workers. Most other G20 NDC2 submissions mention the concept but without specific worker protection commitments or finance mechanisms.",
+    "countries": [
+      "South Africa",
+      "UK",
+      "Canada"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2021_South_Africa",
+    "source_page": 9,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "Just transition framing \u2014 South Africa is the most substantive case"
+  },
+  {
+    "id": "C016",
+    "category": "comparative",
+    "subcategory": "ghg_ambition",
+    "question": "Which has a more ambitious 2030 target relative to the IPCC 1.5\u00b0C benchmark \u2014 India or Australia?",
+    "ground_truth": "Both India and Australia have targets rated as insufficient by Climate Action Tracker relative to a 1.5\u00b0C pathway. Australia's 43% absolute reduction below 2005 by 2030 is a stronger unconditional commitment than India's conditional 50% non-fossil capacity target. However, India's per-capita emissions are far lower, and its development context means the CBDR principle is relevant. The IPCC WG3 requires 43% global GHG reduction by 2030 vs 2019 \u2014 neither country's current NDC meets this benchmark on its own.",
+    "countries": [
+      "India",
+      "Australia"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2022_India",
+    "source_page": 3,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": true,
+    "annotation_notes": "Requires IPCC benchmark reference \u2014 development context matters"
+  },
+  {
+    "id": "C017",
+    "category": "comparative",
+    "subcategory": "methane",
+    "question": "How do the USA's and EU's NDC2 submissions address methane reduction compared to the IPCC-recommended 34 percent reduction by 2030?",
+    "ground_truth": "The USA's NDC2 includes methane under its economy-wide 50-52% GHG reduction target and supports the Global Methane Pledge targeting 30% reduction by 2030. The EU's NDC2 includes methane in its 55% GHG reduction target and has published a Methane Strategy. Neither explicitly states a methane-specific percentage target aligned with the IPCC's 34% recommendation in their NDC text. The Global Methane Pledge's 30% target falls short of the IPCC 34% recommendation.",
+    "countries": [
+      "USA",
+      "EU"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2021_USA",
+    "source_page": 6,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": true,
+    "annotation_notes": "Global Methane Pledge vs IPCC recommendation gap is key finding"
+  },
+  {
+    "id": "C018",
+    "category": "comparative",
+    "subcategory": "lulucf",
+    "question": "Compare how Russia and Brazil account for LULUCF in their NDC2 submissions.",
+    "ground_truth": "Russia's NDC2 explicitly conditions its 30% reduction target on maximum possible accounting of the absorptive capacity of forests, potentially allowing significant LULUCF credits that could weaken effective mitigation. Brazil's NDC2 focuses on halting illegal deforestation by 2030 and restoring forest cover, treating forests as an active mitigation measure rather than an accounting offset. Russia's approach raises more concerns about LULUCF accounting loopholes.",
+    "countries": [
+      "Russia",
+      "Brazil"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2022_Russia",
+    "source_page": 2,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "LULUCF accounting difference is the core thesis-relevant finding"
+  },
+  {
+    "id": "C019",
+    "category": "comparative",
+    "subcategory": "ghg_ambition",
+    "question": "Compare the overall ambition of G20 collective NDC2 targets against the IPCC-recommended 2030 pathway. Is the collective on track?",
+    "ground_truth": "IPCC AR6 WG3 requires approximately 43% global GHG reduction by 2030 vs 2019. The IPCC Synthesis Report (2023) states that implementation of current NDCs would lead to approximately 10-16% GHG increase above 2019 levels by 2030, creating a significant emissions gap. The collective G20 NDC2 commitments fall substantially short of the 1.5\u00b0C pathway. Even if all NDCs were fully implemented, warming would be limited to approximately 2.5\u00b0C.",
+    "countries": [
+      "India",
+      "China",
+      "USA",
+      "EU",
+      "UK",
+      "Japan"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "WG3_TechnicalSummary_2022",
+    "source_page": 8,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": true,
+    "annotation_notes": "This is a system-level gap finding \u2014 IPCC SYR data most relevant"
+  },
+  {
+    "id": "C020",
+    "category": "comparative",
+    "subcategory": "adaptation_finance",
+    "question": "Which developing G20 countries in the corpus make the strongest explicit calls for adaptation finance from developed nations?",
+    "ground_truth": "India's NDC2 makes the most explicit calls for adaptation finance, stating that its adaptation efforts will require international financial support and that developed countries must honour their USD 100 billion per year commitment. South Africa's NDC2 also emphasises the need for climate finance for its just transition. Indonesia's NDC2 conditions its higher targets on international support. By contrast, Brazil's NDC2 focuses more on domestic mitigation commitments.",
+    "countries": [
+      "India",
+      "South Africa",
+      "Indonesia",
+      "Brazil"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2022_India",
+    "source_page": 7,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "Finance call explicitness comparison \u2014 USD 100bn reference valued"
+  },
+  {
+    "id": "C021",
+    "category": "comparative",
+    "subcategory": "sector_coverage",
+    "question": "Compare the sector coverage of Canada's and Mexico's NDC2 submissions.",
+    "ground_truth": "Canada's NDC2 covers energy, buildings, transport, industry, agriculture, forestry, and waste sectors with specific measures for each. Mexico's NDC2 similarly covers energy, transport, agriculture, forestry, and industrial processes, but places greater emphasis on distributed renewable energy and energy efficiency in buildings. Canada provides more detailed sector-level quantification while Mexico's sectoral targets are more qualitative in nature.",
+    "countries": [
+      "Canada",
+      "Mexico"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2021_Canada",
+    "source_page": 8,
+    "difficulty": "medium",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "Sector breadth vs quantification depth comparison"
+  },
+  {
+    "id": "C022",
+    "category": "comparative",
+    "subcategory": "technology",
+    "question": "How do China's and South Korea's NDC2 submissions differ in their approach to hydrogen as a clean energy technology?",
+    "ground_truth": "South Korea's NDC2 explicitly targets 290,000 hydrogen fuel cell vehicles and 450 hydrogen refuelling stations by 2030, and includes hydrogen in its industrial decarbonisation strategy. China's NDC2 does not explicitly target hydrogen in its submitted text, though China has subsequently published a national hydrogen strategy. South Korea's hydrogen commitment in the NDC text is more specific and measurable.",
+    "countries": [
+      "South Korea",
+      "China"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2021_South_Korea",
+    "source_page": 7,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "Hydrogen specificity in NDC text vs national strategy difference matters"
+  },
+  {
+    "id": "C023",
+    "category": "comparative",
+    "subcategory": "baseline",
+    "question": "Why do Russia's and Turkey's NDC2 targets appear modest compared to other G20 nations, and what contextual factors explain this?",
+    "ground_truth": "Russia's 30% below 1990 levels target appears modest because Russia's emissions fell dramatically after the Soviet Union's collapse in 1991, so the 1990 baseline was already very high. Turkey ratified the Paris Agreement only in 2021 and its NDC2 is effectively its first, limiting the depth of ambition. Both countries have large fossil fuel industries that influence their targets. Russia also uses LULUCF accounting to soften effective reductions.",
+    "countries": [
+      "Russia",
+      "Turkey"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2022_Russia",
+    "source_page": 2,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "Contextual factors \u2014 Soviet baseline and Turkey ratification date both important"
+  },
+  {
+    "id": "C024",
+    "category": "comparative",
+    "subcategory": "reporting",
+    "question": "Compare the transparency and reporting commitments in Japan's and South Korea's NDC2 submissions.",
+    "ground_truth": "Both Japan and South Korea commit to biennial transparency reporting under the Paris Agreement. Japan emphasises the Transparency Framework and details monitoring, reporting and verification through its Basic Environment Plan. South Korea's NDC2 references its monitoring framework tied to the K-ETS and carbon inventory system. Japan's reporting structure is more explicitly linked to domestic legislation (Act on Promotion of Global Warming Countermeasures).",
+    "countries": [
+      "Japan",
+      "South Korea"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2021_Japan",
+    "source_page": 4,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "Transparency mechanism comparison \u2014 legislative anchoring difference"
+  },
+  {
+    "id": "C025",
+    "category": "comparative",
+    "subcategory": "gender_equity",
+    "question": "Which G20 NDC2 submissions explicitly address gender equity and social inclusion in climate action?",
+    "ground_truth": "Argentina's NDC2 is notable for explicitly integrating gender perspectives and references Argentina's National Action Plan on Gender and Climate Change. South Africa's NDC2 addresses social equity through its just transition framework. Indonesia's NDC2 includes social safeguards. Most other G20 NDC2 submissions treat gender and social equity as implicit or secondary. Argentina stands out as the only G20 country with a standalone gender-climate integration framework referenced in its NDC2.",
+    "countries": [
+      "Argentina",
+      "South Africa",
+      "Indonesia"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2021_Argentina",
+    "source_page": 15,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "Argentina's gender-climate plan is a notable specific fact"
+  },
+  {
+    "id": "G001",
+    "category": "gap_detection",
+    "subcategory": "renewable_energy",
+    "question": "What is the gap between China's 2030 non-fossil energy target and IPCC AR6 recommendations for the energy sector?",
+    "ground_truth": "China targets 25% non-fossil fuels in primary energy by 2030. IPCC AR6 WG3 recommends 70-85% renewable electricity by 2050 for 1.5\u00b0C pathways. While these metrics differ (primary energy vs electricity), the gap is substantial. China's 2030 target trajectory would not reach IPCC's 2050 electricity benchmarks by 2050 at current rates. GAP: China's primary energy target (25% by 2030) is likely insufficient to meet the 70-85% renewable electricity share required by 2050, requiring much steeper deployment rates in 2030-2050.",
+    "countries": [
+      "China"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2021_China",
+    "source_page": 7,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": true,
+    "annotation_notes": "Must identify metric mismatch (primary energy vs electricity) as a complication"
+  },
+  {
+    "id": "G002",
+    "category": "gap_detection",
+    "subcategory": "net_zero",
+    "question": "Identify the gap between India's NDC2 long-term targets and IPCC AR6 net zero recommendations for developing nations.",
+    "ground_truth": "India has no net zero target year specified in its NDC2. IPCC AR6 WG3 states that reaching net zero CO2 by around 2050 globally is required for 1.5\u00b0C, with developing nations potentially having slightly later timelines. India has subsequently announced a net zero goal of 2070 outside the formal NDC process, but this is not legally binding. GAP: India's NDC2 lacks any long-term net zero trajectory commitment, a significant gap relative to IPCC guidance, even accounting for development context.",
+    "countries": [
+      "India"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2022_India",
+    "source_page": 5,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": true,
+    "annotation_notes": "Absence of net zero year in NDC2 is itself the finding. 2070 announcement is not in NDC."
+  },
+  {
+    "id": "G003",
+    "category": "gap_detection",
+    "subcategory": "methane",
+    "question": "Assess the gap between G20 NDC2 methane commitments and IPCC AR6 methane reduction recommendations.",
+    "ground_truth": "IPCC AR6 requires approximately 34% methane reduction by 2030 vs 2019. Most G20 NDC2 submissions include methane within economy-wide GHG targets but do not specify standalone methane reduction percentages. The Global Methane Pledge (supported by EU, USA, UK, Canada, Argentina, Brazil) targets only 30% by 2030, falling short of IPCC's 34%. China, India, Russia, and Saudi Arabia have not signed the Global Methane Pledge. GAP: No G20 NDC2 explicitly commits to the 34% methane reduction; most rely on economy-wide accounting that may not achieve the near-term methane cuts needed.",
+    "countries": [
+      "USA",
+      "EU",
+      "China",
+      "India",
+      "Russia"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "WG3_SPM_2022",
+    "source_page": 31,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": true,
+    "annotation_notes": "Global Methane Pledge gap (30% vs 34%) and non-signatories both key"
+  },
+  {
+    "id": "G004",
+    "category": "gap_detection",
+    "subcategory": "adaptation_finance",
+    "question": "What is the gap between developing G20 nations' identified adaptation needs and the international finance commitments in their NDC2 submissions?",
+    "ground_truth": "IPCC AR6 WG2 Chapter 17 identifies that adaptation finance for developing countries is critically insufficient, with annual needs estimated at USD 127 billion by 2030. G20 developing nations' NDC2 submissions identify significant adaptation needs but lack specific finance commitments: India, Indonesia, and South Africa all condition targets on international finance without specifying amounts. The developed G20 nations' NDC2 submissions do not contain specific adaptation finance pledges for developing nations. GAP: Adaptation finance is identified as needed but not quantified or committed in NDC2 texts.",
+    "countries": [
+      "India",
+      "Indonesia",
+      "South Africa"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "WG2_Chapter17_DecisionMakingRisk_2022",
+    "source_page": 14,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": true,
+    "annotation_notes": "Finance gap quantification from IPCC WG2 Chapter 17 is key"
+  },
+  {
+    "id": "G005",
+    "category": "gap_detection",
+    "subcategory": "coal_phase_out",
+    "question": "Which G20 NDC2 submissions in the corpus include coal phase-out commitments, and how does this compare to IPCC guidance?",
+    "ground_truth": "IPCC AR6 WG3 states that coal in electricity generation must be reduced by 59-78% by 2030 in 1.5\u00b0C pathways. Among G20 NDC2 submissions: UK commits to unabated coal exit by 2024 (strongest commitment). The EU references the Green Deal's coal phase-down. Canada commits to no new coal plants and coal phase-out by 2030. Australia and Japan do not include coal phase-out commitments in their NDC2 texts. China, India, Indonesia, and South Africa \u2014 as major coal users \u2014 make no coal phase-out commitments. GAP: The majority of coal-producing/using G20 nations lack coal phase-out commitments consistent with IPCC guidance.",
+    "countries": [
+      "UK",
+      "EU",
+      "Canada",
+      "Australia",
+      "Japan",
+      "China",
+      "India",
+      "Indonesia"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "WG3_Chapter06_EnergySystems_2022",
+    "source_page": 30,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": true,
+    "annotation_notes": "Coal phase-out asymmetry between developed and emerging economies is the finding"
+  },
+  {
+    "id": "G006",
+    "category": "gap_detection",
+    "subcategory": "vague_targets",
+    "question": "Identify three G20 NDC2 commitments that are vague and lack measurability compared to IPCC quantified recommendations.",
+    "ground_truth": "Three examples of vague NDC2 commitments: (1) Russia's target is conditional on 'maximum possible accounting' of forest absorption without defining this clearly. (2) Saudi Arabia's circular carbon economy approach references carbon capture and utilisation without specific technology targets or timelines. (3) Argentina's conditional target of 369 MtCO2e lacks clarity on which sectors bear the conditional portion. In contrast, IPCC AR6 provides specific sectoral benchmarks (e.g., 70-85% renewable electricity by 2050) that allow clear progress measurement.",
+    "countries": [
+      "Russia",
+      "Saudi Arabia",
+      "Argentina"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2022_Russia",
+    "source_page": 2,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": true,
+    "annotation_notes": "Three distinct vagueness examples required \u2014 any three valid examples acceptable"
+  },
+  {
+    "id": "G007",
+    "category": "gap_detection",
+    "subcategory": "transport",
+    "question": "What is the gap between G20 NDC2 transport sector commitments and IPCC AR6 WG3 transport decarbonisation recommendations?",
+    "ground_truth": "IPCC AR6 WG3 Chapter 10 recommends a 59-84% reduction in transport emissions by 2050 vs 2020 for 1.5\u00b0C pathways. Most G20 NDC2 submissions treat transport as part of economy-wide targets without sector-specific transport emission reduction percentages. South Korea provides specific EV targets. The UK commits to ending petrol/diesel vehicle sales by 2030. Most emerging G20 economies provide no transport-specific targets. GAP: The vast majority of G20 NDC2 submissions lack quantified transport sector decarbonisation targets consistent with IPCC's transport pathway requirements.",
+    "countries": [
+      "South Korea",
+      "UK",
+      "India",
+      "China"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "WG3_Chapter06_EnergySystems_2022",
+    "source_page": 10,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": true,
+    "annotation_notes": "Sector-level vs economy-wide treatment is the gap"
+  },
+  {
+    "id": "G008",
+    "category": "gap_detection",
+    "subcategory": "missing_commitment",
+    "question": "Which sectors required by IPCC AR6 for deep decarbonisation are absent or underrepresented in Saudi Arabia's NDC2?",
+    "ground_truth": "Saudi Arabia's NDC2 focuses primarily on energy efficiency and renewables within the country's economic diversification agenda, with a 278 MtCO2e reduction target. Missing or underrepresented elements include: (1) No aviation or shipping decarbonisation targets despite being a major oil exporter with significant bunker fuel exports. (2) No explicit industrial process decarbonisation beyond circular carbon economy. (3) No land use or forestry sector commitments. (4) No adaptation finance commitments for vulnerable nations. IPCC AR6 identifies all these as critical for 1.5\u00b0C.",
+    "countries": [
+      "Saudi Arabia"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2021_Saudi_Arabia",
+    "source_page": 5,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": true,
+    "annotation_notes": "Aviation/shipping, industry, LULUCF \u2014 three of four acceptable"
+  },
+  {
+    "id": "G009",
+    "category": "gap_detection",
+    "subcategory": "ipcc_contradiction",
+    "question": "Is there a contradiction between China's 2060 carbon neutrality commitment and IPCC AR6's recommendation for achieving net zero CO2 by around 2050?",
+    "ground_truth": "IPCC AR6 WG3 states that limiting warming to 1.5\u00b0C requires reaching net zero CO2 globally by around 2050. China's NDC2 commits to carbon neutrality by 2060, a full decade later than the IPCC global median requirement. IPCC acknowledges developing nations may peak later, but China is the world's largest emitter. Climate Action Tracker rates China's 2060 target as 'highly insufficient' for 1.5\u00b0C. The 10-year gap is a direct contradiction between China's long-term target and IPCC's 2050 net zero requirement.",
+    "countries": [
+      "China"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2021_China",
+    "source_page": 4,
+    "difficulty": "medium",
+    "requires_retrieval": true,
+    "ipcc_relevant": true,
+    "annotation_notes": "2060 vs 2050 net zero gap is explicit and quantifiable"
+  },
+  {
+    "id": "G010",
+    "category": "gap_detection",
+    "subcategory": "loss_and_damage",
+    "question": "What is the gap in G20 NDC2 submissions regarding loss and damage compared to IPCC AR6 WG2 findings on irreversible climate impacts?",
+    "ground_truth": "IPCC AR6 WG2 Chapter 17 states that loss and damage from climate change is now unavoidable even with adaptation, and financial mechanisms for loss and damage are urgently needed. Among G20 NDC2 submissions: no developed G20 nation provides specific loss and damage finance commitments. The term 'loss and damage' appears in some developing nation NDCs (India mentions impacts) but without specific finance amounts. GAP: The IPCC explicitly calls for loss and damage finance mechanisms, but no G20 NDC2 includes a quantified loss and damage finance commitment from any developed nation.",
+    "countries": [
+      "India",
+      "USA",
+      "EU",
+      "UK"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "WG2_Chapter17_DecisionMakingRisk_2022",
+    "source_page": 18,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": true,
+    "annotation_notes": "Absence of L&D finance in all NDC2s is the finding \u2014 consistent with COP27 timing"
+  },
+  {
+    "id": "G011",
+    "category": "gap_detection",
+    "subcategory": "ipcc_benchmark",
+    "question": "Does Australia's 43% reduction by 2030 align with IPCC's recommended pathway for advanced economies?",
+    "ground_truth": "IPCC AR6 WG3 requires global GHG emissions to fall 43% below 2019 levels by 2030 for 1.5\u00b0C. For developed economies with higher historical emissions and greater capacity, the IPCC and Climate Action Tracker suggest deeper cuts of 50-70% by 2030. Australia's 43% reduction is measured below 2005 levels, not 2019. Australia's 2019 emissions were approximately 5% above 2005, meaning the actual 2030 target in absolute terms is approximately 38-40% below 2019. GAP: Australia's NDC2 target falls short of the IPCC-implied requirement for advanced economies by approximately 10-30 percentage points.",
+    "countries": [
+      "Australia"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2022_Australia",
+    "source_page": 2,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": true,
+    "annotation_notes": "Baseline year conversion (2005 vs 2019) is the analytical challenge"
+  },
+  {
+    "id": "G012",
+    "category": "gap_detection",
+    "subcategory": "sector_gap",
+    "question": "Identify the gap between India's agriculture sector NDC commitments and IPCC AR6 recommendations for agricultural emissions.",
+    "ground_truth": "IPCC AR6 WG3 states that agriculture, forestry and land use can contribute 20-30% of total GHG mitigation by 2050. India's NDC2 references sustainable agriculture and climate-resilient farming but does not provide quantified agricultural emission reduction targets. India's NDC2 focuses more on adaptation in agriculture (food security, drought resistance) than on mitigation quantification. GAP: India's NDC2 lacks quantified agricultural mitigation targets, a significant gap given India's large agricultural sector contributing approximately 14% of national emissions.",
+    "countries": [
+      "India"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2022_India",
+    "source_page": 8,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": true,
+    "annotation_notes": "Agriculture quantification gap \u2014 India's sector share context valuable"
+  },
+  {
+    "id": "G013",
+    "category": "gap_detection",
+    "subcategory": "implementation",
+    "question": "What implementation gaps exist between Mexico's NDC2 stated targets and its domestic policy framework?",
+    "ground_truth": "Mexico's NDC2 targets 35% unconditional GHG reduction by 2030. However, Mexico's domestic energy policy under the 2021-2024 administration reversed renewable energy expansion in favour of state oil company PEMEX and state electricity utility CFE. Mexico's actual renewable energy share declined in 2019-2022. This creates a significant implementation gap between NDC2 pledges and domestic policy direction. The NDC2 text does not reference specific domestic legislation anchoring the targets.",
+    "countries": [
+      "Mexico"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2022_Mexico",
+    "source_page": 8,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "Policy reversal context requires knowledge beyond NDC text \u2014 retriever may or may not surface this"
+  },
+  {
+    "id": "G014",
+    "category": "gap_detection",
+    "subcategory": "missing_sector",
+    "question": "Which sectors required for deep decarbonisation by IPCC AR6 are missing from Russia's NDC2?",
+    "ground_truth": "Russia's NDC2 focuses primarily on economy-wide emission reduction through efficiency improvements and LULUCF. Missing elements relative to IPCC AR6 requirements include: (1) No renewable energy targets \u2014 Russia relies primarily on nuclear and gas. (2) No transport electrification targets. (3) No industrial process decarbonisation roadmap. (4) No methane reduction target despite Russia being one of the world's largest methane emitters from oil and gas operations. IPCC AR6 WG3 identifies all these sectors as requiring deep decarbonisation.",
+    "countries": [
+      "Russia"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2022_Russia",
+    "source_page": 4,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": true,
+    "annotation_notes": "Russia methane gap is the most thesis-relevant finding given Russia's oil and gas exports"
+  },
+  {
+    "id": "G015",
+    "category": "gap_detection",
+    "subcategory": "ipcc_contradiction",
+    "question": "Does South Korea's 2030 target of 40% below 2018 BAU align with IPCC requirements for developed economies, and what specific gaps exist?",
+    "ground_truth": "South Korea's 40% below 2018 BAU target converts to approximately 24% below actual 2018 emission levels (as BAU is higher than actual). IPCC AR6 recommends approximately 50% below current levels for developed economies by 2030. Specific gaps in South Korea's NDC2: (1) Heavy reliance on LNG as transition fuel without a phase-out date. (2) No explicit coal phase-out year despite coal representing 40% of electricity. (3) Nuclear power counts toward non-fossil targets, potentially masking renewable energy gaps. GAP: The effective reduction below actual emissions falls short of IPCC guidance for an advanced economy.",
+    "countries": [
+      "South Korea"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2021_South_Korea",
+    "source_page": 3,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": true,
+    "annotation_notes": "BAU vs actual baseline conversion is the key methodological point"
+  },
+  {
+    "id": "G016",
+    "category": "gap_detection",
+    "subcategory": "technology",
+    "question": "Assess the gap between G20 NDC2 carbon capture and storage (CCS) commitments and IPCC AR6 recommendations for CCS deployment.",
+    "ground_truth": "IPCC AR6 WG3 identifies CCS as potentially contributing 1.5-9.5 GtCO2 per year by 2050 in various mitigation pathways. Most G20 NDC2 submissions do not specify CCS deployment targets. Saudi Arabia mentions circular carbon economy including carbon capture but without specific capacity targets. The USA references CCS in its clean energy strategy. Japan mentions CCS as part of its decarbonisation roadmap. No G20 NDC2 includes a CCS deployment target in GtCO2. GAP: Substantial disconnect between IPCC's role for CCS and actual NDC2 CCS commitments.",
+    "countries": [
+      "Saudi Arabia",
+      "USA",
+      "Japan"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "WG3_Chapter06_EnergySystems_2022",
+    "source_page": 45,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": true,
+    "annotation_notes": "CCS gap is a systemic finding across all G20 NDC2s"
+  },
+  {
+    "id": "G017",
+    "category": "gap_detection",
+    "subcategory": "biodiversity",
+    "question": "What is the gap in G20 NDC2 submissions regarding nature-based solutions and biodiversity protection compared to IPCC recommendations?",
+    "ground_truth": "IPCC AR6 WG3 Chapter 7 identifies nature-based solutions as providing 10-12 GtCO2e/year of mitigation potential by 2030. Most G20 NDC2 submissions mention forests and land use but few provide quantified nature-based solution targets. Brazil is most explicit with its deforestation targets. Indonesia addresses ecosystem protection. Argentina references grassland preservation. Most G20 developed economy NDC2 submissions do not provide nature-based solutions targets for their own territories at the quantified level IPCC recommends.",
+    "countries": [
+      "Brazil",
+      "Indonesia",
+      "Argentina"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "WG3_Chapter06_EnergySystems_2022",
+    "source_page": 55,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": true,
+    "annotation_notes": "Nature-based solutions gap is underexplored in existing literature"
+  },
+  {
+    "id": "G018",
+    "category": "gap_detection",
+    "subcategory": "conditional_gap",
+    "question": "What is the collective conditional versus unconditional gap across G20 NDC2 developing nations, and what does this mean for global ambition?",
+    "ground_truth": "Indonesia (31.89% vs 43.20%), Mexico (35% vs 40%), and India (all targets conditional) represent the largest conditional gaps among G20 developing nations. If only unconditional targets are achieved, the collective emissions reduction is substantially less than if conditional targets are met. The gap between conditional and unconditional G20 NDC2 targets represents approximately 2-4 GtCO2e per year in 2030 emissions. This gap is primarily a finance and technology transfer gap, not an ambition gap in the developing nations' own commitments.",
+    "countries": [
+      "Indonesia",
+      "Mexico",
+      "India"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "NDC2_2022_Indonesia",
+    "source_page": 5,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": false,
+    "annotation_notes": "Framing the gap as a finance gap not an ambition gap is the thesis-relevant insight"
+  },
+  {
+    "id": "G019",
+    "category": "gap_detection",
+    "subcategory": "industry",
+    "question": "Assess the gap between G20 NDC2 industrial decarbonisation commitments and IPCC AR6 guidance for heavy industry.",
+    "ground_truth": "IPCC AR6 WG3 identifies steel, cement, and chemicals as requiring deep decarbonisation through electrification, hydrogen, and CCS. Few G20 NDC2 submissions provide sector-specific industrial decarbonisation targets. Japan's NDC2 references the Green Innovation Fund for industrial transformation. South Korea mentions industrial sector efficiency. The EU references the Industrial Strategy and Carbon Border Adjustment Mechanism. China, India, Brazil, and most other G20 nations treat industry under economy-wide targets without sector-level quantification. GAP: Industrial decarbonisation is systematically absent from most G20 NDC2 texts.",
+    "countries": [
+      "Japan",
+      "South Korea",
+      "EU",
+      "China"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "WG3_Chapter06_EnergySystems_2022",
+    "source_page": 20,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": true,
+    "annotation_notes": "Systematic absence across NDC2s is a thesis-level finding"
+  },
+  {
+    "id": "G020",
+    "category": "gap_detection",
+    "subcategory": "equity",
+    "question": "How does the distribution of G20 NDC2 ambition levels relate to historical cumulative emissions and the equity principle in IPCC AR6?",
+    "ground_truth": "IPCC AR6 WG3 Chapter 4 states that equity requires countries with higher historical cumulative emissions and greater financial capacity to reduce faster. The USA, EU, UK, and Russia have the highest historical cumulative emissions. Yet Russia's and Australia's targets are rated insufficient by Climate Action Tracker. The USA and EU have more ambitious 2030 targets. India and Indonesia have low per-capita historical emissions but face development pressures. IPCC finds current NDCs do not reflect equity considerations adequately, with insufficient effort from historically high emitters.",
+    "countries": [
+      "USA",
+      "EU",
+      "UK",
+      "Russia",
+      "Australia"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "WG3_Chapter04_MitigationDevelopmentPathways_2022",
+    "source_page": 10,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": true,
+    "annotation_notes": "Equity-emissions responsibility gap is a core thesis argument"
+  },
+  {
+    "id": "G021",
+    "category": "gap_detection",
+    "subcategory": "fossil_subsidies",
+    "question": "Which G20 NDC2 submissions address fossil fuel subsidies, and how does this compare to IPCC guidance?",
+    "ground_truth": "IPCC AR6 WG3 identifies elimination of fossil fuel subsidies as a key near-term mitigation measure. Among G20 NDC2 submissions, most do not mention fossil fuel subsidies at all. Canada's NDC2 references its commitment to phase out inefficient fossil fuel subsidies. The UK references the Green Finance Taxonomy. No G20 NDC2 provides a specific fossil fuel subsidy phase-out timeline with amounts. Saudi Arabia, Russia, and Mexico do not mention fossil fuel subsidies. GAP: Despite IPCC urgency, fossil fuel subsidy elimination is systematically absent from G20 NDC2 texts.",
+    "countries": [
+      "Canada",
+      "Saudi Arabia",
+      "Russia"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "WG3_SPM_2022",
+    "source_page": 35,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": true,
+    "annotation_notes": "Fossil fuel subsidies are a political sensitivity \u2014 their absence in NDC2s is notable"
+  },
+  {
+    "id": "G022",
+    "category": "gap_detection",
+    "subcategory": "net_zero",
+    "question": "Which G20 countries in the corpus have net zero targets in their NDC2 and which do not, and how does this compare to IPCC's 2050 requirement?",
+    "ground_truth": "G20 countries WITH net zero targets in NDC2: UK (2050), EU (2050), Canada (2050), Japan (2050), South Korea (2050), Australia (2050), Brazil (2050 in updated 2023 NDC). G20 countries WITHOUT explicit net zero year in NDC2: India (no year in NDC2), China (2060 \u2014 beyond IPCC 2050), Russia (no net zero year), Saudi Arabia (no net zero year), Indonesia (carbon neutrality aspirationally by 2060 but not in NDC2 text), Mexico (not specified), Argentina (not specified). GAP: Over half of G20 nations lack NDC2-embedded net zero commitments consistent with IPCC's 2050 requirement.",
+    "countries": [
+      "UK",
+      "EU",
+      "Canada",
+      "Japan",
+      "South Korea",
+      "Australia",
+      "India",
+      "China",
+      "Russia"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "WG3_SPM_2022",
+    "source_page": 29,
+    "difficulty": "medium",
+    "requires_retrieval": true,
+    "ipcc_relevant": true,
+    "annotation_notes": "The list of both WITH and WITHOUT net zero targets required \u2014 binary classification"
+  },
+  {
+    "id": "G023",
+    "category": "gap_detection",
+    "subcategory": "food_systems",
+    "question": "What is the gap between G20 NDC2 food system commitments and IPCC AR6 recommendations for sustainable food systems?",
+    "ground_truth": "IPCC AR6 WG3 identifies food systems as contributing 23-42% of global GHG emissions and requiring systemic transformation including dietary shifts. G20 NDC2 submissions largely treat agriculture as mitigation and adaptation but do not address food system transformation. Brazil references sustainable agriculture but focuses on crop productivity. India addresses agricultural adaptation (drought, flood resilience) not dietary transition. No G20 NDC2 includes dietary shift policies or food waste reduction targets linked to GHG reductions. GAP: Food system transformation is essentially absent from G20 NDC2 submissions despite IPCC urgency.",
+    "countries": [
+      "Brazil",
+      "India"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "WG3_Chapter06_EnergySystems_2022",
+    "source_page": 60,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": true,
+    "annotation_notes": "Dietary shift gap is novel and politically sensitive \u2014 IPCC is clear, NDC2s are silent"
+  },
+  {
+    "id": "G024",
+    "category": "gap_detection",
+    "subcategory": "climate_finance",
+    "question": "What is the gap between G20 developed nations' climate finance commitments in their NDC2 and the IPCC-identified needs of developing nations?",
+    "ground_truth": "IPCC AR6 WG3 identifies that developing nations need USD 2.4 trillion per year in climate finance by 2030. The developed G20 nations' NDC2 submissions do not contain specific climate finance commitments to developing nations \u2014 the USD 100 billion per year developed country pledge is referenced as context but not committed in NDC2 texts. The gap between IPCC-identified need (USD 2.4 trillion) and the often-unmet developed country pledge (USD 100 billion) represents a factor of 24x underfunding. GAP: Climate finance commitments are systematically absent from developed nation NDC2 texts.",
+    "countries": [
+      "USA",
+      "EU",
+      "UK",
+      "Japan",
+      "Canada"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "WG2_Chapter17_DecisionMakingRisk_2022",
+    "source_page": 20,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": true,
+    "annotation_notes": "The 24x funding gap between $100bn and $2.4 trillion is a powerful thesis finding"
+  },
+  {
+    "id": "G025",
+    "category": "gap_detection",
+    "subcategory": "overall_ambition",
+    "question": "Summarise the three most critical gaps between the collective G20 NDC2 ambition and IPCC AR6 1.5 degree pathway requirements.",
+    "ground_truth": "Three critical gaps between G20 NDC2 collective ambition and IPCC 1.5\u00b0C requirements: (1) TIMELINE GAP: Collective G20 NDC2 implementation leads to approximately 2.5\u00b0C warming, not 1.5\u00b0C. Current pledges represent only 43% of the mitigation needed by 2030. (2) SECTOR GAP: Most NDC2 submissions rely on economy-wide targets without sector-specific decarbonisation roadmaps for industry, transport, and food systems as IPCC requires. (3) FINANCE GAP: The conditional-unconditional gap in developing nations' NDC2 commitments cannot be closed without climate finance that is not committed in any developed nation's NDC2 text. These three gaps are interconnected and mutually reinforcing.",
+    "countries": [
+      "India",
+      "China",
+      "USA",
+      "EU",
+      "UK"
+    ],
+    "ndc_cycle": 2,
+    "source_doc": "SYR_FullVolume_2023",
+    "source_page": 48,
+    "difficulty": "hard",
+    "requires_retrieval": true,
+    "ipcc_relevant": true,
+    "annotation_notes": "Synthesis question \u2014 any three well-evidenced gaps with IPCC citations acceptable"
+  }
+]

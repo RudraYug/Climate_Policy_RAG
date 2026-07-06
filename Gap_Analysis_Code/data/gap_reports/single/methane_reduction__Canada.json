@@ -1,0 +1,157 @@
+{
+  "country": "Canada",
+  "dimension": "methane_reduction",
+  "score": 0.7,
+  "severity": "SIGNIFICANT",
+  "label": "SIGNIFICANT",
+  "details": {
+    "country": "Canada",
+    "dimension": "methane_reduction",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [
+      {
+        "text": "ongoing work with the United States on a continental approach to addressing methane emissions reductions in the oil and gas sectors",
+        "target_value": {},
+        "target_year": {},
+        "baseline_year": {},
+        "conditional": true,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2021_Canada",
+        "source_page": 14,
+        "confidence": 0.8
+      }
+    ],
+    "measurability": {
+      "level": "VAGUE",
+      "score": 0.25,
+      "reason": "The commitment lacks a specific target year, baseline year, and target value.",
+      "missing_elements": [
+        "target year",
+        "baseline year",
+        "target value"
+      ]
+    },
+    "gap_findings": [
+      {
+        "gap_type": "MISSING_COMMITMENT",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.7,
+        "description": "Canada's NDC does not specify a methane reduction target, whereas IPCC AR6 recommends reducing methane ~34% by 2030 vs 2020.",
+        "ndc_evidence": "No commitment found",
+        "ipcc_evidence": "IPCC AR6 WG3 SPM: reducing methane ~34% by 2030 vs 2020 buys near-term warming relief and is cost-effective.",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "[WG3_SPM_2022, p.42]",
+        "quantified_gap": "N/A",
+        "confidence": 1.0
+      },
+      {
+        "gap_type": "VAGUE",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.7,
+        "description": "Canada's NDC commitment is conditional on international finance and lacks quantification, baseline, or timeline.",
+        "ndc_evidence": "ongoing work with the United States on a continental approach to addressing methane emissions reductions in the oil and gas sectors",
+        "ipcc_evidence": "IPCC AR6 WG3 SPM: reducing methane ~34% by 2030 vs 2020 buys near-term warming relief and is cost-effective.",
+        "ndc_citation": "[NDC2_2021_Canada, p.14]",
+        "ipcc_citation": "[WG3_SPM_2022, p.42]",
+        "quantified_gap": "N/A",
+        "confidence": 0.8
+      },
+      {
+        "gap_type": "CONDITIONAL_DEPENDENCY",
+        "severity": "MINOR",
+        "severity_score": 0.3,
+        "description": "Canada's NDC commitment is conditional on international finance, which creates delivery risk.",
+        "ndc_evidence": "ongoing work with the United States on a continental approach to addressing methane emissions reductions in the oil and gas sectors",
+        "ipcc_evidence": "N/A",
+        "ndc_citation": "[NDC2_2021_Canada, p.14]",
+        "ipcc_citation": "N/A",
+        "quantified_gap": "N/A",
+        "confidence": 0.8
+      }
+    ],
+    "overall_severity": "SIGNIFICANT",
+    "overall_score": 0.7,
+    "summary": "Canada's NDC commitments on methane reduction are vague and lack quantification, while IPCC AR6 recommends a specific 34% reduction by 2030.",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [
+          {
+            "text": "ongoing work with the United States on a continental approach to addressing methane emissions reductions in the oil and gas sectors",
+            "target_value": {},
+            "target_year": {},
+            "baseline_year": {},
+            "conditional": true,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2021_Canada",
+            "source_page": 14,
+            "confidence": 0.8
+          }
+        ],
+        "total_found": 1
+      },
+      "pass_b": {
+        "country": "Canada",
+        "dimension": "Methane Reduction Targets",
+        "measurability_level": "VAGUE",
+        "measurability_score": 0.25,
+        "reason": "The commitment lacks a specific target year, baseline year, and target value.",
+        "missing_elements": [
+          "target year",
+          "baseline year",
+          "target value"
+        ],
+        "strongest_commitment": {},
+        "conditional_dependency": true,
+        "conditional_note": "dependent on a continental approach with the United States"
+      },
+      "pass_c": {
+        "country": "Canada",
+        "dimension": "Methane Reduction Targets",
+        "overall_severity": "SIGNIFICANT",
+        "overall_severity_score": 0.7,
+        "gap_findings": [
+          {
+            "gap_type": "MISSING_COMMITMENT",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.7,
+            "description": "Canada's NDC does not specify a methane reduction target, whereas IPCC AR6 recommends reducing methane ~34% by 2030 vs 2020.",
+            "ndc_evidence": "No commitment found",
+            "ipcc_evidence": "IPCC AR6 WG3 SPM: reducing methane ~34% by 2030 vs 2020 buys near-term warming relief and is cost-effective.",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "[WG3_SPM_2022, p.42]",
+            "quantified_gap": "N/A",
+            "confidence": 1.0
+          },
+          {
+            "gap_type": "VAGUE",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.7,
+            "description": "Canada's NDC commitment is conditional on international finance and lacks quantification, baseline, or timeline.",
+            "ndc_evidence": "ongoing work with the United States on a continental approach to addressing methane emissions reductions in the oil and gas sectors",
+            "ipcc_evidence": "IPCC AR6 WG3 SPM: reducing methane ~34% by 2030 vs 2020 buys near-term warming relief and is cost-effective.",
+            "ndc_citation": "[NDC2_2021_Canada, p.14]",
+            "ipcc_citation": "[WG3_SPM_2022, p.42]",
+            "quantified_gap": "N/A",
+            "confidence": 0.8
+          },
+          {
+            "gap_type": "CONDITIONAL_DEPENDENCY",
+            "severity": "MINOR",
+            "severity_score": 0.3,
+            "description": "Canada's NDC commitment is conditional on international finance, which creates delivery risk.",
+            "ndc_evidence": "ongoing work with the United States on a continental approach to addressing methane emissions reductions in the oil and gas sectors",
+            "ipcc_evidence": "N/A",
+            "ndc_citation": "[NDC2_2021_Canada, p.14]",
+            "ipcc_citation": "N/A",
+            "quantified_gap": "N/A",
+            "confidence": 0.8
+          }
+        ],
+        "country_summary": "Canada's NDC commitments on methane reduction are vague and lack quantification, while IPCC AR6 recommends a specific 34% reduction by 2030.",
+        "policy_recommendation": "Canada should specify a clear, quantifiable methane reduction target and ensure it is unconditional to meet the IPCC's recommended 34% reduction by 2030."
+      }
+    }
+  }
+}

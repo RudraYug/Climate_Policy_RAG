@@ -1,0 +1,149 @@
+{
+  "country": "India",
+  "dimension": "transport_decarbonisation",
+  "score": 1.0,
+  "severity": "CRITICAL",
+  "label": "CRITICAL",
+  "details": {
+    "country": "India",
+    "dimension": "transport_decarbonisation",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [],
+    "measurability": {
+      "level": "ABSENT",
+      "score": 0.0,
+      "reason": "No commitments were extracted for the Transport Sector Decarbonisation dimension.",
+      "missing_elements": []
+    },
+    "gap_findings": [
+      {
+        "gap_type": "MISSING_COMMITMENT",
+        "severity": "CRITICAL",
+        "severity_score": 1.0,
+        "description": "India's NDC does not mention transport sector decarbonisation or EV targets.",
+        "ndc_evidence": "No commitment found",
+        "ipcc_evidence": "IPCC AR6 WG3 Ch10: transport emissions must fall 59\u201384% by 2050 vs 2020 in 1.5\u00b0C scenarios.",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "[SOURCE 1: WG3_TechnicalSummary_2022, p.51]",
+        "quantified_gap": null,
+        "confidence": 1.0
+      },
+      {
+        "gap_type": "VAGUE_TARGET",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.7,
+        "description": "India's NDC does not mention EV share targets or modal shift commitments.",
+        "ndc_evidence": "No commitment found",
+        "ipcc_evidence": "IPCC AR6 WG3 Ch10: EV share 75\u201395% of new sales by 2050.",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "[SOURCE 1: WG3_TechnicalSummary_2022, p.51]",
+        "quantified_gap": null,
+        "confidence": 1.0
+      },
+      {
+        "gap_type": "IPCC_CONTRADICTION",
+        "severity": "CRITICAL",
+        "severity_score": 0.9,
+        "description": "India's NDC does not mention transport sector decarbonisation or EV targets, which are crucial in reducing carbon emissions to meet temperature goals.",
+        "ndc_evidence": "No commitment found",
+        "ipcc_evidence": "IPCC AR6 WG3 Ch10: scenarios literature indicates that fuel and technology shifts are crucial in reducing carbon emissions to meet temperature goals.",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "[SOURCE 4: WG3_TechnicalSummary_2022, p.51]",
+        "quantified_gap": null,
+        "confidence": 1.0
+      },
+      {
+        "gap_type": "CONDITIONAL_DEPENDENCY",
+        "severity": "MINOR",
+        "severity_score": 0.3,
+        "description": "India's NDC does not mention transport sector decarbonisation or EV targets, but mentions the need for international cooperation and finance.",
+        "ndc_evidence": "No commitment found",
+        "ipcc_evidence": "IPCC AR6 WG3 Ch10: transport emissions must fall 59\u201384% by 2050 vs 2020 in 1.5\u00b0C scenarios.",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "[SOURCE 1: WG3_TechnicalSummary_2022, p.51]",
+        "quantified_gap": null,
+        "confidence": 0.8
+      }
+    ],
+    "overall_severity": "CRITICAL",
+    "overall_score": 0.8,
+    "summary": "India's NDC lacks commitments on transport sector decarbonisation, EV targets, and modal shift, which are crucial for meeting temperature goals.",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [],
+        "total_found": 0
+      },
+      "pass_b": {
+        "country": "India",
+        "dimension": "Transport Sector Decarbonisation",
+        "measurability_level": "ABSENT",
+        "measurability_score": 0.0,
+        "reason": "No commitments were extracted for the Transport Sector Decarbonisation dimension.",
+        "missing_elements": [],
+        "strongest_commitment": null,
+        "conditional_dependency": false,
+        "conditional_note": null
+      },
+      "pass_c": {
+        "country": "India",
+        "dimension": "Transport Sector Decarbonisation",
+        "overall_severity": "CRITICAL",
+        "overall_severity_score": 0.8,
+        "gap_findings": [
+          {
+            "gap_type": "MISSING_COMMITMENT",
+            "severity": "CRITICAL",
+            "severity_score": 1.0,
+            "description": "India's NDC does not mention transport sector decarbonisation or EV targets.",
+            "ndc_evidence": "No commitment found",
+            "ipcc_evidence": "IPCC AR6 WG3 Ch10: transport emissions must fall 59\u201384% by 2050 vs 2020 in 1.5\u00b0C scenarios.",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "[SOURCE 1: WG3_TechnicalSummary_2022, p.51]",
+            "quantified_gap": null,
+            "confidence": 1.0
+          },
+          {
+            "gap_type": "VAGUE_TARGET",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.7,
+            "description": "India's NDC does not mention EV share targets or modal shift commitments.",
+            "ndc_evidence": "No commitment found",
+            "ipcc_evidence": "IPCC AR6 WG3 Ch10: EV share 75\u201395% of new sales by 2050.",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "[SOURCE 1: WG3_TechnicalSummary_2022, p.51]",
+            "quantified_gap": null,
+            "confidence": 1.0
+          },
+          {
+            "gap_type": "IPCC_CONTRADICTION",
+            "severity": "CRITICAL",
+            "severity_score": 0.9,
+            "description": "India's NDC does not mention transport sector decarbonisation or EV targets, which are crucial in reducing carbon emissions to meet temperature goals.",
+            "ndc_evidence": "No commitment found",
+            "ipcc_evidence": "IPCC AR6 WG3 Ch10: scenarios literature indicates that fuel and technology shifts are crucial in reducing carbon emissions to meet temperature goals.",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "[SOURCE 4: WG3_TechnicalSummary_2022, p.51]",
+            "quantified_gap": null,
+            "confidence": 1.0
+          },
+          {
+            "gap_type": "CONDITIONAL_DEPENDENCY",
+            "severity": "MINOR",
+            "severity_score": 0.3,
+            "description": "India's NDC does not mention transport sector decarbonisation or EV targets, but mentions the need for international cooperation and finance.",
+            "ndc_evidence": "No commitment found",
+            "ipcc_evidence": "IPCC AR6 WG3 Ch10: transport emissions must fall 59\u201384% by 2050 vs 2020 in 1.5\u00b0C scenarios.",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "[SOURCE 1: WG3_TechnicalSummary_2022, p.51]",
+            "quantified_gap": null,
+            "confidence": 0.8
+          }
+        ],
+        "country_summary": "India's NDC lacks commitments on transport sector decarbonisation, EV targets, and modal shift, which are crucial for meeting temperature goals.",
+        "policy_recommendation": "India should establish clear targets for EV share and transport sector decarbonisation, and implement policies to support the transition to low-carbon transport."
+      }
+    }
+  }
+}

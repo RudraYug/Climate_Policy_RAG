@@ -1,0 +1,129 @@
+{
+  "country": "Mexico",
+  "dimension": "adaptation_finance",
+  "score": 1.0,
+  "severity": "CRITICAL",
+  "label": "CRITICAL",
+  "details": {
+    "country": "Mexico",
+    "dimension": "adaptation_finance",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [
+      {
+        "text": "No specific commitments found related to adaptation finance.",
+        "target_value": {},
+        "target_year": {},
+        "baseline_year": {},
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2022_Mexico",
+        "source_page": 35,
+        "confidence": 0.0
+      }
+    ],
+    "measurability": {
+      "level": "ABSENT",
+      "score": 0.0,
+      "reason": "No specific commitments found related to adaptation finance.",
+      "missing_elements": [
+        "specific commitments"
+      ]
+    },
+    "gap_findings": [
+      {
+        "gap_type": "MISSING_COMMITMENT",
+        "severity": "CRITICAL",
+        "severity_score": 1.0,
+        "description": "Mexico makes no commitment on adaptation finance.",
+        "ndc_evidence": "No specific commitments found related to adaptation finance.",
+        "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: adaptation finance gaps persist; developing countries need significantly more than current flows.",
+        "ndc_citation": "[NDC2_2022_Mexico, p.35]",
+        "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.48]",
+        "quantified_gap": {},
+        "confidence": 1.0
+      },
+      {
+        "gap_type": "CONDITIONAL_DEPENDENCY",
+        "severity": "MINOR",
+        "severity_score": 0.5,
+        "description": "Mexico's NDC does not mention conditional dependency on international finance, but the IPCC notes that developing countries need significantly more than current flows.",
+        "ndc_evidence": "No specific commitments found related to adaptation finance.",
+        "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: adaptation finance gaps persist; developing countries need significantly more than current flows.",
+        "ndc_citation": "[NDC2_2022_Mexico, p.35]",
+        "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.48]",
+        "quantified_gap": {},
+        "confidence": 0.5
+      }
+    ],
+    "overall_severity": "CRITICAL",
+    "overall_score": 0.8,
+    "summary": "Mexico's NDC lacks any commitment on adaptation finance, which is a critical gap given the IPCC's recommendation for significantly more finance for developing countries.",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [
+          {
+            "text": "No specific commitments found related to adaptation finance.",
+            "target_value": {},
+            "target_year": {},
+            "baseline_year": {},
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2022_Mexico",
+            "source_page": 35,
+            "confidence": 0.0
+          }
+        ],
+        "total_found": 1
+      },
+      "pass_b": {
+        "country": "Mexico",
+        "dimension": "Adaptation Finance Commitments",
+        "measurability_level": "ABSENT",
+        "measurability_score": 0.0,
+        "reason": "No specific commitments found related to adaptation finance.",
+        "missing_elements": [
+          "specific commitments"
+        ],
+        "strongest_commitment": {},
+        "conditional_dependency": false,
+        "conditional_note": {}
+      },
+      "pass_c": {
+        "country": "Mexico",
+        "dimension": "Adaptation Finance Commitments",
+        "overall_severity": "CRITICAL",
+        "overall_severity_score": 0.8,
+        "gap_findings": [
+          {
+            "gap_type": "MISSING_COMMITMENT",
+            "severity": "CRITICAL",
+            "severity_score": 1.0,
+            "description": "Mexico makes no commitment on adaptation finance.",
+            "ndc_evidence": "No specific commitments found related to adaptation finance.",
+            "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: adaptation finance gaps persist; developing countries need significantly more than current flows.",
+            "ndc_citation": "[NDC2_2022_Mexico, p.35]",
+            "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.48]",
+            "quantified_gap": {},
+            "confidence": 1.0
+          },
+          {
+            "gap_type": "CONDITIONAL_DEPENDENCY",
+            "severity": "MINOR",
+            "severity_score": 0.5,
+            "description": "Mexico's NDC does not mention conditional dependency on international finance, but the IPCC notes that developing countries need significantly more than current flows.",
+            "ndc_evidence": "No specific commitments found related to adaptation finance.",
+            "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: adaptation finance gaps persist; developing countries need significantly more than current flows.",
+            "ndc_citation": "[NDC2_2022_Mexico, p.35]",
+            "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.48]",
+            "quantified_gap": {},
+            "confidence": 0.5
+          }
+        ],
+        "country_summary": "Mexico's NDC lacks any commitment on adaptation finance, which is a critical gap given the IPCC's recommendation for significantly more finance for developing countries.",
+        "policy_recommendation": "Mexico should commit to a specific adaptation finance target, aligned with the IPCC's recommendation for developing countries, and consider conditional dependency on international finance."
+      }
+    }
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "country": "Australia",
+  "dimension": "transport_decarbonisation",
+  "score": null,
+  "severity": "ALIGNED",
+  "label": "ABSENT",
+  "details": {
+    "country": "Australia",
+    "dimension": "transport_decarbonisation",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [
+      {
+        "text": "A Powering the Regions Fund to support the development of new clean energy industries and the decarbonisation priorities of existing industry.",
+        "target_value": null,
+        "target_year": null,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2022_Australia",
+        "source_page": 3,
+        "confidence": 0.8
+      },
+      {
+        "text": "These new measures will build on existing emissions reduction and low emissions technology accelerator policies and programs including the Australian Renewable Energy Agency, the Clean Energy Finance Corporation, crediting under the Carbon Credits (Carbon Farming Initiative) Act 2011, and a range of investments to accelerate and facilitate low emissions and clean energy technologies, such as green hydrogen, energy storage and electric vehicles.",
+        "target_value": null,
+        "target_year": null,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2022_Australia",
+        "source_page": 4,
+        "confidence": 0.9
+      },
+      {
+        "text": "The Australian Government is implementing a series of new policies across the economy to support the uptake of existing technology, encourage innovation in existing industries and invest in the technology and industries of the future.",
+        "target_value": null,
+        "target_year": null,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2022_Australia",
+        "source_page": 12,
+        "confidence": 0.7
+      }
+    ],
+    "measurability": {
+      "level": "VAGUE",
+      "score": 0.25,
+      "reason": "None of the commitments have specific numbers, units, target years, or baselines.",
+      "missing_elements": [
+        "target_value",
+        "target_year",
+        "baseline_year"
+      ]
+    },
+    "gap_findings": [],
+    "overall_severity": "ALIGNED",
+    "overall_score": 0.0,
+    "summary": "",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [
+          {
+            "text": "A Powering the Regions Fund to support the development of new clean energy industries and the decarbonisation priorities of existing industry.",
+            "target_value": null,
+            "target_year": null,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2022_Australia",
+            "source_page": 3,
+            "confidence": 0.8
+          },
+          {
+            "text": "These new measures will build on existing emissions reduction and low emissions technology accelerator policies and programs including the Australian Renewable Energy Agency, the Clean Energy Finance Corporation, crediting under the Carbon Credits (Carbon Farming Initiative) Act 2011, and a range of investments to accelerate and facilitate low emissions and clean energy technologies, such as green hydrogen, energy storage and electric vehicles.",
+            "target_value": null,
+            "target_year": null,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2022_Australia",
+            "source_page": 4,
+            "confidence": 0.9
+          },
+          {
+            "text": "The Australian Government is implementing a series of new policies across the economy to support the uptake of existing technology, encourage innovation in existing industries and invest in the technology and industries of the future.",
+            "target_value": null,
+            "target_year": null,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2022_Australia",
+            "source_page": 12,
+            "confidence": 0.7
+          }
+        ],
+        "total_found": 3
+      },
+      "pass_b": {
+        "country": "Australia",
+        "dimension": "Transport Sector Decarbonisation",
+        "measurability_level": "VAGUE",
+        "measurability_score": 0.25,
+        "reason": "None of the commitments have specific numbers, units, target years, or baselines.",
+        "missing_elements": [
+          "target_value",
+          "target_year",
+          "baseline_year"
+        ],
+        "strongest_commitment": null,
+        "conditional_dependency": false,
+        "conditional_note": null
+      },
+      "pass_c": null
+    }
+  }
+}

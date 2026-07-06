@@ -1,0 +1,149 @@
+{
+  "country": "Australia",
+  "dimension": "net_zero_pathway",
+  "score": 0.7,
+  "severity": "SIGNIFICANT",
+  "label": "SIGNIFICANT",
+  "details": {
+    "country": "Australia",
+    "dimension": "net_zero_pathway",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [
+      {
+        "text": "Net zero emissions by 2050",
+        "target_value": {},
+        "target_year": 2050,
+        "baseline_year": 2005,
+        "conditional": false,
+        "time_horizon": "long_term",
+        "source_doc": "NDC2_2022_Australia",
+        "source_page": 7,
+        "confidence": 1.0
+      }
+    ],
+    "measurability": {
+      "level": "QUANTIFIED",
+      "score": 1.0,
+      "reason": "The commitment has a specific target year, baseline year, and no conditional dependency.",
+      "missing_elements": []
+    },
+    "gap_findings": [
+      {
+        "gap_type": "vague_target",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.7,
+        "description": "Australia's NDC commitment lacks quantification of the pathway to reach net zero emissions by 2050.",
+        "ndc_evidence": "Net zero emissions by 2050",
+        "ipcc_evidence": "IPCC AR6 WG3 SPM: global net zero CO2 by 2050 required for 1.5°C; net zero GHG by around 2070 for 2°C.",
+        "ndc_citation": "[NDC2_2022_Australia, p.7]",
+        "ipcc_citation": "[WG3_SPM_2022, p.31]",
+        "quantified_gap": "NDC: null, IPCC min: 2050, gap: null",
+        "confidence": 0.9
+      },
+      {
+        "gap_type": "ipcc_contradiction",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.7,
+        "description": "Australia's NDC commitment is inconsistent with the IPCC recommendation for a 2°C pathway, which suggests net zero GHG emissions by around 2070.",
+        "ndc_evidence": "Net zero emissions by 2050",
+        "ipcc_evidence": "IPCC AR6 WG3 SPM: net zero GHG by around 2070 for 2°C.",
+        "ndc_citation": "[NDC2_2022_Australia, p.7]",
+        "ipcc_citation": "[WG3_SPM_2022, p.31]",
+        "quantified_gap": "NDC: 2050, IPCC min: 2070, gap: -20 years",
+        "confidence": 0.8
+      },
+      {
+        "gap_type": "conditional_dependency",
+        "severity": "MINOR",
+        "severity_score": 0.3,
+        "description": "Australia's NDC commitment is unconditional, but the country may face delivery risks if international finance is not secured.",
+        "ndc_evidence": "Net zero emissions by 2050",
+        "ipcc_evidence": "No evidence of conditional dependency in IPCC AR6.",
+        "ndc_citation": "[NDC2_2022_Australia, p.7]",
+        "ipcc_citation": "N/A",
+        "quantified_gap": "N/A",
+        "confidence": 0.6
+      }
+    ],
+    "overall_severity": "SIGNIFICANT",
+    "overall_score": 0.7,
+    "summary": "Australia's NDC commitment for net zero emissions by 2050 is vague and inconsistent with the IPCC recommendation for a 2°C pathway. The country may face delivery risks if international finance is not secured.",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [
+          {
+            "text": "Net zero emissions by 2050",
+            "target_value": {},
+            "target_year": 2050,
+            "baseline_year": 2005,
+            "conditional": false,
+            "time_horizon": "long_term",
+            "source_doc": "NDC2_2022_Australia",
+            "source_page": 7,
+            "confidence": 1.0
+          }
+        ],
+        "total_found": 1
+      },
+      "pass_b": {
+        "country": "Australia",
+        "dimension": "Net Zero / Carbon Neutrality Pathway",
+        "measurability_level": "QUANTIFIED",
+        "measurability_score": 1.0,
+        "reason": "The commitment has a specific target year, baseline year, and no conditional dependency.",
+        "missing_elements": [],
+        "strongest_commitment": "Net zero emissions by 2050",
+        "conditional_dependency": false,
+        "conditional_note": {}
+      },
+      "pass_c": {
+        "country": "Australia",
+        "dimension": "Net Zero / Carbon Neutrality Pathway",
+        "overall_severity": "SIGNIFICANT",
+        "overall_severity_score": 0.7,
+        "gap_findings": [
+          {
+            "gap_type": "vague_target",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.7,
+            "description": "Australia's NDC commitment lacks quantification of the pathway to reach net zero emissions by 2050.",
+            "ndc_evidence": "Net zero emissions by 2050",
+            "ipcc_evidence": "IPCC AR6 WG3 SPM: global net zero CO2 by 2050 required for 1.5°C; net zero GHG by around 2070 for 2°C.",
+            "ndc_citation": "[NDC2_2022_Australia, p.7]",
+            "ipcc_citation": "[WG3_SPM_2022, p.31]",
+            "quantified_gap": "NDC: null, IPCC min: 2050, gap: null",
+            "confidence": 0.9
+          },
+          {
+            "gap_type": "ipcc_contradiction",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.7,
+            "description": "Australia's NDC commitment is inconsistent with the IPCC recommendation for a 2°C pathway, which suggests net zero GHG emissions by around 2070.",
+            "ndc_evidence": "Net zero emissions by 2050",
+            "ipcc_evidence": "IPCC AR6 WG3 SPM: net zero GHG by around 2070 for 2°C.",
+            "ndc_citation": "[NDC2_2022_Australia, p.7]",
+            "ipcc_citation": "[WG3_SPM_2022, p.31]",
+            "quantified_gap": "NDC: 2050, IPCC min: 2070, gap: -20 years",
+            "confidence": 0.8
+          },
+          {
+            "gap_type": "conditional_dependency",
+            "severity": "MINOR",
+            "severity_score": 0.3,
+            "description": "Australia's NDC commitment is unconditional, but the country may face delivery risks if international finance is not secured.",
+            "ndc_evidence": "Net zero emissions by 2050",
+            "ipcc_evidence": "No evidence of conditional dependency in IPCC AR6.",
+            "ndc_citation": "[NDC2_2022_Australia, p.7]",
+            "ipcc_citation": "N/A",
+            "quantified_gap": "N/A",
+            "confidence": 0.6
+          }
+        ],
+        "country_summary": "Australia's NDC commitment for net zero emissions by 2050 is vague and inconsistent with the IPCC recommendation for a 2°C pathway. The country may face delivery risks if international finance is not secured.",
+        "policy_recommendation": "Australia should provide a more detailed and quantified pathway to reach net zero emissions by 2050, and consider securing international finance to support its climate goals."
+      }
+    }
+  }
+}

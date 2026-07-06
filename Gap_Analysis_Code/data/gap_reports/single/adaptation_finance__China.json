@@ -1,0 +1,130 @@
+{
+  "country": "China",
+  "dimension": "adaptation_finance",
+  "score": null,
+  "severity": "ALIGNED",
+  "label": "ABSENT",
+  "details": {
+    "country": "China",
+    "dimension": "adaptation_finance",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [
+      {
+        "text": "China will explore more effective use of China South-South Climate Cooperation Fund to help others developing countries respond to climate change.",
+        "target_value": {},
+        "target_year": {},
+        "baseline_year": {},
+        "conditional": true,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2021_China",
+        "source_page": 49,
+        "confidence": 0.8
+      },
+      {
+        "text": "China will steadily implement cooperative projects such as low-carbon demonstration zones, material donations, and training, and advance cooperation in the fields of clean energy, disaster prevention and mitigation, ecological conservation, climate-resilient agriculture, low-carbon smart cities, and nature-based solutions.",
+        "target_value": {},
+        "target_year": {},
+        "baseline_year": {},
+        "conditional": true,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2021_China",
+        "source_page": 49,
+        "confidence": 0.8
+      },
+      {
+        "text": "China has implemented ten thematic partnerships, covering biodiversity and ecosystems, green energy and energy efficiency, green finance and investment.",
+        "target_value": {},
+        "target_year": {},
+        "baseline_year": {},
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2021_China",
+        "source_page": 49,
+        "confidence": 0.6
+      }
+    ],
+    "measurability": {
+      "level": "VAGUE",
+      "score": 0.25,
+      "reason": "None of the commitments provide specific numbers, units, target years, or baselines.",
+      "missing_elements": [
+        "specific number",
+        "unit",
+        "target year",
+        "baseline"
+      ]
+    },
+    "gap_findings": [],
+    "overall_severity": "ALIGNED",
+    "overall_score": 0.0,
+    "summary": "",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [
+          {
+            "text": "China will explore more effective use of China South-South Climate Cooperation Fund to help others developing countries respond to climate change.",
+            "target_value": {},
+            "target_year": {},
+            "baseline_year": {},
+            "conditional": true,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2021_China",
+            "source_page": 49,
+            "confidence": 0.8
+          },
+          {
+            "text": "China will steadily implement cooperative projects such as low-carbon demonstration zones, material donations, and training, and advance cooperation in the fields of clean energy, disaster prevention and mitigation, ecological conservation, climate-resilient agriculture, low-carbon smart cities, and nature-based solutions.",
+            "target_value": {},
+            "target_year": {},
+            "baseline_year": {},
+            "conditional": true,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2021_China",
+            "source_page": 49,
+            "confidence": 0.8
+          },
+          {
+            "text": "China has implemented ten thematic partnerships, covering biodiversity and ecosystems, green energy and energy efficiency, green finance and investment.",
+            "target_value": {},
+            "target_year": {},
+            "baseline_year": {},
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2021_China",
+            "source_page": 49,
+            "confidence": 0.6
+          }
+        ],
+        "total_found": 3
+      },
+      "pass_b": {
+        "country": "China",
+        "dimension": "Adaptation Finance Commitments",
+        "measurability_level": "VAGUE",
+        "measurability_score": 0.25,
+        "reason": "None of the commitments provide specific numbers, units, target years, or baselines.",
+        "missing_elements": [
+          "specific number",
+          "unit",
+          "target year",
+          "baseline"
+        ],
+        "strongest_commitment": {},
+        "conditional_dependency": [
+          {
+            "text": "China will explore more effective use of China South-South Climate Cooperation Fund to help others developing countries respond to climate change.",
+            "conditional": true
+          },
+          {
+            "text": "China will steadily implement cooperative projects such as low-carbon demonstration zones, material donations, and training, and advance cooperation in the fields of clean energy, disaster prevention and mitigation, ecological conservation, climate-resilient agriculture, low-carbon smart cities, and nature-based solutions.",
+            "conditional": true
+          }
+        ],
+        "conditional_note": "Depends on various conditions such as effective use of China South-South Climate Cooperation Fund and implementation of cooperative projects."
+      },
+      "pass_c": {}
+    }
+  }
+}

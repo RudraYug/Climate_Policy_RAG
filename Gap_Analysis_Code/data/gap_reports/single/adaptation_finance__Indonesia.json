@@ -1,0 +1,121 @@
+{
+  "country": "Indonesia",
+  "dimension": "adaptation_finance",
+  "score": null,
+  "severity": "ALIGNED",
+  "label": "ABSENT",
+  "details": {
+    "country": "Indonesia",
+    "dimension": "adaptation_finance",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [
+      {
+        "text": "Indonesia has developed a number of innovative green financing, which could contribute positively to NDC implementation, for example, green sukuk, green bond, and public-private partnership through SDGs-One Indonesia Platform.",
+        "target_value": {},
+        "target_year": {},
+        "baseline_year": {},
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2022_Indonesia",
+        "source_page": 26,
+        "confidence": 0.8
+      },
+      {
+        "text": "The GOI will continue to implement enhanced actions to study and map regional vulnerabilities as the basis data for adaptation information system, and to strengthen institutional capacity and",
+        "target_value": {},
+        "target_year": {},
+        "baseline_year": {},
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2022_Indonesia",
+        "source_page": 18,
+        "confidence": 0.6
+      },
+      {
+        "text": "Indonesia welcome bilateral, regional and international cooperation in the NDC implementation as recognized under Article 6 of the Paris Agreement, that facilitate and expedite technology development and transfer, payment for performance, technical cooperation, and access to financial resources to support Indonesia's climate mitigation and adaptation efforts towards a climate resilient future.",
+        "target_value": {},
+        "target_year": {},
+        "baseline_year": {},
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2022_Indonesia",
+        "source_page": 28,
+        "confidence": 0.9
+      }
+    ],
+    "measurability": {
+      "level": "VAGUE",
+      "score": 0.25,
+      "reason": "None of the commitments have specific numbers, units, target years, or baselines.",
+      "missing_elements": [
+        "specific number",
+        "unit",
+        "target year",
+        "baseline"
+      ]
+    },
+    "gap_findings": [],
+    "overall_severity": "ALIGNED",
+    "overall_score": 0.0,
+    "summary": "",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [
+          {
+            "text": "Indonesia has developed a number of innovative green financing, which could contribute positively to NDC implementation, for example, green sukuk, green bond, and public-private partnership through SDGs-One Indonesia Platform.",
+            "target_value": {},
+            "target_year": {},
+            "baseline_year": {},
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2022_Indonesia",
+            "source_page": 26,
+            "confidence": 0.8
+          },
+          {
+            "text": "The GOI will continue to implement enhanced actions to study and map regional vulnerabilities as the basis data for adaptation information system, and to strengthen institutional capacity and",
+            "target_value": {},
+            "target_year": {},
+            "baseline_year": {},
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2022_Indonesia",
+            "source_page": 18,
+            "confidence": 0.6
+          },
+          {
+            "text": "Indonesia welcome bilateral, regional and international cooperation in the NDC implementation as recognized under Article 6 of the Paris Agreement, that facilitate and expedite technology development and transfer, payment for performance, technical cooperation, and access to financial resources to support Indonesia's climate mitigation and adaptation efforts towards a climate resilient future.",
+            "target_value": {},
+            "target_year": {},
+            "baseline_year": {},
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2022_Indonesia",
+            "source_page": 28,
+            "confidence": 0.9
+          }
+        ],
+        "total_found": 3
+      },
+      "pass_b": {
+        "country": "Indonesia",
+        "dimension": "Adaptation Finance Commitments",
+        "measurability_level": "VAGUE",
+        "measurability_score": 0.25,
+        "reason": "None of the commitments have specific numbers, units, target years, or baselines.",
+        "missing_elements": [
+          "specific number",
+          "unit",
+          "target year",
+          "baseline"
+        ],
+        "strongest_commitment": {},
+        "conditional_dependency": false,
+        "conditional_note": {}
+      },
+      "pass_c": {}
+    }
+  }
+}

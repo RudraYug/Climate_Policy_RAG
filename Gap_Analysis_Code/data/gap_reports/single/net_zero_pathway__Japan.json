@@ -1,0 +1,95 @@
+{
+  "country": "Japan",
+  "dimension": "net_zero_pathway",
+  "score": null,
+  "severity": "ALIGNED",
+  "label": "ABSENT",
+  "details": {
+    "country": "Japan",
+    "dimension": "net_zero_pathway",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [
+      {
+        "text": "Japan aims to achieve net-zero by 2050.",
+        "target_value": {},
+        "target_year": 2050,
+        "baseline_year": 2023,
+        "conditional": false,
+        "time_horizon": "long_term",
+        "source_doc": "NDC2_2021_Japan",
+        "source_page": 1,
+        "confidence": 1.0
+      },
+      {
+        "text": "Furthermore, Japan will continue strenuous efforts in its challenge to meet the lofty goal of cutting its emission by 50 percent.",
+        "target_value": {},
+        "target_year": 2030,
+        "baseline_year": 2023,
+        "conditional": false,
+        "time_horizon": "near_term",
+        "source_doc": "NDC2_2021_Japan",
+        "source_page": 4,
+        "confidence": 0.8
+      }
+    ],
+    "measurability": {
+      "level": "VAGUE",
+      "score": 0.25,
+      "reason": "The commitments lack specific numbers and units for the targets.",
+      "missing_elements": [
+        "specific number",
+        "unit"
+      ]
+    },
+    "gap_findings": [],
+    "overall_severity": "ALIGNED",
+    "overall_score": 0.0,
+    "summary": "",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [
+          {
+            "text": "Japan aims to achieve net-zero by 2050.",
+            "target_value": {},
+            "target_year": 2050,
+            "baseline_year": 2023,
+            "conditional": false,
+            "time_horizon": "long_term",
+            "source_doc": "NDC2_2021_Japan",
+            "source_page": 1,
+            "confidence": 1.0
+          },
+          {
+            "text": "Furthermore, Japan will continue strenuous efforts in its challenge to meet the lofty goal of cutting its emission by 50 percent.",
+            "target_value": {},
+            "target_year": 2030,
+            "baseline_year": 2023,
+            "conditional": false,
+            "time_horizon": "near_term",
+            "source_doc": "NDC2_2021_Japan",
+            "source_page": 4,
+            "confidence": 0.8
+          }
+        ],
+        "total_found": 2
+      },
+      "pass_b": {
+        "country": "Japan",
+        "dimension": "Net Zero / Carbon Neutrality Pathway",
+        "measurability_level": "VAGUE",
+        "measurability_score": 0.25,
+        "reason": "The commitments lack specific numbers and units for the targets.",
+        "missing_elements": [
+          "specific number",
+          "unit"
+        ],
+        "strongest_commitment": "cutting its emission by 50 percent by 2030",
+        "conditional_dependency": false,
+        "conditional_note": {}
+      },
+      "pass_c": {}
+    }
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "country": "Indonesia",
+  "dimension": "transport_decarbonisation",
+  "score": null,
+  "severity": "ALIGNED",
+  "label": "ABSENT",
+  "details": {
+    "country": "Indonesia",
+    "dimension": "transport_decarbonisation",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [
+      {
+        "text": "Indonesia has stipulated a national mandatory biodiesel policy of B20 and enhance it to B30 in 2020",
+        "target_value": "B30",
+        "target_year": 2020,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "near_term",
+        "source_doc": "NDC2_2022_Indonesia",
+        "source_page": 16,
+        "confidence": 0.8
+      },
+      {
+        "text": "Another direct command from President Joko Widodo to reduce the imported oil as well as to enhance domestic oil production by constructing additional oil refineries",
+        "target_value": null,
+        "target_year": null,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2022_Indonesia",
+        "source_page": 16,
+        "confidence": 0.7
+      },
+      {
+        "text": "Indonesia has set ambitious goals for sustainability related to production and consumption of food, water, and energy",
+        "target_value": null,
+        "target_year": null,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2022_Indonesia",
+        "source_page": 13,
+        "confidence": 0.6
+      }
+    ],
+    "measurability": {
+      "level": "QUALIFIED",
+      "score": 0.65,
+      "reason": "Only one commitment has a specific target value and year, but lacks a baseline.",
+      "missing_elements": [
+        "baseline"
+      ]
+    },
+    "gap_findings": [],
+    "overall_severity": "ALIGNED",
+    "overall_score": 0.0,
+    "summary": "",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [
+          {
+            "text": "Indonesia has stipulated a national mandatory biodiesel policy of B20 and enhance it to B30 in 2020",
+            "target_value": "B30",
+            "target_year": 2020,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "near_term",
+            "source_doc": "NDC2_2022_Indonesia",
+            "source_page": 16,
+            "confidence": 0.8
+          },
+          {
+            "text": "Another direct command from President Joko Widodo to reduce the imported oil as well as to enhance domestic oil production by constructing additional oil refineries",
+            "target_value": null,
+            "target_year": null,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2022_Indonesia",
+            "source_page": 16,
+            "confidence": 0.7
+          },
+          {
+            "text": "Indonesia has set ambitious goals for sustainability related to production and consumption of food, water, and energy",
+            "target_value": null,
+            "target_year": null,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2022_Indonesia",
+            "source_page": 13,
+            "confidence": 0.6
+          }
+        ],
+        "total_found": 3
+      },
+      "pass_b": {
+        "country": "Indonesia",
+        "dimension": "Transport Sector Decarbonisation",
+        "measurability_level": "QUALIFIED",
+        "measurability_score": 0.65,
+        "reason": "Only one commitment has a specific target value and year, but lacks a baseline.",
+        "missing_elements": [
+          "baseline"
+        ],
+        "strongest_commitment": "Indonesia has stipulated a national mandatory biodiesel policy of B20 and enhance it to B30 in 2020",
+        "conditional_dependency": false,
+        "conditional_note": null
+      },
+      "pass_c": null
+    }
+  }
+}

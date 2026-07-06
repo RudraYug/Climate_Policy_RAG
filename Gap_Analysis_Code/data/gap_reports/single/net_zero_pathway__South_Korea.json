@@ -1,0 +1,155 @@
+{
+  "country": "South Korea",
+  "dimension": "net_zero_pathway",
+  "score": null,
+  "severity": "ALIGNED",
+  "label": "ABSENT",
+  "details": {
+    "country": "South Korea",
+    "dimension": "net_zero_pathway",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [
+      {
+        "text": "move towards the goal of carbon neutrality by 2050",
+        "target_value": {},
+        "target_year": 2050,
+        "baseline_year": {},
+        "conditional": false,
+        "time_horizon": "long_term",
+        "source_doc": "NDC2_2021_South_Korea",
+        "source_page": 10,
+        "confidence": 1.0
+      },
+      {
+        "text": "cut the total national GHG emissions by 40% from 2018 level by 2030 as a mid-term target",
+        "target_value": 40,
+        "target_year": 2030,
+        "baseline_year": 2018,
+        "conditional": false,
+        "time_horizon": "near_term",
+        "source_doc": "NDC2_2021_South_Korea",
+        "source_page": 10,
+        "confidence": 1.0
+      },
+      {
+        "text": "linear emission reductions are to be made from 2018 to 2050, with an emission reduction target for 2030 calculated to be 37.5%",
+        "target_value": 37.5,
+        "target_year": 2030,
+        "baseline_year": 2018,
+        "conditional": false,
+        "time_horizon": "near_term",
+        "source_doc": "NDC2_2021_South_Korea",
+        "source_page": 10,
+        "confidence": 1.0
+      },
+      {
+        "text": "the minimum level of the 2030 target should be 35% reduction from 2018 level",
+        "target_value": 35,
+        "target_year": 2030,
+        "baseline_year": 2018,
+        "conditional": false,
+        "time_horizon": "near_term",
+        "source_doc": "NDC2_2021_South_Korea",
+        "source_page": 10,
+        "confidence": 1.0
+      },
+      {
+        "text": "relevant ministries submitted a draft proposal for 40% reduction from 2018 level by 2030 to the 2050 Carbon Neutrality Commission",
+        "target_value": 40,
+        "target_year": 2030,
+        "baseline_year": 2018,
+        "conditional": false,
+        "time_horizon": "near_term",
+        "source_doc": "NDC2_2021_South_Korea",
+        "source_page": 10,
+        "confidence": 1.0
+      }
+    ],
+    "measurability": {
+      "level": "QUANTIFIED",
+      "score": 1.0,
+      "reason": "All commitments have specific numbers, units, target years, and baselines.",
+      "missing_elements": []
+    },
+    "gap_findings": [],
+    "overall_severity": "ALIGNED",
+    "overall_score": 0.0,
+    "summary": "",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [
+          {
+            "text": "move towards the goal of carbon neutrality by 2050",
+            "target_value": {},
+            "target_year": 2050,
+            "baseline_year": {},
+            "conditional": false,
+            "time_horizon": "long_term",
+            "source_doc": "NDC2_2021_South_Korea",
+            "source_page": 10,
+            "confidence": 1.0
+          },
+          {
+            "text": "cut the total national GHG emissions by 40% from 2018 level by 2030 as a mid-term target",
+            "target_value": 40,
+            "target_year": 2030,
+            "baseline_year": 2018,
+            "conditional": false,
+            "time_horizon": "near_term",
+            "source_doc": "NDC2_2021_South_Korea",
+            "source_page": 10,
+            "confidence": 1.0
+          },
+          {
+            "text": "linear emission reductions are to be made from 2018 to 2050, with an emission reduction target for 2030 calculated to be 37.5%",
+            "target_value": 37.5,
+            "target_year": 2030,
+            "baseline_year": 2018,
+            "conditional": false,
+            "time_horizon": "near_term",
+            "source_doc": "NDC2_2021_South_Korea",
+            "source_page": 10,
+            "confidence": 1.0
+          },
+          {
+            "text": "the minimum level of the 2030 target should be 35% reduction from 2018 level",
+            "target_value": 35,
+            "target_year": 2030,
+            "baseline_year": 2018,
+            "conditional": false,
+            "time_horizon": "near_term",
+            "source_doc": "NDC2_2021_South_Korea",
+            "source_page": 10,
+            "confidence": 1.0
+          },
+          {
+            "text": "relevant ministries submitted a draft proposal for 40% reduction from 2018 level by 2030 to the 2050 Carbon Neutrality Commission",
+            "target_value": 40,
+            "target_year": 2030,
+            "baseline_year": 2018,
+            "conditional": false,
+            "time_horizon": "near_term",
+            "source_doc": "NDC2_2021_South_Korea",
+            "source_page": 10,
+            "confidence": 1.0
+          }
+        ],
+        "total_found": 5
+      },
+      "pass_b": {
+        "country": "South Korea",
+        "dimension": "Net Zero / Carbon Neutrality Pathway",
+        "measurability_level": "QUANTIFIED",
+        "measurability_score": 1.0,
+        "reason": "All commitments have specific numbers, units, target years, and baselines.",
+        "missing_elements": [],
+        "strongest_commitment": "cut the total national GHG emissions by 40% from 2018 level by 2030 as a mid-term target",
+        "conditional_dependency": false,
+        "conditional_note": {}
+      },
+      "pass_c": {}
+    }
+  }
+}

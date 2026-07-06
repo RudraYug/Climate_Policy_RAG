@@ -1,0 +1,173 @@
+{
+  "country": "Argentina",
+  "dimension": "transport_decarbonisation",
+  "score": 0.7,
+  "severity": "SIGNIFICANT",
+  "label": "SIGNIFICANT",
+  "details": {
+    "country": "Argentina",
+    "dimension": "transport_decarbonisation",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [
+      {
+        "text": "absolute and unconditional goal, applicable to all sectors of the economy, to not exceed the net emission of 349 MtCO2e in 2030",
+        "target_value": "349 MtCO2e",
+        "target_year": 2030,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "long_term",
+        "source_doc": "NDC2_2021_Argentina",
+        "source_page": 5,
+        "confidence": 1.0
+      }
+    ],
+    "measurability": {
+      "level": "QUANTIFIED",
+      "score": 1.0,
+      "reason": "The commitment has a specific number, unit, target year, and is unconditional.",
+      "missing_elements": []
+    },
+    "gap_findings": [
+      {
+        "gap_type": "missing_commitment",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.7,
+        "description": "Argentina's NDC does not mention specific targets for transport sector decarbonisation.",
+        "ndc_evidence": "No commitment found",
+        "ipcc_evidence": "IPCC AR6 WG3 Ch10: transport emissions must fall 59\u201384% by 2050 vs 2020 in 1.5\u00b0C scenarios.",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "[WG3_TechnicalSummary_2022, p.51]",
+        "quantified_gap": null,
+        "confidence": 1.0
+      },
+      {
+        "gap_type": "vague_target",
+        "severity": "MINOR",
+        "severity_score": 0.3,
+        "description": "Argentina's NDC does not specify a target for electric vehicle (EV) adoption or share of new sales.",
+        "ndc_evidence": "No commitment found",
+        "ipcc_evidence": "IPCC AR6 WG3 Ch10: EV share 75\u201395% of new sales by 2050.",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "[WG3_TechnicalSummary_2022, p.51]",
+        "quantified_gap": null,
+        "confidence": 1.0
+      },
+      {
+        "gap_type": "ipcc_contradiction",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.7,
+        "description": "Argentina's NDC does not specify a target for transport sector emissions reduction, which is inconsistent with IPCC AR6 WG3 Ch10 recommendation of 59\u201384% reduction by 2050.",
+        "ndc_evidence": "No commitment found",
+        "ipcc_evidence": "IPCC AR6 WG3 Ch10: transport emissions must fall 59\u201384% by 2050 vs 2020 in 1.5\u00b0C scenarios.",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "[WG3_TechnicalSummary_2022, p.51]",
+        "quantified_gap": null,
+        "confidence": 1.0
+      },
+      {
+        "gap_type": "conditional_dependency",
+        "severity": "MINOR",
+        "severity_score": 0.3,
+        "description": "Argentina's NDC does not mention any conditional dependencies, but it is worth noting that the country's overall NDC is unconditional.",
+        "ndc_evidence": "No commitment found",
+        "ipcc_evidence": "N/A",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "N/A",
+        "quantified_gap": null,
+        "confidence": 0.5
+      }
+    ],
+    "overall_severity": "SIGNIFICANT",
+    "overall_score": 0.7,
+    "summary": "Argentina's NDC lacks specific commitments for transport sector decarbonisation, EV adoption, and emissions reduction, which are essential for meeting IPCC AR6 WG3 Ch10 recommendations.",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [
+          {
+            "text": "absolute and unconditional goal, applicable to all sectors of the economy, to not exceed the net emission of 349 MtCO2e in 2030",
+            "target_value": "349 MtCO2e",
+            "target_year": 2030,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "long_term",
+            "source_doc": "NDC2_2021_Argentina",
+            "source_page": 5,
+            "confidence": 1.0
+          }
+        ],
+        "total_found": 1
+      },
+      "pass_b": {
+        "country": "Argentina",
+        "dimension": "Transport Sector Decarbonisation",
+        "measurability_level": "QUANTIFIED",
+        "measurability_score": 1.0,
+        "reason": "The commitment has a specific number, unit, target year, and is unconditional.",
+        "missing_elements": [],
+        "strongest_commitment": "absolute and unconditional goal, applicable to all sectors of the economy, to not exceed the net emission of 349 MtCO2e in 2030",
+        "conditional_dependency": false,
+        "conditional_note": null
+      },
+      "pass_c": {
+        "country": "Argentina",
+        "dimension": "Transport Sector Decarbonisation",
+        "overall_severity": "SIGNIFICANT",
+        "overall_severity_score": 0.7,
+        "gap_findings": [
+          {
+            "gap_type": "missing_commitment",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.7,
+            "description": "Argentina's NDC does not mention specific targets for transport sector decarbonisation.",
+            "ndc_evidence": "No commitment found",
+            "ipcc_evidence": "IPCC AR6 WG3 Ch10: transport emissions must fall 59\u201384% by 2050 vs 2020 in 1.5\u00b0C scenarios.",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "[WG3_TechnicalSummary_2022, p.51]",
+            "quantified_gap": null,
+            "confidence": 1.0
+          },
+          {
+            "gap_type": "vague_target",
+            "severity": "MINOR",
+            "severity_score": 0.3,
+            "description": "Argentina's NDC does not specify a target for electric vehicle (EV) adoption or share of new sales.",
+            "ndc_evidence": "No commitment found",
+            "ipcc_evidence": "IPCC AR6 WG3 Ch10: EV share 75\u201395% of new sales by 2050.",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "[WG3_TechnicalSummary_2022, p.51]",
+            "quantified_gap": null,
+            "confidence": 1.0
+          },
+          {
+            "gap_type": "ipcc_contradiction",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.7,
+            "description": "Argentina's NDC does not specify a target for transport sector emissions reduction, which is inconsistent with IPCC AR6 WG3 Ch10 recommendation of 59\u201384% reduction by 2050.",
+            "ndc_evidence": "No commitment found",
+            "ipcc_evidence": "IPCC AR6 WG3 Ch10: transport emissions must fall 59\u201384% by 2050 vs 2020 in 1.5\u00b0C scenarios.",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "[WG3_TechnicalSummary_2022, p.51]",
+            "quantified_gap": null,
+            "confidence": 1.0
+          },
+          {
+            "gap_type": "conditional_dependency",
+            "severity": "MINOR",
+            "severity_score": 0.3,
+            "description": "Argentina's NDC does not mention any conditional dependencies, but it is worth noting that the country's overall NDC is unconditional.",
+            "ndc_evidence": "No commitment found",
+            "ipcc_evidence": "N/A",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "N/A",
+            "quantified_gap": null,
+            "confidence": 0.5
+          }
+        ],
+        "country_summary": "Argentina's NDC lacks specific commitments for transport sector decarbonisation, EV adoption, and emissions reduction, which are essential for meeting IPCC AR6 WG3 Ch10 recommendations.",
+        "policy_recommendation": "Argentina should develop and incorporate specific targets for transport sector decarbonisation, EV adoption, and emissions reduction into its NDC, aligned with IPCC AR6 WG3 Ch10 recommendations."
+      }
+    }
+  }
+}

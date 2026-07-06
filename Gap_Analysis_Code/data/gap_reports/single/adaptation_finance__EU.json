@@ -1,0 +1,95 @@
+{
+  "country": "EU",
+  "dimension": "adaptation_finance",
+  "score": null,
+  "severity": "ALIGNED",
+  "label": "ABSENT",
+  "details": {
+    "country": "EU",
+    "dimension": "adaptation_finance",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [
+      {
+        "text": "Climate action will be mainstreamed in policies and programmes financed under the MFF and NGEU.",
+        "target_value": {},
+        "target_year": {},
+        "baseline_year": {},
+        "conditional": true,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2020_EU",
+        "source_page": 2,
+        "confidence": 0.8
+      },
+      {
+        "text": "An overall climate target of 30% will apply to the total amount of expenditure from the MFF and NGEU.",
+        "target_value": 30,
+        "target_year": {},
+        "baseline_year": {},
+        "conditional": true,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2020_EU",
+        "source_page": 2,
+        "confidence": 0.9
+      }
+    ],
+    "measurability": {
+      "level": "QUALIFIED",
+      "score": 0.65,
+      "reason": "Both commitments have a target year but lack a baseline or precise unit.",
+      "missing_elements": [
+        "baseline",
+        "precise unit"
+      ]
+    },
+    "gap_findings": [],
+    "overall_severity": "ALIGNED",
+    "overall_score": 0.0,
+    "summary": "",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [
+          {
+            "text": "Climate action will be mainstreamed in policies and programmes financed under the MFF and NGEU.",
+            "target_value": {},
+            "target_year": {},
+            "baseline_year": {},
+            "conditional": true,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2020_EU",
+            "source_page": 2,
+            "confidence": 0.8
+          },
+          {
+            "text": "An overall climate target of 30% will apply to the total amount of expenditure from the MFF and NGEU.",
+            "target_value": 30,
+            "target_year": {},
+            "baseline_year": {},
+            "conditional": true,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2020_EU",
+            "source_page": 2,
+            "confidence": 0.9
+          }
+        ],
+        "total_found": 2
+      },
+      "pass_b": {
+        "country": "EU",
+        "dimension": "Adaptation Finance Commitments",
+        "measurability_level": "QUALIFIED",
+        "measurability_score": 0.65,
+        "reason": "Both commitments have a target year but lack a baseline or precise unit.",
+        "missing_elements": [
+          "baseline",
+          "precise unit"
+        ],
+        "strongest_commitment": "An overall climate target of 30% will apply to the total amount of expenditure from the MFF and NGEU.",
+        "conditional_dependency": true,
+        "conditional_note": "Depends on other conditions"
+      },
+      "pass_c": {}
+    }
+  }
+}

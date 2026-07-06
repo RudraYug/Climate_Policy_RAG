@@ -1,0 +1,101 @@
+{
+  "country": "USA",
+  "dimension": "methane_reduction",
+  "score": 1.0,
+  "severity": "CRITICAL",
+  "label": "CRITICAL",
+  "details": {
+    "country": "USA",
+    "dimension": "methane_reduction",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [],
+    "measurability": {
+      "level": "ABSENT",
+      "score": 0.0,
+      "reason": "No commitments were found for Methane Reduction Targets.",
+      "missing_elements": []
+    },
+    "gap_findings": [
+      {
+        "gap_type": "MISSING_COMMITMENT",
+        "severity": "CRITICAL",
+        "severity_score": 1.0,
+        "description": "The USA makes no commitment on methane reduction targets.",
+        "ndc_evidence": "No commitment found",
+        "ipcc_evidence": "IPCC AR6 WG3 SPM: reducing methane ~34% by 2030 vs 2020 buys near-term warming relief and is cost-effective.",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "[SOURCE 1: WG3_Chapter04_MitigationDevelopmentPathways_2022, p.32]",
+        "quantified_gap": {},
+        "confidence": 1.0
+      },
+      {
+        "gap_type": "CONDITIONAL_DEPENDENCY",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.7,
+        "description": "The USA's commitment is conditional on receiving international finance.",
+        "ndc_evidence": "INSUFFICIENT_EVIDENCE",
+        "ipcc_evidence": "IPCC AR6 WG3 SPM: reducing methane ~34% by 2030 vs 2020 buys near-term warming relief and is cost-effective.",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "[SOURCE 1: WG3_Chapter04_MitigationDevelopmentPathways_2022, p.32]",
+        "quantified_gap": {},
+        "confidence": 0.5
+      }
+    ],
+    "overall_severity": "CRITICAL",
+    "overall_score": 0.8,
+    "summary": "The USA lacks a commitment on methane reduction targets, and its potential commitment is conditional on international finance.",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [],
+        "total_found": 0
+      },
+      "pass_b": {
+        "country": "USA",
+        "dimension": "Methane Reduction Targets",
+        "measurability_level": "ABSENT",
+        "measurability_score": 0.0,
+        "reason": "No commitments were found for Methane Reduction Targets.",
+        "missing_elements": [],
+        "strongest_commitment": {},
+        "conditional_dependency": false,
+        "conditional_note": {}
+      },
+      "pass_c": {
+        "country": "USA",
+        "dimension": "Methane Reduction Targets",
+        "overall_severity": "CRITICAL",
+        "overall_severity_score": 0.8,
+        "gap_findings": [
+          {
+            "gap_type": "MISSING_COMMITMENT",
+            "severity": "CRITICAL",
+            "severity_score": 1.0,
+            "description": "The USA makes no commitment on methane reduction targets.",
+            "ndc_evidence": "No commitment found",
+            "ipcc_evidence": "IPCC AR6 WG3 SPM: reducing methane ~34% by 2030 vs 2020 buys near-term warming relief and is cost-effective.",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "[SOURCE 1: WG3_Chapter04_MitigationDevelopmentPathways_2022, p.32]",
+            "quantified_gap": {},
+            "confidence": 1.0
+          },
+          {
+            "gap_type": "CONDITIONAL_DEPENDENCY",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.7,
+            "description": "The USA's commitment is conditional on receiving international finance.",
+            "ndc_evidence": "INSUFFICIENT_EVIDENCE",
+            "ipcc_evidence": "IPCC AR6 WG3 SPM: reducing methane ~34% by 2030 vs 2020 buys near-term warming relief and is cost-effective.",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "[SOURCE 1: WG3_Chapter04_MitigationDevelopmentPathways_2022, p.32]",
+            "quantified_gap": {},
+            "confidence": 0.5
+          }
+        ],
+        "country_summary": "The USA lacks a commitment on methane reduction targets, and its potential commitment is conditional on international finance.",
+        "policy_recommendation": "The USA should establish a clear and unconditional commitment to reduce methane emissions by 34% by 2030, in line with IPCC recommendations."
+      }
+    }
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "country": "Brazil",
+  "dimension": "adaptation_finance",
+  "score": 1.0,
+  "severity": "CRITICAL",
+  "label": "CRITICAL",
+  "details": {
+    "country": "Brazil",
+    "dimension": "adaptation_finance",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [
+      {
+        "text": "Brazil will strive to achieve its NDC through domestic measures to be coordinated and implemented by the federal government.",
+        "target_value": {},
+        "target_year": {},
+        "baseline_year": {},
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2022_Brazil",
+        "source_page": 8,
+        "confidence": 0.8
+      },
+      {
+        "text": "The Brazilian government does not rule out the use of internationally transferred mitigation outcomes (ITMOs) under Article 6 of the Paris Agreement.",
+        "target_value": {},
+        "target_year": {},
+        "baseline_year": {},
+        "conditional": true,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2022_Brazil",
+        "source_page": 8,
+        "confidence": 0.8
+      }
+    ],
+    "measurability": {
+      "level": "VAGUE",
+      "score": 0.25,
+      "reason": "Neither commitment provides a measurable target or year.",
+      "missing_elements": [
+        "specific number",
+        "unit",
+        "target year",
+        "baseline"
+      ]
+    },
+    "gap_findings": [
+      {
+        "gap_type": "MISSING_COMMITMENT",
+        "severity": "CRITICAL",
+        "severity_score": 1.0,
+        "description": "Brazil's NDC does not make a specific commitment on adaptation finance.",
+        "ndc_evidence": "No commitment found.",
+        "ipcc_evidence": "[WG2_Chapter17_DecisionMakingRisk_2022, p.48] Adaptation finance gaps persist; developing countries need significantly more than current flows.",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.48]",
+        "quantified_gap": {},
+        "confidence": 1.0
+      },
+      {
+        "gap_type": "VAGUE_TARGET",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.8,
+        "description": "Brazil's NDC commitment is vague and lacks quantification.",
+        "ndc_evidence": "Brazil will strive to achieve its NDC through domestic measures to be coordinated and implemented by the federal government.",
+        "ipcc_evidence": "[WG2_Chapter17_DecisionMakingRisk_2022, p.52] Adaptation finance provided by international public mechanisms remains the core source of tracked flows in support of adaptation and resilience to developing countries.",
+        "ndc_citation": "[NDC2_2022_Brazil, p.8]",
+        "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.52]",
+        "quantified_gap": {},
+        "confidence": 0.8
+      },
+      {
+        "gap_type": "CONDITIONAL_DEPENDENCY",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.8,
+        "description": "Brazil's NDC commitment on ITMOs is conditional on receiving international finance.",
+        "ndc_evidence": "The Brazilian government does not rule out the use of internationally transferred mitigation outcomes (ITMOs) under Article 6 of the Paris Agreement.",
+        "ipcc_evidence": "[WG2_Chapter17_DecisionMakingRisk_2022, p.48] The '100 Billion' does not represent the total need to respond to climate change in developing countries, nor the global cost across all countries.",
+        "ndc_citation": "[NDC2_2022_Brazil, p.8]",
+        "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.48]",
+        "quantified_gap": {},
+        "confidence": 0.8
+      }
+    ],
+    "overall_severity": "CRITICAL",
+    "overall_score": 0.9,
+    "summary": "Brazil's NDC commitments on adaptation finance are incomplete, vague, and conditional on international finance, indicating a significant gap between its commitments and the IPCC benchmark.",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [
+          {
+            "text": "Brazil will strive to achieve its NDC through domestic measures to be coordinated and implemented by the federal government.",
+            "target_value": {},
+            "target_year": {},
+            "baseline_year": {},
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2022_Brazil",
+            "source_page": 8,
+            "confidence": 0.8
+          },
+          {
+            "text": "The Brazilian government does not rule out the use of internationally transferred mitigation outcomes (ITMOs) under Article 6 of the Paris Agreement.",
+            "target_value": {},
+            "target_year": {},
+            "baseline_year": {},
+            "conditional": true,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2022_Brazil",
+            "source_page": 8,
+            "confidence": 0.8
+          }
+        ],
+        "total_found": 2
+      },
+      "pass_b": {
+        "country": "Brazil",
+        "dimension": "Adaptation Finance Commitments",
+        "measurability_level": "VAGUE",
+        "measurability_score": 0.25,
+        "reason": "Neither commitment provides a measurable target or year.",
+        "missing_elements": [
+          "specific number",
+          "unit",
+          "target year",
+          "baseline"
+        ],
+        "strongest_commitment": {},
+        "conditional_dependency": true,
+        "conditional_note": "Depends on the use of internationally transferred mitigation outcomes (ITMOs) under Article 6 of the Paris Agreement."
+      },
+      "pass_c": {
+        "country": "Brazil",
+        "dimension": "Adaptation Finance Commitments",
+        "overall_severity": "CRITICAL",
+        "overall_severity_score": 0.9,
+        "gap_findings": [
+          {
+            "gap_type": "MISSING_COMMITMENT",
+            "severity": "CRITICAL",
+            "severity_score": 1.0,
+            "description": "Brazil's NDC does not make a specific commitment on adaptation finance.",
+            "ndc_evidence": "No commitment found.",
+            "ipcc_evidence": "[WG2_Chapter17_DecisionMakingRisk_2022, p.48] Adaptation finance gaps persist; developing countries need significantly more than current flows.",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.48]",
+            "quantified_gap": {},
+            "confidence": 1.0
+          },
+          {
+            "gap_type": "VAGUE_TARGET",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.8,
+            "description": "Brazil's NDC commitment is vague and lacks quantification.",
+            "ndc_evidence": "Brazil will strive to achieve its NDC through domestic measures to be coordinated and implemented by the federal government.",
+            "ipcc_evidence": "[WG2_Chapter17_DecisionMakingRisk_2022, p.52] Adaptation finance provided by international public mechanisms remains the core source of tracked flows in support of adaptation and resilience to developing countries.",
+            "ndc_citation": "[NDC2_2022_Brazil, p.8]",
+            "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.52]",
+            "quantified_gap": {},
+            "confidence": 0.8
+          },
+          {
+            "gap_type": "CONDITIONAL_DEPENDENCY",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.8,
+            "description": "Brazil's NDC commitment on ITMOs is conditional on receiving international finance.",
+            "ndc_evidence": "The Brazilian government does not rule out the use of internationally transferred mitigation outcomes (ITMOs) under Article 6 of the Paris Agreement.",
+            "ipcc_evidence": "[WG2_Chapter17_DecisionMakingRisk_2022, p.48] The '100 Billion' does not represent the total need to respond to climate change in developing countries, nor the global cost across all countries.",
+            "ndc_citation": "[NDC2_2022_Brazil, p.8]",
+            "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.48]",
+            "quantified_gap": {},
+            "confidence": 0.8
+          }
+        ],
+        "country_summary": "Brazil's NDC commitments on adaptation finance are incomplete, vague, and conditional on international finance, indicating a significant gap between its commitments and the IPCC benchmark.",
+        "policy_recommendation": "Brazil should make a specific, quantifiable commitment on adaptation finance and ensure that its commitment is unconditional and aligned with the IPCC's recommendations."
+      }
+    }
+  }
+}

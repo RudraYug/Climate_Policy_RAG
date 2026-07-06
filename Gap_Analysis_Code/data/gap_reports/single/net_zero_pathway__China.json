@@ -1,0 +1,187 @@
+{
+  "country": "China",
+  "dimension": "net_zero_pathway",
+  "score": null,
+  "severity": "ALIGNED",
+  "label": "ABSENT",
+  "details": {
+    "country": "China",
+    "dimension": "net_zero_pathway",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [
+      {
+        "text": "move from carbon peak to carbon neutrality in a much shorter time span than what many developed countries might take",
+        "target_value": {},
+        "target_year": {},
+        "baseline_year": {},
+        "conditional": false,
+        "time_horizon": "long_term",
+        "source_doc": "NDC2_2021_China",
+        "source_page": 4,
+        "confidence": 0.8
+      },
+      {
+        "text": "China has committed to move from carbon peak to carbon neutrality",
+        "target_value": {},
+        "target_year": {},
+        "baseline_year": {},
+        "conditional": false,
+        "time_horizon": "long_term",
+        "source_doc": "NDC2_2021_China",
+        "source_page": 4,
+        "confidence": 0.8
+      },
+      {
+        "text": "strictly control coal-fired power generation projects, and strictly limit the increase in coal consumption over the 14th Five-Year Plan (FYP) period and phase it down in the 15th FYP period",
+        "target_value": {},
+        "target_year": {},
+        "baseline_year": {},
+        "conditional": false,
+        "time_horizon": "long_term",
+        "source_doc": "NDC2_2021_China",
+        "source_page": 4,
+        "confidence": 0.7
+      },
+      {
+        "text": "China will unswervingly implement its new development philosophy, with green and low-carbon transition of social economic development as key",
+        "target_value": {},
+        "target_year": {},
+        "baseline_year": {},
+        "conditional": false,
+        "time_horizon": "long_term",
+        "source_doc": "NDC2_2021_China",
+        "source_page": 39,
+        "confidence": 0.7
+      },
+      {
+        "text": "construct the policy system of carbon peak and carbon neutrality",
+        "target_value": {},
+        "target_year": {},
+        "baseline_year": {},
+        "conditional": false,
+        "time_horizon": "long_term",
+        "source_doc": "NDC2_2021_China",
+        "source_page": 39,
+        "confidence": 0.7
+      },
+      {
+        "text": "speed up low-carbon development",
+        "target_value": {},
+        "target_year": {},
+        "baseline_year": {},
+        "conditional": false,
+        "time_horizon": "long_term",
+        "source_doc": "NDC2_2021_China",
+        "source_page": 39,
+        "confidence": 0.7
+      }
+    ],
+    "measurability": {
+      "level": "VAGUE",
+      "score": 0.25,
+      "reason": "Most commitments lack specific targets, years, or units, and some only mention intent without a clear direction.",
+      "missing_elements": [
+        "target_value",
+        "target_year",
+        "baseline_year",
+        "direction"
+      ]
+    },
+    "gap_findings": [],
+    "overall_severity": "ALIGNED",
+    "overall_score": 0.0,
+    "summary": "",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [
+          {
+            "text": "move from carbon peak to carbon neutrality in a much shorter time span than what many developed countries might take",
+            "target_value": {},
+            "target_year": {},
+            "baseline_year": {},
+            "conditional": false,
+            "time_horizon": "long_term",
+            "source_doc": "NDC2_2021_China",
+            "source_page": 4,
+            "confidence": 0.8
+          },
+          {
+            "text": "China has committed to move from carbon peak to carbon neutrality",
+            "target_value": {},
+            "target_year": {},
+            "baseline_year": {},
+            "conditional": false,
+            "time_horizon": "long_term",
+            "source_doc": "NDC2_2021_China",
+            "source_page": 4,
+            "confidence": 0.8
+          },
+          {
+            "text": "strictly control coal-fired power generation projects, and strictly limit the increase in coal consumption over the 14th Five-Year Plan (FYP) period and phase it down in the 15th FYP period",
+            "target_value": {},
+            "target_year": {},
+            "baseline_year": {},
+            "conditional": false,
+            "time_horizon": "long_term",
+            "source_doc": "NDC2_2021_China",
+            "source_page": 4,
+            "confidence": 0.7
+          },
+          {
+            "text": "China will unswervingly implement its new development philosophy, with green and low-carbon transition of social economic development as key",
+            "target_value": {},
+            "target_year": {},
+            "baseline_year": {},
+            "conditional": false,
+            "time_horizon": "long_term",
+            "source_doc": "NDC2_2021_China",
+            "source_page": 39,
+            "confidence": 0.7
+          },
+          {
+            "text": "construct the policy system of carbon peak and carbon neutrality",
+            "target_value": {},
+            "target_year": {},
+            "baseline_year": {},
+            "conditional": false,
+            "time_horizon": "long_term",
+            "source_doc": "NDC2_2021_China",
+            "source_page": 39,
+            "confidence": 0.7
+          },
+          {
+            "text": "speed up low-carbon development",
+            "target_value": {},
+            "target_year": {},
+            "baseline_year": {},
+            "conditional": false,
+            "time_horizon": "long_term",
+            "source_doc": "NDC2_2021_China",
+            "source_page": 39,
+            "confidence": 0.7
+          }
+        ],
+        "total_found": 6
+      },
+      "pass_b": {
+        "country": "China",
+        "dimension": "Net Zero / Carbon Neutrality Pathway",
+        "measurability_level": "VAGUE",
+        "measurability_score": 0.25,
+        "reason": "Most commitments lack specific targets, years, or units, and some only mention intent without a clear direction.",
+        "missing_elements": [
+          "target_value",
+          "target_year",
+          "baseline_year",
+          "direction"
+        ],
+        "strongest_commitment": {},
+        "conditional_dependency": false,
+        "conditional_note": {}
+      },
+      "pass_c": {}
+    }
+  }
+}

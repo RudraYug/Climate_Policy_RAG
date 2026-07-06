@@ -1,0 +1,223 @@
+{
+  "country": "China",
+  "dimension": "methane_reduction",
+  "score": 0.6,
+  "severity": "SIGNIFICANT",
+  "label": "SIGNIFICANT",
+  "details": {
+    "country": "China",
+    "dimension": "methane_reduction",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [
+      {
+        "text": "refine ways to treat and utilize livestock and poultry manure to reduce GHG emissions from livestock and poultry breeding",
+        "target_value": {},
+        "target_year": {},
+        "baseline_year": {},
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2021_China",
+        "source_page": 43,
+        "confidence": 0.8
+      },
+      {
+        "text": "promote the fertilization technology of agricultural machinery and agronomy and the substitution of organic fertilizers for chemical fertilizers",
+        "target_value": {},
+        "target_year": {},
+        "baseline_year": {},
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2021_China",
+        "source_page": 43,
+        "confidence": 0.8
+      },
+      {
+        "text": "refine ways to treat and utilize livestock and poultry manure will be refined in order to reduce GHG emissions from livestock and poultry breeding",
+        "target_value": {},
+        "target_year": {},
+        "baseline_year": {},
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2021_China",
+        "source_page": 43,
+        "confidence": 0.8
+      },
+      {
+        "text": "improve livestock and poultry productivity, ways to treat and utilize livestock and poultry manure will be refined in order to reduce GHG emissions from livestock and poultry breeding",
+        "target_value": {},
+        "target_year": {},
+        "baseline_year": {},
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2021_China",
+        "source_page": 43,
+        "confidence": 0.8
+      }
+    ],
+    "measurability": {
+      "level": "VAGUE",
+      "score": 0.25,
+      "reason": "All commitments lack specific numbers, units, target years, and baselines.",
+      "missing_elements": [
+        "target_value",
+        "target_year",
+        "baseline_year"
+      ]
+    },
+    "gap_findings": [
+      {
+        "gap_type": "MISSING_COMMITMENT",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.6,
+        "description": "China's NDC commitments lack specific methane reduction targets.",
+        "ndc_evidence": "No specific methane reduction targets found in NDC2_2021_China.",
+        "ipcc_evidence": "IPCC AR6 WG3 SPM recommends reducing methane ~34% by 2030 vs 2020 (WG3_SPM_2022, p.42).",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "[WG3_SPM_2022, p.42]",
+        "quantified_gap": {},
+        "confidence": 0.8
+      },
+      {
+        "gap_type": "VAGUE_TARGET",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.6,
+        "description": "China's NDC commitments lack quantification, baseline, or timeline for methane reduction.",
+        "ndc_evidence": "NDC2_2021_China mentions refining ways to treat and utilize livestock and poultry manure (NDC2_2021_China, p.43).",
+        "ipcc_evidence": "IPCC AR6 WG3 SPM recommends reducing methane ~34% by 2030 vs 2020 (WG3_SPM_2022, p.42).",
+        "ndc_citation": "[NDC2_2021_China, p.43]",
+        "ipcc_citation": "[WG3_SPM_2022, p.42]",
+        "quantified_gap": "NDC: null, IPCC min: 34%, gap: INSUFFICIENT_EVIDENCE",
+        "confidence": 0.8
+      },
+      {
+        "gap_type": "IPCC_CONTRADICTION",
+        "severity": "MINOR",
+        "severity_score": 0.2,
+        "description": "China's NDC commitments do not contradict IPCC recommendations, but lack ambition.",
+        "ndc_evidence": "NDC2_2021_China mentions improving livestock and poultry productivity (NDC2_2021_China, p.43).",
+        "ipcc_evidence": "IPCC AR6 WG3 SPM recommends reducing methane ~34% by 2030 vs 2020 (WG3_SPM_2022, p.42).",
+        "ndc_citation": "[NDC2_2021_China, p.43]",
+        "ipcc_citation": "[WG3_SPM_2022, p.42]",
+        "quantified_gap": "NDC: null, IPCC min: 34%, gap: INSUFFICIENT_EVIDENCE",
+        "confidence": 0.8
+      }
+    ],
+    "overall_severity": "SIGNIFICANT",
+    "overall_score": 0.6,
+    "summary": "China's NDC commitments lack specific methane reduction targets and lack quantification, baseline, or timeline for methane reduction, but do not contradict IPCC recommendations.",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [
+          {
+            "text": "refine ways to treat and utilize livestock and poultry manure to reduce GHG emissions from livestock and poultry breeding",
+            "target_value": {},
+            "target_year": {},
+            "baseline_year": {},
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2021_China",
+            "source_page": 43,
+            "confidence": 0.8
+          },
+          {
+            "text": "promote the fertilization technology of agricultural machinery and agronomy and the substitution of organic fertilizers for chemical fertilizers",
+            "target_value": {},
+            "target_year": {},
+            "baseline_year": {},
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2021_China",
+            "source_page": 43,
+            "confidence": 0.8
+          },
+          {
+            "text": "refine ways to treat and utilize livestock and poultry manure will be refined in order to reduce GHG emissions from livestock and poultry breeding",
+            "target_value": {},
+            "target_year": {},
+            "baseline_year": {},
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2021_China",
+            "source_page": 43,
+            "confidence": 0.8
+          },
+          {
+            "text": "improve livestock and poultry productivity, ways to treat and utilize livestock and poultry manure will be refined in order to reduce GHG emissions from livestock and poultry breeding",
+            "target_value": {},
+            "target_year": {},
+            "baseline_year": {},
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2021_China",
+            "source_page": 43,
+            "confidence": 0.8
+          }
+        ],
+        "total_found": 4
+      },
+      "pass_b": {
+        "country": "China",
+        "dimension": "Methane Reduction Targets",
+        "measurability_level": "VAGUE",
+        "measurability_score": 0.25,
+        "reason": "All commitments lack specific numbers, units, target years, and baselines.",
+        "missing_elements": [
+          "target_value",
+          "target_year",
+          "baseline_year"
+        ],
+        "strongest_commitment": {},
+        "conditional_dependency": false,
+        "conditional_note": {}
+      },
+      "pass_c": {
+        "country": "China",
+        "dimension": "Methane Reduction Targets",
+        "overall_severity": "SIGNIFICANT",
+        "overall_severity_score": 0.6,
+        "gap_findings": [
+          {
+            "gap_type": "MISSING_COMMITMENT",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.6,
+            "description": "China's NDC commitments lack specific methane reduction targets.",
+            "ndc_evidence": "No specific methane reduction targets found in NDC2_2021_China.",
+            "ipcc_evidence": "IPCC AR6 WG3 SPM recommends reducing methane ~34% by 2030 vs 2020 (WG3_SPM_2022, p.42).",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "[WG3_SPM_2022, p.42]",
+            "quantified_gap": {},
+            "confidence": 0.8
+          },
+          {
+            "gap_type": "VAGUE_TARGET",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.6,
+            "description": "China's NDC commitments lack quantification, baseline, or timeline for methane reduction.",
+            "ndc_evidence": "NDC2_2021_China mentions refining ways to treat and utilize livestock and poultry manure (NDC2_2021_China, p.43).",
+            "ipcc_evidence": "IPCC AR6 WG3 SPM recommends reducing methane ~34% by 2030 vs 2020 (WG3_SPM_2022, p.42).",
+            "ndc_citation": "[NDC2_2021_China, p.43]",
+            "ipcc_citation": "[WG3_SPM_2022, p.42]",
+            "quantified_gap": "NDC: null, IPCC min: 34%, gap: INSUFFICIENT_EVIDENCE",
+            "confidence": 0.8
+          },
+          {
+            "gap_type": "IPCC_CONTRADICTION",
+            "severity": "MINOR",
+            "severity_score": 0.2,
+            "description": "China's NDC commitments do not contradict IPCC recommendations, but lack ambition.",
+            "ndc_evidence": "NDC2_2021_China mentions improving livestock and poultry productivity (NDC2_2021_China, p.43).",
+            "ipcc_evidence": "IPCC AR6 WG3 SPM recommends reducing methane ~34% by 2030 vs 2020 (WG3_SPM_2022, p.42).",
+            "ndc_citation": "[NDC2_2021_China, p.43]",
+            "ipcc_citation": "[WG3_SPM_2022, p.42]",
+            "quantified_gap": "NDC: null, IPCC min: 34%, gap: INSUFFICIENT_EVIDENCE",
+            "confidence": 0.8
+          }
+        ],
+        "country_summary": "China's NDC commitments lack specific methane reduction targets and lack quantification, baseline, or timeline for methane reduction, but do not contradict IPCC recommendations.",
+        "policy_recommendation": "China should establish specific methane reduction targets and provide a clear timeline and quantification for achieving these targets."
+      }
+    }
+  }
+}

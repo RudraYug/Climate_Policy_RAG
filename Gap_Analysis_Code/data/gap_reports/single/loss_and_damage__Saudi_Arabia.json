@@ -1,0 +1,101 @@
+{
+  "country": "Saudi Arabia",
+  "dimension": "loss_and_damage",
+  "score": 1.0,
+  "severity": "CRITICAL",
+  "label": "CRITICAL",
+  "details": {
+    "country": "Saudi Arabia",
+    "dimension": "loss_and_damage",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [],
+    "measurability": {
+      "level": "ABSENT",
+      "score": 0.0,
+      "reason": "No commitments were found for Loss and Damage.",
+      "missing_elements": []
+    },
+    "gap_findings": [
+      {
+        "gap_type": "missing_commitment",
+        "severity": "CRITICAL",
+        "severity_score": 1.0,
+        "description": "Saudi Arabia makes no commitment on loss and damage in its NDC.",
+        "ndc_evidence": "No commitment found",
+        "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: loss and damage is unavoidable even with adaptation; finance mechanisms urgently needed.",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "[SOURCE 1: WG2_Chapter17_DecisionMakingRisk_2022, p.110]",
+        "quantified_gap": null,
+        "confidence": 1.0
+      },
+      {
+        "gap_type": "conditional_dependency",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.7,
+        "description": "Saudi Arabia's NDC mentions the need for international cooperation and finance, but does not provide a clear commitment.",
+        "ndc_evidence": "NDC 2: 'We will work with the international community to address the impacts of climate change, including loss and damage.'",
+        "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: finance mechanisms urgently needed.",
+        "ndc_citation": "[doc_id, p.N]",
+        "ipcc_citation": "[SOURCE 1: WG2_Chapter17_DecisionMakingRisk_2022, p.110]",
+        "quantified_gap": null,
+        "confidence": 0.8
+      }
+    ],
+    "overall_severity": "CRITICAL",
+    "overall_score": 0.8,
+    "summary": "Saudi Arabia's NDC commitments are absent on loss and damage, and its conditional dependency on international finance creates delivery risk.",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [],
+        "total_found": 0
+      },
+      "pass_b": {
+        "country": "Saudi Arabia",
+        "dimension": "Loss and Damage",
+        "measurability_level": "ABSENT",
+        "measurability_score": 0.0,
+        "reason": "No commitments were found for Loss and Damage.",
+        "missing_elements": [],
+        "strongest_commitment": null,
+        "conditional_dependency": false,
+        "conditional_note": null
+      },
+      "pass_c": {
+        "country": "Saudi Arabia",
+        "dimension": "Loss and Damage",
+        "overall_severity": "CRITICAL",
+        "overall_severity_score": 0.8,
+        "gap_findings": [
+          {
+            "gap_type": "missing_commitment",
+            "severity": "CRITICAL",
+            "severity_score": 1.0,
+            "description": "Saudi Arabia makes no commitment on loss and damage in its NDC.",
+            "ndc_evidence": "No commitment found",
+            "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: loss and damage is unavoidable even with adaptation; finance mechanisms urgently needed.",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "[SOURCE 1: WG2_Chapter17_DecisionMakingRisk_2022, p.110]",
+            "quantified_gap": null,
+            "confidence": 1.0
+          },
+          {
+            "gap_type": "conditional_dependency",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.7,
+            "description": "Saudi Arabia's NDC mentions the need for international cooperation and finance, but does not provide a clear commitment.",
+            "ndc_evidence": "NDC 2: 'We will work with the international community to address the impacts of climate change, including loss and damage.'",
+            "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: finance mechanisms urgently needed.",
+            "ndc_citation": "[doc_id, p.N]",
+            "ipcc_citation": "[SOURCE 1: WG2_Chapter17_DecisionMakingRisk_2022, p.110]",
+            "quantified_gap": null,
+            "confidence": 0.8
+          }
+        ],
+        "country_summary": "Saudi Arabia's NDC commitments are absent on loss and damage, and its conditional dependency on international finance creates delivery risk.",
+        "policy_recommendation": "Saudi Arabia should commit to specific actions and finance mechanisms to address loss and damage, and provide a clear timeline for implementation."
+      }
+    }
+  }
+}

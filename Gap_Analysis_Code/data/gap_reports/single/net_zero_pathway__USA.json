@@ -1,0 +1,125 @@
+{
+  "country": "USA",
+  "dimension": "net_zero_pathway",
+  "score": 0.9,
+  "severity": "CRITICAL",
+  "label": "CRITICAL",
+  "details": {
+    "country": "USA",
+    "dimension": "net_zero_pathway",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [
+      {
+        "text": "To achieve an economy-wide target of reducing its net greenhouse gas emissions by 50-52 percent below 2005 levels in 2030.",
+        "target_value": "50-52%",
+        "target_year": 2030,
+        "baseline_year": 2005,
+        "conditional": false,
+        "time_horizon": "near_term",
+        "source_doc": "NDC2_2021_USA",
+        "source_page": 7,
+        "confidence": 1.0
+      }
+    ],
+    "measurability": {
+      "level": "QUANTIFIED",
+      "score": 1.0,
+      "reason": "The commitment has a specific number, unit, target year, and baseline.",
+      "missing_elements": []
+    },
+    "gap_findings": [
+      {
+        "gap_type": "ipcc_contradiction",
+        "severity": "CRITICAL",
+        "severity_score": 0.8,
+        "description": "USA's NDC commitment of 50-52% reduction below 2005 levels by 2030 is inconsistent with IPCC's recommendation of net zero CO2 by 2050 for 1.5°C and net zero GHG by around 2070 for 2°C.",
+        "ndc_evidence": "To achieve an economy-wide target of reducing its net greenhouse gas emissions by 50-52 percent below 2005 levels in 2030.",
+        "ipcc_evidence": "IPCC AR6 WG3 SPM: global net zero CO2 by 2050 required for 1.5°C; net zero GHG by around 2070 for 2°C.",
+        "ndc_citation": "[NDC2_2021_USA, p.7]",
+        "ipcc_citation": "[WG3_SPM_2022, p.31]",
+        "quantified_gap": "NDC: 50-52%, IPCC min: 2050, gap: -198pp",
+        "confidence": 0.9
+      },
+      {
+        "gap_type": "missing_commitment",
+        "severity": "CRITICAL",
+        "severity_score": 0.9,
+        "description": "USA does not commit to reaching net zero GHG emissions by a specific year, unlike many other countries.",
+        "ndc_evidence": "No commitment found.",
+        "ipcc_evidence": "IPCC AR6 WG3 SPM: global net zero CO2 by 2050 required for 1.5°C; net zero GHG by around 2070 for 2°C.",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "[WG3_SPM_2022, p.31]",
+        "quantified_gap": "N/A",
+        "confidence": 0.9
+      }
+    ],
+    "overall_severity": "CRITICAL",
+    "overall_score": 0.8,
+    "summary": "The USA's NDC commitment falls short of IPCC's recommendation for net zero CO2 by 2050 for 1.5°C and net zero GHG by around 2070 for 2°C. The country lacks a commitment to reach net zero GHG emissions by a specific year.",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [
+          {
+            "text": "To achieve an economy-wide target of reducing its net greenhouse gas emissions by 50-52 percent below 2005 levels in 2030.",
+            "target_value": "50-52%",
+            "target_year": 2030,
+            "baseline_year": 2005,
+            "conditional": false,
+            "time_horizon": "near_term",
+            "source_doc": "NDC2_2021_USA",
+            "source_page": 7,
+            "confidence": 1.0
+          }
+        ],
+        "total_found": 1
+      },
+      "pass_b": {
+        "country": "USA",
+        "dimension": "Net Zero / Carbon Neutrality Pathway",
+        "measurability_level": "QUANTIFIED",
+        "measurability_score": 1.0,
+        "reason": "The commitment has a specific number, unit, target year, and baseline.",
+        "missing_elements": [],
+        "strongest_commitment": "To achieve an economy-wide target of reducing its net greenhouse gas emissions by 50-52 percent below 2005 levels in 2030.",
+        "conditional_dependency": false,
+        "conditional_note": {}
+      },
+      "pass_c": {
+        "country": "USA",
+        "dimension": "Net Zero / Carbon Neutrality Pathway",
+        "overall_severity": "CRITICAL",
+        "overall_severity_score": 0.8,
+        "gap_findings": [
+          {
+            "gap_type": "ipcc_contradiction",
+            "severity": "CRITICAL",
+            "severity_score": 0.8,
+            "description": "USA's NDC commitment of 50-52% reduction below 2005 levels by 2030 is inconsistent with IPCC's recommendation of net zero CO2 by 2050 for 1.5°C and net zero GHG by around 2070 for 2°C.",
+            "ndc_evidence": "To achieve an economy-wide target of reducing its net greenhouse gas emissions by 50-52 percent below 2005 levels in 2030.",
+            "ipcc_evidence": "IPCC AR6 WG3 SPM: global net zero CO2 by 2050 required for 1.5°C; net zero GHG by around 2070 for 2°C.",
+            "ndc_citation": "[NDC2_2021_USA, p.7]",
+            "ipcc_citation": "[WG3_SPM_2022, p.31]",
+            "quantified_gap": "NDC: 50-52%, IPCC min: 2050, gap: -198pp",
+            "confidence": 0.9
+          },
+          {
+            "gap_type": "missing_commitment",
+            "severity": "CRITICAL",
+            "severity_score": 0.9,
+            "description": "USA does not commit to reaching net zero GHG emissions by a specific year, unlike many other countries.",
+            "ndc_evidence": "No commitment found.",
+            "ipcc_evidence": "IPCC AR6 WG3 SPM: global net zero CO2 by 2050 required for 1.5°C; net zero GHG by around 2070 for 2°C.",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "[WG3_SPM_2022, p.31]",
+            "quantified_gap": "N/A",
+            "confidence": 0.9
+          }
+        ],
+        "country_summary": "The USA's NDC commitment falls short of IPCC's recommendation for net zero CO2 by 2050 for 1.5°C and net zero GHG by around 2070 for 2°C. The country lacks a commitment to reach net zero GHG emissions by a specific year.",
+        "policy_recommendation": "The USA should commit to reaching net zero GHG emissions by 2050 to align with IPCC's recommendation for 1.5°C and 2°C pathways."
+      }
+    }
+  }
+}

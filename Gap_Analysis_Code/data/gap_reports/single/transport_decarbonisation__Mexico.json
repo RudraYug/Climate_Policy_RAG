@@ -1,0 +1,271 @@
+{
+  "country": "Mexico",
+  "dimension": "transport_decarbonisation",
+  "score": 0.6,
+  "severity": "SIGNIFICANT",
+  "label": "SIGNIFICANT",
+  "details": {
+    "country": "Mexico",
+    "dimension": "transport_decarbonisation",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [
+      {
+        "text": "acelerar esfuerzos, en coordinaci\u00f3n con el sector privado y las ciudades del pa\u00eds, para la movilidad el\u00e9ctrica",
+        "target_value": null,
+        "target_year": null,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2022_Mexico",
+        "source_page": 11,
+        "confidence": 0.8
+      },
+      {
+        "text": "consolidaci\u00f3n de una Estrategia Nacional de Movilidad El\u00e9ctrica",
+        "target_value": null,
+        "target_year": null,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2022_Mexico",
+        "source_page": 11,
+        "confidence": 0.8
+      },
+      {
+        "text": "mejora en la vinculaci\u00f3n de la planeaci\u00f3n urbana con criterios de cambio clim\u00e1tico y de recuperaci\u00f3n del espacio p\u00fablico para el peat\u00f3n",
+        "target_value": null,
+        "target_year": null,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2022_Mexico",
+        "source_page": 11,
+        "confidence": 0.8
+      },
+      {
+        "text": "ordenamiento orientado a sistemas de transporte p\u00fablico eficiente y a sistemas de transporte alternativos y no motorizados",
+        "target_value": null,
+        "target_year": null,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2022_Mexico",
+        "source_page": 11,
+        "confidence": 0.8
+      },
+      {
+        "text": "disminuir la emisi\u00f3n de gases y compuestos de efecto invernadero, a trav\u00e9s del Programa de Desarrollo del Sistema El\u00e9ctrico Nacional y el Plan de Negocios de CFE",
+        "target_value": null,
+        "target_year": null,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2022_Mexico",
+        "source_page": 5,
+        "confidence": 0.8
+      }
+    ],
+    "measurability": {
+      "level": "VAGUE",
+      "score": 0.25,
+      "reason": "None of the commitments have specific numbers, units, target years, or baselines.",
+      "missing_elements": [
+        "specific number",
+        "unit",
+        "target year",
+        "baseline"
+      ]
+    },
+    "gap_findings": [
+      {
+        "gap_type": "MISSING_COMMITMENT",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.6,
+        "description": "Mexico's NDC lacks a specific commitment to reduce transport sector emissions.",
+        "ndc_evidence": "No commitment found",
+        "ipcc_evidence": "IPCC AR6 WG3 Ch10: transport emissions must fall 59\u201384% by 2050 vs 2020 in 1.5\u00b0C scenarios.",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "[WG3_TechnicalSummary_2022, p.51]",
+        "quantified_gap": null,
+        "confidence": 0.8
+      },
+      {
+        "gap_type": "VAGUE_TARGET",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.6,
+        "description": "Mexico's NDC commitments are vague and lack quantification.",
+        "ndc_evidence": "acelerar esfuerzos, en coordinaci\u00f3n con el sector privado y las ciudades del pa\u00eds, para la movilidad el\u00e9ctrica",
+        "ipcc_evidence": "IPCC AR6 WG3 Ch10: transport emissions must fall 59\u201384% by 2050 vs 2020 in 1.5\u00b0C scenarios.",
+        "ndc_citation": "[NDC2_2022_Mexico, p.11]",
+        "ipcc_citation": "[WG3_TechnicalSummary_2022, p.51]",
+        "quantified_gap": null,
+        "confidence": 0.8
+      },
+      {
+        "gap_type": "IPCC_CONTRADICTION",
+        "severity": "MINOR",
+        "severity_score": 0.2,
+        "description": "Mexico's NDC does not mention EV share targets, which are recommended by IPCC AR6.",
+        "ndc_evidence": "No commitment found",
+        "ipcc_evidence": "IPCC AR6 WG3 Ch10: EV share 75\u201395% of new sales by 2050.",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "[WG3_TechnicalSummary_2022, p.51]",
+        "quantified_gap": null,
+        "confidence": 0.8
+      },
+      {
+        "gap_type": "CONDITIONAL_DEPENDENCY",
+        "severity": "MINOR",
+        "severity_score": 0.2,
+        "description": "Mexico's NDC does not mention conditional dependency on international finance.",
+        "ndc_evidence": "No commitment found",
+        "ipcc_evidence": "IPCC AR6 WG3 Ch10: transport emissions must fall 59\u201384% by 2050 vs 2020 in 1.5\u00b0C scenarios.",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "[WG3_TechnicalSummary_2022, p.51]",
+        "quantified_gap": null,
+        "confidence": 0.8
+      }
+    ],
+    "overall_severity": "SIGNIFICANT",
+    "overall_score": 0.6,
+    "summary": "Mexico's NDC lacks specific commitments to reduce transport sector emissions and lacks quantification. However, it does not contradict IPCC recommendations.",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [
+          {
+            "text": "acelerar esfuerzos, en coordinaci\u00f3n con el sector privado y las ciudades del pa\u00eds, para la movilidad el\u00e9ctrica",
+            "target_value": null,
+            "target_year": null,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2022_Mexico",
+            "source_page": 11,
+            "confidence": 0.8
+          },
+          {
+            "text": "consolidaci\u00f3n de una Estrategia Nacional de Movilidad El\u00e9ctrica",
+            "target_value": null,
+            "target_year": null,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2022_Mexico",
+            "source_page": 11,
+            "confidence": 0.8
+          },
+          {
+            "text": "mejora en la vinculaci\u00f3n de la planeaci\u00f3n urbana con criterios de cambio clim\u00e1tico y de recuperaci\u00f3n del espacio p\u00fablico para el peat\u00f3n",
+            "target_value": null,
+            "target_year": null,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2022_Mexico",
+            "source_page": 11,
+            "confidence": 0.8
+          },
+          {
+            "text": "ordenamiento orientado a sistemas de transporte p\u00fablico eficiente y a sistemas de transporte alternativos y no motorizados",
+            "target_value": null,
+            "target_year": null,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2022_Mexico",
+            "source_page": 11,
+            "confidence": 0.8
+          },
+          {
+            "text": "disminuir la emisi\u00f3n de gases y compuestos de efecto invernadero, a trav\u00e9s del Programa de Desarrollo del Sistema El\u00e9ctrico Nacional y el Plan de Negocios de CFE",
+            "target_value": null,
+            "target_year": null,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2022_Mexico",
+            "source_page": 5,
+            "confidence": 0.8
+          }
+        ],
+        "total_found": 5
+      },
+      "pass_b": {
+        "country": "Mexico",
+        "dimension": "Transport Sector Decarbonisation",
+        "measurability_level": "VAGUE",
+        "measurability_score": 0.25,
+        "reason": "None of the commitments have specific numbers, units, target years, or baselines.",
+        "missing_elements": [
+          "specific number",
+          "unit",
+          "target year",
+          "baseline"
+        ],
+        "strongest_commitment": null,
+        "conditional_dependency": false,
+        "conditional_note": null
+      },
+      "pass_c": {
+        "country": "Mexico",
+        "dimension": "Transport Sector Decarbonisation",
+        "overall_severity": "SIGNIFICANT",
+        "overall_severity_score": 0.6,
+        "gap_findings": [
+          {
+            "gap_type": "MISSING_COMMITMENT",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.6,
+            "description": "Mexico's NDC lacks a specific commitment to reduce transport sector emissions.",
+            "ndc_evidence": "No commitment found",
+            "ipcc_evidence": "IPCC AR6 WG3 Ch10: transport emissions must fall 59\u201384% by 2050 vs 2020 in 1.5\u00b0C scenarios.",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "[WG3_TechnicalSummary_2022, p.51]",
+            "quantified_gap": null,
+            "confidence": 0.8
+          },
+          {
+            "gap_type": "VAGUE_TARGET",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.6,
+            "description": "Mexico's NDC commitments are vague and lack quantification.",
+            "ndc_evidence": "acelerar esfuerzos, en coordinaci\u00f3n con el sector privado y las ciudades del pa\u00eds, para la movilidad el\u00e9ctrica",
+            "ipcc_evidence": "IPCC AR6 WG3 Ch10: transport emissions must fall 59\u201384% by 2050 vs 2020 in 1.5\u00b0C scenarios.",
+            "ndc_citation": "[NDC2_2022_Mexico, p.11]",
+            "ipcc_citation": "[WG3_TechnicalSummary_2022, p.51]",
+            "quantified_gap": null,
+            "confidence": 0.8
+          },
+          {
+            "gap_type": "IPCC_CONTRADICTION",
+            "severity": "MINOR",
+            "severity_score": 0.2,
+            "description": "Mexico's NDC does not mention EV share targets, which are recommended by IPCC AR6.",
+            "ndc_evidence": "No commitment found",
+            "ipcc_evidence": "IPCC AR6 WG3 Ch10: EV share 75\u201395% of new sales by 2050.",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "[WG3_TechnicalSummary_2022, p.51]",
+            "quantified_gap": null,
+            "confidence": 0.8
+          },
+          {
+            "gap_type": "CONDITIONAL_DEPENDENCY",
+            "severity": "MINOR",
+            "severity_score": 0.2,
+            "description": "Mexico's NDC does not mention conditional dependency on international finance.",
+            "ndc_evidence": "No commitment found",
+            "ipcc_evidence": "IPCC AR6 WG3 Ch10: transport emissions must fall 59\u201384% by 2050 vs 2020 in 1.5\u00b0C scenarios.",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "[WG3_TechnicalSummary_2022, p.51]",
+            "quantified_gap": null,
+            "confidence": 0.8
+          }
+        ],
+        "country_summary": "Mexico's NDC lacks specific commitments to reduce transport sector emissions and lacks quantification. However, it does not contradict IPCC recommendations.",
+        "policy_recommendation": "Mexico should strengthen its NDC commitments to include specific targets for reducing transport sector emissions and increasing EV share."
+      }
+    }
+  }
+}

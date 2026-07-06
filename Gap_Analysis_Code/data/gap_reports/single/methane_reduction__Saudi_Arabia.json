@@ -1,0 +1,125 @@
+{
+  "country": "Saudi Arabia",
+  "dimension": "methane_reduction",
+  "score": 0.7,
+  "severity": "SIGNIFICANT",
+  "label": "SIGNIFICANT",
+  "details": {
+    "country": "Saudi Arabia",
+    "dimension": "methane_reduction",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [
+      {
+        "text": "reduce global methane emissions by 30% by 2030 relative to 2020 levels",
+        "target_value": "30%",
+        "target_year": 2030,
+        "baseline_year": 2020,
+        "conditional": true,
+        "time_horizon": "long_term",
+        "source_doc": "NDC2_2021_Saudi_Arabia",
+        "source_page": 7,
+        "confidence": 1.0
+      }
+    ],
+    "measurability": {
+      "level": "QUANTIFIED",
+      "score": 1.0,
+      "reason": "The commitment has a specific number, unit, target year, and baseline.",
+      "missing_elements": []
+    },
+    "gap_findings": [
+      {
+        "gap_type": "ipcc_contradiction",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.7,
+        "description": "Saudi Arabia's NDC commitment of 30% methane reduction by 2030 is lower than the IPCC recommended 34% reduction.",
+        "ndc_evidence": "Reduce global methane emissions by 30% by 2030 relative to 2020 levels [NDC2_2021_Saudi_Arabia, p.7].",
+        "ipcc_evidence": "Reducing methane ~34% by 2030 vs 2020 buys near-term warming relief and is cost-effective [WG3_Chapter04_MitigationDevelopmentPathways_2022, p.32].",
+        "ndc_citation": "[NDC2_2021_Saudi_Arabia, p.7]",
+        "ipcc_citation": "[WG3_Chapter04_MitigationDevelopmentPathways_2022, p.32]",
+        "quantified_gap": "NDC: 30%, IPCC min: 34%, gap: -4%",
+        "confidence": 1.0
+      },
+      {
+        "gap_type": "conditional_dependency",
+        "severity": "MINOR",
+        "severity_score": 0.3,
+        "description": "Saudi Arabia's NDC commitment is conditional on receiving international finance.",
+        "ndc_evidence": "The commitment is conditional [NDC2_2021_Saudi_Arabia, p.7].",
+        "ipcc_evidence": "No mention of conditional dependency in IPCC AR6.",
+        "ndc_citation": "[NDC2_2021_Saudi_Arabia, p.7]",
+        "ipcc_citation": "N/A",
+        "quantified_gap": "N/A",
+        "confidence": 0.8
+      }
+    ],
+    "overall_severity": "SIGNIFICANT",
+    "overall_score": 0.7,
+    "summary": "Saudi Arabia's NDC commitment for methane reduction is lower than the IPCC recommended target, and it is conditional on receiving international finance.",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [
+          {
+            "text": "reduce global methane emissions by 30% by 2030 relative to 2020 levels",
+            "target_value": "30%",
+            "target_year": 2030,
+            "baseline_year": 2020,
+            "conditional": true,
+            "time_horizon": "long_term",
+            "source_doc": "NDC2_2021_Saudi_Arabia",
+            "source_page": 7,
+            "confidence": 1.0
+          }
+        ],
+        "total_found": 1
+      },
+      "pass_b": {
+        "country": "Saudi Arabia",
+        "dimension": "Methane Reduction Targets",
+        "measurability_level": "QUANTIFIED",
+        "measurability_score": 1.0,
+        "reason": "The commitment has a specific number, unit, target year, and baseline.",
+        "missing_elements": [],
+        "strongest_commitment": "reduce global methane emissions by 30% by 2030 relative to 2020 levels",
+        "conditional_dependency": true,
+        "conditional_note": "The commitment is conditional"
+      },
+      "pass_c": {
+        "country": "Saudi Arabia",
+        "dimension": "Methane Reduction Targets",
+        "overall_severity": "SIGNIFICANT",
+        "overall_severity_score": 0.7,
+        "gap_findings": [
+          {
+            "gap_type": "ipcc_contradiction",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.7,
+            "description": "Saudi Arabia's NDC commitment of 30% methane reduction by 2030 is lower than the IPCC recommended 34% reduction.",
+            "ndc_evidence": "Reduce global methane emissions by 30% by 2030 relative to 2020 levels [NDC2_2021_Saudi_Arabia, p.7].",
+            "ipcc_evidence": "Reducing methane ~34% by 2030 vs 2020 buys near-term warming relief and is cost-effective [WG3_Chapter04_MitigationDevelopmentPathways_2022, p.32].",
+            "ndc_citation": "[NDC2_2021_Saudi_Arabia, p.7]",
+            "ipcc_citation": "[WG3_Chapter04_MitigationDevelopmentPathways_2022, p.32]",
+            "quantified_gap": "NDC: 30%, IPCC min: 34%, gap: -4%",
+            "confidence": 1.0
+          },
+          {
+            "gap_type": "conditional_dependency",
+            "severity": "MINOR",
+            "severity_score": 0.3,
+            "description": "Saudi Arabia's NDC commitment is conditional on receiving international finance.",
+            "ndc_evidence": "The commitment is conditional [NDC2_2021_Saudi_Arabia, p.7].",
+            "ipcc_evidence": "No mention of conditional dependency in IPCC AR6.",
+            "ndc_citation": "[NDC2_2021_Saudi_Arabia, p.7]",
+            "ipcc_citation": "N/A",
+            "quantified_gap": "N/A",
+            "confidence": 0.8
+          }
+        ],
+        "country_summary": "Saudi Arabia's NDC commitment for methane reduction is lower than the IPCC recommended target, and it is conditional on receiving international finance.",
+        "policy_recommendation": "Saudi Arabia should strengthen its NDC commitment to align with the IPCC recommended 34% methane reduction by 2030 and remove the conditional dependency on international finance."
+      }
+    }
+  }
+}

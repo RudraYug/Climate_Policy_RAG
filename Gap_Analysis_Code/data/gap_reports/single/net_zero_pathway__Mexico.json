@@ -1,0 +1,215 @@
+{
+  "country": "Mexico",
+  "dimension": "net_zero_pathway",
+  "score": 0.9,
+  "severity": "CRITICAL",
+  "label": "CRITICAL",
+  "details": {
+    "country": "Mexico",
+    "dimension": "net_zero_pathway",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [
+      {
+        "text": "reduce emissions of carbon dioxide by 51% by 2030, and 70% conditionally",
+        "target_value": "51",
+        "target_year": 2030,
+        "baseline_year": {},
+        "conditional": true,
+        "time_horizon": "near_term",
+        "source_doc": "NDC2_2022_Mexico",
+        "source_page": 5,
+        "confidence": 0.8
+      },
+      {
+        "text": "reduce emissions of carbon dioxide by 70% conditionally by 2030",
+        "target_value": "70",
+        "target_year": 2030,
+        "baseline_year": {},
+        "conditional": true,
+        "time_horizon": "near_term",
+        "source_doc": "NDC2_2022_Mexico",
+        "source_page": 5,
+        "confidence": 0.8
+      },
+      {
+        "text": "reach net zero GHG emissions by 2030, conditionally",
+        "target_value": {},
+        "target_year": 2030,
+        "baseline_year": {},
+        "conditional": true,
+        "time_horizon": "near_term",
+        "source_doc": "NDC2_2022_Mexico",
+        "source_page": 5,
+        "confidence": 0.7
+      },
+      {
+        "text": "reach net zero GHG emissions by 2030, conditionally, with international finance and technology",
+        "target_value": {},
+        "target_year": 2030,
+        "baseline_year": {},
+        "conditional": true,
+        "time_horizon": "near_term",
+        "source_doc": "NDC2_2022_Mexico",
+        "source_page": 1,
+        "confidence": 0.9
+      }
+    ],
+    "measurability": {
+      "level": "QUANTIFIED",
+      "score": 1.0,
+      "reason": "All commitments have specific numbers, units, target years, and baselines.",
+      "missing_elements": []
+    },
+    "gap_findings": [
+      {
+        "gap_type": "MISSING_COMMITMENT",
+        "severity": "CRITICAL",
+        "severity_score": 0.9,
+        "description": "Mexico does not commit to a specific year for net zero GHG emissions, unlike the IPCC AR6 recommendation of 2050 for 1.5°C and 2070 for 2°C.",
+        "ndc_evidence": "No commitment found",
+        "ipcc_evidence": "IPCC AR6 WG3 SPM: global net zero CO2 by 2050 required for 1.5°C; net zero GHG by around 2070 for 2°C.",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "[WG3_SPM_2022, p.31]",
+        "quantified_gap": {},
+        "confidence": 0.9
+      },
+      {
+        "gap_type": "VAGUE_TARGET",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.7,
+        "description": "Mexico's NDC commitments are conditional on international finance and technology, which creates delivery risk.",
+        "ndc_evidence": "reach net zero GHG emissions by 2030, conditionally, with international finance and technology",
+        "ipcc_evidence": "IPCC AR6 WG3 SPM: global net zero CO2 by 2050 required for 1.5°C; net zero GHG by around 2070 for 2°C.",
+        "ndc_citation": "[NDC2_2022_Mexico, p.1]",
+        "ipcc_citation": "[WG3_SPM_2022, p.31]",
+        "quantified_gap": {},
+        "confidence": 0.9
+      },
+      {
+        "gap_type": "IPCC_CONTRADICTION",
+        "severity": "CRITICAL",
+        "severity_score": 0.8,
+        "description": "Mexico's NDC commitment to reduce emissions by 51% by 2030 is below the IPCC AR6 recommendation of 50% (26-64%) in 2050, relative to 2019.",
+        "ndc_evidence": "reduce emissions of carbon dioxide by 51% by 2030",
+        "ipcc_evidence": "IPCC AR6 WG3 Technical Summary: pathways following current NDCs until 2030 reach annual 50% (26-64%) in 2050, relative to 2019.",
+        "ndc_citation": "[NDC2_2022_Mexico, p.5]",
+        "ipcc_citation": "[WG3_TechnicalSummary_2022, p.36]",
+        "quantified_gap": "NDC: 51%, IPCC min: 50%, gap: 1pp",
+        "confidence": 0.8
+      }
+    ],
+    "overall_severity": "CRITICAL",
+    "overall_score": 0.8,
+    "summary": "Mexico's NDC commitments for net zero GHG emissions are incomplete and conditional, falling short of the IPCC AR6 recommendations for 1.5°C and 2°C pathways.",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [
+          {
+            "text": "reduce emissions of carbon dioxide by 51% by 2030, and 70% conditionally",
+            "target_value": "51",
+            "target_year": 2030,
+            "baseline_year": {},
+            "conditional": true,
+            "time_horizon": "near_term",
+            "source_doc": "NDC2_2022_Mexico",
+            "source_page": 5,
+            "confidence": 0.8
+          },
+          {
+            "text": "reduce emissions of carbon dioxide by 70% conditionally by 2030",
+            "target_value": "70",
+            "target_year": 2030,
+            "baseline_year": {},
+            "conditional": true,
+            "time_horizon": "near_term",
+            "source_doc": "NDC2_2022_Mexico",
+            "source_page": 5,
+            "confidence": 0.8
+          },
+          {
+            "text": "reach net zero GHG emissions by 2030, conditionally",
+            "target_value": {},
+            "target_year": 2030,
+            "baseline_year": {},
+            "conditional": true,
+            "time_horizon": "near_term",
+            "source_doc": "NDC2_2022_Mexico",
+            "source_page": 5,
+            "confidence": 0.7
+          },
+          {
+            "text": "reach net zero GHG emissions by 2030, conditionally, with international finance and technology",
+            "target_value": {},
+            "target_year": 2030,
+            "baseline_year": {},
+            "conditional": true,
+            "time_horizon": "near_term",
+            "source_doc": "NDC2_2022_Mexico",
+            "source_page": 1,
+            "confidence": 0.9
+          }
+        ],
+        "total_found": 4
+      },
+      "pass_b": {
+        "country": "Mexico",
+        "dimension": "Net Zero / Carbon Neutrality Pathway",
+        "measurability_level": "QUANTIFIED",
+        "measurability_score": 1.0,
+        "reason": "All commitments have specific numbers, units, target years, and baselines.",
+        "missing_elements": [],
+        "strongest_commitment": "reduce emissions of carbon dioxide by 51% by 2030, and 70% conditionally",
+        "conditional_dependency": true,
+        "conditional_note": "All commitments are conditional on various factors"
+      },
+      "pass_c": {
+        "country": "Mexico",
+        "dimension": "Net Zero / Carbon Neutrality Pathway",
+        "overall_severity": "CRITICAL",
+        "overall_severity_score": 0.8,
+        "gap_findings": [
+          {
+            "gap_type": "MISSING_COMMITMENT",
+            "severity": "CRITICAL",
+            "severity_score": 0.9,
+            "description": "Mexico does not commit to a specific year for net zero GHG emissions, unlike the IPCC AR6 recommendation of 2050 for 1.5°C and 2070 for 2°C.",
+            "ndc_evidence": "No commitment found",
+            "ipcc_evidence": "IPCC AR6 WG3 SPM: global net zero CO2 by 2050 required for 1.5°C; net zero GHG by around 2070 for 2°C.",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "[WG3_SPM_2022, p.31]",
+            "quantified_gap": {},
+            "confidence": 0.9
+          },
+          {
+            "gap_type": "VAGUE_TARGET",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.7,
+            "description": "Mexico's NDC commitments are conditional on international finance and technology, which creates delivery risk.",
+            "ndc_evidence": "reach net zero GHG emissions by 2030, conditionally, with international finance and technology",
+            "ipcc_evidence": "IPCC AR6 WG3 SPM: global net zero CO2 by 2050 required for 1.5°C; net zero GHG by around 2070 for 2°C.",
+            "ndc_citation": "[NDC2_2022_Mexico, p.1]",
+            "ipcc_citation": "[WG3_SPM_2022, p.31]",
+            "quantified_gap": {},
+            "confidence": 0.9
+          },
+          {
+            "gap_type": "IPCC_CONTRADICTION",
+            "severity": "CRITICAL",
+            "severity_score": 0.8,
+            "description": "Mexico's NDC commitment to reduce emissions by 51% by 2030 is below the IPCC AR6 recommendation of 50% (26-64%) in 2050, relative to 2019.",
+            "ndc_evidence": "reduce emissions of carbon dioxide by 51% by 2030",
+            "ipcc_evidence": "IPCC AR6 WG3 Technical Summary: pathways following current NDCs until 2030 reach annual 50% (26-64%) in 2050, relative to 2019.",
+            "ndc_citation": "[NDC2_2022_Mexico, p.5]",
+            "ipcc_citation": "[WG3_TechnicalSummary_2022, p.36]",
+            "quantified_gap": "NDC: 51%, IPCC min: 50%, gap: 1pp",
+            "confidence": 0.8
+          }
+        ],
+        "country_summary": "Mexico's NDC commitments for net zero GHG emissions are incomplete and conditional, falling short of the IPCC AR6 recommendations for 1.5°C and 2°C pathways.",
+        "policy_recommendation": "Mexico should commit to a specific year for net zero GHG emissions, such as 2050, and remove conditional dependencies on international finance and technology."
+      }
+    }
+  }
+}

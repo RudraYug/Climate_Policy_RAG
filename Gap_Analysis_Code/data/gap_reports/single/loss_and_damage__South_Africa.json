@@ -1,0 +1,187 @@
+{
+  "country": "South Africa",
+  "dimension": "loss_and_damage",
+  "score": null,
+  "severity": "ALIGNED",
+  "label": "ABSENT",
+  "details": {
+    "country": "South Africa",
+    "dimension": "loss_and_damage",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [
+      {
+        "text": "The Paris Agreement recognises \"that the current need for adaptation is significant and that greater levels of mitigation can reduce the need for additional adaptation efforts, and that greater adaptation needs can involve greater adaptation costs\" (Article 7.4).",
+        "target_value": null,
+        "target_year": null,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2021_South_Africa",
+        "source_page": 31,
+        "confidence": 0.8
+      },
+      {
+        "text": "Those who have a greater responsibility for cumulative emissions that have driven up GHG concentrations in the atmosphere should, as a matter of fairness, assist those less responsible.",
+        "target_value": null,
+        "target_year": null,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2021_South_Africa",
+        "source_page": 31,
+        "confidence": 0.8
+      },
+      {
+        "text": "An assessment of equity also needs to take into account means of implementation.",
+        "target_value": null,
+        "target_year": null,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2021_South_Africa",
+        "source_page": 31,
+        "confidence": 0.8
+      },
+      {
+        "text": "Generally, South Africa needs time for sustainable development, which is necessary to eliminate poverty, reduce inequality, increase employment and promote inclusive economic growth, while simulating the impacts of climate change.",
+        "target_value": null,
+        "target_year": null,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2021_South_Africa",
+        "source_page": 31,
+        "confidence": 0.8
+      },
+      {
+        "text": "The just transition in South Africa will require international cooperation and support.",
+        "target_value": null,
+        "target_year": null,
+        "baseline_year": null,
+        "conditional": true,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2021_South_Africa",
+        "source_page": 30,
+        "confidence": 0.8
+      },
+      {
+        "text": "In the first NDC, South Africa identified various technologies that could help us to further reduce emissions. In addition to these, we update to indicate the need for support in the form of concessional finance for low carbon projects; debt restructuring; support by the international climate and development and finance community for non-fossil-fuel development in Mpumalanga and elsewhere,",
+        "target_value": null,
+        "target_year": null,
+        "baseline_year": null,
+        "conditional": true,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2021_South_Africa",
+        "source_page": 30,
+        "confidence": 0.8
+      }
+    ],
+    "measurability": {
+      "level": "VAGUE",
+      "score": 0.25,
+      "reason": "The commitments lack specific numbers, units, target years, and baselines, and instead focus on general principles and needs.",
+      "missing_elements": [
+        "specific number",
+        "unit",
+        "target year",
+        "baseline"
+      ]
+    },
+    "gap_findings": [],
+    "overall_severity": "ALIGNED",
+    "overall_score": 0.0,
+    "summary": "",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [
+          {
+            "text": "The Paris Agreement recognises \"that the current need for adaptation is significant and that greater levels of mitigation can reduce the need for additional adaptation efforts, and that greater adaptation needs can involve greater adaptation costs\" (Article 7.4).",
+            "target_value": null,
+            "target_year": null,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2021_South_Africa",
+            "source_page": 31,
+            "confidence": 0.8
+          },
+          {
+            "text": "Those who have a greater responsibility for cumulative emissions that have driven up GHG concentrations in the atmosphere should, as a matter of fairness, assist those less responsible.",
+            "target_value": null,
+            "target_year": null,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2021_South_Africa",
+            "source_page": 31,
+            "confidence": 0.8
+          },
+          {
+            "text": "An assessment of equity also needs to take into account means of implementation.",
+            "target_value": null,
+            "target_year": null,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2021_South_Africa",
+            "source_page": 31,
+            "confidence": 0.8
+          },
+          {
+            "text": "Generally, South Africa needs time for sustainable development, which is necessary to eliminate poverty, reduce inequality, increase employment and promote inclusive economic growth, while simulating the impacts of climate change.",
+            "target_value": null,
+            "target_year": null,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2021_South_Africa",
+            "source_page": 31,
+            "confidence": 0.8
+          },
+          {
+            "text": "The just transition in South Africa will require international cooperation and support.",
+            "target_value": null,
+            "target_year": null,
+            "baseline_year": null,
+            "conditional": true,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2021_South_Africa",
+            "source_page": 30,
+            "confidence": 0.8
+          },
+          {
+            "text": "In the first NDC, South Africa identified various technologies that could help us to further reduce emissions. In addition to these, we update to indicate the need for support in the form of concessional finance for low carbon projects; debt restructuring; support by the international climate and development and finance community for non-fossil-fuel development in Mpumalanga and elsewhere,",
+            "target_value": null,
+            "target_year": null,
+            "baseline_year": null,
+            "conditional": true,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2021_South_Africa",
+            "source_page": 30,
+            "confidence": 0.8
+          }
+        ],
+        "total_found": 6
+      },
+      "pass_b": {
+        "country": "South Africa",
+        "dimension": "Loss and Damage",
+        "measurability_level": "VAGUE",
+        "measurability_score": 0.25,
+        "reason": "The commitments lack specific numbers, units, target years, and baselines, and instead focus on general principles and needs.",
+        "missing_elements": [
+          "specific number",
+          "unit",
+          "target year",
+          "baseline"
+        ],
+        "strongest_commitment": null,
+        "conditional_dependency": true,
+        "conditional_note": "International cooperation and support"
+      },
+      "pass_c": null
+    }
+  }
+}

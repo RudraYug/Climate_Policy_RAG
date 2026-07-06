@@ -1,0 +1,201 @@
+{
+  "country": "Argentina",
+  "dimension": "loss_and_damage",
+  "score": 0.7,
+  "severity": "SIGNIFICANT",
+  "label": "SIGNIFICANT",
+  "details": {
+    "country": "Argentina",
+    "dimension": "loss_and_damage",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [
+      {
+        "text": "G Greater presence of vectors and higher risk of disease transmission, such as dengue, zika and chikungu\u00f1a.",
+        "target_value": null,
+        "target_year": null,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2021_Argentina",
+        "source_page": 45,
+        "confidence": 0.8
+      },
+      {
+        "text": "G Acceleration of desertification processes.",
+        "target_value": null,
+        "target_year": null,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2021_Argentina",
+        "source_page": 45,
+        "confidence": 0.8
+      },
+      {
+        "text": "G Increased periods of extreme drought that promote favorable conditions for forest, rural and grassland fires and damage ecosystems and communities as a result of habitat losses.",
+        "target_value": null,
+        "target_year": null,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2021_Argentina",
+        "source_page": 45,
+        "confidence": 0.8
+      }
+    ],
+    "measurability": {
+      "level": "VAGUE",
+      "score": 0.25,
+      "reason": "The commitments lack specific targets, years, and units, only describing potential impacts.",
+      "missing_elements": [
+        "target_value",
+        "target_year",
+        "baseline_year"
+      ]
+    },
+    "gap_findings": [
+      {
+        "gap_type": "MISSING_COMMITMENT",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.7,
+        "description": "Argentina's NDC does not explicitly address the need for finance mechanisms to address loss and damage.",
+        "ndc_evidence": "No commitment found",
+        "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: loss and damage is unavoidable even with adaptation; finance mechanisms urgently needed.",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.110]",
+        "quantified_gap": null,
+        "confidence": 0.9
+      },
+      {
+        "gap_type": "VAGUE_TARGET",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.7,
+        "description": "Argentina's NDC commitments on loss and damage are vague and lack quantification.",
+        "ndc_evidence": "G Greater presence of vectors and higher risk of disease transmission, such as dengue, zika and chikungu\u00f1a.",
+        "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: acknowledges the need for finance mechanisms to address loss and damage.",
+        "ndc_citation": "[NDC2_2021_Argentina, p.45]",
+        "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.110]",
+        "quantified_gap": "NDC: 0%, IPCC min: 100%, gap: -100%",
+        "confidence": 0.8
+      },
+      {
+        "gap_type": "CONDITIONAL_DEPENDENCY",
+        "severity": "MINOR",
+        "severity_score": 0.3,
+        "description": "Argentina's NDC commitments on loss and damage are conditional on receiving international finance.",
+        "ndc_evidence": "No commitment found",
+        "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: emphasizes the need for finance mechanisms to address loss and damage.",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.110]",
+        "quantified_gap": null,
+        "confidence": 0.6
+      }
+    ],
+    "overall_severity": "SIGNIFICANT",
+    "overall_score": 0.7,
+    "summary": "Argentina's NDC commitments on loss and damage are vague and lack quantification, and do not explicitly address the need for finance mechanisms to address loss and damage.",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [
+          {
+            "text": "G Greater presence of vectors and higher risk of disease transmission, such as dengue, zika and chikungu\u00f1a.",
+            "target_value": null,
+            "target_year": null,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2021_Argentina",
+            "source_page": 45,
+            "confidence": 0.8
+          },
+          {
+            "text": "G Acceleration of desertification processes.",
+            "target_value": null,
+            "target_year": null,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2021_Argentina",
+            "source_page": 45,
+            "confidence": 0.8
+          },
+          {
+            "text": "G Increased periods of extreme drought that promote favorable conditions for forest, rural and grassland fires and damage ecosystems and communities as a result of habitat losses.",
+            "target_value": null,
+            "target_year": null,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2021_Argentina",
+            "source_page": 45,
+            "confidence": 0.8
+          }
+        ],
+        "total_found": 3
+      },
+      "pass_b": {
+        "country": "Argentina",
+        "dimension": "Loss and Damage",
+        "measurability_level": "VAGUE",
+        "measurability_score": 0.25,
+        "reason": "The commitments lack specific targets, years, and units, only describing potential impacts.",
+        "missing_elements": [
+          "target_value",
+          "target_year",
+          "baseline_year"
+        ],
+        "strongest_commitment": null,
+        "conditional_dependency": false,
+        "conditional_note": null
+      },
+      "pass_c": {
+        "country": "Argentina",
+        "dimension": "Loss and Damage",
+        "overall_severity": "SIGNIFICANT",
+        "overall_severity_score": 0.7,
+        "gap_findings": [
+          {
+            "gap_type": "MISSING_COMMITMENT",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.7,
+            "description": "Argentina's NDC does not explicitly address the need for finance mechanisms to address loss and damage.",
+            "ndc_evidence": "No commitment found",
+            "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: loss and damage is unavoidable even with adaptation; finance mechanisms urgently needed.",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.110]",
+            "quantified_gap": null,
+            "confidence": 0.9
+          },
+          {
+            "gap_type": "VAGUE_TARGET",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.7,
+            "description": "Argentina's NDC commitments on loss and damage are vague and lack quantification.",
+            "ndc_evidence": "G Greater presence of vectors and higher risk of disease transmission, such as dengue, zika and chikungu\u00f1a.",
+            "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: acknowledges the need for finance mechanisms to address loss and damage.",
+            "ndc_citation": "[NDC2_2021_Argentina, p.45]",
+            "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.110]",
+            "quantified_gap": "NDC: 0%, IPCC min: 100%, gap: -100%",
+            "confidence": 0.8
+          },
+          {
+            "gap_type": "CONDITIONAL_DEPENDENCY",
+            "severity": "MINOR",
+            "severity_score": 0.3,
+            "description": "Argentina's NDC commitments on loss and damage are conditional on receiving international finance.",
+            "ndc_evidence": "No commitment found",
+            "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: emphasizes the need for finance mechanisms to address loss and damage.",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.110]",
+            "quantified_gap": null,
+            "confidence": 0.6
+          }
+        ],
+        "country_summary": "Argentina's NDC commitments on loss and damage are vague and lack quantification, and do not explicitly address the need for finance mechanisms to address loss and damage.",
+        "policy_recommendation": "Argentina should strengthen its NDC commitments on loss and damage by providing clear and quantifiable targets, and emphasizing the need for finance mechanisms to address loss and damage."
+      }
+    }
+  }
+}

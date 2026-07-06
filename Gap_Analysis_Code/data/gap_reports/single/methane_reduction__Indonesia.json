@@ -1,0 +1,97 @@
+{
+  "country": "Indonesia",
+  "dimension": "methane_reduction",
+  "score": null,
+  "severity": "ALIGNED",
+  "label": "ABSENT",
+  "details": {
+    "country": "Indonesia",
+    "dimension": "methane_reduction",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [
+      {
+        "text": "reduce unconditionally Reduction 26% of its greenhouse gases against the business as usual scenario by the year 2020",
+        "target_value": {},
+        "target_year": 2020,
+        "baseline_year": {},
+        "conditional": false,
+        "time_horizon": "near_term",
+        "source_doc": "NDC2_2022_Indonesia",
+        "source_page": 20,
+        "confidence": 0.8
+      },
+      {
+        "text": "reduce methane emissions from all sectors",
+        "target_value": {},
+        "target_year": {},
+        "baseline_year": {},
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2022_Indonesia",
+        "source_page": 16,
+        "confidence": 0.6
+      }
+    ],
+    "measurability": {
+      "level": "QUALIFIED",
+      "score": 0.65,
+      "reason": "One commitment has a specific target year but missing baseline, and the other is stated without year or measurable target.",
+      "missing_elements": [
+        "baseline",
+        "target_value",
+        "target_year"
+      ]
+    },
+    "gap_findings": [],
+    "overall_severity": "ALIGNED",
+    "overall_score": 0.0,
+    "summary": "",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [
+          {
+            "text": "reduce unconditionally Reduction 26% of its greenhouse gases against the business as usual scenario by the year 2020",
+            "target_value": {},
+            "target_year": 2020,
+            "baseline_year": {},
+            "conditional": false,
+            "time_horizon": "near_term",
+            "source_doc": "NDC2_2022_Indonesia",
+            "source_page": 20,
+            "confidence": 0.8
+          },
+          {
+            "text": "reduce methane emissions from all sectors",
+            "target_value": {},
+            "target_year": {},
+            "baseline_year": {},
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2022_Indonesia",
+            "source_page": 16,
+            "confidence": 0.6
+          }
+        ],
+        "total_found": 2
+      },
+      "pass_b": {
+        "country": "Indonesia",
+        "dimension": "Methane Reduction Targets",
+        "measurability_level": "QUALIFIED",
+        "measurability_score": 0.65,
+        "reason": "One commitment has a specific target year but missing baseline, and the other is stated without year or measurable target.",
+        "missing_elements": [
+          "baseline",
+          "target_value",
+          "target_year"
+        ],
+        "strongest_commitment": "reduce unconditionally Reduction 26% of its greenhouse gases against the business as usual scenario by the year 2020",
+        "conditional_dependency": false,
+        "conditional_note": {}
+      },
+      "pass_c": {}
+    }
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "country": "EU",
+  "dimension": "transport_decarbonisation",
+  "score": null,
+  "severity": "ALIGNED",
+  "label": "ABSENT",
+  "details": {
+    "country": "EU",
+    "dimension": "transport_decarbonisation",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [
+      {
+        "text": "ambitious targets for improving energy efficiency and for increasing renewables in the EU energy mix",
+        "target_value": null,
+        "target_year": null,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2020_EU",
+        "source_page": 4,
+        "confidence": 0.8
+      },
+      {
+        "text": "reduce emissions from F-gas emissions by 66% by 2030 compared with 2014 levels",
+        "target_value": "66%",
+        "target_year": 2030,
+        "baseline_year": 2014,
+        "conditional": false,
+        "time_horizon": "near_term",
+        "source_doc": "NDC2_2020_EU",
+        "source_page": 5,
+        "confidence": 0.9
+      },
+      {
+        "text": "30% will apply to the total amount of expenditure from the MFF and NGEU",
+        "target_value": "30%",
+        "target_year": null,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2020_EU",
+        "source_page": 2,
+        "confidence": 0.7
+      },
+      {
+        "text": "an overall climate target of 30% will apply to the total amount of expenditure from the MFF and NGEU",
+        "target_value": "30%",
+        "target_year": null,
+        "baseline_year": null,
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2020_EU",
+        "source_page": 2,
+        "confidence": 0.7
+      },
+      {
+        "text": "at least 55% greenhouse gas reductions, without contribution from international credits",
+        "target_value": "55%",
+        "target_year": 2030,
+        "baseline_year": 1990,
+        "conditional": false,
+        "time_horizon": "near_term",
+        "source_doc": "NDC2_2020_EU",
+        "source_page": 7,
+        "confidence": 0.9
+      }
+    ],
+    "measurability": {
+      "level": "QUALIFIED",
+      "score": 0.65,
+      "reason": "Most commitments lack specific targets for transport sector decarbonisation, but some have direction and target year.",
+      "missing_elements": [
+        "baseline",
+        "precise unit",
+        "specific target for transport sector"
+      ]
+    },
+    "gap_findings": [],
+    "overall_severity": "ALIGNED",
+    "overall_score": 0.0,
+    "summary": "",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [
+          {
+            "text": "ambitious targets for improving energy efficiency and for increasing renewables in the EU energy mix",
+            "target_value": null,
+            "target_year": null,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2020_EU",
+            "source_page": 4,
+            "confidence": 0.8
+          },
+          {
+            "text": "reduce emissions from F-gas emissions by 66% by 2030 compared with 2014 levels",
+            "target_value": "66%",
+            "target_year": 2030,
+            "baseline_year": 2014,
+            "conditional": false,
+            "time_horizon": "near_term",
+            "source_doc": "NDC2_2020_EU",
+            "source_page": 5,
+            "confidence": 0.9
+          },
+          {
+            "text": "30% will apply to the total amount of expenditure from the MFF and NGEU",
+            "target_value": "30%",
+            "target_year": null,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2020_EU",
+            "source_page": 2,
+            "confidence": 0.7
+          },
+          {
+            "text": "an overall climate target of 30% will apply to the total amount of expenditure from the MFF and NGEU",
+            "target_value": "30%",
+            "target_year": null,
+            "baseline_year": null,
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2020_EU",
+            "source_page": 2,
+            "confidence": 0.7
+          },
+          {
+            "text": "at least 55% greenhouse gas reductions, without contribution from international credits",
+            "target_value": "55%",
+            "target_year": 2030,
+            "baseline_year": 1990,
+            "conditional": false,
+            "time_horizon": "near_term",
+            "source_doc": "NDC2_2020_EU",
+            "source_page": 7,
+            "confidence": 0.9
+          }
+        ],
+        "total_found": 5
+      },
+      "pass_b": {
+        "country": "EU",
+        "dimension": "Transport Sector Decarbonisation",
+        "measurability_level": "QUALIFIED",
+        "measurability_score": 0.65,
+        "reason": "Most commitments lack specific targets for transport sector decarbonisation, but some have direction and target year.",
+        "missing_elements": [
+          "baseline",
+          "precise unit",
+          "specific target for transport sector"
+        ],
+        "strongest_commitment": null,
+        "conditional_dependency": false,
+        "conditional_note": null
+      },
+      "pass_c": null
+    }
+  }
+}

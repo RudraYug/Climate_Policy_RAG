@@ -1,0 +1,171 @@
+{
+  "country": "Saudi Arabia",
+  "dimension": "adaptation_finance",
+  "score": 0.8,
+  "severity": "CRITICAL",
+  "label": "CRITICAL",
+  "details": {
+    "country": "Saudi Arabia",
+    "dimension": "adaptation_finance",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [
+      {
+        "text": "The Kingdom of Saudi Arabia is continuously investing considerable efforts in medical services, tourism, education, renewable energy and energy efficiency technologies to enhance economic growth.",
+        "target_value": {},
+        "target_year": {},
+        "baseline_year": {},
+        "conditional": false,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2021_Saudi_Arabia",
+        "source_page": 7,
+        "confidence": 0.8
+      },
+      {
+        "text": "The Kingdom as a member of the Global Methane Pledge initiative will collaborate with other members to reduce global methane emissions by 30% by 2030 relative to 2020 levels.",
+        "target_value": 30,
+        "target_year": 2030,
+        "baseline_year": 2020,
+        "conditional": false,
+        "time_horizon": "near_term",
+        "source_doc": "NDC2_2021_Saudi_Arabia",
+        "source_page": 7,
+        "confidence": 0.9
+      }
+    ],
+    "measurability": {
+      "level": "QUANTIFIED",
+      "score": 1.0,
+      "reason": "The commitment has a specific number, unit, target year, and baseline.",
+      "missing_elements": []
+    },
+    "gap_findings": [
+      {
+        "gap_type": "MISSING_COMMITMENT",
+        "severity": "CRITICAL",
+        "severity_score": 0.8,
+        "description": "Saudi Arabia's NDC does not mention adaptation finance commitments.",
+        "ndc_evidence": "No commitment found",
+        "ipcc_evidence": "[WG2_Chapter17_DecisionMakingRisk_2022, p.48] Adaptation finance provided by international public mechanisms remains the core source of tracked flows in support of adaptation and resilience to developing countries.",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.48]",
+        "quantified_gap": {},
+        "confidence": 1.0
+      },
+      {
+        "gap_type": "VAGUE_TARGET",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.6,
+        "description": "Saudi Arabia's NDC mentions 'considerable efforts' in adaptation finance, but lacks quantification.",
+        "ndc_evidence": "The Kingdom of Saudi Arabia is continuously investing considerable efforts in medical services, tourism, education, renewable energy and energy efficiency technologies to enhance economic growth.",
+        "ipcc_evidence": "[WG2_Chapter17_DecisionMakingRisk_2022, p.52] Adaptation finance provided by international public mechanisms remains the core source of tracked flows in support of adaptation and resilience to developing countries.",
+        "ndc_citation": "[NDC2_2021_Saudi_Arabia, p.7]",
+        "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.52]",
+        "quantified_gap": {},
+        "confidence": 0.8
+      },
+      {
+        "gap_type": "IPCC_CONTRADICTION",
+        "severity": "CRITICAL",
+        "severity_score": 0.8,
+        "description": "Saudi Arabia's NDC does not mention the need for adaptation finance, which is a key finding in the IPCC report.",
+        "ndc_evidence": "No commitment found",
+        "ipcc_evidence": "[WG2_Chapter17_DecisionMakingRisk_2022, p.48] Adaptation finance provided by international public mechanisms remains the core source of tracked flows in support of adaptation and resilience to developing countries.",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.48]",
+        "quantified_gap": {},
+        "confidence": 1.0
+      }
+    ],
+    "overall_severity": "CRITICAL",
+    "overall_score": 0.8,
+    "summary": "Saudi Arabia's NDC lacks commitment to adaptation finance, and its vague mention of 'considerable efforts' does not align with the IPCC's emphasis on the need for adaptation finance.",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [
+          {
+            "text": "The Kingdom of Saudi Arabia is continuously investing considerable efforts in medical services, tourism, education, renewable energy and energy efficiency technologies to enhance economic growth.",
+            "target_value": {},
+            "target_year": {},
+            "baseline_year": {},
+            "conditional": false,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2021_Saudi_Arabia",
+            "source_page": 7,
+            "confidence": 0.8
+          },
+          {
+            "text": "The Kingdom as a member of the Global Methane Pledge initiative will collaborate with other members to reduce global methane emissions by 30% by 2030 relative to 2020 levels.",
+            "target_value": 30,
+            "target_year": 2030,
+            "baseline_year": 2020,
+            "conditional": false,
+            "time_horizon": "near_term",
+            "source_doc": "NDC2_2021_Saudi_Arabia",
+            "source_page": 7,
+            "confidence": 0.9
+          }
+        ],
+        "total_found": 2
+      },
+      "pass_b": {
+        "country": "Saudi Arabia",
+        "dimension": "Adaptation Finance Commitments",
+        "measurability_level": "QUANTIFIED",
+        "measurability_score": 1.0,
+        "reason": "The commitment has a specific number, unit, target year, and baseline.",
+        "missing_elements": [],
+        "strongest_commitment": "The Kingdom as a member of the Global Methane Pledge initiative will collaborate with other members to reduce global methane emissions by 30% by 2030 relative to 2020 levels.",
+        "conditional_dependency": false,
+        "conditional_note": {}
+      },
+      "pass_c": {
+        "country": "Saudi Arabia",
+        "dimension": "Adaptation Finance Commitments",
+        "overall_severity": "CRITICAL",
+        "overall_severity_score": 0.8,
+        "gap_findings": [
+          {
+            "gap_type": "MISSING_COMMITMENT",
+            "severity": "CRITICAL",
+            "severity_score": 0.8,
+            "description": "Saudi Arabia's NDC does not mention adaptation finance commitments.",
+            "ndc_evidence": "No commitment found",
+            "ipcc_evidence": "[WG2_Chapter17_DecisionMakingRisk_2022, p.48] Adaptation finance provided by international public mechanisms remains the core source of tracked flows in support of adaptation and resilience to developing countries.",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.48]",
+            "quantified_gap": {},
+            "confidence": 1.0
+          },
+          {
+            "gap_type": "VAGUE_TARGET",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.6,
+            "description": "Saudi Arabia's NDC mentions 'considerable efforts' in adaptation finance, but lacks quantification.",
+            "ndc_evidence": "The Kingdom of Saudi Arabia is continuously investing considerable efforts in medical services, tourism, education, renewable energy and energy efficiency technologies to enhance economic growth.",
+            "ipcc_evidence": "[WG2_Chapter17_DecisionMakingRisk_2022, p.52] Adaptation finance provided by international public mechanisms remains the core source of tracked flows in support of adaptation and resilience to developing countries.",
+            "ndc_citation": "[NDC2_2021_Saudi_Arabia, p.7]",
+            "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.52]",
+            "quantified_gap": {},
+            "confidence": 0.8
+          },
+          {
+            "gap_type": "IPCC_CONTRADICTION",
+            "severity": "CRITICAL",
+            "severity_score": 0.8,
+            "description": "Saudi Arabia's NDC does not mention the need for adaptation finance, which is a key finding in the IPCC report.",
+            "ndc_evidence": "No commitment found",
+            "ipcc_evidence": "[WG2_Chapter17_DecisionMakingRisk_2022, p.48] Adaptation finance provided by international public mechanisms remains the core source of tracked flows in support of adaptation and resilience to developing countries.",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.48]",
+            "quantified_gap": {},
+            "confidence": 1.0
+          }
+        ],
+        "country_summary": "Saudi Arabia's NDC lacks commitment to adaptation finance, and its vague mention of 'considerable efforts' does not align with the IPCC's emphasis on the need for adaptation finance.",
+        "policy_recommendation": "Saudi Arabia should commit to increasing adaptation finance and provide a clear plan for achieving this goal, including quantifiable targets and timelines."
+      }
+    }
+  }
+}

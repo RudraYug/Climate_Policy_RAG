@@ -1,0 +1,101 @@
+{
+  "country": "Brazil",
+  "dimension": "loss_and_damage",
+  "score": 1.0,
+  "severity": "CRITICAL",
+  "label": "CRITICAL",
+  "details": {
+    "country": "Brazil",
+    "dimension": "loss_and_damage",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [],
+    "measurability": {
+      "level": "ABSENT",
+      "score": 0.0,
+      "reason": "No commitments were found for Loss and Damage.",
+      "missing_elements": []
+    },
+    "gap_findings": [
+      {
+        "gap_type": "missing_commitment",
+        "severity": "CRITICAL",
+        "severity_score": 1.0,
+        "description": "Brazil makes no commitment on loss and damage in its NDCs.",
+        "ndc_evidence": "No commitment found",
+        "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: loss and damage is unavoidable even with adaptation; finance mechanisms urgently needed.",
+        "ndc_citation": "N/A",
+        "ipcc_citation": "[SOURCE 1: WG2_Chapter17_DecisionMakingRisk_2022, p.110]",
+        "quantified_gap": null,
+        "confidence": 1.0
+      },
+      {
+        "gap_type": "conditional_dependency",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.7,
+        "description": "Brazil's NDCs mention the need for international cooperation and finance, but do not provide a clear commitment on loss and damage.",
+        "ndc_evidence": "Brazil's NDCs mention the need for international cooperation and finance, but do not provide a clear commitment on loss and damage.",
+        "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: loss and damage is unavoidable even with adaptation; finance mechanisms urgently needed.",
+        "ndc_citation": "[doc_id, p.N]",
+        "ipcc_citation": "[SOURCE 1: WG2_Chapter17_DecisionMakingRisk_2022, p.110]",
+        "quantified_gap": null,
+        "confidence": 0.8
+      }
+    ],
+    "overall_severity": "CRITICAL",
+    "overall_score": 0.8,
+    "summary": "Brazil's NDCs lack a clear commitment on loss and damage, and its NDCs mention the need for international cooperation and finance, creating delivery risk.",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [],
+        "total_found": 0
+      },
+      "pass_b": {
+        "country": "Brazil",
+        "dimension": "Loss and Damage",
+        "measurability_level": "ABSENT",
+        "measurability_score": 0.0,
+        "reason": "No commitments were found for Loss and Damage.",
+        "missing_elements": [],
+        "strongest_commitment": null,
+        "conditional_dependency": false,
+        "conditional_note": null
+      },
+      "pass_c": {
+        "country": "Brazil",
+        "dimension": "Loss and Damage",
+        "overall_severity": "CRITICAL",
+        "overall_severity_score": 0.8,
+        "gap_findings": [
+          {
+            "gap_type": "missing_commitment",
+            "severity": "CRITICAL",
+            "severity_score": 1.0,
+            "description": "Brazil makes no commitment on loss and damage in its NDCs.",
+            "ndc_evidence": "No commitment found",
+            "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: loss and damage is unavoidable even with adaptation; finance mechanisms urgently needed.",
+            "ndc_citation": "N/A",
+            "ipcc_citation": "[SOURCE 1: WG2_Chapter17_DecisionMakingRisk_2022, p.110]",
+            "quantified_gap": null,
+            "confidence": 1.0
+          },
+          {
+            "gap_type": "conditional_dependency",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.7,
+            "description": "Brazil's NDCs mention the need for international cooperation and finance, but do not provide a clear commitment on loss and damage.",
+            "ndc_evidence": "Brazil's NDCs mention the need for international cooperation and finance, but do not provide a clear commitment on loss and damage.",
+            "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: loss and damage is unavoidable even with adaptation; finance mechanisms urgently needed.",
+            "ndc_citation": "[doc_id, p.N]",
+            "ipcc_citation": "[SOURCE 1: WG2_Chapter17_DecisionMakingRisk_2022, p.110]",
+            "quantified_gap": null,
+            "confidence": 0.8
+          }
+        ],
+        "country_summary": "Brazil's NDCs lack a clear commitment on loss and damage, and its NDCs mention the need for international cooperation and finance, creating delivery risk.",
+        "policy_recommendation": "Brazil should commit to specific actions on loss and damage, including finance mechanisms, in its NDCs to align with IPCC recommendations."
+      }
+    }
+  }
+}

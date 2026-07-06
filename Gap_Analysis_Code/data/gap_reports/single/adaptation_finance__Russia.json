@@ -1,0 +1,223 @@
+{
+  "country": "Russia",
+  "dimension": "adaptation_finance",
+  "score": 0.7,
+  "severity": "SIGNIFICANT",
+  "label": "SIGNIFICANT",
+  "details": {
+    "country": "Russia",
+    "dimension": "adaptation_finance",
+    "ndc_cycles": [
+      2
+    ],
+    "commitments": [
+      {
+        "text": "Provision of financial support to developing countries for the implementation of the Paris Agreement goals",
+        "target_value": {},
+        "target_year": {},
+        "baseline_year": {},
+        "conditional": true,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2022_Russia",
+        "source_page": 40,
+        "confidence": 0.8
+      },
+      {
+        "text": "UNDP Strengthening climate resilience of the Batken Province of the Kyrgyz Republic through awareness of local communities on weather conditions, two studies on the impact of climate change on the Batken region, introduction of quality irrigation technologies and rehabilitation of existing irrigation systems (2019-2023)",
+        "target_value": {},
+        "target_year": {},
+        "baseline_year": {},
+        "conditional": true,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2022_Russia",
+        "source_page": 40,
+        "confidence": 0.8
+      },
+      {
+        "text": "UNCCD Strengthening political and scientific collaboration within the UNCCD implementation (2022-2026)",
+        "target_value": {},
+        "target_year": {},
+        "baseline_year": {},
+        "conditional": true,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2022_Russia",
+        "source_page": 43,
+        "confidence": 0.8
+      },
+      {
+        "text": "UNCCD Relationship between climate change, land degradation and migration in Central Asia (2020-2023)",
+        "target_value": {},
+        "target_year": {},
+        "baseline_year": {},
+        "conditional": true,
+        "time_horizon": "unclear",
+        "source_doc": "NDC2_2022_Russia",
+        "source_page": 43,
+        "confidence": 0.8
+      }
+    ],
+    "measurability": {
+      "level": "VAGUE",
+      "score": 0.25,
+      "reason": "All commitments lack specific numbers, units, target years, and baselines, and are conditional on other factors.",
+      "missing_elements": [
+        "target_value",
+        "target_year",
+        "baseline_year"
+      ]
+    },
+    "gap_findings": [
+      {
+        "gap_type": "vague_target",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.6,
+        "description": "Russia's NDC commitments lack quantification and specificity regarding adaptation finance commitments.",
+        "ndc_evidence": "Provision of financial support to developing countries for the implementation of the Paris Agreement goals",
+        "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: adaptation finance gaps persist; developing countries need significantly more than current flows.",
+        "ndc_citation": "[NDC2_2022_Russia, p.40]",
+        "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.48]",
+        "quantified_gap": "NDC: 0%, IPCC min: 15-411 billion USD yr−1, gap: INSUFFICIENT_EVIDENCE",
+        "confidence": 0.8
+      },
+      {
+        "gap_type": "conditional_dependency",
+        "severity": "SIGNIFICANT",
+        "severity_score": 0.7,
+        "description": "Russia's adaptation finance commitments are conditional on receiving international finance.",
+        "ndc_evidence": "Provision of financial support to developing countries for the implementation of the Paris Agreement goals",
+        "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: adaptation finance gaps persist; developing countries need significantly more than current flows.",
+        "ndc_citation": "[NDC2_2022_Russia, p.40]",
+        "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.48]",
+        "quantified_gap": "N/A",
+        "confidence": 0.9
+      },
+      {
+        "gap_type": "ipcc_contradiction",
+        "severity": "MINOR",
+        "severity_score": 0.2,
+        "description": "Russia's adaptation finance commitments focus on specific projects and initiatives, whereas IPCC AR6 recommends a more comprehensive approach to adaptation finance.",
+        "ndc_evidence": "UNDP Strengthening climate resilience of the Batken Province of the Kyrgyz Republic through awareness of local communities on weather conditions, two studies on the impact of climate change on the Batken region, introduction of quality irrigation technologies and rehabilitation of existing irrigation systems (2019-2023)",
+        "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: adaptation finance gaps persist; developing countries need significantly more than current flows.",
+        "ndc_citation": "[NDC2_2022_Russia, p.40]",
+        "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.48]",
+        "quantified_gap": "N/A",
+        "confidence": 0.6
+      }
+    ],
+    "overall_severity": "SIGNIFICANT",
+    "overall_score": 0.65,
+    "summary": "Russia's NDC commitments on adaptation finance are vague and lack specificity, with conditional dependencies on international finance. While some initiatives are mentioned, they do not align with the comprehensive approach recommended by IPCC AR6.",
+    "raw_llm_outputs": {
+      "pass_a": {
+        "commitments": [
+          {
+            "text": "Provision of financial support to developing countries for the implementation of the Paris Agreement goals",
+            "target_value": {},
+            "target_year": {},
+            "baseline_year": {},
+            "conditional": true,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2022_Russia",
+            "source_page": 40,
+            "confidence": 0.8
+          },
+          {
+            "text": "UNDP Strengthening climate resilience of the Batken Province of the Kyrgyz Republic through awareness of local communities on weather conditions, two studies on the impact of climate change on the Batken region, introduction of quality irrigation technologies and rehabilitation of existing irrigation systems (2019-2023)",
+            "target_value": {},
+            "target_year": {},
+            "baseline_year": {},
+            "conditional": true,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2022_Russia",
+            "source_page": 40,
+            "confidence": 0.8
+          },
+          {
+            "text": "UNCCD Strengthening political and scientific collaboration within the UNCCD implementation (2022-2026)",
+            "target_value": {},
+            "target_year": {},
+            "baseline_year": {},
+            "conditional": true,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2022_Russia",
+            "source_page": 43,
+            "confidence": 0.8
+          },
+          {
+            "text": "UNCCD Relationship between climate change, land degradation and migration in Central Asia (2020-2023)",
+            "target_value": {},
+            "target_year": {},
+            "baseline_year": {},
+            "conditional": true,
+            "time_horizon": "unclear",
+            "source_doc": "NDC2_2022_Russia",
+            "source_page": 43,
+            "confidence": 0.8
+          }
+        ],
+        "total_found": 4
+      },
+      "pass_b": {
+        "country": "Russia",
+        "dimension": "Adaptation Finance Commitments",
+        "measurability_level": "VAGUE",
+        "measurability_score": 0.25,
+        "reason": "All commitments lack specific numbers, units, target years, and baselines, and are conditional on other factors.",
+        "missing_elements": [
+          "target_value",
+          "target_year",
+          "baseline_year"
+        ],
+        "strongest_commitment": {},
+        "conditional_dependency": true,
+        "conditional_note": "All commitments are conditional on other factors."
+      },
+      "pass_c": {
+        "country": "Russia",
+        "dimension": "Adaptation Finance Commitments",
+        "overall_severity": "SIGNIFICANT",
+        "overall_severity_score": 0.65,
+        "gap_findings": [
+          {
+            "gap_type": "vague_target",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.6,
+            "description": "Russia's NDC commitments lack quantification and specificity regarding adaptation finance commitments.",
+            "ndc_evidence": "Provision of financial support to developing countries for the implementation of the Paris Agreement goals",
+            "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: adaptation finance gaps persist; developing countries need significantly more than current flows.",
+            "ndc_citation": "[NDC2_2022_Russia, p.40]",
+            "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.48]",
+            "quantified_gap": "NDC: 0%, IPCC min: 15-411 billion USD yr−1, gap: INSUFFICIENT_EVIDENCE",
+            "confidence": 0.8
+          },
+          {
+            "gap_type": "conditional_dependency",
+            "severity": "SIGNIFICANT",
+            "severity_score": 0.7,
+            "description": "Russia's adaptation finance commitments are conditional on receiving international finance.",
+            "ndc_evidence": "Provision of financial support to developing countries for the implementation of the Paris Agreement goals",
+            "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: adaptation finance gaps persist; developing countries need significantly more than current flows.",
+            "ndc_citation": "[NDC2_2022_Russia, p.40]",
+            "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.48]",
+            "quantified_gap": "N/A",
+            "confidence": 0.9
+          },
+          {
+            "gap_type": "ipcc_contradiction",
+            "severity": "MINOR",
+            "severity_score": 0.2,
+            "description": "Russia's adaptation finance commitments focus on specific projects and initiatives, whereas IPCC AR6 recommends a more comprehensive approach to adaptation finance.",
+            "ndc_evidence": "UNDP Strengthening climate resilience of the Batken Province of the Kyrgyz Republic through awareness of local communities on weather conditions, two studies on the impact of climate change on the Batken region, introduction of quality irrigation technologies and rehabilitation of existing irrigation systems (2019-2023)",
+            "ipcc_evidence": "IPCC AR6 WG2 Chapter 17: adaptation finance gaps persist; developing countries need significantly more than current flows.",
+            "ndc_citation": "[NDC2_2022_Russia, p.40]",
+            "ipcc_citation": "[WG2_Chapter17_DecisionMakingRisk_2022, p.48]",
+            "quantified_gap": "N/A",
+            "confidence": 0.6
+          }
+        ],
+        "country_summary": "Russia's NDC commitments on adaptation finance are vague and lack specificity, with conditional dependencies on international finance. While some initiatives are mentioned, they do not align with the comprehensive approach recommended by IPCC AR6.",
+        "policy_recommendation": "Russia should strengthen its adaptation finance commitments by providing clear and quantifiable targets, and ensuring that its commitments are not conditional on international finance."
+      }
+    }
+  }
+}
